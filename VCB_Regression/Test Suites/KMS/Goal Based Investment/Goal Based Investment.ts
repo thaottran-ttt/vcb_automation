@@ -15,7 +15,7 @@
       <guid>24d61a13-9c55-4687-af3a-a4d4a1023191</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Goal Based Investment/Kick Start Goal/Kick Start Goal (Retirement)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Goal Based Investment/Kick Start Goal/Kick Start Goal (Retirement)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -94,7 +94,7 @@
       <guid>1aa084dd-cb64-498a-bea0-d09e379c3459</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Goal Based Investment/Kick Start Goal/Kick Start Goal (Grow Wealth)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Goal Based Investment/Kick Start Goal/Kick Start Goal (Grow Wealth)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -173,7 +173,7 @@
       <guid>ee812b3e-3d0d-4f6f-904a-05cdc4f7cf10</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Goal Based Investment/Kick Start Goal/Kick Start Goal (Education My Child)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Goal Based Investment/Kick Start Goal/Kick Start Goal (Education My Child)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -252,7 +252,7 @@
       <guid>d5480269-285d-424d-8ee7-93fdc1a04c28</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Goal Based Investment/Kick Start Goal/Kick Start Goal (Education Myself)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Goal Based Investment/Kick Start Goal/Kick Start Goal (Education Myself)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -331,7 +331,7 @@
       <guid>19b73530-192e-4635-a0e0-ef0edc16a26c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Goal Based Investment/Top Up_Withdraw_Delete/GBI - Top Up</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Goal Based Investment/Top Up_Withdraw_Delete/GBI - Top Up</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -386,7 +386,7 @@
       <guid>b06fcb4a-eb2d-4371-80ce-13760cb5792d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Goal Based Investment/Top Up_Withdraw_Delete/GBI - Withdraw</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Goal Based Investment/Top Up_Withdraw_Delete/GBI - Withdraw</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -441,7 +441,7 @@
       <guid>5a8f3baf-8052-49d8-bb9c-c205941ada12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Goal Based Investment/Top Up_Withdraw_Delete/GBI - Delete</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Goal Based Investment/Top Up_Withdraw_Delete/GBI - Delete</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

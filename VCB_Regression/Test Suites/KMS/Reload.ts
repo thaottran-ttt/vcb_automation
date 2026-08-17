@@ -15,7 +15,7 @@
       <guid>f74dfcca-ddff-4301-8d3a-b4301647cc86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Game Reload/Reload Game Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Game Reload/Reload Game Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ec0312fb-94cb-407c-83d8-53df53ed91f2</id>
@@ -157,7 +157,7 @@
       <guid>970a4905-422b-46f1-9b68-309bbaf3bf5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Game Reload/Reload Game Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Game Reload/Reload Game Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1ab24aa2-bdc0-4f9d-8ed2-eb638af2141c</id>
@@ -263,7 +263,7 @@
       <guid>a64d1fac-9dd9-4a36-bfa0-d84229928cef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Game Reload/Reload Game Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Game Reload/Reload Game Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>71bc7fb3-13c4-4d59-aca7-d4beadd7e170</id>
@@ -369,7 +369,7 @@
       <guid>2e079dc8-2d9a-480e-97dd-6a7c5094a236</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Reload Special Cases/Reload SpecialCase Edit and InsufficientAmt</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Reload Special Cases/Reload SpecialCase Edit and InsufficientAmt</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>27fa3162-c942-4df6-9e78-22ad102c27fb</id>
@@ -488,7 +488,7 @@
          <masked>false</masked>
          <name>TCName</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Reload Special Cases/Reload Special Case Access Reload</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Reload Special Cases/Reload Special Case Access Reload</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>36ca2d8f-decf-49ef-a261-bd5a5955e84f</id>
@@ -546,7 +546,7 @@
       <guid>237363d2-7e10-455f-be1d-7a21b50222e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Internet Reload/Reload Internet Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Internet Reload/Reload Internet Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f9ba5e17-4129-4998-b8e8-920ba3cbbcee</id>
@@ -688,7 +688,7 @@
       <guid>02d5238e-4f34-4c8b-97d7-8e6b3559d116</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Internet Reload/Reload Internet Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Internet Reload/Reload Internet Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>56682650-d084-4c68-a5cf-b301f39e74a4</id>
@@ -794,7 +794,7 @@
       <guid>7ad3a65d-a624-4d33-92bf-c3f6bc03a293</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Internet Reload/Reload Internet Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Internet Reload/Reload Internet Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b972f3e9-5c4c-49fe-8013-efe3bbe06c4e</id>
@@ -900,7 +900,7 @@
       <guid>91b27774-ee00-4e3c-9d44-861f85dd9b6b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Mobile Reload/Reload Mobile Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Mobile Reload/Reload Mobile Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>77bc1c1d-bf64-4f56-844f-2722aa86b6bb</id>
@@ -1042,7 +1042,7 @@
       <guid>4bc64d2c-b159-47e7-a753-82db6e8416f5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Mobile Reload/Reload Mobile Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Mobile Reload/Reload Mobile Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>50c83fec-186f-4b00-b5c4-af8ab6c88350</id>
@@ -1148,7 +1148,7 @@
       <guid>8693d648-f173-4815-b947-ca5205e48018</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Mobile Reload/Reload Mobile Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Mobile Reload/Reload Mobile Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e119c111-4b22-4d51-904e-7721e98ab32f</id>

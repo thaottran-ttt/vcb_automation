@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "1A51D1EC53DB7EF57ABDF89DBEC50DF8",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.pages.Biometric",
+      "keywordMethods": [
+        {
+          "name": "setup",
+          "parameters": [
+            {
+              "name": "flowControl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.model.FailureHandling",
+                "unresolvedClassName": "FailureHandling",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setup",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

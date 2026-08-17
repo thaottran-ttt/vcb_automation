@@ -145,7 +145,7 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>[('Transfer To') : 'Other Accounts ( Maybank and other banks )']</defaultValue>
+      <defaultValue>[('Transfer To') : 'Other Accounts ( Vcb and other banks )']</defaultValue>
       <description></description>
       <id>65519cc6-d0f0-48da-a5d3-55b2a06d7124</id>
       <masked>false</masked>

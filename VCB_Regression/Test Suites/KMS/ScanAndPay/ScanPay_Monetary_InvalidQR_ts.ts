@@ -15,7 +15,7 @@
       <guid>4927e8c8-df71-481c-9331-ea43efdbc65b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Common/ScanPay_AddImage_CheckGallery</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Common/ScanPay_AddImage_CheckGallery</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -46,7 +46,7 @@
       <guid>000cd3aa-58bc-432c-a65e-5b5b798e04f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_InvalidQR</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_InvalidQR</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9356578d-dba1-4803-9312-c2194c409d1a</id>

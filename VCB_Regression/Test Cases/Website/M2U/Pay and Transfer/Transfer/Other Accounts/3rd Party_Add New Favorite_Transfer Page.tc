@@ -121,14 +121,14 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>[('Transfer To') : 'Other Accounts ( Maybank and other banks )']</defaultValue>
+      <defaultValue>[('Transfer To') : 'Other Accounts ( Vcb and other banks )']</defaultValue>
       <description></description>
       <id>f1f43e8c-4ba7-4b4b-8506-045e24b8ab5d</id>
       <masked>false</masked>
       <name>fromToData</name>
    </variable>
    <variable>
-      <defaultValue>[('Choose Bank') : 'Maybank / Maybank Islamic']</defaultValue>
+      <defaultValue>[('Choose Bank') : 'Vcb / Vcb Islamic']</defaultValue>
       <description></description>
       <id>a61ea629-ab14-43a8-be67-f0839d1fe527</id>
       <masked>false</masked>

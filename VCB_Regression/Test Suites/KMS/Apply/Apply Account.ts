@@ -15,7 +15,7 @@
       <guid>c73349e2-27c3-4025-b0b6-f997462206d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Yippie Savings Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Yippie Savings Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a8e20ee2-4b98-4882-8be4-0c77a9118dbe</id>
@@ -169,7 +169,7 @@
       <guid>c51e9107-61b8-44f3-8bd6-a78f45c537db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Maybank2u Premier Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Vcb2u Premier Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8f7080ae-e72a-4fff-9182-d36ea21559ab</id>
@@ -177,7 +177,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/KMS/Apply/Account/Maybank2u Premier Account</testDataId>
+         <testDataId>Data Files/KMS/Apply/Account/Vcb2u Premier Account</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -311,7 +311,7 @@
       <guid>21a11021-5e33-4665-bbba-e1b5fbe88de2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Yippie-i Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Yippie-i Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>599fad6d-550c-4415-b313-460ece941f11</id>
@@ -483,7 +483,7 @@
       <guid>2e0c9b27-bdcf-4c13-b256-70c20b613941</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/MAE Wallet</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/VCB Wallet</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ccbd4b9e-5eb5-4316-a66d-e0a59ef219e5</id>
@@ -491,7 +491,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/KMS/Apply/Account/MAE Wallet</testDataId>
+         <testDataId>Data Files/KMS/Apply/Account/VCB Wallet</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
@@ -565,7 +565,7 @@
       <guid>bf036a22-6405-48ad-ab71-884fad418125</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Savings Account-i</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Savings Account-i</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4bf6f5d3-6453-4a02-a604-5d1726c3ab4f</id>
@@ -707,7 +707,7 @@
       <guid>50042071-9bce-4f09-a4b8-18e4cd1a278b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Premier Mudharabah Account-i</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Premier Mudharabah Account-i</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f446bd16-6654-4b1a-a19d-a7d714a0476b</id>
@@ -861,7 +861,7 @@
       <guid>02546e85-cefd-484b-966b-a597ac638890</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Premier 1 Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Premier 1 Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>999a62f1-6c9c-48c8-9054-8dcdc6c2a522</id>
@@ -1003,7 +1003,7 @@
       <guid>6f3a274a-2517-4bb5-9e34-a2b93dadf0a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Kawanku Saving Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Kawanku Saving Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6bae40cc-49cb-4e4f-afa8-ec5c54ad0dbb</id>
@@ -1139,7 +1139,7 @@
       <guid>8048bf55-8b7d-4365-bbf6-618350648192</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/Zest-i</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/Zest-i</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>88a2d10b-43c1-4b08-a457-d79af54b4f8b</id>

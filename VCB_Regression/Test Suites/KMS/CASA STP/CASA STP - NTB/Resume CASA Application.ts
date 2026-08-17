@@ -15,7 +15,7 @@
       <guid>41447879-2c2a-49ed-a6c1-4491442c6d5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/NTB/Common/Resume CASA Application - NTB (Full Flow via NRIC)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/NTB/Common/Resume CASA Application - NTB (Full Flow via NRIC)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -148,7 +148,7 @@
       <guid>727439fa-6e17-4a5e-8d3d-03563926706c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/NTB/Common/Resume CASA Application - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/NTB/Common/Resume CASA Application - NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

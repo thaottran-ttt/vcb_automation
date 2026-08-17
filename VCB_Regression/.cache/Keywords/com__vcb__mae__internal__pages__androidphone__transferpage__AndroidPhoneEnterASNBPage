@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "684DF550DA2C6ADA712A21C0808266B9",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.transferpage.AndroidPhoneEnterASNBPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

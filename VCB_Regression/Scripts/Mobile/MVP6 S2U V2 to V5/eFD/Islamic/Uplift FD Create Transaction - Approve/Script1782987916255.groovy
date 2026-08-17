@@ -2,15 +2,15 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.mae.internal.pages.base.accountpage.AccountsPage
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.CommonPage
-import com.maybank.mae.internal.pages.base.fixeddepositpage.FixedDepositPage
-import com.maybank.mae.internal.pages.base.HomePage
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage
-import com.maybank.mae.internal.pages.base.accountpage.UpliftFDPage
-import com.maybank.utils.MapUtils
-import com.maybank.mae.internal.pages.base.StatusScreenPage
+import com.vcb.mobile.internal.pages.base.accountpage.AccountsPage
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage
+import com.vcb.mobile.internal.pages.base.fixeddepositpage.FixedDepositPage
+import com.vcb.mobile.internal.pages.base.HomePage
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage
+import com.vcb.mobile.internal.pages.base.accountpage.UpliftFDPage
+import com.vcb.utils.MapUtils
+import com.vcb.mobile.internal.pages.base.StatusScreenPage
 import internal.GlobalVariable as GlobalVariable
 
 
@@ -30,8 +30,8 @@ StatusScreenPage statusScreenPage = BasePage.getPage(StatusScreenPage)
 
 Map inputDropdownData = MapUtils.parseObjectToMap(inputDropdownData)
 
-//WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
-//        , ('username') : username, ('accountName') : accountName, ('flowControl') : com.maybank.common.FlowControlEnum.STOP, ('failStopTestSuite') : false
+//WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+//        , ('username') : username, ('accountName') : accountName, ('flowControl') : com.vcb.common.FlowControlEnum.STOP, ('failStopTestSuite') : false
 //        , ('yourName') : 'Test'], FailureHandling.STOP_ON_FAILURE)
 
 'Tap View All Accounts > FIXED DEPOSITS'

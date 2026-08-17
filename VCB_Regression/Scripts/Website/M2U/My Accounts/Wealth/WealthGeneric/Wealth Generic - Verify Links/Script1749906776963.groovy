@@ -1,6 +1,6 @@
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import com.maybank.common.WebUIKeyword
-import com.maybank.m2u.internal.pages.base.WebSecure2uAuthorisationPage
+import com.vcb.common.WebUIKeyword
+import com.vcb.m2u.internal.pages.base.WebSecure2uAuthorisationPage
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
@@ -18,9 +18,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.maybank.common.BaseKeyword
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.accountpage.WebWealthGenericPage
+import com.vcb.common.BaseKeyword
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.accountpage.WebWealthGenericPage
 
 WebWealthGenericPage webWealthGenericPage = WebBasePage.getPage(WebWealthGenericPage)
 WebSecure2uAuthorisationPage webSecure2uAuthorisationPage = WebBasePage.getPage(WebSecure2uAuthorisationPage)

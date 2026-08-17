@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4A341D6060E9223EDDDAF553A7A4B1D0",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.chrome.modulesettings.ChromeWebSettingsPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

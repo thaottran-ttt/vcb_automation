@@ -133,7 +133,7 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank Islamic Gold Account-i'</defaultValue>
+      <defaultValue>'Vcb Islamic Gold Account-i'</defaultValue>
       <description></description>
       <id>70fbe7d5-6b64-491c-a86f-d9a8c1416f5e</id>
       <masked>false</masked>
@@ -182,7 +182,7 @@
       <name>isRunWebsiteAndMobile</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank1'</defaultValue>
+      <defaultValue>'Vcb1'</defaultValue>
       <description></description>
       <id>22c799af-cdf8-46d9-b061-1df26d7d6e99</id>
       <masked>false</masked>

@@ -15,7 +15,7 @@
       <guid>8cc04761-e9d3-478c-bbcf-db5f595e0bf5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Share Receipt/Reprint Receipt</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Share Receipt/Reprint Receipt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

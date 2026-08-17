@@ -16,9 +16,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.maybank.common.BaseKeyword
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.accountpage.WebUnitTrustDetailsPage
+import com.vcb.common.BaseKeyword
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.accountpage.WebUnitTrustDetailsPage
 
 WebUnitTrustDetailsPage webUnitTrustDetailsPage = WebBasePage.getPage(WebUnitTrustDetailsPage)
 

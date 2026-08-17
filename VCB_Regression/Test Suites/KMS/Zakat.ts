@@ -15,7 +15,7 @@
       <guid>d12ccebd-a6ad-44c9-908a-5fbe19cf1082</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat/Zakat_Open_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat/Zakat_Open_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8e2e6395-8d33-4441-8f4c-ec18aa48a66f</id>
@@ -157,7 +157,7 @@
       <guid>72bef2f9-d9cb-4d00-b166-30b7b3e9f22f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat/Zakat_Fav_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat/Zakat_Fav_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>752b505d-9067-4b6f-aa8a-07d72188688d</id>
@@ -299,7 +299,7 @@
       <guid>4acb1e2d-1399-49ca-940e-194b1ad73a4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat/Zakat_Open_Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat/Zakat_Open_Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -432,7 +432,7 @@
       <guid>7503ad0d-deb4-497b-a6e2-c02a9f076297</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat/Zakat_Open_SpecialCase</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat/Zakat_Open_SpecialCase</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9630dcda-8956-4cc3-9c92-7d4773b7ef5f</id>
@@ -586,7 +586,7 @@
       <guid>35152d85-4d69-4ae3-8365-77057814698c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat/Zakat_Open_Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat/Zakat_Open_Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

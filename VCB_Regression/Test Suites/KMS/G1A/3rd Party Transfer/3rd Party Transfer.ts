@@ -15,7 +15,7 @@
       <guid>4c45b3b9-c2f0-4e32-ac3c-d8773c58d65a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Approve/3rd Party Transfer From Basic Saving Account To G1A Account Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Approve/3rd Party Transfer From Basic Saving Account To G1A Account Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e7b9e844-6884-4251-a27f-6c355df17b06</id>
@@ -151,7 +151,7 @@
       <guid>00e70a8b-04ea-4e15-8e05-78011dd4a4da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Expired/3rd Party Transfer From Basic Saving Account To G1A Account Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Expired/3rd Party Transfer From Basic Saving Account To G1A Account Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f73ce76e-4e38-446f-b411-0e00955438a1</id>
@@ -269,7 +269,7 @@
       <guid>c040e852-cbb5-4d14-93e4-63e1c4c6a49c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From Basic Saving Account To G1A Account Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From Basic Saving Account To G1A Account Fav</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>08fe4d31-b04d-4a64-9463-ae6bd9a58d37</id>
@@ -411,7 +411,7 @@
       <guid>daa37f86-c3e6-4269-a102-30d13c0738b8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Future/3rd Party Transfer From Basic Saving Account To G1A Account Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Future/3rd Party Transfer From Basic Saving Account To G1A Account Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e5941718-e048-4be3-9f28-9e2c56d9f75e</id>
@@ -547,7 +547,7 @@
       <guid>c6d9bed9-ce12-4f49-97b1-b5ec65793c0f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From Basic Saving Account To G1A Account Insufficient Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From Basic Saving Account To G1A Account Insufficient Amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b00c8fe9-6879-4944-91cb-bfb9427673a9</id>
@@ -665,7 +665,7 @@
       <guid>3004d292-c2ef-4cb9-ae58-1845f9c4679d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Reject/3rd Party Transfer From Basic Saving Account To G1A Account Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Reject/3rd Party Transfer From Basic Saving Account To G1A Account Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5a74b332-cc09-4c49-ae48-2714b220c426</id>
@@ -783,7 +783,7 @@
       <guid>b6b103c5-6ae0-47d6-a75b-10182c690ec1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Approve/3rd Party Transfer From G1A Account To Basic Saving Account Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Approve/3rd Party Transfer From G1A Account To Basic Saving Account Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>deca5f6f-88bc-427a-9923-8932896d5297</id>
@@ -919,7 +919,7 @@
       <guid>b185634f-13f6-44d0-9d80-3d635bba6a5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Expired/3rd Party Transfer From G1A Account To Basic Saving Account Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Expired/3rd Party Transfer From G1A Account To Basic Saving Account Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7dc4fb8c-bf2d-4f20-a711-118d38d8bcd0</id>
@@ -1037,7 +1037,7 @@
       <guid>3539b6a2-fd58-45ff-af4b-a70cb593189f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From G1A Account To Basic Saving Account Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From G1A Account To Basic Saving Account Fav</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6d97c929-5896-471d-b959-e88fe1a8d03e</id>
@@ -1179,7 +1179,7 @@
       <guid>3a90e736-f1fb-4784-8439-3074e8e0eaec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Future/3rd Party Transfer From G1A Account To Basic Saving Account Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Future/3rd Party Transfer From G1A Account To Basic Saving Account Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e1c52711-5057-4d30-88aa-451cc059dfe5</id>
@@ -1315,7 +1315,7 @@
       <guid>e02370b4-ec44-4055-a724-48aef01d3ce5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From G1A Account To Basic Saving Account Insufficient Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From G1A Account To Basic Saving Account Insufficient Amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b2f8e394-7b35-46ad-9739-21b4e1793eb2</id>
@@ -1433,7 +1433,7 @@
       <guid>bf80b47e-fe9a-47ef-834f-ff90c1f98c8f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Reject/3rd Party Transfer From G1A Account To Basic Saving Account Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Reject/3rd Party Transfer From G1A Account To Basic Saving Account Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>616bbd80-4cc0-453f-953e-81b0df80cb00</id>
@@ -1551,7 +1551,7 @@
       <guid>0950c3b5-684c-4791-b577-1e6f3ca7b2f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Approve/3rd Party Transfer From G1A Account To Personal Current Account Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Approve/3rd Party Transfer From G1A Account To Personal Current Account Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f4660ca6-92ed-4ba9-bb66-97b04e8fdf45</id>
@@ -1687,7 +1687,7 @@
       <guid>029c429a-f24c-4b19-a792-0ac3b04b4d43</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Expired/3rd Party Transfer From G1A Account To Personal Current Account Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Expired/3rd Party Transfer From G1A Account To Personal Current Account Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>32d56ce1-651a-46f5-bd1b-e137155cffbb</id>
@@ -1805,7 +1805,7 @@
       <guid>e7675695-3a92-46b7-b4fc-42994a8a9015</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From G1A Account To Personal Current Account Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From G1A Account To Personal Current Account Fav</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>95937604-9f6c-4287-b96a-0cd1cfe98113</id>
@@ -1947,7 +1947,7 @@
       <guid>a76570d6-263a-4d5d-bf34-609b613fcc31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Future/3rd Party Transfer From G1A Account To Personal Current Account Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Future/3rd Party Transfer From G1A Account To Personal Current Account Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>72363417-75c0-459b-9aaf-92aef84de810</id>
@@ -2083,7 +2083,7 @@
       <guid>6f1b48b2-a68e-4119-930e-d14c0c897332</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From G1A Account To Personal Current Account Insufficient Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From G1A Account To Personal Current Account Insufficient Amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>aefe79b3-6c7d-4f73-ae9f-8ee2dd289f97</id>
@@ -2201,7 +2201,7 @@
       <guid>eb158b3a-2d2c-4ef1-9c94-6a928ae5d10c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Reject/3rd Party Transfer From G1A Account To Personal Current Account Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Reject/3rd Party Transfer From G1A Account To Personal Current Account Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5602d0e8-2ad7-4a5e-8823-202e7312f0a3</id>
@@ -2319,7 +2319,7 @@
       <guid>ad7b9767-9c56-4b6c-8a3a-59047db6056a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Approve/3rd Party Transfer From G1A To G1A Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Approve/3rd Party Transfer From G1A To G1A Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d7515b52-7c2b-4004-b004-7f75ed1cebac</id>
@@ -2455,7 +2455,7 @@
       <guid>3bb70867-ac7b-47c3-b2dd-e037a2ccd938</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Expired/3rd Party Transfer From G1A To G1A Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Expired/3rd Party Transfer From G1A To G1A Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ab0c9f24-03b4-4f8f-a0df-4a6eebae4459</id>
@@ -2573,7 +2573,7 @@
       <guid>1f908e96-d702-4bde-8e15-16beb12f5c5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From G1A To G1A Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From G1A To G1A Fav</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2df15ad5-f1f7-41d1-885c-172e2d5c9289</id>
@@ -2715,7 +2715,7 @@
       <guid>2d8222bf-9f11-4805-9984-46da2ac3fb71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Future/3rd Party Transfer From G1A To G1A Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Future/3rd Party Transfer From G1A To G1A Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8a302ae9-2dde-491e-b955-a21bbc040851</id>
@@ -2851,7 +2851,7 @@
       <guid>d889e665-0518-45c1-8308-4415aebff96d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From G1A To G1A Insufficient Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From G1A To G1A Insufficient Amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a40fe634-8abd-497e-b8b2-0d327db19559</id>
@@ -2969,7 +2969,7 @@
       <guid>fcde7d77-5021-4163-8477-5f5fb69ccb9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Reject/3rd Party Transfer From G1A To G1A Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Reject/3rd Party Transfer From G1A To G1A Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d28c01e0-76ba-4db5-815f-6db531f16ae2</id>
@@ -3087,7 +3087,7 @@
       <guid>989b453e-fbe6-47f5-b3be-355fc0791419</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Approve/3rd Party Transfer From Personal Current Account To G1A Account Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Approve/3rd Party Transfer From Personal Current Account To G1A Account Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1b9c86d9-b5c6-4f94-9ca3-6deac7117d06</id>
@@ -3223,7 +3223,7 @@
       <guid>4103034c-4e09-49cc-9a29-f1c6a05f4c14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Expired/3rd Party Transfer From Personal Current Account To G1A Account Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Expired/3rd Party Transfer From Personal Current Account To G1A Account Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fa6d7d37-94ef-41bf-94e7-7ee07a99b56a</id>
@@ -3341,7 +3341,7 @@
       <guid>c5431878-3b25-4e70-a5fb-c3e083f1d958</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From Personal Current Account To G1A Account Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Favorite Transfer/3rd Party Transfer From Personal Current Account To G1A Account Fav</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a9d3d0c3-4f10-44e0-b4ae-5d6cae8801e9</id>
@@ -3483,7 +3483,7 @@
       <guid>e6698fc3-214c-4cae-bf78-0d38150adbad</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Future/3rd Party Transfer From Personal Current Account To G1A Account Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Future/3rd Party Transfer From Personal Current Account To G1A Account Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3fa0d496-f3c4-44cf-9826-712eb56e2f48</id>
@@ -3619,7 +3619,7 @@
       <guid>69a9131b-c5da-4b48-9fa3-fb9e0810f47e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From Personal Current Account To G1A Account Insufficient Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Insufficient Amount/3rd Party Transfer From Personal Current Account To G1A Account Insufficient Amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>147d5c3f-c64a-4799-8386-51f51d660586</id>
@@ -3737,7 +3737,7 @@
       <guid>352f8687-7bcf-4a62-9042-df1b042a1aef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/3rd Party Transfer/Reject/3rd Party Transfer From Personal Current Account To G1A Account Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/3rd Party Transfer/Reject/3rd Party Transfer From Personal Current Account To G1A Account Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3c7cf259-4439-4a3d-822e-30208741aea0</id>

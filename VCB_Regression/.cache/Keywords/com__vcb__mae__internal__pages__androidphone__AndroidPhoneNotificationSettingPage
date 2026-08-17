@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "453CA86D09340C9EB7C656093F5C4A17",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.AndroidPhoneNotificationSettingPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

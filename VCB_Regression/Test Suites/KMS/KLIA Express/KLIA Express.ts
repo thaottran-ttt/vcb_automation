@@ -15,7 +15,7 @@
       <guid>ad58a62a-6e60-4006-ac9f-da00e1a6fa7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/KLIA Express/Create Transaction - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/KLIA Express/Create Transaction - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f9794a8a-61e0-4ead-98af-c078d9541b31</id>
@@ -85,7 +85,7 @@
       <guid>0616e789-d8e5-4346-83df-d07dd2661400</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/KLIA Express/Create Transaction - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/KLIA Express/Create Transaction - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7c988479-408c-4273-857a-87229f50cbdc</id>
@@ -155,7 +155,7 @@
       <guid>954e62d4-d083-44fb-b35a-dbc640fcf5e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/KLIA Express/Create Transaction - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/KLIA Express/Create Transaction - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1c3f851f-62f2-45b2-ab41-23cf4a782a29</id>
@@ -225,7 +225,7 @@
       <guid>2c15d6f7-d6d3-469c-87dd-f22c6d41e1cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/KLIA Express/Create Transaction - Insufficient balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/KLIA Express/Create Transaction - Insufficient balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>177c6f40-594f-437b-bb26-eeba5f61e506</id>

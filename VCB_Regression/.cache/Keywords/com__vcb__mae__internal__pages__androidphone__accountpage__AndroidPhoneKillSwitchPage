@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B6189E814B6FCE6B4F3607DB108867E4",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.accountpage.AndroidPhoneKillSwitchPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

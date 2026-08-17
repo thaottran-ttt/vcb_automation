@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "33DD54701B5111FB40FB90DE341128B1",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.settingpage.AndroidPhoneSettingPayAndTransferPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

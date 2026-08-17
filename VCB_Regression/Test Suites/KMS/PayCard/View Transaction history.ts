@@ -15,7 +15,7 @@
       <guid>24ae623f-3c61-4de7-a981-6c66e46bc8f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Credit Card Transaction history/View Transaction history up to 3 months</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Credit Card Transaction history/View Transaction history up to 3 months</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -76,7 +76,7 @@
       <guid>1bdd4fd0-8244-479e-932e-6e413062e955</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Credit Card Transaction history/View Pending Transactions</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Credit Card Transaction history/View Pending Transactions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

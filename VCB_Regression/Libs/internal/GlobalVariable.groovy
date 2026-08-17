@@ -10,17 +10,17 @@ import com.kms.katalon.core.main.TestCaseMain
 public class GlobalVariable {
      
     /**
-     * <p>Profile default : com.maybank2u.life
-Profile M2U-bvUIUX2 : com.maybank2u.life
-Profile TAC : com.maybank2u.life
-Profile UAT1 : com.maybank2u.life
-Profile UAT2 : com.maybank2u.life
-Profile UAT4 : com.maybank2u.life
-Profile UAT5 : com.maybank2u.life
-Profile bvRSA2 : com.maybank2u.life
-Profile credit-card : com.maybank2u.life
-Profile mae-regression : com.maybank2u.life
-Profile test : com.maybank2u.life</p>
+     * <p>Profile default : com.vcb.app
+Profile M2U-bvUIUX2 : com.vcb.app
+Profile TAC : com.vcb.app
+Profile UAT1 : com.vcb.app
+Profile UAT2 : com.vcb.app
+Profile UAT4 : com.vcb.app
+Profile UAT5 : com.vcb.app
+Profile bvRSA2 : com.vcb.app
+Profile credit-card : com.vcb.app
+Profile vcb-regression : com.vcb.app
+Profile test : com.vcb.app</p>
      */
     public static Object G_appId
      
@@ -34,7 +34,7 @@ Profile UAT4 : 6bb5e1ba-8190-4e3f-b05f-654769f60dc1
 Profile UAT5 : 6bb5e1ba-8190-4e3f-b05f-654769f60dc1
 Profile bvRSA2 : 6bb5e1ba-8190-4e3f-b05f-654769f60dc1
 Profile credit-card : 6bb5e1ba-8190-4e3f-b05f-654769f60dc1
-Profile mae-regression : 6bb5e1ba-8190-4e3f-b05f-654769f60dc1
+Profile vcb-regression : 6bb5e1ba-8190-4e3f-b05f-654769f60dc1
 Profile test : 6bb5e1ba-8190-4e3f-b05f-654769f60dc1</p>
      */
     public static Object G_appIDTestCloud
@@ -83,47 +83,47 @@ Profile credit-card : bvUIUX2&#47;bvRSA2</p>
     public static Object G_timeoutMiniShort
      
     /**
-     * <p>Profile default : com.maybank2u.life-uatent
-Profile M2U-bvUIUX2 : com.maybank2u.life-uatent
-Profile TAC : com.maybank2u.life-uatent
-Profile UAT1 : com.maybank2u.life-uatent
-Profile UAT2 : com.maybank2u.life-uatent
-Profile UAT4 : com.maybank2u.life-uatent
-Profile UAT5 : com.maybank2u.life-uatent
-Profile bvRSA2 : com.maybank2u.life-uatent
-Profile credit-card : com.maybank2u.life-uatent
-Profile mae-regression : com.maybank2u.life-uatent
-Profile test : com.maybank2u.life-uatent</p>
+     * <p>Profile default : com.vcb.app-uatent
+Profile M2U-bvUIUX2 : com.vcb.app-uatent
+Profile TAC : com.vcb.app-uatent
+Profile UAT1 : com.vcb.app-uatent
+Profile UAT2 : com.vcb.app-uatent
+Profile UAT4 : com.vcb.app-uatent
+Profile UAT5 : com.vcb.app-uatent
+Profile bvRSA2 : com.vcb.app-uatent
+Profile credit-card : com.vcb.app-uatent
+Profile vcb-regression : com.vcb.app-uatent
+Profile test : com.vcb.app-uatent</p>
      */
     public static Object G_bundleId
      
     /**
-     * <p>Profile default : com.maybank2u.life.uat
-Profile M2U-bvUIUX2 : com.maybank2u.life.uat
-Profile TAC : com.maybank2u.life.uat
-Profile UAT1 : com.maybank2u.life.uat
-Profile UAT2 : com.maybank2u.life.uat
-Profile UAT4 : com.maybank2u.life.uat
-Profile UAT5 : com.maybank2u.life.uat
-Profile bvRSA2 : com.maybank2u.life.uat
-Profile credit-card : com.maybank2u.life.uat
-Profile mae-regression : com.maybank2u.life.uat
-Profile test : com.maybank2u.life.uat</p>
+     * <p>Profile default : com.vcb.app.uat
+Profile M2U-bvUIUX2 : com.vcb.app.uat
+Profile TAC : com.vcb.app.uat
+Profile UAT1 : com.vcb.app.uat
+Profile UAT2 : com.vcb.app.uat
+Profile UAT4 : com.vcb.app.uat
+Profile UAT5 : com.vcb.app.uat
+Profile bvRSA2 : com.vcb.app.uat
+Profile credit-card : com.vcb.app.uat
+Profile vcb-regression : com.vcb.app.uat
+Profile test : com.vcb.app.uat</p>
      */
     public static Object G_appPackage
      
     /**
-     * <p>Profile default : MAEApp&#47;app-uat.apk
-Profile M2U-bvUIUX2 : MAEApp&#47;app-uat.apk
-Profile TAC : MAEApp&#47;app-uat.apk
-Profile UAT1 : MAEApp&#47;app-uat.apk
-Profile UAT2 : MAEApp&#47;app-uat.apk
-Profile UAT4 : MAEApp&#47;app-uat.apk
-Profile UAT5 : MAEApp&#47;app-uat.apk
-Profile bvRSA2 : MAEApp&#47;app-uat.apk
-Profile credit-card : MAEApp&#47;app-uat.apk
-Profile mae-regression : MAEApp&#47;app-uat.apk
-Profile test : MAEApp&#47;app-uat.apk</p>
+     * <p>Profile default : VCBApp&#47;app-uat.apk
+Profile M2U-bvUIUX2 : VCBApp&#47;app-uat.apk
+Profile TAC : VCBApp&#47;app-uat.apk
+Profile UAT1 : VCBApp&#47;app-uat.apk
+Profile UAT2 : VCBApp&#47;app-uat.apk
+Profile UAT4 : VCBApp&#47;app-uat.apk
+Profile UAT5 : VCBApp&#47;app-uat.apk
+Profile bvRSA2 : VCBApp&#47;app-uat.apk
+Profile credit-card : VCBApp&#47;app-uat.apk
+Profile vcb-regression : VCBApp&#47;app-uat.apk
+Profile test : VCBApp&#47;app-uat.apk</p>
      */
     public static Object G_appPath
      
@@ -177,7 +177,7 @@ Profile UAT4 : Default is True
 Profile UAT5 : Default is True
 Profile bvRSA2 : Default is True
 Profile credit-card : Default is True
-Profile mae-regression : Default is True
+Profile vcb-regression : Default is True
 Profile test : Default is True</p>
      */
     public static Object G_restartAppAfterTestCase
@@ -310,7 +310,7 @@ Profile test : Default is True</p>
     /**
      * <p></p>
      */
-    public static Object G_MAEVersionFileName
+    public static Object G_VCBVersionFileName
      
     /**
      * <p></p>
@@ -379,7 +379,7 @@ Profile test : Default is True</p>
             G_browserVersion = selectedVariables['G_browserVersion']
             G_isProduction = selectedVariables['G_isProduction']
             G_projectName = selectedVariables['G_projectName']
-            G_MAEVersionFileName = selectedVariables['G_MAEVersionFileName']
+            G_VCBVersionFileName = selectedVariables['G_VCBVersionFileName']
             G_isTacM2U = selectedVariables['G_isTacM2U']
             G_API_Key = selectedVariables['G_API_Key']
             G_orgId = selectedVariables['G_orgId']

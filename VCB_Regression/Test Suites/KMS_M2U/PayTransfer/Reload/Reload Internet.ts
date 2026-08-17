@@ -15,7 +15,7 @@
       <guid>fdc34e80-f900-4d33-9ac2-3477c7c356bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Common/Login Secure2u Without Check Logout</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Common/Login Secure2u Without Check Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2012e26e-1e09-4558-b818-8f8e78ec6b8f</id>

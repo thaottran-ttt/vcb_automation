@@ -15,7 +15,7 @@
       <guid>84bac3f8-abd4-480c-8ea6-517e6ff44034</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Onboarding/Onboarding - Resend OTP</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Onboarding/Onboarding - Resend OTP</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>aac51a23-e786-4302-85d0-78e92f30eff3</id>
@@ -73,7 +73,7 @@
       <guid>899816b8-d04e-42ab-bcb5-4e5762e70973</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Onboarding/Onboarding - Linked to M2U - Own Phone number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Onboarding/Onboarding - Linked to M2U - Own Phone number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fe66ad7d-1bf7-4113-869c-57f521bac1a6</id>
@@ -119,7 +119,7 @@
       <guid>f1e13356-827f-49cd-8156-8d55824fc1c2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Onboarding/Onboarding - Linked to M2U - Different Phone number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Onboarding/Onboarding - Linked to M2U - Different Phone number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>23c90fa0-060a-43d8-9b2e-4c5f7b605d84</id>
@@ -177,7 +177,7 @@
       <guid>68da7a01-32c6-4bdb-b997-2f7047c3d546</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Onboarding/Onboarding - Invalid OTP</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Onboarding/Onboarding - Invalid OTP</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1432e30b-ff07-4b07-b544-e69da661909f</id>

@@ -2,13 +2,13 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.m2u.internal.pages.base.WebBasePage as WebBasePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage as WCP
-import com.maybank.m2u.internal.pages.base.WebHomePage as WebHomePage
-import com.maybank.m2u.internal.pages.base.WebSecure2uAuthorisationPage as WebSecure2uAuthorisationPage
-import com.maybank.m2u.internal.pages.base.WebStatusScreenPage as WebStatusScreenPage
-import com.maybank.m2u.internal.pages.base.paytransfer.WebPayPageJomPAY as WebPayPageJomPAY
-import com.maybank.utils.MapUtils as MapUtils
+import com.vcb.m2u.internal.pages.base.WebBasePage as WebBasePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage as WCP
+import com.vcb.m2u.internal.pages.base.WebHomePage as WebHomePage
+import com.vcb.m2u.internal.pages.base.WebSecure2uAuthorisationPage as WebSecure2uAuthorisationPage
+import com.vcb.m2u.internal.pages.base.WebStatusScreenPage as WebStatusScreenPage
+import com.vcb.m2u.internal.pages.base.paytransfer.WebPayPageJomPAY as WebPayPageJomPAY
+import com.vcb.utils.MapUtils as MapUtils
 import internal.GlobalVariable as GlobalVariable
 
 WCP webCommonPage = WebUI.callTestCase(findTestCase('Website/M2U/Pay and Transfer/Pay/JomPay/Navigate to Pay'), [('username') : username

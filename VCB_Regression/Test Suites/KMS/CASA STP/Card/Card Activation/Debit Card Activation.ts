@@ -15,7 +15,7 @@
       <guid>b2766bd7-251d-4378-9c9f-8184cd2d1fc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Card Activation/Debit Card/Debit Card Activation - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Card Activation/Debit Card/Debit Card Activation - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b6ebe9e7-1ce4-4268-ba98-6274e4b98f8b</id>
@@ -121,7 +121,7 @@
       <guid>d46c855d-8694-4f7d-81f3-4e6c4227e4e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Card Activation/Debit Card/Debit Card Activation - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Card Activation/Debit Card/Debit Card Activation - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>87cb820e-3704-4168-9bb9-325adbdbc7bb</id>
@@ -227,7 +227,7 @@
       <guid>9f923b2d-cf5e-446a-be1b-5436d3dde90c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Card Activation/Debit Card/Debit Card Activation - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Card Activation/Debit Card/Debit Card Activation - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>405fdc67-42c6-4343-871c-0a160a025721</id>

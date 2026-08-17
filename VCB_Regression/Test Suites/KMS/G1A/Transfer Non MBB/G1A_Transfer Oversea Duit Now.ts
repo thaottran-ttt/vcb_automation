@@ -15,7 +15,7 @@
       <guid>e3370b92-8885-4785-a726-2c1944670189</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Transfer/Transfer Overseas DuitNow/G1A_Transfer Overseas DuitNow</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Transfer/Transfer Overseas DuitNow/G1A_Transfer Overseas DuitNow</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

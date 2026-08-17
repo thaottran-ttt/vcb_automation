@@ -15,7 +15,7 @@
       <guid>6eabec0b-7e7b-48b8-a10b-1e433cc147a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Split bill request - Add contacts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Split bill request - Add contacts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c3d4e5f6-a7b8-9012-cdef-012345678902</id>
@@ -73,7 +73,7 @@
       <guid>2e149455-0eed-43ea-ad78-c6d473480977</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Split bill request - Split Evenly</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Split bill request - Split Evenly</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d4e5f6a7-b8c9-0123-defa-123456789003</id>

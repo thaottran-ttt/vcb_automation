@@ -11,7 +11,7 @@
    <modifiedEdition>ENTERPRISE</modifiedEdition>
    <modifiedVersion>11.2.1</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>D:\projects\Katalon\mae-regression-pack\MAE_Regression\RBTS.prj</projectFileLocation>
+   <projectFileLocation>D:\projects\Katalon\vcb-regression-pack\VCB_Regression\RBTS.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

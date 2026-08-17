@@ -1,9 +1,9 @@
 TC_name,userName,password,idNumber,PAN,status,accountName,billerCode,reference1,reference2,amount,isFuture,favoriteName
-Open Approve ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,MAE Wallet,8938,568964,celcom,100,false,Fav Open ON
-Open Reject ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Reject,MAE Wallet,8938,568964,ABC123,100,false,''
-Open Expired ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Expired,MAE Wallet,8938,568964,ABC123,100,false,''
-Open Insufficient ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Insufficient,MAE Wallet,8938,568964,ABC123,99999999,false,''
-Open Approve OFF US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,MAE Wallet,1123,833779093,ABC123,100,false,Fav Open OFF
-Open Future Approve ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,MAE Wallet,8938,568964,ABC123,100,true,Fav Future ON
-Open Future Approve OFF US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,MAE Wallet,1123,833779093,ABC123,100,true,Fav Future OFF
-Open Future Insufficient ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Insufficient,MAE Wallet,8938,568964,ABC123,99999999,true,''
+Open Approve ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,VCB Wallet,8938,568964,celcom,100,false,Fav Open ON
+Open Reject ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Reject,VCB Wallet,8938,568964,ABC123,100,false,''
+Open Expired ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Expired,VCB Wallet,8938,568964,ABC123,100,false,''
+Open Insufficient ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Insufficient,VCB Wallet,8938,568964,ABC123,99999999,false,''
+Open Approve OFF US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,VCB Wallet,1123,833779093,ABC123,100,false,Fav Open OFF
+Open Future Approve ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,VCB Wallet,8938,568964,ABC123,100,true,Fav Future ON
+Open Future Approve OFF US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Approve,VCB Wallet,1123,833779093,ABC123,100,true,Fav Future OFF
+Open Future Insufficient ON US,autoali06,oxhWAdmPKdsI6woWWukVxg==,900603135106,0000007001404796,Insufficient,VCB Wallet,8938,568964,ABC123,99999999,true,''

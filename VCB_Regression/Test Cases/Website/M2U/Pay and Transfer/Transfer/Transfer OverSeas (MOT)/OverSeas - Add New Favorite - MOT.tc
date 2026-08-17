@@ -176,7 +176,7 @@
       <name>payToData</name>
    </variable>
    <variable>
-      <defaultValue>[('Transaction Method') : 'Maybank Overseas Transfer', ('Recipient\'s Bank Name') : 'MALAYAN BANKING BERHAD (MBBESGSGXXX)']</defaultValue>
+      <defaultValue>[('Transaction Method') : 'Vcb Overseas Transfer', ('Recipient\'s Bank Name') : 'MALAYAN BANKING BERHAD (MBBESGSGXXX)']</defaultValue>
       <description></description>
       <id>d4cfd907-a451-424d-8e39-f88d23584f75</id>
       <masked>false</masked>

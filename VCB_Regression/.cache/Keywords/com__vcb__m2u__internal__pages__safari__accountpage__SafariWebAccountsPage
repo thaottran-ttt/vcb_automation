@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D3A29088C6777EC3EDC2D3B928E8D648",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.safari.accountpage.SafariWebAccountsPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

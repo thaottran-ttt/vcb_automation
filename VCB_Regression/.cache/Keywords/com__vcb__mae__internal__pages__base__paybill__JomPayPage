@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "6511018629955240D15716D031AB97B3",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.paybill.JomPayPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

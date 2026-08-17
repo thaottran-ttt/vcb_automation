@@ -15,7 +15,7 @@
       <guid>9f045eb5-6f74-4315-a846-9fe5ca1c791d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Unit Trust/Unit Trust - Fund dropdown list</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Unit Trust/Unit Trust - Fund dropdown list</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>05d5c4d4-6449-42fc-a356-ccf84aa0470b</id>
@@ -61,7 +61,7 @@
       <guid>e5427060-3edf-4d70-8e59-a9e8186b7698</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Unit Trust/Unit Trust - Unit trust dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Unit Trust/Unit Trust - Unit trust dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fb2a7923-7624-4fb0-ac73-840241b1ec26</id>
@@ -107,7 +107,7 @@
       <guid>8d0b57ff-a728-42ed-80a5-5d194367d47b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Unit Trust/Unit Trust - Dashboard with zero value</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Unit Trust/Unit Trust - Dashboard with zero value</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7b8b51af-a9d8-4c06-9ffe-56c2e2a2b247</id>
@@ -153,7 +153,7 @@
       <guid>ce7111b5-3974-4233-ba72-57c845f0793f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Unit Trust/Unit Trust - Dashboard with amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Unit Trust/Unit Trust - Dashboard with amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e1c420bf-3a4c-4664-9d60-be0916c2766d</id>
@@ -199,7 +199,7 @@
       <guid>4422fe78-b2c5-49b4-9c1e-a1f97a059e15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Unit Trust/Unit Trust - Unit Trust with 1 account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Unit Trust/Unit Trust - Unit Trust with 1 account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>db36499c-94b2-4a7b-b837-313fbf510592</id>
@@ -245,7 +245,7 @@
       <guid>07b18cd3-78d3-4c9e-b551-41c552842f13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Unit Trust/Unit Trust - Unit Trust with multiple accounts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Unit Trust/Unit Trust - Unit Trust with multiple accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a6a6e8b9-3ee8-48bd-a378-fa3478175e72</id>

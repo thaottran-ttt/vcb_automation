@@ -139,7 +139,7 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank Islamic Gold Account-i'</defaultValue>
+      <defaultValue>'Vcb Islamic Gold Account-i'</defaultValue>
       <description></description>
       <id>3e9212e7-12e1-4173-8833-29bac37f27c1</id>
       <masked>false</masked>
@@ -167,7 +167,7 @@
       <name>inputDropdownTransferTo</name>
    </variable>
    <variable>
-      <defaultValue>[('Recipient\'s Reference') : 'Hung', ('Recipient\'s Email') : 'hung@maybank.com']</defaultValue>
+      <defaultValue>[('Recipient\'s Reference') : 'Hung', ('Recipient\'s Email') : 'hung@vcb.com']</defaultValue>
       <description></description>
       <id>34b5c2fd-efdb-4821-bf29-c6b6ea6f23dd</id>
       <masked>false</masked>

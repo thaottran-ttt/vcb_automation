@@ -36,7 +36,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.maybank2u.life</value>
+      <value>com.vcb.app</value>
       <webElementGuid>ddf498ec-0a5e-4585-9758-97b48c1e1ca2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -191,7 +191,7 @@
       </entry>
       <entry>
          <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;RM 10,000&quot;).packageName(&quot;com.maybank2u.life&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(6)</value>
+         <value>new UiSelector().className(&quot;android.widget.TextView&quot;).text(&quot;RM 10,000&quot;).packageName(&quot;com.vcb.app&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(6)</value>
       </entry>
       <entry>
          <key>CUSTOM</key>

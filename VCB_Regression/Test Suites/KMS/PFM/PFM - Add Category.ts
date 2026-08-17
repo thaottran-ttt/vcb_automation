@@ -15,7 +15,7 @@
       <guid>2e1cc177-694f-44fa-aac0-00959c17e8bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Add Category</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Add Category</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e328d011-24a5-4f25-a03a-8c5d03749c30</id>

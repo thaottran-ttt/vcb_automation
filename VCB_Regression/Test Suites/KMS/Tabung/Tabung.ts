@@ -15,7 +15,7 @@
       <guid>bb256690-badd-42f7-806c-ca2b5247e31d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Add contacts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Add contacts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6ef206b1-467e-4289-9d61-b43ddf4eab39</id>
@@ -73,7 +73,7 @@
       <guid>2720ce02-fb95-49ae-8a2a-4469857eab2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Create Tabung/Tabung Create Goal Group - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Create Tabung/Tabung Create Goal Group - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>95ea5f69-e794-43c1-806e-6453a904e6c1</id>
@@ -173,7 +173,7 @@
       <guid>f7c5cca5-d598-497e-a0a7-cba192391d1d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Create Tabung/Tabung Create Goal Group - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Create Tabung/Tabung Create Goal Group - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1ad88ef5-db8f-4348-ada6-c5d3caeb8104</id>
@@ -273,7 +273,7 @@
       <guid>819c05b8-a95a-499f-b678-98e7f1b88c31</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Create Tabung/Tabung Create Goal Group - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Create Tabung/Tabung Create Goal Group - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2dbf57d8-9d00-4b8d-b6d8-cb15363f5099</id>
@@ -373,7 +373,7 @@
       <guid>c5a2a105-20b6-47a1-80b3-4a008c712a8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Create Tabung/Tabung Create Goal Solo - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Create Tabung/Tabung Create Goal Solo - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ec10f0fc-d630-4531-a2cd-c798537a5c2e</id>
@@ -473,7 +473,7 @@
       <guid>8250d656-4878-4bfa-8897-e20d903cc598</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Other Actions/Tabung - Edit Photo</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Other Actions/Tabung - Edit Photo</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7afb05a4-d521-43a2-a2b6-b7edd297cddb</id>
@@ -603,7 +603,7 @@
       <guid>d00b67b0-d9cc-46a7-99e1-93f3f0b4e96f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Other Actions/Tabung - Booster</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Other Actions/Tabung - Booster</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d539670c-a428-4f79-87a5-a9d77e9dff34</id>
@@ -733,7 +733,7 @@
       <guid>0b79cf56-ea78-43d1-815c-9cbc790aab01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Other Actions/Tabung - Rename</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Other Actions/Tabung - Rename</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>45eac39f-c0d5-4a5a-afe6-d9f7125ea698</id>
@@ -863,7 +863,7 @@
       <guid>0e883f34-713d-4636-9846-1a7597fd3e74</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Fund/Tabung Fund</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Fund/Tabung Fund</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fdcafa42-a78e-43e1-9421-3416110b2ebd</id>
@@ -1005,7 +1005,7 @@
       <guid>c8772f26-4e85-4891-a6e5-d7698b7b755b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Withdrawn/Tabung Withdraw</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Withdrawn/Tabung Withdraw</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>aeb3a1eb-0b73-4a23-9969-db2a10434ca3</id>
@@ -1147,7 +1147,7 @@
       <guid>3cd0bd16-1f77-437b-86e7-0db4657f1849</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Remove/Tabung Remove More Than Zero</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Remove/Tabung Remove More Than Zero</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bdd803c7-2db0-4ed1-9e41-fdb7a5e04122</id>
@@ -1289,7 +1289,7 @@
       <guid>c7f8566d-403f-4f36-b84f-78ce95b605d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Remove/Tabung Remove Zero - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Remove/Tabung Remove Zero - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3b7cd9e6-9632-4b18-b94d-56199b39b721</id>
@@ -1431,7 +1431,7 @@
       <guid>e10a3764-b8cb-40e2-b0f2-19fbf7a36002</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Create Tabung/Tabung Create Goal Solo - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Create Tabung/Tabung Create Goal Solo - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d55e0149-d010-42d5-8c1b-43c0ce204598</id>

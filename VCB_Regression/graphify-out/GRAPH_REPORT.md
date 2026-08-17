@@ -234,15 +234,15 @@
 
 ## Surprising Connections (you probably didn't know these)
 - `compareASNBAccountLists()` --calls--> `handleError()`  [INFERRED]
-  Keywords/com/maybank/m2u/internal/pages/base/WebSettingsPage.groovy → Keywords/com/maybank/common/BaseKeyword.groovy
+  Keywords/com/vcb/m2u/internal/pages/base/WebSettingsPage.groovy → Keywords/com/vcb/common/BaseKeyword.groovy
 - `compareMIGAiHeaderValues()` --calls--> `info()`  [INFERRED]
-  Keywords/com/maybank/m2u/internal/pages/base/accountpage/WebWealthPage.groovy → Keywords/com/maybank/common/BaseKeyword.groovy
+  Keywords/com/vcb/m2u/internal/pages/base/accountpage/WebWealthPage.groovy → Keywords/com/vcb/common/BaseKeyword.groovy
 - `calculateCurrency()` --calls--> `handleError()`  [INFERRED]
-  Keywords/com/maybank/mae/internal/pages/base/accountpage/AccountsPage.groovy → Keywords/com/maybank/common/BaseKeyword.groovy
+  Keywords/com/vcb/vcb/internal/pages/base/accountpage/AccountsPage.groovy → Keywords/com/vcb/common/BaseKeyword.groovy
 - `convertCurrency()` --calls--> `handleError()`  [INFERRED]
-  Keywords/com/maybank/mae/internal/pages/base/accountpage/AccountsPage.groovy → Keywords/com/maybank/common/BaseKeyword.groovy
+  Keywords/com/vcb/vcb/internal/pages/base/accountpage/AccountsPage.groovy → Keywords/com/vcb/common/BaseKeyword.groovy
 - `getListASNB()` --calls--> `handleError()`  [INFERRED]
-  Keywords/com/maybank/m2u/internal/pages/base/WebSettingsPage.groovy → Keywords/com/maybank/common/BaseKeyword.groovy
+  Keywords/com/vcb/m2u/internal/pages/base/WebSettingsPage.groovy → Keywords/com/vcb/common/BaseKeyword.groovy
 
 ## Communities (2218 total, 179 thin omitted)
 
@@ -328,7 +328,7 @@ Nodes (7): Android-Only Device Implementation, AndroidPhone<Name>Page, internal/
 
 ### Community 100 - "Community 100"
 Cohesion: 0.4
-Nodes (6): DuitNow/QR Payment Test Data (Katalon Regression Pack), Malaysia National QR Standard, Personal Current Account (****4313), P2P.png (QR Test Fixture), Receive Money via QR (P2P) Flow, Scan & Pay Screen (MAE App)
+Nodes (6): DuitNow/QR Payment Test Data (Katalon Regression Pack), Malaysia National QR Standard, Personal Current Account (****4313), P2P.png (QR Test Fixture), Receive Money via QR (P2P) Flow, Scan & Pay Screen (VCB App)
 
 ### Community 116 - "Community 116"
 Cohesion: 0.6
@@ -340,7 +340,7 @@ Nodes (4): compareASNBAccountLists(), getListASNB(), navigateSettings(), tableAS
 
 ### Community 118 - "Community 118"
 Cohesion: 0.4
-Nodes (4): DuitNow QR Payment Flow, Receive-Money QR Screen (MAE app), Test Scenario G1A, Test User "Ha Indikmsfortysix"
+Nodes (4): DuitNow QR Payment Flow, Receive-Money QR Screen (VCB app), Test Scenario G1A, Test User "Ha Indikmsfortysix"
 
 ### Community 125 - "Community 125"
 Cohesion: 0.4
@@ -348,15 +348,15 @@ Nodes (5): QR Codes Test Data Folder, DuitNow/QR Payment Test Flow, Malaysia Nat
 
 ### Community 144 - "Community 144"
 Cohesion: 0.5
-Nodes (4): Test Merchant DANEMERCHANT003 M DEL, DuitNow QR / Malaysia National QR Standard, Merchant DuitNow QR Fixture (merchant.png), DuitNow/QR Merchant Payment Test Flow (MAE Regression Pack)
+Nodes (4): Test Merchant DANEMERCHANT003 M DEL, DuitNow QR / Malaysia National QR Standard, Merchant DuitNow QR Fixture (merchant.png), DuitNow/QR Merchant Payment Test Flow (VCB Regression Pack)
 
 ### Community 145 - "Community 145"
 Cohesion: 0.67
-Nodes (4): DuitNow QR Regression Test Module (MAE App), olP2P.png (QR Code Test Fixture), Malaysia National QR (DuitNow QR Standard), Online P2P Transfer QR Test Fixture
+Nodes (4): DuitNow QR Regression Test Module (VCB App), olP2P.png (QR Code Test Fixture), Malaysia National QR (DuitNow QR Standard), Online P2P Transfer QR Test Fixture
 
 ### Community 146 - "Community 146"
 Cohesion: 0.5
-Nodes (4): DuitNow/QR Payment Test Flow (MAE Regression Pack), Merchant01B (test merchant entity), Possible 'Out of Validity' / Expired QR Test State, out.png QR Code Test Fixture
+Nodes (4): DuitNow/QR Payment Test Flow (VCB Regression Pack), Merchant01B (test merchant entity), Possible 'Out of Validity' / Expired QR Test State, out.png QR Code Test Fixture
 
 ### Community 164 - "Community 164"
 Cohesion: 0.67
@@ -364,7 +364,7 @@ Nodes (3): Scripts/, Test Cases/, Test Data/
 
 ### Community 167 - "Community 167"
 Cohesion: 0.67
-Nodes (3): QRCode.png (MAE 'Receive Money' QR Test Fixture), MAE App 'Receive Money' QR Screen, Test User 'Ha Indikmsfortyseven'
+Nodes (3): QRCode.png (VCB 'Receive Money' QR Test Fixture), VCB App 'Receive Money' QR Screen, Test User 'Ha Indikmsfortyseven'
 
 ### Community 174 - "Community 174"
 Cohesion: 0.67

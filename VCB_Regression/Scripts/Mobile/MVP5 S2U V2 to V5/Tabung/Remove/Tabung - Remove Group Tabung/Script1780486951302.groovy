@@ -1,10 +1,10 @@
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.tabung.TabungPage
-import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
-import com.maybank.mae.internal.pages.base.HomePage
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.tabung.TabungPage
+import com.vcb.mobile.internal.pages.base.CommonPage as CommonPage
+import com.vcb.mobile.internal.pages.base.HomePage
 import internal.GlobalVariable as GlobalVariable
-import com.maybank.utils.MapUtils
+import com.vcb.utils.MapUtils
 
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
@@ -23,8 +23,8 @@ tabungActionMap.put("description", statusDescription)
 
 //commonPage.clearDataAndCache()
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : GlobalVariable.G_password
-	, ('username') : username, ('accountName') : '', ('flowControl') : com.maybank.common.FlowControlEnum.STOP, ('failStopTestSuite') : false
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : GlobalVariable.G_password
+	, ('username') : username, ('accountName') : '', ('flowControl') : com.vcb.common.FlowControlEnum.STOP, ('failStopTestSuite') : false
 	, ('yourName') : GlobalVariable.G_yourName], FailureHandling.STOP_ON_FAILURE)
 
 'Navigate to View All Screen'

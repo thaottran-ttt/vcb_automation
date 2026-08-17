@@ -338,7 +338,7 @@
       <name>type</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank'</defaultValue>
+      <defaultValue>'Vcb'</defaultValue>
       <description></description>
       <id>d662abf8-1737-4673-9ecf-eb895787cc79</id>
       <masked>false</masked>

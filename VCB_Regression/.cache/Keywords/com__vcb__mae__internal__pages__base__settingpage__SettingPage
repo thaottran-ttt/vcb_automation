@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9E4E9442470A6CC4D8AB9017D1BB23E0",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.settingpage.SettingPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

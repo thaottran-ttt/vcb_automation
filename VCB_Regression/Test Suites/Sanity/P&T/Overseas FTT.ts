@@ -15,7 +15,7 @@
       <guid>2e1cf5ea-7d84-4007-be90-2126206ce18e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/FTT/1 - Open/FTT Transfer - Status Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/FTT/1 - Open/FTT Transfer - Status Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -334,7 +334,7 @@
       <guid>ba7d636f-9974-4caa-8cd1-c07d8a66f57a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/FTT/2 - Fav/FTT Transfer Fav - Status Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/FTT/2 - Fav/FTT Transfer Fav - Status Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

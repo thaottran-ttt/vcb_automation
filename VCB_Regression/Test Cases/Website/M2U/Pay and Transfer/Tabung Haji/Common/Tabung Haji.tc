@@ -266,7 +266,7 @@
       <name>type</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank2u.Premier'</defaultValue>
+      <defaultValue>'Vcb2u.Premier'</defaultValue>
       <description></description>
       <id>b769b12f-ec20-4677-8dbd-73b7b2589dc4</id>
       <masked>false</masked>

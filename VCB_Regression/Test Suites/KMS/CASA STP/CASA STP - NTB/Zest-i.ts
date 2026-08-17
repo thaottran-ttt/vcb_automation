@@ -15,7 +15,7 @@
       <guid>1bf0db02-1835-4933-9c41-53f43902fcd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/NTB/NTB - NRIC/Zest - NRIC</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/NTB/NTB - NRIC/Zest - NRIC</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -142,7 +142,7 @@
       <guid>588f27ce-24af-41c6-890c-f97a96919fdc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/NTB/NTB - Passport/Zest - Passport</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/NTB/NTB - Passport/Zest - Passport</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

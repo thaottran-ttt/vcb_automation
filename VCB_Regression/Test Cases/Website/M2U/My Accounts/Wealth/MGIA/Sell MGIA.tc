@@ -111,7 +111,7 @@
    </variable>
    <variable>
       <defaultValue>'oxhWAdmPKdsBYTMF8mwd8Q=='</defaultValue>
-      <description>Maybank@11</description>
+      <description>Vcb@11</description>
       <id>d2cc03c3-2996-4650-a6b6-05eea72a4817</id>
       <masked>false</masked>
       <name>password</name>

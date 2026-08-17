@@ -15,7 +15,7 @@
       <guid>b8035e54-3256-4661-ac54-97b85724bddf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Savings-i</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Savings-i</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b01b9d83-aee9-4295-8d87-157ef60109a9</id>
@@ -253,7 +253,7 @@
       <guid>604588b3-c690-4ae9-8b61-03726c50e967</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Savings-i</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Savings-i</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7adffbe6-6fcb-4180-b1e7-1a45cdc2dd79</id>

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "CE836D7FA69B2B3914AC0F39C4C9BDEC",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.chrome.paytransfer.ChromeWebPayPageJomPAY",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

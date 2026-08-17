@@ -4,16 +4,16 @@ import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import com.maybank.mae.internal.pages.base.HomePage as HomePage
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
-import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
-import com.maybank.mae.internal.pages.base.applypage.ApplyPage as ApplyPage
-import com.maybank.mae.internal.pages.base.accountpage.AccountsPage as AccountsPage
-import com.maybank.mae.internal.pages.base.StatusScreenPage as StatusScreenPage
-import com.maybank.mae.internal.pages.base.BasePage as BasePage
-import com.maybank.utils.MapUtils as MapUtils
-import com.maybank.assertions.*
-import com.maybank.common.MobileDriver as MobileDriver
+import com.vcb.mobile.internal.pages.base.HomePage as HomePage
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
+import com.vcb.mobile.internal.pages.base.CommonPage as CommonPage
+import com.vcb.mobile.internal.pages.base.applypage.ApplyPage as ApplyPage
+import com.vcb.mobile.internal.pages.base.accountpage.AccountsPage as AccountsPage
+import com.vcb.mobile.internal.pages.base.StatusScreenPage as StatusScreenPage
+import com.vcb.mobile.internal.pages.base.BasePage as BasePage
+import com.vcb.utils.MapUtils as MapUtils
+import com.vcb.assertions.*
+import com.vcb.common.MobileDriver as MobileDriver
 
 
 HomePage homePage = HomePage.getPage(HomePage)
@@ -28,9 +28,9 @@ Secure2uAuthorisationPage secure2uAuthorisationPage = BasePage.getPage(Secure2uA
 
 StatusScreenPage statusScreenPage = BasePage.getPage(StatusScreenPage)
 
-//'Login MAE Secure2u'
-//WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : GlobalVariable.G_password
-//        , ('username') : username, ('accountName') : accountName, ('flowControl') : com.maybank.common.FlowControlEnum.STOP
+//'Login VCB Secure2u'
+//WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : GlobalVariable.G_password
+//        , ('username') : username, ('accountName') : accountName, ('flowControl') : com.vcb.common.FlowControlEnum.STOP
 //        , ('failStopTestSuite') : false, ('yourName') : GlobalVariable.G_yourName], FailureHandling.STOP_ON_FAILURE)
 
 'Tap Accounts'

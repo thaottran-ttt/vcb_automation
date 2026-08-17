@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "634CA9583845213E1EE1086BD40360A1",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.tabung.TabungPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

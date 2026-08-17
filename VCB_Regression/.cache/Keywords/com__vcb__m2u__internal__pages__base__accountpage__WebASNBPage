@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E195F89E28B5BA4B6111120E632243F6",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.base.accountpage.WebASNBPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

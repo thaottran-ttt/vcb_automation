@@ -15,7 +15,7 @@
       <guid>88e980de-00cf-4dc9-96ff-b17a5db7fc8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Tabung Haji Dashboard/Tabung Haji Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Tabung Haji Dashboard/Tabung Haji Dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

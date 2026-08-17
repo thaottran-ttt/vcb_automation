@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9946180DA002268A07A7277A900F0EC9",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.applypage.ApplyPageInsurance",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

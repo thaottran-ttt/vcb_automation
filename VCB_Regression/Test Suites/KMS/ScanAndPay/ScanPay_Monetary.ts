@@ -15,7 +15,7 @@
       <guid>33fdb4bc-0f20-4e94-800a-407ab2486c8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Common/ScanPay_AddImage</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Common/ScanPay_AddImage</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -46,7 +46,7 @@
       <guid>f5367b19-4b3c-4475-8bd5-e98db898bb4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_PeerToPeer</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_PeerToPeer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4700be35-a626-4e7f-a49d-098ed531bc8e</id>
@@ -116,7 +116,7 @@
       <guid>1d96221f-8f60-4e0e-97d2-6ad80c65eb59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_MerchantON</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_MerchantON</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>17e0eeb5-a394-4a2f-bc49-ca084d79cf50</id>
@@ -186,7 +186,7 @@
       <guid>000cd3aa-58bc-432c-a65e-5b5b798e04f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_InvalidQR</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_InvalidQR</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9356578d-dba1-4803-9312-c2194c409d1a</id>
@@ -256,7 +256,7 @@
       <guid>f1bd8b5d-7bf2-4e33-bd18-d330b879c521</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_DailyLimitExceeded</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_DailyLimitExceeded</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6f5ae809-2043-49f6-9fd6-c616aa0d21b5</id>
@@ -332,7 +332,7 @@
       <guid>9c547c21-a12e-4a1b-8339-e612e2998f41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_MerchantOFF</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_MerchantOFF</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cb1ba989-01b1-4369-aa35-59e335bfda82</id>
@@ -402,7 +402,7 @@
       <guid>e8160744-7896-47e0-9327-77896cc8d712</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_Timeout</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_Timeout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>48296deb-e3c7-452c-b9d1-f99dabe6e0bb</id>
@@ -472,7 +472,7 @@
       <guid>ea4b437a-3389-4513-8a81-84cbb909e221</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Monetary/ScanPay_Monetary_SaveAndShareQR</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Monetary/ScanPay_Monetary_SaveAndShareQR</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9ad3ed75-71d8-482c-a005-0d58b070e958</id>

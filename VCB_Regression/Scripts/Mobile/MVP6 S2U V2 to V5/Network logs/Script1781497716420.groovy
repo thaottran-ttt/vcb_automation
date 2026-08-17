@@ -2,10 +2,10 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.mae.internal.pages.base.BasePage as BasePage
-import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
-import com.maybank.mae.internal.pages.base.HomePage as HomePage
-import com.maybank.mae.internal.pages.base.accountpage.AccountsPage as AccountsPage
+import com.vcb.mobile.internal.pages.base.BasePage as BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage as CommonPage
+import com.vcb.mobile.internal.pages.base.HomePage as HomePage
+import com.vcb.mobile.internal.pages.base.accountpage.AccountsPage as AccountsPage
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows

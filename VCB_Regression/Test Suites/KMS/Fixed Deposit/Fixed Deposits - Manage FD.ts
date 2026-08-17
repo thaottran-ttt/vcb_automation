@@ -15,7 +15,7 @@
       <guid>a8ecb8f2-976f-44f1-b46e-7ca0a1ee3a2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Detail/Manage FD</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Detail/Manage FD</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b62d851f-8ed8-4fc2-bc3b-008f9631a4d4</id>

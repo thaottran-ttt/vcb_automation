@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03 - Access Fixed Deposit Section</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>96242bfd-292e-40df-b207-ca46e9f6b800</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>9aa33138-a65e-42d9-a46a-c830245c9c88</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/KMS/Fixed Deposits/Placement/Access Fixed Deposit Section</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38ce1e9b-e70e-4dfd-bf30-10fd360673eb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>765fa1a5-77e6-451b-808d-29679185a381</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9aa33138-a65e-42d9-a46a-c830245c9c88</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>username</value>
+      <variableId>c8c463d5-c678-4462-8b28-466a7777e4ef</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9aa33138-a65e-42d9-a46a-c830245c9c88</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>1952dd47-4911-4b6a-bca2-8a4a61cba479</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9aa33138-a65e-42d9-a46a-c830245c9c88</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>entryPoint</value>
+      <variableId>a86b3a6a-81ab-45f2-aa48-6d8cffe3571a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>9aa33138-a65e-42d9-a46a-c830245c9c88</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>fdAccountType</value>
+      <variableId>4d6285af-1039-4e2b-8722-161071f9f8eb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'FIXED DEPOSITS'</defaultValue>
+      <description></description>
+      <id>38ce1e9b-e70e-4dfd-bf30-10fd360673eb</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.G_timeoutLong</defaultValue>
+      <description></description>
+      <id>765fa1a5-77e6-451b-808d-29679185a381</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+   <variable>
+      <defaultValue>'autofadh02'</defaultValue>
+      <description></description>
+      <id>c8c463d5-c678-4462-8b28-466a7777e4ef</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>1952dd47-4911-4b6a-bca2-8a4a61cba479</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apply'</defaultValue>
+      <description>Entry Point: Apply, Fixed Deposit Dashboard, Fixed Deposit Details</description>
+      <id>a86b3a6a-81ab-45f2-aa48-6d8cffe3571a</id>
+      <masked>false</masked>
+      <name>entryPoint</name>
+   </variable>
+   <variable>
+      <defaultValue>'Vcb Flexi Fixed Deposit'</defaultValue>
+      <description></description>
+      <id>4d6285af-1039-4e2b-8722-161071f9f8eb</id>
+      <masked>false</masked>
+      <name>fdAccountType</name>
+   </variable>
+</TestCaseEntity>

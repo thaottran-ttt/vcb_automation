@@ -30,7 +30,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>https://m2umobilesit.maybank.com.my/mbb/scripts/infopayee.jsp</restUrl>
+   <restUrl>https://vcbmobile.uat.vcb.com.vn/mbb/scripts/infopayee.jsp</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

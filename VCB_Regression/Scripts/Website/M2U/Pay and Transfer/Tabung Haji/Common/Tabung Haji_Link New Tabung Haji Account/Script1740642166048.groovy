@@ -14,13 +14,13 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.common.WebUIKeyword
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage
-import com.maybank.m2u.internal.pages.base.WebHomePage
-import com.maybank.m2u.internal.pages.base.WebSecure2uAuthorisationPage
-import com.maybank.m2u.internal.pages.base.WebStatusScreenPage
-import com.maybank.m2u.internal.pages.base.paytransfer.WebTabungHajiPage
+import com.vcb.common.WebUIKeyword
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage
+import com.vcb.m2u.internal.pages.base.WebHomePage
+import com.vcb.m2u.internal.pages.base.WebSecure2uAuthorisationPage
+import com.vcb.m2u.internal.pages.base.WebStatusScreenPage
+import com.vcb.m2u.internal.pages.base.paytransfer.WebTabungHajiPage
 
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
@@ -31,7 +31,7 @@ WebTabungHajiPage webTabungHajiPage = WebBasePage.getPage(WebTabungHajiPage)
 WebStatusScreenPage webStatusScreenPage = WebBasePage.getPage(WebStatusScreenPage)
 WebSecure2uAuthorisationPage webSecure2uAuthorisationPage = WebBasePage.getPage(WebSecure2uAuthorisationPage)
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u Without Check Logout'), [('username') : username, ('password') : password
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u Without Check Logout'), [('username') : username, ('password') : password
         , ('idNumber') : idNumber, ('PAN') : PAN], BaseKeyword.defaultFailureHandling)
 
 WebUI.callTestCase(findTestCase('Website/M2U/Common/Login'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
@@ -46,5 +46,5 @@ webCommonPage.inputDropdownMap(fromToData)
 
 WebUIKeyword.delay(GlobalVariable.G_timeoutShort)
 
-//This service is temporarily unavailable on Maybank2u. You may still link your Tabung Haji account(s) with Maybank2u via our Automated Teller Machines (ATM) as usual.
+//This service is temporarily unavailable on Vcb2u. You may still link your Tabung Haji account(s) with Vcb2u via our Automated Teller Machines (ATM) as usual.
 

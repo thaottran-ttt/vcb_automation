@@ -15,7 +15,7 @@
       <guid>8e389244-e220-442b-bea6-8da2d711fd61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - Passport</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - Passport</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8151faba-fe61-40dc-927f-395cce5d1582</id>
@@ -136,7 +136,7 @@
       <guid>d0add1c9-ca51-44d8-8d52-5a02e8fe18b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - BRN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - BRN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3f802314-5dbc-4c4a-9f40-3e0aa0111b1d</id>
@@ -251,7 +251,7 @@
       <guid>7c526cb1-1524-448d-9695-60d88f1625a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - Mobile</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - Mobile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9e90f25d-d177-4cc9-8dd9-1e3bc7212090</id>
@@ -366,7 +366,7 @@
       <guid>a965433b-e074-4db7-9519-e2e195333069</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - NRIC</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - NRIC</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>60ec056f-8f6e-45b0-91f2-66a2ccf7c0b5</id>
@@ -481,7 +481,7 @@
       <guid>b93ac594-11b1-4313-ab8b-01ffa44763e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Open Transfer/2. Future Transfer/Open DuitNow-Future-BRN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Open Transfer/2. Future Transfer/Open DuitNow-Future-BRN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c2535788-d232-4035-9b0a-7ba4831904f5</id>
@@ -590,7 +590,7 @@
       <guid>38f1c95e-3a5e-4b21-9ec0-cfd72f538b26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Open Transfer/3. Recurring Transfer/Open DuitNow-Recurring-BRN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Open Transfer/3. Recurring Transfer/Open DuitNow-Recurring-BRN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a305de2d-6462-4b57-ba94-d101acc51cb7</id>
@@ -699,7 +699,7 @@
       <guid>43c9ea8a-8eea-4670-9d29-d2acfc3cd916</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Fav Transfer/3. Recurring Transfer/Open DuitNow-Fav-Recurring-BRN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Fav Transfer/3. Recurring Transfer/Open DuitNow-Fav-Recurring-BRN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b0b1e40f-8e1e-4be5-bfa5-864cea89d855</id>
@@ -814,7 +814,7 @@
       <guid>29c78281-e4d4-46d6-aba1-f349377af27d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Fav Transfer/2. Future Transfer/Open DuitNow-Fav-Future-BRN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Fav Transfer/2. Future Transfer/Open DuitNow-Fav-Future-BRN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9e722e83-2b6b-49e7-ac71-9bf70c458ff4</id>
@@ -929,7 +929,7 @@
       <guid>28048398-2b4c-4a4c-b09d-dc7b96c30c47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-Passport</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-Passport</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9698c59b-2b8a-4c59-8c33-93bec2f6b3ce</id>
@@ -1044,7 +1044,7 @@
       <guid>700cfed7-ceee-4813-b1ef-957be996b3d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-NRIC</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-NRIC</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3c65f499-0f87-49dc-9fec-54db65506285</id>
@@ -1159,7 +1159,7 @@
       <guid>c6bd9db7-fda3-4816-8757-26ce1796a19f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-Mobile</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-Mobile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>074e7f1f-2708-4512-8444-54d16f721424</id>
@@ -1274,7 +1274,7 @@
       <guid>e2d765be-33b0-46f0-81b0-cabbb45f5450</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-BRN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-BRN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>33f76e3e-7464-4054-a720-2d8c0aa008e9</id>
@@ -1389,7 +1389,7 @@
       <guid>fbab880f-e0f8-4b6d-97c7-7e54a6b21534</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Off Us/Open DuitNow - Passport - OFF</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Off Us/Open DuitNow - Passport - OFF</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d5943bae-68ea-44db-a1d9-a7d1d2a506ac</id>
@@ -1510,7 +1510,7 @@
       <guid>0bd1830d-4061-4bc6-8df8-5051beffcd8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Off Us/Open DuitNow - BRN - OFF</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Off Us/Open DuitNow - BRN - OFF</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7adf0bae-c5a6-48c0-8cbf-e8ebb2c7bd9a</id>
@@ -1625,7 +1625,7 @@
       <guid>b3808277-b8d5-4ed3-91fa-f519ce6d6ba2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Special Case</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Special Case</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e6074be0-3c6d-4124-8021-354a45d93602</id>
@@ -1746,7 +1746,7 @@
       <guid>53f4495b-bf6a-4f28-852d-fbe90ffdcca4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Mobile Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Mobile Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>962df7b2-bc25-4349-b274-b5a3b9b63db1</id>
@@ -1861,7 +1861,7 @@
       <guid>0908d87c-ccc5-43a4-9f30-b1d5db843493</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Mobile Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Mobile Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8a19a9b9-2208-4be7-824b-f6ccd6632864</id>
@@ -1976,7 +1976,7 @@
       <guid>984145c4-a65c-4e8f-b50a-7e42211246c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Fav - Mobile Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Fav - Mobile Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5c1131bb-1171-498d-817c-6ecbf3264fb2</id>
@@ -2091,7 +2091,7 @@
       <guid>02a488f8-563c-4fe0-9046-65bbeee2a744</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Fav - Mobile Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Negative Scenario/Open DuitNow - Fav - Mobile Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>aa0cc2cb-8491-4921-a355-d5ffab8444de</id>
@@ -2206,7 +2206,7 @@
       <guid>19543487-c473-471e-9265-c965ce871ee0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Off Us/Open DuitNow - NRIC - OFF</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Off Us/Open DuitNow - NRIC - OFF</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>41ee1623-2d19-47c5-a74c-5421a9c69e01</id>
@@ -2321,7 +2321,7 @@
       <guid>0648e413-2c15-40b4-940e-db1a57cf0378</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Off Us/Open DuitNow - Army - OFF</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Off Us/Open DuitNow - Army - OFF</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>06cb483c-f8ea-4b52-80ae-f7b3cd261a29</id>
@@ -2436,7 +2436,7 @@
       <guid>5cd41f80-4e74-450f-8e92-de15b92d87ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Off Us/Open DuitNow - Mobile - OFF</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Off Us/Open DuitNow - Mobile - OFF</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>09d13bd8-f858-435a-a234-185effcf89af</id>
@@ -2551,7 +2551,7 @@
       <guid>4297f470-547f-42db-8994-aa59870de403</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - Army</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Open Transfer/1. Instant Transfer/Open DuitNow - Army</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a230a938-7318-4d42-acae-5c1d06906cd9</id>
@@ -2666,7 +2666,7 @@
       <guid>13dc3689-c211-45a4-a97a-29496d3bcd8a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-Army</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/ON US/Fav Transfer/1. Instant Transfer/Open DuitNow-Fav-Army</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>aa1ae3e6-c7cd-4b10-9ab8-fbaa015a9aad</id>

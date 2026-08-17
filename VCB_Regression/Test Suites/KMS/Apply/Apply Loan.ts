@@ -15,7 +15,7 @@
       <guid>65f8a6bf-affb-409d-91e3-4bfa42825e5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Loan/Personal Loan - Pre Onboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Loan/Personal Loan - Pre Onboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f829fc49-4a7f-4655-b866-5e31a51fc79f</id>
@@ -37,7 +37,7 @@
       <guid>5f0a30f1-2c12-412b-ae28-2075cf407ee3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Loan/Personal Loan - Post Onboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Loan/Personal Loan - Post Onboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f1ac0365-8e03-499c-b815-290ea5f33166</id>
@@ -89,7 +89,7 @@
       <guid>fca7b9a4-9c52-410b-8946-d3fdc53237d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Loan/Home Loan</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Loan/Home Loan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cc3cbf83-c188-411a-856a-eafca2ed8608</id>
@@ -129,7 +129,7 @@
       <guid>5a9a4ec0-8909-47e6-a2cb-cb38481420d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Loan/ASNB Loan</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Loan/ASNB Loan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>eee54409-dc20-4a4c-a8bc-29adcb9db76e</id>
@@ -181,7 +181,7 @@
       <guid>d1a80147-e631-4b2b-b9ef-5431543a9e67</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Loan/Resume ASNB Loan</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Loan/Resume ASNB Loan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>15f77647-7e79-42af-a60c-e7fdaeaf4e91</id>

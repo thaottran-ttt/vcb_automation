@@ -15,7 +15,7 @@
       <guid>4a18f072-09a3-4109-b88f-bc3e83db2e65</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Minimum Amount - Insufficient Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Minimum Amount - Insufficient Balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -136,7 +136,7 @@
       <guid>3a51e4e6-d03f-499c-a177-c9a5c82ad564</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Entry point - Account details</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Entry point - Account details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -179,7 +179,7 @@
       <guid>f9b0b4d6-46a8-4eab-807c-c1b640f5fd81</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Minimum Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Minimum Amount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -258,7 +258,7 @@
       <guid>d02d818e-7290-41c5-9f85-3f760818673e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Edit Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Edit Amount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -355,7 +355,7 @@
       <guid>2b66da05-3fed-4216-bd73-79b2b5c48cc1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Share receipt</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Share receipt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -476,7 +476,7 @@
       <guid>a5f54a66-f174-47ef-ba35-54f3c52d865e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Statement balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Statement balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -555,7 +555,7 @@
       <guid>4899fcd3-b731-4dd4-aae8-5f3e8924f5e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay any amount - Insufficient balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay any amount - Insufficient balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -676,7 +676,7 @@
       <guid>5892e94f-f32c-46b0-ac71-31efbd877dbd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Entry point - Transfer - own</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Entry point - Transfer - own</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -797,7 +797,7 @@
       <guid>42091b25-8997-48b9-840b-9ec6ecc52cbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay any amount - Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay any amount - Future</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -918,7 +918,7 @@
       <guid>34eb0183-ea50-43d0-a910-3bfec324649f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Minimum Amount - Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Minimum Amount - Future</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1039,7 +1039,7 @@
       <guid>03628703-416e-463b-a21d-a7b521b00a5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Outstanding Balance - future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Outstanding Balance - future</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1160,7 +1160,7 @@
       <guid>ce328a07-227e-4b7f-a57e-e063a4350291</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Statement balance - future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Statement balance - future</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1281,7 +1281,7 @@
       <guid>ad2b7b7d-7e03-42e2-9e72-f9e71fb7bfe4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Outstanding Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Outstanding Balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1402,7 +1402,7 @@
       <guid>f5c29aba-69d3-445b-93af-ccf4d446be9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Outstanding Balance - insufficient balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Outstanding Balance - insufficient balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1523,7 +1523,7 @@
       <guid>f10dd599-c435-4280-a26c-47a2f0af78c7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay Statement balance - Insufficicent Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay Statement balance - Insufficicent Balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1651,7 +1651,7 @@
          <masked>false</masked>
          <name>PAN</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Pay Card/Pay any amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Pay Card/Pay any amount</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

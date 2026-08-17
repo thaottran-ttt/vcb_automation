@@ -15,7 +15,7 @@
       <guid>2bf74baf-995b-4fa9-a3d7-ed0050434f42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Module/Trigger PIN - Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Module/Trigger PIN - Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ff4a8dba-37c8-4209-a150-d73049db1742</id>
@@ -61,7 +61,7 @@
       <guid>c664f929-c432-4fe8-995e-7665788e8bf2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Module/Trigger PIN - Setting Profile</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Module/Trigger PIN - Setting Profile</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3efc7906-5ecf-4227-b2f2-1490d76399fa</id>
@@ -107,7 +107,7 @@
       <guid>a49d01cb-c61b-47d6-b241-3f51112f23d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Module/Trigger PIN - Home Login</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Module/Trigger PIN - Home Login</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e5198b61-9406-44ab-bb65-e916ed698b1e</id>
@@ -153,7 +153,7 @@
       <guid>5afc2596-7962-462f-859f-95d424e860da</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Module/Trigger PIN - Split Bill</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Module/Trigger PIN - Split Bill</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>eea68e0d-b519-4dcd-9ccf-f3b9a41eb4c1</id>

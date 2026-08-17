@@ -15,7 +15,7 @@
       <guid>75366991-2b18-4460-b48f-12a2dd17a42a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Secure2u Enforment</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Secure2u Enforment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7e13c212-07ef-4abf-ba4d-04398957521f</id>
@@ -61,7 +61,7 @@
       <guid>c4a41a91-a899-46f0-aad1-f69be1fe134a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Secure2u Cooling Period</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Secure2u Cooling Period</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d60cc369-db91-4d4e-bd79-39a6edff20bf</id>
@@ -107,7 +107,7 @@
       <guid>b59247ba-3874-4b53-9cd7-01c7d4525199</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Secure2u Pending ATM activation</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Secure2u Pending ATM activation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5b7c3b44-04e8-49a5-ba9f-ece3bf66337d</id>

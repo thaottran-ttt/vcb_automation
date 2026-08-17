@@ -15,7 +15,7 @@
       <guid>bdc4f576-594c-46fb-b12e-aa9c463ef18e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Account Detail</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Account Detail</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -112,7 +112,7 @@
       <guid>60a9a2de-59d1-49ed-a480-70e6363d273e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Quick Action</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Quick Action</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -209,7 +209,7 @@
       <guid>c7cf28f5-b768-4245-b697-197c0cc2f509</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - View All Accounts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - View All Accounts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -306,7 +306,7 @@
       <guid>44d9277d-1155-4fe7-ac63-d448ce54d900</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Wallet</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Wallet</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -403,7 +403,7 @@
       <guid>01b08208-41d8-4fad-bbae-4566260bc58f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -500,7 +500,7 @@
       <guid>06136ec3-ad0f-49a6-b6da-51982d45687b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

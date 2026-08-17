@@ -36,7 +36,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.maybank2u.life</value>
+      <value>com.vcb.app</value>
       <webElementGuid>2987fbc2-5e10-429f-ab1a-e64dc7273fb4</webElementGuid>
    </webElementProperties>
    <webElementProperties>

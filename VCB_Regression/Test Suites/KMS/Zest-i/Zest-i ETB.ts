@@ -15,7 +15,7 @@
       <guid>186196c0-8a84-466e-8cc3-1cf29d5ece0b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zesi-i/Zest-i ETB/Zest-i ETB Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zesi-i/Zest-i ETB/Zest-i ETB Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1fe9f900-dd5b-4928-a8b0-0ef9729344af</id>
@@ -139,7 +139,7 @@
       <guid>71b39fb4-bda1-477c-b343-5b52e8e055f8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zesi-i/Zest-i ETB/Zest-i ETB Insufficient Fund</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zesi-i/Zest-i ETB/Zest-i ETB Insufficient Fund</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>45c001d5-ae51-471d-bc0f-c2d799efe272</id>

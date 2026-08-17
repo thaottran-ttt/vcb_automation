@@ -15,7 +15,7 @@
       <guid>5a620895-b264-4740-9ba6-e5a1f8303435</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/CASA Initial Deposit/G1A_Saving_Account-i_Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/CASA Initial Deposit/G1A_Saving_Account-i_Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

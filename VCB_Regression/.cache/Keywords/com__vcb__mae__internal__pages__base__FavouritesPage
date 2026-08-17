@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "764C35FF260E7812B4C0BF3A83515A24",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.FavouritesPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

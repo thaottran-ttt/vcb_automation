@@ -32,7 +32,7 @@
       <name>username</name>
    </variable>
    <variable>
-      <defaultValue>com.maybank.common.FlowControlEnum.STOP</defaultValue>
+      <defaultValue>com.vcb.common.FlowControlEnum.STOP</defaultValue>
       <description></description>
       <id>d6eadc03-1ad9-4a7b-8ce1-89d5362d3f4e</id>
       <masked>false</masked>

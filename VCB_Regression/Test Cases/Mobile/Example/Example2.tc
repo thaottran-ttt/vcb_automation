@@ -13,7 +13,7 @@
       <variableId>f38d3fc9-1287-4caa-96b8-92c9baf3ef33</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>com.maybank.common.FlowControlEnum.STOP</defaultValue>
+      <defaultValue>com.vcb.common.FlowControlEnum.STOP</defaultValue>
       <description></description>
       <id>f38d3fc9-1287-4caa-96b8-92c9baf3ef33</id>
       <masked>false</masked>

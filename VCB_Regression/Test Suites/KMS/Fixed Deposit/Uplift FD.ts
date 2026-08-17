@@ -15,7 +15,7 @@
       <guid>2484adab-180e-4e1f-8704-cc5fa39f526d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Uplift FD/UpliftFDCreateTransaction - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Uplift FD/UpliftFDCreateTransaction - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2bd5a87f-cfbd-4b3a-b871-eab78ce45024</id>
@@ -97,7 +97,7 @@
       <guid>ecb487e9-76c8-41f6-9ef7-c4708ea3db11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Uplift FD/UpliftFDCreateTransaction - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Uplift FD/UpliftFDCreateTransaction - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ccd03e07-e7da-427d-907a-bff4edb160d7</id>
@@ -191,7 +191,7 @@
       <guid>1ac9afd1-ae03-4503-a671-16a10254674f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Uplift FD/UpliftFDCreateTransaction - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Uplift FD/UpliftFDCreateTransaction - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>79bd9da0-5c1a-4204-ba68-c7c407686055</id>
@@ -285,7 +285,7 @@
       <guid>5d7983cc-10e8-42c7-b022-d1be4e3c8784</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Uplift FD/UpliftTransactionHistory</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Uplift FD/UpliftTransactionHistory</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0eec4fb7-5703-42ff-b77b-014c0b3a1dc1</id>

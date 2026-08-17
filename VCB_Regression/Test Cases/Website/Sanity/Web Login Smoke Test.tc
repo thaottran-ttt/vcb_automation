@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Sanity check: verify the Katalon framework (browser launch via TestListener, custom WebUIKeyword layer, object repository, assertions) still runs end-to-end. Uses the 'sanity-web' execution profile, which points G_url at an external demo login page (https://acme-test.uipath.com/login) instead of a real VCB URL. Not a VCB business test case.</description>
+   <name>Web Login Smoke Test</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fb531f13-6a99-49d1-96f1-eecaab225506</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23590447-f8f9-4f9e-bbdf-e29c7e6b31b9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d8575dc4-459f-4705-ad37-8517ce90d2ca</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test@example.com'</defaultValue>
+      <description></description>
+      <id>23590447-f8f9-4f9e-bbdf-e29c7e6b31b9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'WrongPass123'</defaultValue>
+      <description></description>
+      <id>d8575dc4-459f-4705-ad37-8517ce90d2ca</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

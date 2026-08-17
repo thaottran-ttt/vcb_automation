@@ -15,7 +15,7 @@
       <guid>a6b00400-fd61-444e-bc11-43808775d83e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/Common/Register (Apply Entry) - Kedah (Approve)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/Common/Register (Apply Entry) - Kedah (Approve)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -106,7 +106,7 @@
       <guid>87806e5e-fe31-486e-bf7a-20327ba4cacc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/Special Test Case/Register Edit Value - Melaka (Approve)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/Special Test Case/Register Edit Value - Melaka (Approve)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -203,7 +203,7 @@
       <guid>3610bbfb-47fd-4ae2-9047-8f677482d154</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/1. Register/Register ZAD/Register (D) - Pinang (Approve)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/1. Register/Register ZAD/Register (D) - Pinang (Approve)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -282,7 +282,7 @@
       <guid>ce4c78e1-3472-45d6-b031-a68afef52f23</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/1. Register/Register ZAD/Register (S) - KL (Approve)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/1. Register/Register ZAD/Register (S) - KL (Approve)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -361,7 +361,7 @@
       <guid>ab5b4215-2f42-4547-b547-6c1aff03f0b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/1. Register/Register (D) - Selangor (Reject)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/1. Register/Register (D) - Selangor (Reject)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -440,7 +440,7 @@
       <guid>0a88c2c3-5501-49eb-b470-7363abd43b73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/1. Register/Register (D) - Selangor (Expired)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/1. Register/Register (D) - Selangor (Expired)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -519,7 +519,7 @@
       <guid>34653ded-94b3-4cf7-b3d4-a464fa07d68f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/1. Register/Register (S) - Selangor (Approve)</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/1. Register/Register (S) - Selangor (Approve)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -598,7 +598,7 @@
       <guid>e6c329cb-4833-4ede-bb30-c0e69f0aea05</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Mobile No (D) - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Mobile No (D) - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -701,7 +701,7 @@
       <guid>5028e128-a590-4a82-85fa-4e7747a569f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Mobile No (D) - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Mobile No (D) - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -804,7 +804,7 @@
       <guid>9deec17b-0ecb-4a61-a8bd-9ff256e850b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Mobile No (S) - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Mobile No (S) - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -907,7 +907,7 @@
       <guid>56c30244-8da6-4cc3-bef3-6ae963bd35e4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Account (S) - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Account (S) - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1010,7 +1010,7 @@
       <guid>195a0cfc-5491-46db-a12b-66dab10cd629</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Account (D) - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Account (D) - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1113,7 +1113,7 @@
       <guid>ba5fb771-f8de-401e-9a51-ff639d754290</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Account (D) - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch Account (D) - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1216,7 +1216,7 @@
       <guid>a463d901-4cee-482c-9c92-0a365d07fc73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch ZakatBody (S) - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch ZakatBody (S) - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1319,7 +1319,7 @@
       <guid>c3605928-46c1-4ef1-9b2f-f85a4f325092</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch ZakatBody (D) - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch ZakatBody (D) - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1422,7 +1422,7 @@
       <guid>f50b74e7-151d-4042-91f2-5747d7bb5c57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/2. Edit/Switch ZakatBody (D) - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/2. Edit/Switch ZakatBody (D) - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1525,7 +1525,7 @@
       <guid>349fa70c-dbfe-4818-abc6-4c466bc1c1b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/3. Cancel/Cancel (D) - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/3. Cancel/Cancel (D) - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1580,7 +1580,7 @@
       <guid>e05717f8-6e20-4fdb-be2c-59f75ad40cda</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/3. Cancel/Cancel (D) - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/3. Cancel/Cancel (D) - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1635,7 +1635,7 @@
       <guid>8d6c32e3-a93a-4325-8932-1d7a26fdadab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat Auto Debit/3. Cancel/Cancel (S) - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat Auto Debit/3. Cancel/Cancel (S) - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

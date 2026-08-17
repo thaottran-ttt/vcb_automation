@@ -15,7 +15,7 @@
       <guid>4d216600-8cd9-4a0e-8236-e86a8c87f7b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Travel/Trip Care 360 - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Travel/Trip Care 360 - NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -58,7 +58,7 @@
       <guid>b26127a7-a0c5-4951-975d-39e77aac4b63</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Travel/Trip Care 360 Takaful - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Travel/Trip Care 360 Takaful - NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

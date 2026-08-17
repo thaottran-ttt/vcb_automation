@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E930874DD9AAE8144448766E06830E57",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.transferpage.OverseasTransferPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

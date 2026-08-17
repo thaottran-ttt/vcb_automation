@@ -145,7 +145,7 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank2u.Premier'</defaultValue>
+      <defaultValue>'Vcb2u.Premier'</defaultValue>
       <description></description>
       <id>9c6fca94-d429-46c2-8b19-36eadf693284</id>
       <masked>false</masked>

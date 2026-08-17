@@ -15,7 +15,7 @@
       <guid>75653569-ac04-4d59-8ef5-53eca0e3746c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Special Case</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Special Case</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>de877f23-3e9a-4dbc-9586-cb818947d16a</id>
@@ -73,7 +73,7 @@
       <guid>c5dcfda7-5935-4604-b560-d2c03b0f6fbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>14b28a01-30d9-4aa8-8ba5-a05e2e3749a2</id>
@@ -161,7 +161,7 @@
       <guid>1f4e5b33-9ac9-4e06-96e7-ee2dd0ef627c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c4f2eeb8-8244-4617-899b-f5a1251d8adb</id>
@@ -249,7 +249,7 @@
       <guid>176c6e03-6369-495c-aa0f-8e7263e7afe5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6532795c-3776-4942-ade2-3c0292cb973c</id>

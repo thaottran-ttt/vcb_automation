@@ -1,15 +1,15 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.common.MobileDriver as MobileDriver
-import com.maybank.mae.internal.pages.base.accountpage.AccountDetailPage as AccountDetailPage
-import com.maybank.mae.internal.pages.base.accountpage.AccountsPage as AccountsPage
-import com.maybank.mae.internal.pages.base.BasePage as BasePage
-import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
-import com.maybank.mae.internal.pages.base.HomePage as HomePage
-import com.maybank.mae.internal.pages.base.paybill.JomPayPage as JomPayPage
-import com.maybank.utils.StringUtils as StringUtils
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
+import com.vcb.common.MobileDriver as MobileDriver
+import com.vcb.mobile.internal.pages.base.accountpage.AccountDetailPage as AccountDetailPage
+import com.vcb.mobile.internal.pages.base.accountpage.AccountsPage as AccountsPage
+import com.vcb.mobile.internal.pages.base.BasePage as BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage as CommonPage
+import com.vcb.mobile.internal.pages.base.HomePage as HomePage
+import com.vcb.mobile.internal.pages.base.paybill.JomPayPage as JomPayPage
+import com.vcb.utils.StringUtils as StringUtils
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
 
 CommonPage commonPage = BasePage.getPage(CommonPage)
 
@@ -23,7 +23,7 @@ AccountDetailPage accountDetailPage = BasePage.getPage(AccountDetailPage)
 
 Secure2uAuthorisationPage secure2uAuthorisationPage = BasePage.getPage(Secure2uAuthorisationPage)
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
 	, ('username') : username, ('accountName') : accountName], FailureHandling.STOP_ON_FAILURE)
 
 if (status == 'Insufficient') {
@@ -75,13 +75,13 @@ if (status == 'Approve') {
     homePage.tapNotification()
 
     'Verify notification'
-    jomPayPage.verifyNotificationMessage(reference1, RefID, Double.parseDouble(amount) / 100, 'Maybank2u: Payments', 'Successful JomPay')
+    jomPayPage.verifyNotificationMessage(reference1, RefID, Double.parseDouble(amount) / 100, 'Vcb2u: Payments', 'Successful JomPay')
 
     'Back'
     commonPage.tapBack()
 
     'Navigate To View All Accounts'
-    CustomKeywords.'com.maybank.mae.pages.Maybank2u.viewAllAccounts'()
+    CustomKeywords.'com.vcb.mobile.pages.Vcb2u.viewAllAccounts'()
 
     'Select account name'
     accountsPage.selectTab(accountName)
@@ -94,10 +94,10 @@ if (status == 'Approve') {
 }
 
 if (status == 'Approve') {
-    WebUI.callTestCase(findTestCase('Mobile/MAE/Common/M2U History'), [('m2uHistoryProduct') : m2uHistoryProduct, ('m2uHistoryAmount') : StringUtils.getNegativeRMAmount(
+    WebUI.callTestCase(findTestCase('Mobile/VCB/Common/M2U History'), [('m2uHistoryProduct') : m2uHistoryProduct, ('m2uHistoryAmount') : StringUtils.getNegativeRMAmount(
                 amount), ('password') : password], BasePage.defaultFailureHandling)
 
-    WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Verify Favourite Exists'), [('username') : userName, ('password') : password
+    WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Verify Favourite Exists'), [('username') : userName, ('password') : password
             , ('functionName') : tranferName, ('moduleName') : transferTab, ('favouriteName') : favoriteName], BasePage.defaultFailureHandling)
 }
 

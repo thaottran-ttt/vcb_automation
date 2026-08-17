@@ -15,7 +15,7 @@
       <guid>2de3c400-dd2b-4597-b7a8-227e78933dea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Notification/Toggle ON-OFF</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Notification/Toggle ON-OFF</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1d016e89-87c3-47a3-b28b-aae8e57f5761</id>
@@ -55,7 +55,7 @@
       <guid>39a74c7a-31a1-41a8-9066-b68e437bbb04</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Notification/Verify Notification</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Notification/Verify Notification</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ae0816f1-bb4a-4b50-b518-16b075045979</id>

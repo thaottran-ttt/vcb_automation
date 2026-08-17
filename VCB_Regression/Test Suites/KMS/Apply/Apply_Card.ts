@@ -15,7 +15,7 @@
       <guid>6fd9df0b-5d92-491a-967c-feeb81d7c674</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Card/MAE Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Card/VCB Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bf9790e0-b7f4-44cf-8677-6c5cb3d4a089</id>
@@ -121,7 +121,7 @@
       <guid>5f59143e-07fe-478a-9a6e-ca2d5af7ecfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Card/Credit Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Card/Credit Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>af5c85a9-d9f1-4797-b0c7-2e48b1bc3fc6</id>
@@ -287,7 +287,7 @@
       <guid>e4751fbf-9d44-4d43-b373-d543feaa05d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Card/Resume Credit Card Application</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Card/Resume Credit Card Application</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -348,7 +348,7 @@
       <guid>f8bd8e5e-21a3-498e-bba3-6e6b5eb9fe0e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Card/Supplementary Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Card/Supplementary Card</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -391,7 +391,7 @@
       <guid>18156a92-b06f-4c59-9c63-711f47d7f621</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Card/Debit Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Card/Debit Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5384ae58-05f2-431a-aa1f-1f017bcfadf3</id>

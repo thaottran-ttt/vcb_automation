@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D1F8F731DCA15E52E86C1CB851633A26",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.transferpage.AndroidPhoneOverseasTransferPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

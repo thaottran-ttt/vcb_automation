@@ -15,7 +15,7 @@
       <guid>72947619-91b5-4602-9995-0ed88b5ce578</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Loan/Dashboard/Loan Dashboard - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Loan/Dashboard/Loan Dashboard - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a943ec06-9c99-4d93-9605-4b521eeea7c3</id>
@@ -109,7 +109,7 @@
       <guid>e94cea23-338f-4b38-99d9-e0365b98bb09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Loan/Dashboard/Loan Dashboard - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Loan/Dashboard/Loan Dashboard - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1d014ccb-6eca-401b-bd09-f95fc756c19d</id>
@@ -203,7 +203,7 @@
       <guid>c2175186-abaa-4ce6-953b-9b99d8188e9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Loan/Dashboard/Loan Dashboard - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Loan/Dashboard/Loan Dashboard - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ce05bb5f-eccb-4601-b5e5-a3519cd72cca</id>

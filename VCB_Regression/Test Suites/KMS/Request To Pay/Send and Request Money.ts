@@ -15,7 +15,7 @@
       <guid>0bb7c627-73fd-47b6-81e1-dee341060d09</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/Send and request money/Send money/Send and Request - Add contacts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/Send and request money/Send money/Send and Request - Add contacts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9fe2ed39-76f1-41f8-ab78-9cca85500ee6</id>
@@ -73,7 +73,7 @@
       <guid>0556ce74-3c60-469f-ac64-db75b938f8e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/Send and request money/Send money/Send and Request - Entry point - Account details</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/Send and request money/Send money/Send and Request - Entry point - Account details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d6bcda7e-232f-4e95-a196-cc2f1de4095b</id>
@@ -167,7 +167,7 @@
       <guid>13ba3144-3904-4261-a579-7a93054e3bb5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/Send and request money/Send money/Send and Request - Entry point - Wallet</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/Send and request money/Send money/Send and Request - Entry point - Wallet</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8bb5379d-3848-43af-94fa-5e9c95853dae</id>
@@ -279,7 +279,7 @@
       <guid>c7f15674-c907-477e-84d9-81a9de8134d9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/Send and request money/Send money/Send money - special case</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/Send and request money/Send money/Send money - special case</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>db3dd2b4-674f-4a9a-a38c-12dbfa240863</id>
@@ -421,7 +421,7 @@
       <guid>814f67fc-ac7a-49de-9875-4c89badbe185</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/Send and request money/Send money/Send money - success</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/Send and request money/Send money/Send money - success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>be61424b-4b1c-4333-9a0b-8ef2a1606eea</id>
@@ -587,7 +587,7 @@
       <guid>271c201a-a390-450c-895b-29317aad59e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/Send and request money/Request money/Request money - success</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/Send and request money/Request money/Request money - success</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2be19084-7c71-49a4-8e8d-01b637c1615c</id>
@@ -729,7 +729,7 @@
       <guid>f8e36350-bff9-4e61-a910-5a9848be71e6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/Send and request money/Request money/Request money - cancel case</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/Send and request money/Request money/Request money - cancel case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

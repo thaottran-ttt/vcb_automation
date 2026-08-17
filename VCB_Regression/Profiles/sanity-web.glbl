@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description>Framework sanity-check profile: points the Website flow at an external demo login page instead of the real VCB URL, so 'Web Login Smoke Test' can verify the framework (browser launch, keyword layer, object repository, assertions) without touching VCB systems.</description>
+   <name>sanity-web</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>External demo login page used only by Test Cases/Website/Sanity</description>
+      <initValue>'https://acme-test.uipath.com/login'</initValue>
+      <name>G_url</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Framework Web Sanity Check'</initValue>
+      <name>G_projectName</name>
+      <protected>false</protected>
+      <valueType>STRING</valueType>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

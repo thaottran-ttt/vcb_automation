@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DCF91D515D027B046345FBDDAC7C6032",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.chrome.ChromeWebHomePage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

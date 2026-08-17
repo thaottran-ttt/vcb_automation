@@ -15,7 +15,7 @@
       <guid>751f2323-65ad-400c-9a44-f3b3d1efcc86</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/Send and Request - Add contacts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/Send and Request - Add contacts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -64,7 +64,7 @@
       <guid>3f428faf-1469-443c-91ee-5c7c9169f25d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/Send money - success</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/Send money - success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -227,7 +227,7 @@
       <guid>c569372c-6822-402d-a20f-728b15b06729</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/Request money - success</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/Request money - success</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -100,7 +100,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maybank2u'])[1]/preceding::button[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vcb2u'])[1]/preceding::button[1]</value>
       <webElementGuid>dfb416f3-9cdc-450c-a4b6-0652cb8b0b24</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>

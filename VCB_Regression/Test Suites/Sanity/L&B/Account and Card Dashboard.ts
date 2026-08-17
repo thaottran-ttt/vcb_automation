@@ -15,7 +15,7 @@
       <guid>869d3d75-e971-47cd-ac8e-65c868917d35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Account and Card Dashboard/Card Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Account and Card Dashboard/Card Dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -52,7 +52,7 @@
       <guid>c8548036-be1f-4cec-8789-f16fb1edfe8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Account and Card Dashboard/Account Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Account and Card Dashboard/Account Dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>52817be6-eb51-4a26-bf94-9100d9bfc018</id>

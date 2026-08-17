@@ -6039,7 +6039,7 @@
       <guid>82257dab-6290-48ae-8b70-7ab7dadd51b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/M2U/Pay and Transfer/Tabung Haji/Tabung Haji_TH to Other Maybank Account</testCaseId>
+      <testCaseId>Test Cases/Website/M2U/Pay and Transfer/Tabung Haji/Tabung Haji_TH to Other Vcb Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -15,7 +15,7 @@
       <guid>ded1b3f0-6d3c-4295-91ad-2fd18da22fb0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Kawanku</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Kawanku</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bc0acf0a-3e6e-4a52-bf83-6e91a8dd261c</id>
@@ -253,7 +253,7 @@
       <guid>76760be6-9004-4e38-9eb6-78bbbc4b7c64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Kawanku</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Kawanku</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f13d2c20-b8f2-4404-a2ad-d41cf221e785</id>

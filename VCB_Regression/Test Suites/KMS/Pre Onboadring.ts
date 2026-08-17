@@ -15,7 +15,7 @@
       <guid>ced3c28a-d3b8-4ca8-ac88-66d959f6e49f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Pre Onboarding/Data Disclosure - Disagree</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Pre Onboarding/Data Disclosure - Disagree</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

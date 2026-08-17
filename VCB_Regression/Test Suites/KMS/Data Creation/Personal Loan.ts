@@ -15,7 +15,7 @@
       <guid>fb4ddb7f-4621-4ea5-a934-920f7603bd42</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Loan/Personal Loan - Post Onboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Loan/Personal Loan - Post Onboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>90b663cd-4b38-4284-a06e-f995790e16b9</id>

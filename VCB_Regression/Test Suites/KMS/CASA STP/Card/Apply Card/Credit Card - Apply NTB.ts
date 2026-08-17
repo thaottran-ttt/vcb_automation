@@ -15,7 +15,7 @@
       <guid>e8550ff2-914b-454f-afe4-6c929c0c0cb0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Apply Card/Credit Card/Credit Card - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Apply Card/Credit Card/Credit Card - NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

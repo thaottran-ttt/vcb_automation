@@ -15,7 +15,7 @@
       <guid>7d320247-8c8f-4679-bea8-d10ca3a2b626</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - Total Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - Total Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>309547c4-c841-4ba5-a062-ce1626318882</id>
@@ -55,7 +55,7 @@
       <guid>de79551d-ddbf-4b6b-8ae5-b3f46de6d9ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - User without ASNB account - but have entry point</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - User without ASNB account - but have entry point</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0a032cf7-ebb9-44d2-82f5-9c484052b6d1</id>
@@ -95,7 +95,7 @@
       <guid>ef880565-8699-490f-9395-bc2d5d44bd37</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - User with ASNB account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - User with ASNB account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>541353d7-2535-48ed-9fa8-fb99b80f6fe0</id>
@@ -135,7 +135,7 @@
       <guid>2773c895-dcd6-4812-8a8f-5fd35a7bf55f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - MIGA</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - MIGA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8147cab8-8d32-4c44-909a-5157f472def8</id>
@@ -169,7 +169,7 @@
       <guid>e98b78af-f2c9-4e63-ae4d-717b6a839e13</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - MGIA</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - MGIA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5f91106f-9507-45b2-ba73-7b39356a2818</id>
@@ -203,7 +203,7 @@
       <guid>37e5abbe-4f05-44d5-9d80-f9733c48cc9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - Gold and Silver</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - Gold and Silver</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>04bafb32-acf6-4d37-b5a3-f5de3de8b7d1</id>
@@ -237,7 +237,7 @@
       <guid>9af969b1-8404-452b-8740-3827419ecce0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - Unit Trust</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - Unit Trust</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4789825e-a1a8-46c8-a26f-6e4698921172</id>
@@ -271,7 +271,7 @@
       <guid>7dcbfbe2-c74e-4bd7-b0b3-685303c3aaa5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Wealth Dashboard/Wealth Dashboard - Tabung Haji</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Wealth Dashboard/Wealth Dashboard - Tabung Haji</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9722d56a-75f4-46fe-a357-7108c80c8c4d</id>

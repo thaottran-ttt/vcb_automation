@@ -122,7 +122,7 @@
       <name>verifyShareReceiptData</name>
    </variables>
    <variables>
-      <defaultValue>'Maybank2u: Payments'</defaultValue>
+      <defaultValue>'Vcb2u: Payments'</defaultValue>
       <description></description>
       <id>202648fd-06bb-4065-a13c-b0bec642c164</id>
       <masked>false</masked>

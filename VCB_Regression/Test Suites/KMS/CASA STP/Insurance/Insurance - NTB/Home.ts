@@ -15,7 +15,7 @@
       <guid>7a4c7c98-52bf-4f7b-878d-9e7e519581b1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Home/Houseowner_Householder Insurance - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Home/Houseowner_Householder Insurance - NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -58,7 +58,7 @@
       <guid>c68876be-ba10-43ee-85d9-21ec1bb63a11</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Home/Houseowner_Householder Takaful - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Home/Houseowner_Householder Takaful - NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

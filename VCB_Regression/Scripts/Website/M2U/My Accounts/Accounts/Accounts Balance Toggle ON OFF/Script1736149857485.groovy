@@ -14,12 +14,12 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.common.BaseKeyword
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage
-import com.maybank.m2u.internal.pages.base.WebHomePage
-import com.maybank.m2u.internal.pages.base.WebStatusScreenPage
-import com.maybank.m2u.internal.pages.base.accountpage.WebAccountsPage
+import com.vcb.common.BaseKeyword
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage
+import com.vcb.m2u.internal.pages.base.WebHomePage
+import com.vcb.m2u.internal.pages.base.WebStatusScreenPage
+import com.vcb.m2u.internal.pages.base.accountpage.WebAccountsPage
 
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys

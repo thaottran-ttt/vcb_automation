@@ -15,7 +15,7 @@
       <guid>a1b2c3d4-e5f6-7890-abcd-111111111101</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Add Expense</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Add Expense</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b1c2d3e4-f5a6-7890-bcde-111111111101</id>
@@ -97,7 +97,7 @@
       <guid>a1b2c3d4-e5f6-7890-abcd-111111111102</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Add Expense - Add manual transaction</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Add Expense - Add manual transaction</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b1c2d3e4-f5a6-7890-bcde-111111111102</id>
@@ -179,7 +179,7 @@
       <guid>a1b2c3d4-e5f6-7890-abcd-111111111103</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Filter Expense</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Filter Expense</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b1c2d3e4-f5a6-7890-bcde-111111111103</id>
@@ -261,7 +261,7 @@
       <guid>a1b2c3d4-e5f6-7890-abcd-111111111104</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Add Category</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Add Category</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b1c2d3e4-f5a6-7890-bcde-111111111104</id>
@@ -337,7 +337,7 @@
       <guid>a1b2c3d4-e5f6-7890-abcd-111111111105</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Split bill request - Add contacts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Split bill request - Add contacts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b1c2d3e4-f5a6-7890-bcde-111111111105</id>
@@ -395,7 +395,7 @@
       <guid>a1b2c3d4-e5f6-7890-abcd-111111111106</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Split bill request - Split Evenly</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Split bill request - Split Evenly</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b1c2d3e4-f5a6-7890-bcde-111111111106</id>
@@ -483,7 +483,7 @@
       <guid>a1b2c3d4-e5f6-7890-abcd-111111111107</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Expense Split bill - Seperately</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Expense Split bill - Seperately</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b1c2d3e4-f5a6-7890-bcde-111111111107</id>

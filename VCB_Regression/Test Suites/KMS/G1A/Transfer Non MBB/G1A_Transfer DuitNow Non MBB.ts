@@ -15,7 +15,7 @@
       <guid>d1f5e440-9df1-426a-b016-1b6299ea99a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -136,7 +136,7 @@
       <guid>98b2e2b7-2b66-4cc0-b759-138742bdf572</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -257,7 +257,7 @@
       <guid>a5620752-e36a-449c-879d-b000d87000cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -378,7 +378,7 @@
       <guid>14bd9a00-2641-4ffc-b7ed-9f88f341136d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - GIRO - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - GIRO - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -499,7 +499,7 @@
       <guid>61116ef3-2798-4d65-b97b-855663ed59c6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - GIRO - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - GIRO - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -620,7 +620,7 @@
       <guid>5d4674c5-9478-4bde-b996-5d8d6f7a562e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - GIRO - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Transfer/Transfer Non MBB/G1A_Transfer DuitNow Non MBB - GIRO - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

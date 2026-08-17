@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "BCA2ABF83DBD7B4832AEFFB88B42EE77",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.paybill.AndroidPhonePayBillPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>TC_name</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Mobile/MAE/JomPay/JomPay Payment</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/JomPay/JomPay Payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>79c2e194-d08c-4d9e-b3b2-23226060fc72</id>
@@ -147,7 +147,7 @@
          <masked>false</masked>
          <name>TC_name</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Mobile/MAE/JomPay/Access JomPay Section</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/JomPay/Access JomPay Section</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>17d91e82-9c60-4ba0-938c-926b6e967508</id>
@@ -205,7 +205,7 @@
       <guid>4899f283-f5e4-4cd4-be72-203f9394b11a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/JomPay/JomPay Payment - Special Cases</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/JomPay/JomPay Payment - Special Cases</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8a1cc29f-37c9-4f60-9ca4-14181587d7e9</id>

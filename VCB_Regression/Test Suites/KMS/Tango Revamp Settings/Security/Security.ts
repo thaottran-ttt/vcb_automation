@@ -15,7 +15,7 @@
       <guid>c8d4aa46-cd96-4ddf-87d4-4bb473f81391</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Security/TANGOMAESR-SECURITY</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Security/TANGOMAESR-SECURITY</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>21f09785-4732-41ab-a620-b6018b707d5f</id>

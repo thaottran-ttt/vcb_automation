@@ -177,7 +177,7 @@
       <name>payToData</name>
    </variable>
    <variable>
-      <defaultValue>[('Transaction Method') : 'Maybank Overseas Transfer', ('Nationality') : 'Malaysian(Citizen/Permanent Resident)']</defaultValue>
+      <defaultValue>[('Transaction Method') : 'Vcb Overseas Transfer', ('Nationality') : 'Malaysian(Citizen/Permanent Resident)']</defaultValue>
       <description></description>
       <id>eabb216c-5841-4491-acce-181a541ec46b</id>
       <masked>false</masked>

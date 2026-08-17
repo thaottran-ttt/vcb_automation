@@ -17,8 +17,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.fixeddeposit.WebFixedDepositPage
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.fixeddeposit.WebFixedDepositPage
 
 
 WebFixedDepositPage webFixedDepositPage = WebBasePage.getPage(WebFixedDepositPage)

@@ -15,7 +15,7 @@
       <guid>3132d235-3b5f-4b3e-87a7-6a38a126efdd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Boosters - Guilty Pleasure</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Boosters - Guilty Pleasure</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>806f69f5-18b2-429c-a6f4-b56844fe878c</id>
@@ -97,7 +97,7 @@
       <guid>85b696c2-34c9-402d-b1ba-925056f197a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Boosters - Scan and Save</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Boosters - Scan and Save</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ca70307f-0250-4b97-b736-3ea4887bb483</id>
@@ -167,7 +167,7 @@
       <guid>b59e9798-4b47-4b18-be8a-e369e6b00998</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Boosters - Spare Change</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Boosters - Spare Change</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>851bc79a-6a04-42f6-bb08-639789b9f3e2</id>
@@ -237,7 +237,7 @@
       <guid>af55ba0c-7f9e-4314-b77c-329dd6a07c69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung/Boosters - On Off Toggle</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung/Boosters - On Off Toggle</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5804f565-88f7-4c51-91f5-9902b02bbada</id>

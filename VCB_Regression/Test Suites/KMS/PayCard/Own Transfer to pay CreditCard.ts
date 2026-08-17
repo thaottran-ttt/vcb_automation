@@ -15,7 +15,7 @@
       <guid>6a1695e8-6373-4160-af6c-adc99ae427ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Own Transfer to pay CreditCard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Own Transfer to pay CreditCard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -15,7 +15,7 @@
       <guid>1938e449-4234-469c-acee-1128850ff8a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/Add Currency</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/Add Currency</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -118,7 +118,7 @@
       <guid>afdf2604-e5a4-4f37-9fe9-ea587ba74862</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/Remove Currency</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/Remove Currency</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -221,7 +221,7 @@
       <guid>df814fdd-4d34-48bc-8abe-7b93bfb77a47</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/Watch list</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/Watch list</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -324,7 +324,7 @@
       <guid>cc17062d-4f3f-42f5-9298-ace48a1144af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/Currency Calculator</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/Currency Calculator</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -439,7 +439,7 @@
       <guid>f5b03b98-5599-463d-b48f-0ca073d4d0d8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/Convert Currency - Expire</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/Convert Currency - Expire</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -560,7 +560,7 @@
       <guid>ba1d20be-35ac-41e2-ba14-9c5a6988efdc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/Convert Currency - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/Convert Currency - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -681,7 +681,7 @@
       <guid>19b059ef-3754-48b5-9df2-943abce84346</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/Convert Currency - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/Convert Currency - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

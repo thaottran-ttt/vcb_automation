@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "7207DD46ADF2DAA89936BB09B732DB99",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.EnterAmountPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

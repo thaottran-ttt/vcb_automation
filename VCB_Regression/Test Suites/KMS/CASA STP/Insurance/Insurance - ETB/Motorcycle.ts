@@ -15,7 +15,7 @@
       <guid>bf9e4eb0-4483-4b9b-b4bf-c831ddc4450c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Motorcycle/Motorcycle Insurance - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Motorcycle/Motorcycle Insurance - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fafbd11c-cd62-44f4-96c2-5942065ef5c9</id>
@@ -79,7 +79,7 @@
       <guid>2ae46151-4353-4b39-944f-37966afd615c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Motorcycle/Motorcycle Takaful - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Motorcycle/Motorcycle Takaful - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e3860386-ceb0-4006-acd7-5210bd8f5e27</id>

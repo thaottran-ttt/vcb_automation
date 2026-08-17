@@ -15,7 +15,7 @@
       <guid>723a07e1-5ad4-469d-b580-5e7e4710ea38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Registration/ScanPay_Register_Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Registration/ScanPay_Register_Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3f25685a-71dd-4378-9ec7-e38b43bcac98</id>
@@ -97,7 +97,7 @@
       <guid>926436ea-b809-40d7-8585-9122ef5c1122</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Registration/ScanPay_Register_Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Registration/ScanPay_Register_Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>66879af4-662c-4835-8ea7-ef977f190425</id>
@@ -173,7 +173,7 @@
       <guid>126d83ab-bf7a-4b19-9dad-bfaa84c4f3cf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Scan and Pay/Registration/ScanPay_Register_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Scan and Pay/Registration/ScanPay_Register_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>68cff42c-b729-4f71-8a17-36f9cbde21d5</id>

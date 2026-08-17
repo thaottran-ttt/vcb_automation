@@ -15,7 +15,7 @@
       <guid>16240719-f013-4cc9-938f-1a6231ebb218</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Common/Login</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Common/Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -70,7 +70,7 @@
       <guid>9bb1fb9e-a3c9-4b6f-95ba-1dd0a082e569</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Common/Login Invalid</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Common/Login Invalid</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -125,7 +125,7 @@
       <guid>d33b8062-5c57-40b1-a3e6-77a6d6af0875</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Common/Logout</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Common/Logout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

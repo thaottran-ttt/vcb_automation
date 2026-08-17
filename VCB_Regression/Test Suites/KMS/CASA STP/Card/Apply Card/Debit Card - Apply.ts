@@ -15,7 +15,7 @@
       <guid>54fbd99f-f50e-47a2-a972-8377095f8df5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Apply Card/Debit Card/NTB/Debit Card - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Apply Card/Debit Card/NTB/Debit Card - NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -40,7 +40,7 @@
       <guid>6f12a49b-8943-460c-a111-5177e39147cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Apply Card/Debit Card/ETB/Debit Card - ETB Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Apply Card/Debit Card/ETB/Debit Card - ETB Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ebe5b6f2-eb9d-491c-971e-fb4f400acb56</id>

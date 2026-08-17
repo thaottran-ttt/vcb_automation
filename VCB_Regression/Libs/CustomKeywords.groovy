@@ -29,24 +29,24 @@ import org.apache.poi.ss.usermodel.Row
 
 import com.kms.katalon.core.testobject.MobileTestObject
 
-import com.maybank.common.MobileDriver.ScrollDirectionEnum
+import com.vcb.common.MobileDriver.ScrollDirectionEnum
 
 import java.lang.Object
 
 
 
-def static "com.maybank.m2u.pages.WebCommon.openBrowserAndBypassSecure"(
+def static "com.vcb.m2u.pages.WebCommon.openBrowserAndBypassSecure"(
     	String url	
      , 	boolean isRunWebsiteAndMobile	) {
-    (new com.maybank.m2u.pages.WebCommon()).openBrowserAndBypassSecure(
+    (new com.vcb.m2u.pages.WebCommon()).openBrowserAndBypassSecure(
         	url
          , 	isRunWebsiteAndMobile)
 }
 
 
-def static "com.maybank.utils.RegexUtils.patternChecking"(
+def static "com.vcb.utils.RegexUtils.patternChecking"(
     	String testString	) {
-    (new com.maybank.utils.RegexUtils()).patternChecking(
+    (new com.vcb.utils.RegexUtils()).patternChecking(
         	testString)
 }
 
@@ -56,13 +56,13 @@ def static "com.maybank.utils.RegexUtils.patternChecking"(
 	 * @param subStr substring
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.StringAssert.contains"(
+def static "com.vcb.assertions.StringAssert.contains"(
     	String sourceStr	
      , 	String subStr	
      , 	boolean caseSensitive	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.StringAssert()).contains(
+    (new com.vcb.assertions.StringAssert()).contains(
         	sourceStr
          , 	subStr
          , 	caseSensitive
@@ -76,13 +76,13 @@ def static "com.maybank.assertions.StringAssert.contains"(
 	 * @param subStr substring
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.StringAssert.notContains"(
+def static "com.vcb.assertions.StringAssert.notContains"(
     	String sourceStr	
      , 	String subStr	
      , 	boolean caseSensitive	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.StringAssert()).notContains(
+    (new com.vcb.assertions.StringAssert()).notContains(
         	sourceStr
          , 	subStr
          , 	caseSensitive
@@ -96,13 +96,13 @@ def static "com.maybank.assertions.StringAssert.notContains"(
 	 * @param subStr substring
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.StringAssert.equals"(
+def static "com.vcb.assertions.StringAssert.equals"(
     	String sourceStr	
      , 	String subStr	
      , 	boolean caseSensitive	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.StringAssert()).equals(
+    (new com.vcb.assertions.StringAssert()).equals(
         	sourceStr
          , 	subStr
          , 	caseSensitive
@@ -116,13 +116,13 @@ def static "com.maybank.assertions.StringAssert.equals"(
 	 * @param prefix
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.StringAssert.startsWith"(
+def static "com.vcb.assertions.StringAssert.startsWith"(
     	String sourceStr	
      , 	String prefix	
      , 	boolean caseSensitive	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.StringAssert()).startsWith(
+    (new com.vcb.assertions.StringAssert()).startsWith(
         	sourceStr
          , 	prefix
          , 	caseSensitive
@@ -136,13 +136,13 @@ def static "com.maybank.assertions.StringAssert.startsWith"(
 	 * @param suffix
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.StringAssert.endsWith"(
+def static "com.vcb.assertions.StringAssert.endsWith"(
     	String sourceStr	
      , 	String suffix	
      , 	boolean caseSensitive	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.StringAssert()).endsWith(
+    (new com.vcb.assertions.StringAssert()).endsWith(
         	sourceStr
          , 	suffix
          , 	caseSensitive
@@ -156,12 +156,12 @@ def static "com.maybank.assertions.StringAssert.endsWith"(
 	 * @param description
 	 * @param regex
 	 */ 
-def static "com.maybank.assertions.StringAssert.matches"(
+def static "com.vcb.assertions.StringAssert.matches"(
     	String sourceStr	
      , 	String regex	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.StringAssert()).matches(
+    (new com.vcb.assertions.StringAssert()).matches(
         	sourceStr
          , 	regex
          , 	description
@@ -169,12 +169,12 @@ def static "com.maybank.assertions.StringAssert.matches"(
 }
 
 
-def static "com.maybank.assertions.StringAssert.contains"(
+def static "com.vcb.assertions.StringAssert.contains"(
     	String sourceStr	
      , 	String subStr	
      , 	boolean caseSensitive	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).contains(
+    (new com.vcb.assertions.StringAssert()).contains(
         	sourceStr
          , 	subStr
          , 	caseSensitive
@@ -182,23 +182,23 @@ def static "com.maybank.assertions.StringAssert.contains"(
 }
 
 
-def static "com.maybank.assertions.StringAssert.contains"(
+def static "com.vcb.assertions.StringAssert.contains"(
     	String sourceStr	
      , 	String subStr	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).contains(
+    (new com.vcb.assertions.StringAssert()).contains(
         	sourceStr
          , 	subStr
          , 	description)
 }
 
 
-def static "com.maybank.assertions.StringAssert.notContains"(
+def static "com.vcb.assertions.StringAssert.notContains"(
     	String sourceStr	
      , 	String subStr	
      , 	boolean caseSensitive	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).notContains(
+    (new com.vcb.assertions.StringAssert()).notContains(
         	sourceStr
          , 	subStr
          , 	caseSensitive
@@ -206,23 +206,23 @@ def static "com.maybank.assertions.StringAssert.notContains"(
 }
 
 
-def static "com.maybank.assertions.StringAssert.notContains"(
+def static "com.vcb.assertions.StringAssert.notContains"(
     	String sourceStr	
      , 	String subStr	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).notContains(
+    (new com.vcb.assertions.StringAssert()).notContains(
         	sourceStr
          , 	subStr
          , 	description)
 }
 
 
-def static "com.maybank.assertions.StringAssert.equals"(
+def static "com.vcb.assertions.StringAssert.equals"(
     	String sourceStr	
      , 	String subStr	
      , 	boolean caseSensitive	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).equals(
+    (new com.vcb.assertions.StringAssert()).equals(
         	sourceStr
          , 	subStr
          , 	caseSensitive
@@ -230,23 +230,23 @@ def static "com.maybank.assertions.StringAssert.equals"(
 }
 
 
-def static "com.maybank.assertions.StringAssert.equals"(
+def static "com.vcb.assertions.StringAssert.equals"(
     	String sourceStr	
      , 	String subStr	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).equals(
+    (new com.vcb.assertions.StringAssert()).equals(
         	sourceStr
          , 	subStr
          , 	description)
 }
 
 
-def static "com.maybank.assertions.StringAssert.startsWith"(
+def static "com.vcb.assertions.StringAssert.startsWith"(
     	String sourceStr	
      , 	String prefix	
      , 	boolean caseSensitive	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).startsWith(
+    (new com.vcb.assertions.StringAssert()).startsWith(
         	sourceStr
          , 	prefix
          , 	caseSensitive
@@ -254,23 +254,23 @@ def static "com.maybank.assertions.StringAssert.startsWith"(
 }
 
 
-def static "com.maybank.assertions.StringAssert.startsWith"(
+def static "com.vcb.assertions.StringAssert.startsWith"(
     	String sourceStr	
      , 	String prefix	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).startsWith(
+    (new com.vcb.assertions.StringAssert()).startsWith(
         	sourceStr
          , 	prefix
          , 	description)
 }
 
 
-def static "com.maybank.assertions.StringAssert.endsWith"(
+def static "com.vcb.assertions.StringAssert.endsWith"(
     	String sourceStr	
      , 	String suffix	
      , 	boolean caseSensitive	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).endsWith(
+    (new com.vcb.assertions.StringAssert()).endsWith(
         	sourceStr
          , 	suffix
          , 	caseSensitive
@@ -278,22 +278,22 @@ def static "com.maybank.assertions.StringAssert.endsWith"(
 }
 
 
-def static "com.maybank.assertions.StringAssert.endsWith"(
+def static "com.vcb.assertions.StringAssert.endsWith"(
     	String sourceStr	
      , 	String suffix	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).endsWith(
+    (new com.vcb.assertions.StringAssert()).endsWith(
         	sourceStr
          , 	suffix
          , 	description)
 }
 
 
-def static "com.maybank.assertions.StringAssert.matches"(
+def static "com.vcb.assertions.StringAssert.matches"(
     	String sourceStr	
      , 	String regex	
      , 	String description	) {
-    (new com.maybank.assertions.StringAssert()).matches(
+    (new com.vcb.assertions.StringAssert()).matches(
         	sourceStr
          , 	regex
          , 	description)
@@ -305,12 +305,12 @@ def static "com.maybank.assertions.StringAssert.matches"(
 	 * @param b number on the right side
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.NumberAssert.isGreaterThan"(
+def static "com.vcb.assertions.NumberAssert.isGreaterThan"(
     	Number a	
      , 	Number b	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.NumberAssert()).isGreaterThan(
+    (new com.vcb.assertions.NumberAssert()).isGreaterThan(
         	a
          , 	b
          , 	description
@@ -323,12 +323,12 @@ def static "com.maybank.assertions.NumberAssert.isGreaterThan"(
 	 * @param b number on the right side
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.NumberAssert.isGreaterThanOrEqual"(
+def static "com.vcb.assertions.NumberAssert.isGreaterThanOrEqual"(
     	Number a	
      , 	Number b	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.NumberAssert()).isGreaterThanOrEqual(
+    (new com.vcb.assertions.NumberAssert()).isGreaterThanOrEqual(
         	a
          , 	b
          , 	description
@@ -341,12 +341,12 @@ def static "com.maybank.assertions.NumberAssert.isGreaterThanOrEqual"(
 	 * @param b number on the right side
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.NumberAssert.isLessThan"(
+def static "com.vcb.assertions.NumberAssert.isLessThan"(
     	Number a	
      , 	Number b	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.NumberAssert()).isLessThan(
+    (new com.vcb.assertions.NumberAssert()).isLessThan(
         	a
          , 	b
          , 	description
@@ -359,12 +359,12 @@ def static "com.maybank.assertions.NumberAssert.isLessThan"(
 	 * @param b number on the right side
 	 * @param description detail of evaluation
 	 */ 
-def static "com.maybank.assertions.NumberAssert.isLessThanOrEqual"(
+def static "com.vcb.assertions.NumberAssert.isLessThanOrEqual"(
     	Number a	
      , 	Number b	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.NumberAssert()).isLessThanOrEqual(
+    (new com.vcb.assertions.NumberAssert()).isLessThanOrEqual(
         	a
          , 	b
          , 	description
@@ -372,173 +372,173 @@ def static "com.maybank.assertions.NumberAssert.isLessThanOrEqual"(
 }
 
 
-def static "com.maybank.assertions.NumberAssert.isGreaterThan"(
+def static "com.vcb.assertions.NumberAssert.isGreaterThan"(
     	Number a	
      , 	Number b	
      , 	String description	) {
-    (new com.maybank.assertions.NumberAssert()).isGreaterThan(
+    (new com.vcb.assertions.NumberAssert()).isGreaterThan(
         	a
          , 	b
          , 	description)
 }
 
 
-def static "com.maybank.assertions.NumberAssert.isGreaterThanOrEqual"(
+def static "com.vcb.assertions.NumberAssert.isGreaterThanOrEqual"(
     	Number a	
      , 	Number b	
      , 	String description	) {
-    (new com.maybank.assertions.NumberAssert()).isGreaterThanOrEqual(
+    (new com.vcb.assertions.NumberAssert()).isGreaterThanOrEqual(
         	a
          , 	b
          , 	description)
 }
 
 
-def static "com.maybank.assertions.NumberAssert.isLessThan"(
+def static "com.vcb.assertions.NumberAssert.isLessThan"(
     	Number a	
      , 	Number b	
      , 	String description	) {
-    (new com.maybank.assertions.NumberAssert()).isLessThan(
+    (new com.vcb.assertions.NumberAssert()).isLessThan(
         	a
          , 	b
          , 	description)
 }
 
 
-def static "com.maybank.assertions.NumberAssert.isLessThanOrEqual"(
+def static "com.vcb.assertions.NumberAssert.isLessThanOrEqual"(
     	Number a	
      , 	Number b	
      , 	String description	) {
-    (new com.maybank.assertions.NumberAssert()).isLessThanOrEqual(
+    (new com.vcb.assertions.NumberAssert()).isLessThanOrEqual(
         	a
          , 	b
          , 	description)
 }
 
 
-def static "com.maybank.mae.pages.Account.getAccountInfo"(
+def static "com.vcb.mobile.pages.Account.getAccountInfo"(
     	int timeout	
      , 	Object flowControl	) {
-    (new com.maybank.mae.pages.Account()).getAccountInfo(
+    (new com.vcb.mobile.pages.Account()).getAccountInfo(
         	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Account.getCreditAccountInfo"(
+def static "com.vcb.mobile.pages.Account.getCreditAccountInfo"(
     	int timeout	
      , 	Object flowControl	) {
-    (new com.maybank.mae.pages.Account()).getCreditAccountInfo(
+    (new com.vcb.mobile.pages.Account()).getCreditAccountInfo(
         	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Account.clickThreeDotsButton"(
+def static "com.vcb.mobile.pages.Account.clickThreeDotsButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Account()).clickThreeDotsButton(
+    (new com.vcb.mobile.pages.Account()).clickThreeDotsButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Account.verifyContactBankText"(
+def static "com.vcb.mobile.pages.Account.verifyContactBankText"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Account()).verifyContactBankText(
+    (new com.vcb.mobile.pages.Account()).verifyContactBankText(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Account.getAccountInfo"(
+def static "com.vcb.mobile.pages.Account.getAccountInfo"(
     	int timeout	) {
-    (new com.maybank.mae.pages.Account()).getAccountInfo(
+    (new com.vcb.mobile.pages.Account()).getAccountInfo(
         	timeout)
 }
 
 
-def static "com.maybank.mae.pages.Account.getAccountInfo"() {
-    (new com.maybank.mae.pages.Account()).getAccountInfo()
+def static "com.vcb.mobile.pages.Account.getAccountInfo"() {
+    (new com.vcb.mobile.pages.Account()).getAccountInfo()
 }
 
 
-def static "com.maybank.mae.pages.Account.getCreditAccountInfo"(
+def static "com.vcb.mobile.pages.Account.getCreditAccountInfo"(
     	int timeout	) {
-    (new com.maybank.mae.pages.Account()).getCreditAccountInfo(
+    (new com.vcb.mobile.pages.Account()).getCreditAccountInfo(
         	timeout)
 }
 
 
-def static "com.maybank.mae.pages.Account.getCreditAccountInfo"() {
-    (new com.maybank.mae.pages.Account()).getCreditAccountInfo()
+def static "com.vcb.mobile.pages.Account.getCreditAccountInfo"() {
+    (new com.vcb.mobile.pages.Account()).getCreditAccountInfo()
 }
 
 
-def static "com.maybank.helper.RestAPIHelper.getJsonObject"(
+def static "com.vcb.helper.RestAPIHelper.getJsonObject"(
     	TestObject request	
      , 	FailureHandling controlFlow	) {
-    (new com.maybank.helper.RestAPIHelper()).getJsonObject(
+    (new com.vcb.helper.RestAPIHelper()).getJsonObject(
         	request
          , 	controlFlow)
 }
 
 
-def static "com.maybank.helper.RestAPIHelper.getJsonObject"(
+def static "com.vcb.helper.RestAPIHelper.getJsonObject"(
     	TestObject request	) {
-    (new com.maybank.helper.RestAPIHelper()).getJsonObject(
+    (new com.vcb.helper.RestAPIHelper()).getJsonObject(
         	request)
 }
 
 
-def static "com.maybank.mae.pages.Secure2u.navigateHomePage"(
+def static "com.vcb.mobile.pages.Secure2u.navigateHomePage"(
     	String PAN	
      , 	String password	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Secure2u()).navigateHomePage(
+    (new com.vcb.mobile.pages.Secure2u()).navigateHomePage(
         	PAN
          , 	password
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Secure2u.enterIdNumber"(
+def static "com.vcb.mobile.pages.Secure2u.enterIdNumber"(
     	String idNumber	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Secure2u()).enterIdNumber(
+    (new com.vcb.mobile.pages.Secure2u()).enterIdNumber(
         	idNumber
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Secure2u.activeSecure2uAtm"(
+def static "com.vcb.mobile.pages.Secure2u.activeSecure2uAtm"(
     	String PAN	
      , 	String password	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Secure2u()).activeSecure2uAtm(
+    (new com.vcb.mobile.pages.Secure2u()).activeSecure2uAtm(
         	PAN
          , 	password
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Secure2u.navigateHomePage"(
+def static "com.vcb.mobile.pages.Secure2u.navigateHomePage"(
     	String PAN	
      , 	String password	) {
-    (new com.maybank.mae.pages.Secure2u()).navigateHomePage(
+    (new com.vcb.mobile.pages.Secure2u()).navigateHomePage(
         	PAN
          , 	password)
 }
 
 
-def static "com.maybank.mae.pages.Secure2u.enterIdNumber"(
+def static "com.vcb.mobile.pages.Secure2u.enterIdNumber"(
     	String idNumber	) {
-    (new com.maybank.mae.pages.Secure2u()).enterIdNumber(
+    (new com.vcb.mobile.pages.Secure2u()).enterIdNumber(
         	idNumber)
 }
 
 
-def static "com.maybank.mae.pages.Secure2u.activeSecure2uAtm"(
+def static "com.vcb.mobile.pages.Secure2u.activeSecure2uAtm"(
     	String PAN	
      , 	String password	) {
-    (new com.maybank.mae.pages.Secure2u()).activeSecure2uAtm(
+    (new com.vcb.mobile.pages.Secure2u()).activeSecure2uAtm(
         	PAN
          , 	password)
 }
@@ -546,19 +546,19 @@ def static "com.maybank.mae.pages.Secure2u.activeSecure2uAtm"(
  /**
 	 * Exception Handling
 	 * */ 
-def static "com.maybank.common.BaseKeyword.handleError"(
+def static "com.vcb.common.BaseKeyword.handleError"(
     	String message	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.BaseKeyword()).handleError(
+    (new com.vcb.common.BaseKeyword()).handleError(
         	message
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.BaseKeyword.handleError"(
+def static "com.vcb.common.BaseKeyword.handleError"(
     	Exception ex	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.BaseKeyword()).handleError(
+    (new com.vcb.common.BaseKeyword()).handleError(
         	ex
          , 	flowControl)
 }
@@ -566,22 +566,22 @@ def static "com.maybank.common.BaseKeyword.handleError"(
  /**
 	 * Log Info
 	 * */ 
-def static "com.maybank.common.BaseKeyword.info"(
+def static "com.vcb.common.BaseKeyword.info"(
     	Object message	) {
-    (new com.maybank.common.BaseKeyword()).info(
+    (new com.vcb.common.BaseKeyword()).info(
         	message)
 }
 
 
-def static "com.maybank.common.BaseKeyword.markPassed"(
+def static "com.vcb.common.BaseKeyword.markPassed"(
     	Object message	) {
-    (new com.maybank.common.BaseKeyword()).markPassed(
+    (new com.vcb.common.BaseKeyword()).markPassed(
         	message)
 }
 
 
-def static "com.maybank.common.BaseKeyword.runFromTestCloud"() {
-    (new com.maybank.common.BaseKeyword()).runFromTestCloud()
+def static "com.vcb.common.BaseKeyword.runFromTestCloud"() {
+    (new com.vcb.common.BaseKeyword()).runFromTestCloud()
 }
 
  /**
@@ -593,41 +593,41 @@ def static "com.maybank.common.BaseKeyword.runFromTestCloud"() {
 	 * @param port The port of the running Chrome instance (default: 9222).
 	 * @return A WebDriver instance connected to the running Chrome instance.
 	 */ 
-def static "com.maybank.common.BaseKeyword.connectToRunningClient"(
+def static "com.vcb.common.BaseKeyword.connectToRunningClient"(
     	int port	) {
-    (new com.maybank.common.BaseKeyword()).connectToRunningClient(
+    (new com.vcb.common.BaseKeyword()).connectToRunningClient(
         	port)
 }
 
 
-def static "com.maybank.common.BaseKeyword.setFailureHandling"(
+def static "com.vcb.common.BaseKeyword.setFailureHandling"(
     	String flowControl	) {
-    (new com.maybank.common.BaseKeyword()).setFailureHandling(
+    (new com.vcb.common.BaseKeyword()).setFailureHandling(
         	flowControl)
 }
 
 
-def static "com.maybank.common.BaseKeyword.testFlowControl"(
+def static "com.vcb.common.BaseKeyword.testFlowControl"(
     	FailureHandling flowControl	) {
-    (new com.maybank.common.BaseKeyword()).testFlowControl(
+    (new com.vcb.common.BaseKeyword()).testFlowControl(
         	flowControl)
 }
 
 
-def static "com.maybank.common.BaseKeyword.handleError"(
+def static "com.vcb.common.BaseKeyword.handleError"(
     	Exception ex	) {
-    (new com.maybank.common.BaseKeyword()).handleError(
+    (new com.vcb.common.BaseKeyword()).handleError(
         	ex)
 }
 
 
-def static "com.maybank.common.BaseKeyword.connectToRunningClient"() {
-    (new com.maybank.common.BaseKeyword()).connectToRunningClient()
+def static "com.vcb.common.BaseKeyword.connectToRunningClient"() {
+    (new com.vcb.common.BaseKeyword()).connectToRunningClient()
 }
 
 
-def static "com.maybank.common.BaseKeyword.testFlowControl"() {
-    (new com.maybank.common.BaseKeyword()).testFlowControl()
+def static "com.vcb.common.BaseKeyword.testFlowControl"() {
+    (new com.vcb.common.BaseKeyword()).testFlowControl()
 }
 
  /**
@@ -636,12 +636,12 @@ def static "com.maybank.common.BaseKeyword.testFlowControl"() {
 	 * pathObject: Path repository of object
 	 * @return: true if all text in lst is display
 	 */ 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifyElements"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifyElements"(
     	List lst	
      , 	String pathObject	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifyElements(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifyElements(
         	lst
          , 	pathObject
          , 	timeout
@@ -654,12 +654,12 @@ def static "com.maybank.mae.internal.pages.base.BasePage.verifyElements"(
 	 * pathObject: Path repository of object
 	 * @return: true if all text in lst is display
 	 */ 
-def static "com.maybank.mae.internal.pages.base.BasePage.scrollToAndVerifyTextInList"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.scrollToAndVerifyTextInList"(
     	List lst	
      , 	String pathObject	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).scrollToAndVerifyTextInList(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).scrollToAndVerifyTextInList(
         	lst
          , 	pathObject
          , 	timeout
@@ -672,12 +672,12 @@ def static "com.maybank.mae.internal.pages.base.BasePage.scrollToAndVerifyTextIn
 	 * pathObject: Path repository of object
 	 * @return true if 1 item in lst is display
 	 */ 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifySomeElementsMatchInList"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifySomeElementsMatchInList"(
     	List lst	
      , 	String pathObject	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifySomeElementsMatchInList(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifySomeElementsMatchInList(
         	lst
          , 	pathObject
          , 	timeout
@@ -689,9 +689,9 @@ def static "com.maybank.mae.internal.pages.base.BasePage.verifySomeElementsMatch
 	 * @param
 	 * @return
 	 */ 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifyFormatMoney"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifyFormatMoney"(
     	List lst	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifyFormatMoney(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifyFormatMoney(
         	lst)
 }
 
@@ -700,9 +700,9 @@ def static "com.maybank.mae.internal.pages.base.BasePage.verifyFormatMoney"(
 	 * @param
 	 * @return
 	 */ 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifyFormatMoneyRM"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifyFormatMoneyRM"(
     	List lst	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifyFormatMoneyRM(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifyFormatMoneyRM(
         	lst)
 }
 
@@ -711,9 +711,9 @@ def static "com.maybank.mae.internal.pages.base.BasePage.verifyFormatMoneyRM"(
 	 * @param
 	 * @return
 	 */ 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifyFormatDate"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifyFormatDate"(
     	List lst	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifyFormatDate(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifyFormatDate(
         	lst)
 }
 
@@ -722,58 +722,58 @@ def static "com.maybank.mae.internal.pages.base.BasePage.verifyFormatDate"(
 	 * @param
 	 * @return
 	 */ 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifyFormatAccountNumber"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifyFormatAccountNumber"(
     	List lst	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifyFormatAccountNumber(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifyFormatAccountNumber(
         	lst)
 }
 
 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifyElements"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifyElements"(
     	List lst	
      , 	String pathObject	
      , 	int timeout	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifyElements(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifyElements(
         	lst
          , 	pathObject
          , 	timeout)
 }
 
 
-def static "com.maybank.mae.internal.pages.base.BasePage.scrollToAndVerifyTextInList"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.scrollToAndVerifyTextInList"(
     	List lst	
      , 	String pathObject	
      , 	int timeout	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).scrollToAndVerifyTextInList(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).scrollToAndVerifyTextInList(
         	lst
          , 	pathObject
          , 	timeout)
 }
 
 
-def static "com.maybank.mae.internal.pages.base.BasePage.verifySomeElementsMatchInList"(
+def static "com.vcb.mobile.internal.pages.base.BasePage.verifySomeElementsMatchInList"(
     	List lst	
      , 	String pathObject	
      , 	int timeout	) {
-    (new com.maybank.mae.internal.pages.base.BasePage()).verifySomeElementsMatchInList(
+    (new com.vcb.mobile.internal.pages.base.BasePage()).verifySomeElementsMatchInList(
         	lst
          , 	pathObject
          , 	timeout)
 }
 
 
-def static "com.maybank.mae.pages.SecurityQuestion.inputAnswer"(
+def static "com.vcb.mobile.pages.SecurityQuestion.inputAnswer"(
     	String answer	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.SecurityQuestion()).inputAnswer(
+    (new com.vcb.mobile.pages.SecurityQuestion()).inputAnswer(
         	answer
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.SecurityQuestion.inputAnswer"(
+def static "com.vcb.mobile.pages.SecurityQuestion.inputAnswer"(
     	String answer	) {
-    (new com.maybank.mae.pages.SecurityQuestion()).inputAnswer(
+    (new com.vcb.mobile.pages.SecurityQuestion()).inputAnswer(
         	answer)
 }
 
@@ -782,9 +782,9 @@ def static "com.maybank.mae.pages.SecurityQuestion.inputAnswer"(
 	 * @param amount in String
 	 * @return amount in Long
 	 */ 
-def static "com.maybank.utils.StringUtils.parseAmountStringToIntegerInApp"(
+def static "com.vcb.utils.StringUtils.parseAmountStringToIntegerInApp"(
     	String amount	) {
-    (new com.maybank.utils.StringUtils()).parseAmountStringToIntegerInApp(
+    (new com.vcb.utils.StringUtils()).parseAmountStringToIntegerInApp(
         	amount)
 }
 
@@ -793,76 +793,76 @@ def static "com.maybank.utils.StringUtils.parseAmountStringToIntegerInApp"(
 	 * @param String and pattern
 	 * @return string mattched
 	 */ 
-def static "com.maybank.utils.StringUtils.extractStrPattern"(
+def static "com.vcb.utils.StringUtils.extractStrPattern"(
     	String str	
      , 	String pattern	
      , 	boolean allString	) {
-    (new com.maybank.utils.StringUtils()).extractStrPattern(
+    (new com.vcb.utils.StringUtils()).extractStrPattern(
         	str
          , 	pattern
          , 	allString)
 }
 
 
-def static "com.maybank.utils.StringUtils.extractNumber"(
+def static "com.vcb.utils.StringUtils.extractNumber"(
     	Object balance	) {
-    (new com.maybank.utils.StringUtils()).extractNumber(
+    (new com.vcb.utils.StringUtils()).extractNumber(
         	balance)
 }
 
 
-def static "com.maybank.utils.StringUtils.createStrRandom"(
+def static "com.vcb.utils.StringUtils.createStrRandom"(
     	int length	) {
-    (new com.maybank.utils.StringUtils()).createStrRandom(
+    (new com.vcb.utils.StringUtils()).createStrRandom(
         	length)
 }
 
 
-def static "com.maybank.utils.StringUtils.createNumberRandom"(
+def static "com.vcb.utils.StringUtils.createNumberRandom"(
     	int length	) {
-    (new com.maybank.utils.StringUtils()).createNumberRandom(
+    (new com.vcb.utils.StringUtils()).createNumberRandom(
         	length)
 }
 
 
-def static "com.maybank.utils.StringUtils.concatString"(
+def static "com.vcb.utils.StringUtils.concatString"(
     	String str1	
      , 	String str2	
      , 	String con	) {
-    (new com.maybank.utils.StringUtils()).concatString(
+    (new com.vcb.utils.StringUtils()).concatString(
         	str1
          , 	str2
          , 	con)
 }
 
 
-def static "com.maybank.utils.StringUtils.convertBalanceAmountNumber"(
+def static "com.vcb.utils.StringUtils.convertBalanceAmountNumber"(
     	String amountInput	) {
-    (new com.maybank.utils.StringUtils()).convertBalanceAmountNumber(
+    (new com.vcb.utils.StringUtils()).convertBalanceAmountNumber(
         	amountInput)
 }
 
 
-def static "com.maybank.utils.StringUtils.formatToMoney"(
+def static "com.vcb.utils.StringUtils.formatToMoney"(
     	String numberStr	) {
-    (new com.maybank.utils.StringUtils()).formatToMoney(
+    (new com.vcb.utils.StringUtils()).formatToMoney(
         	numberStr)
 }
 
 
-def static "com.maybank.utils.StringUtils.verifyDataFormat"(
+def static "com.vcb.utils.StringUtils.verifyDataFormat"(
     	String valueInput	
      , 	String verifyPattern	) {
-    (new com.maybank.utils.StringUtils()).verifyDataFormat(
+    (new com.vcb.utils.StringUtils()).verifyDataFormat(
         	valueInput
          , 	verifyPattern)
 }
 
 
-def static "com.maybank.utils.StringUtils.verifyDateTimeFormat"(
+def static "com.vcb.utils.StringUtils.verifyDateTimeFormat"(
     	String valueInput	
      , 	String verifyPattern	) {
-    (new com.maybank.utils.StringUtils()).verifyDateTimeFormat(
+    (new com.vcb.utils.StringUtils()).verifyDateTimeFormat(
         	valueInput
          , 	verifyPattern)
 }
@@ -870,141 +870,141 @@ def static "com.maybank.utils.StringUtils.verifyDateTimeFormat"(
  /**
 	 * genarate a Nric for person over 18+
 	 */ 
-def static "com.maybank.utils.StringUtils.generateRandomValidNRIC"() {
-    (new com.maybank.utils.StringUtils()).generateRandomValidNRIC()
+def static "com.vcb.utils.StringUtils.generateRandomValidNRIC"() {
+    (new com.vcb.utils.StringUtils()).generateRandomValidNRIC()
 }
 
 
-def static "com.maybank.utils.StringUtils.generateRandomPassport"(
+def static "com.vcb.utils.StringUtils.generateRandomPassport"(
     	int length	) {
-    (new com.maybank.utils.StringUtils()).generateRandomPassport(
+    (new com.vcb.utils.StringUtils()).generateRandomPassport(
         	length)
 }
 
 
-def static "com.maybank.utils.StringUtils.extractStrPattern"(
+def static "com.vcb.utils.StringUtils.extractStrPattern"(
     	String str	
      , 	String pattern	) {
-    (new com.maybank.utils.StringUtils()).extractStrPattern(
+    (new com.vcb.utils.StringUtils()).extractStrPattern(
         	str
          , 	pattern)
 }
 
 
-def static "com.maybank.utils.StringUtils.verifyDataFormat"(
+def static "com.vcb.utils.StringUtils.verifyDataFormat"(
     	String valueInput	) {
-    (new com.maybank.utils.StringUtils()).verifyDataFormat(
+    (new com.vcb.utils.StringUtils()).verifyDataFormat(
         	valueInput)
 }
 
 
-def static "com.maybank.utils.StringUtils.verifyDateTimeFormat"(
+def static "com.vcb.utils.StringUtils.verifyDateTimeFormat"(
     	String valueInput	) {
-    (new com.maybank.utils.StringUtils()).verifyDateTimeFormat(
+    (new com.vcb.utils.StringUtils()).verifyDateTimeFormat(
         	valueInput)
 }
 
 
-def static "com.maybank.service.LogInService.getToken"(
+def static "com.vcb.service.LogInService.getToken"(
     	String apiKey	) {
-    (new com.maybank.service.LogInService()).getToken(
+    (new com.vcb.service.LogInService()).getToken(
         	apiKey)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.openBrowser"(
+def static "com.vcb.common.WebUIKeyword.openBrowser"(
     	Object url	) {
-    (new com.maybank.common.WebUIKeyword()).openBrowser(
+    (new com.vcb.common.WebUIKeyword()).openBrowser(
         	url)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.closeBrowser"() {
-    (new com.maybank.common.WebUIKeyword()).closeBrowser()
+def static "com.vcb.common.WebUIKeyword.closeBrowser"() {
+    (new com.vcb.common.WebUIKeyword()).closeBrowser()
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementPresent"(
+def static "com.vcb.common.WebUIKeyword.waitForElementPresent"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementPresent(
+    (new com.vcb.common.WebUIKeyword()).waitForElementPresent(
         	obj
          , 	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementClickable"(
+def static "com.vcb.common.WebUIKeyword.waitForElementClickable"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementClickable(
+    (new com.vcb.common.WebUIKeyword()).waitForElementClickable(
         	obj
          , 	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementVisible"(
+def static "com.vcb.common.WebUIKeyword.waitForElementVisible"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementVisible(
+    (new com.vcb.common.WebUIKeyword()).waitForElementVisible(
         	obj
          , 	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementNotPresent"(
+def static "com.vcb.common.WebUIKeyword.waitForElementNotPresent"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementNotPresent(
+    (new com.vcb.common.WebUIKeyword()).waitForElementNotPresent(
         	obj
          , 	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.click"(
+def static "com.vcb.common.WebUIKeyword.click"(
     	TestObject obj	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).click(
+    (new com.vcb.common.WebUIKeyword()).click(
         	obj
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.setText"(
+def static "com.vcb.common.WebUIKeyword.setText"(
     	TestObject obj	
      , 	String textContent	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).setText(
+    (new com.vcb.common.WebUIKeyword()).setText(
         	obj
          , 	textContent
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.scrollToTestObject"(
+def static "com.vcb.common.WebUIKeyword.scrollToTestObject"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).scrollToTestObject(
+    (new com.vcb.common.WebUIKeyword()).scrollToTestObject(
         	obj
          , 	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.setTextWithClear"(
+def static "com.vcb.common.WebUIKeyword.setTextWithClear"(
     	TestObject obj	
      , 	String textContent	
      , 	boolean isFastClearEnabled	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).setTextWithClear(
+    (new com.vcb.common.WebUIKeyword()).setTextWithClear(
         	obj
          , 	textContent
          , 	isFastClearEnabled
@@ -1012,63 +1012,63 @@ def static "com.maybank.common.WebUIKeyword.setTextWithClear"(
 }
 
 
-def static "com.maybank.common.WebUIKeyword.setEncryptedText"(
+def static "com.vcb.common.WebUIKeyword.setEncryptedText"(
     	TestObject obj	
      , 	String textContent	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).setEncryptedText(
+    (new com.vcb.common.WebUIKeyword()).setEncryptedText(
         	obj
          , 	textContent
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.getText"(
+def static "com.vcb.common.WebUIKeyword.getText"(
     	TestObject obj	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).getText(
+    (new com.vcb.common.WebUIKeyword()).getText(
         	obj
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.getAttributeValue"(
+def static "com.vcb.common.WebUIKeyword.getAttributeValue"(
     	TestObject obj	
      , 	String att	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).getAttributeValue(
+    (new com.vcb.common.WebUIKeyword()).getAttributeValue(
         	obj
          , 	att
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.verifyElementVisible"(
+def static "com.vcb.common.WebUIKeyword.verifyElementVisible"(
     	TestObject obj	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).verifyElementVisible(
+    (new com.vcb.common.WebUIKeyword()).verifyElementVisible(
         	obj
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.verifyElementPresent"(
+def static "com.vcb.common.WebUIKeyword.verifyElementPresent"(
     	TestObject obj	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).verifyElementPresent(
+    (new com.vcb.common.WebUIKeyword()).verifyElementPresent(
         	obj
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.takeScreenshot"() {
-    (new com.maybank.common.WebUIKeyword()).takeScreenshot()
+def static "com.vcb.common.WebUIKeyword.takeScreenshot"() {
+    (new com.vcb.common.WebUIKeyword()).takeScreenshot()
 }
 
 
-def static "com.maybank.common.WebUIKeyword.delay"(
+def static "com.vcb.common.WebUIKeyword.delay"(
     	Number timeout	) {
-    (new com.maybank.common.WebUIKeyword()).delay(
+    (new com.vcb.common.WebUIKeyword()).delay(
         	timeout)
 }
 
@@ -1077,9 +1077,9 @@ def static "com.maybank.common.WebUIKeyword.delay"(
 	 * @param xpath - The XPath of the elements to be found
 	 * @return List of strings containing the text of each element
 	 */ 
-def static "com.maybank.common.WebUIKeyword.getListOfTextByXPath"(
+def static "com.vcb.common.WebUIKeyword.getListOfTextByXPath"(
     	String xpath	) {
-    (new com.maybank.common.WebUIKeyword()).getListOfTextByXPath(
+    (new com.vcb.common.WebUIKeyword()).getListOfTextByXPath(
         	xpath)
 }
 
@@ -1089,12 +1089,12 @@ def static "com.maybank.common.WebUIKeyword.getListOfTextByXPath"(
 	 * testObject: list View Item
 	 * xpaths is xpath list of one item 
 	 */ 
-def static "com.maybank.common.WebUIKeyword.getTextsByXpaths"(
+def static "com.vcb.common.WebUIKeyword.getTextsByXpaths"(
     	TestObject testObject	
      , 	List xpaths	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).getTextsByXpaths(
+    (new com.vcb.common.WebUIKeyword()).getTextsByXpaths(
         	testObject
          , 	xpaths
          , 	timeout
@@ -1102,275 +1102,275 @@ def static "com.maybank.common.WebUIKeyword.getTextsByXpaths"(
 }
 
 
-def static "com.maybank.common.WebUIKeyword.clickWithoutScrollW3C"(
+def static "com.vcb.common.WebUIKeyword.clickWithoutScrollW3C"(
     	TestObject obj	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.WebUIKeyword()).clickWithoutScrollW3C(
+    (new com.vcb.common.WebUIKeyword()).clickWithoutScrollW3C(
         	obj
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementPresent"(
+def static "com.vcb.common.WebUIKeyword.waitForElementPresent"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementPresent(
+    (new com.vcb.common.WebUIKeyword()).waitForElementPresent(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementClickable"(
+def static "com.vcb.common.WebUIKeyword.waitForElementClickable"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementClickable(
+    (new com.vcb.common.WebUIKeyword()).waitForElementClickable(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementVisible"(
+def static "com.vcb.common.WebUIKeyword.waitForElementVisible"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementVisible(
+    (new com.vcb.common.WebUIKeyword()).waitForElementVisible(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.waitForElementNotPresent"(
+def static "com.vcb.common.WebUIKeyword.waitForElementNotPresent"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.WebUIKeyword()).waitForElementNotPresent(
+    (new com.vcb.common.WebUIKeyword()).waitForElementNotPresent(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.click"(
+def static "com.vcb.common.WebUIKeyword.click"(
     	TestObject obj	) {
-    (new com.maybank.common.WebUIKeyword()).click(
+    (new com.vcb.common.WebUIKeyword()).click(
         	obj)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.setText"(
+def static "com.vcb.common.WebUIKeyword.setText"(
     	TestObject obj	
      , 	String textContent	) {
-    (new com.maybank.common.WebUIKeyword()).setText(
+    (new com.vcb.common.WebUIKeyword()).setText(
         	obj
          , 	textContent)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.scrollToTestObject"(
+def static "com.vcb.common.WebUIKeyword.scrollToTestObject"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.WebUIKeyword()).scrollToTestObject(
+    (new com.vcb.common.WebUIKeyword()).scrollToTestObject(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.scrollToTestObject"(
+def static "com.vcb.common.WebUIKeyword.scrollToTestObject"(
     	TestObject obj	) {
-    (new com.maybank.common.WebUIKeyword()).scrollToTestObject(
+    (new com.vcb.common.WebUIKeyword()).scrollToTestObject(
         	obj)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.setTextWithClear"(
+def static "com.vcb.common.WebUIKeyword.setTextWithClear"(
     	TestObject obj	
      , 	String textContent	
      , 	boolean isFastClearEnabled	) {
-    (new com.maybank.common.WebUIKeyword()).setTextWithClear(
+    (new com.vcb.common.WebUIKeyword()).setTextWithClear(
         	obj
          , 	textContent
          , 	isFastClearEnabled)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.setTextWithClear"(
+def static "com.vcb.common.WebUIKeyword.setTextWithClear"(
     	TestObject obj	
      , 	String textContent	) {
-    (new com.maybank.common.WebUIKeyword()).setTextWithClear(
+    (new com.vcb.common.WebUIKeyword()).setTextWithClear(
         	obj
          , 	textContent)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.setEncryptedText"(
+def static "com.vcb.common.WebUIKeyword.setEncryptedText"(
     	TestObject obj	
      , 	String textContent	) {
-    (new com.maybank.common.WebUIKeyword()).setEncryptedText(
+    (new com.vcb.common.WebUIKeyword()).setEncryptedText(
         	obj
          , 	textContent)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.getText"(
+def static "com.vcb.common.WebUIKeyword.getText"(
     	TestObject obj	) {
-    (new com.maybank.common.WebUIKeyword()).getText(
+    (new com.vcb.common.WebUIKeyword()).getText(
         	obj)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.getAttributeValue"(
+def static "com.vcb.common.WebUIKeyword.getAttributeValue"(
     	TestObject obj	
      , 	String att	) {
-    (new com.maybank.common.WebUIKeyword()).getAttributeValue(
+    (new com.vcb.common.WebUIKeyword()).getAttributeValue(
         	obj
          , 	att)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.getAttributeValue"(
+def static "com.vcb.common.WebUIKeyword.getAttributeValue"(
     	TestObject obj	) {
-    (new com.maybank.common.WebUIKeyword()).getAttributeValue(
+    (new com.vcb.common.WebUIKeyword()).getAttributeValue(
         	obj)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.verifyElementVisible"(
+def static "com.vcb.common.WebUIKeyword.verifyElementVisible"(
     	TestObject obj	) {
-    (new com.maybank.common.WebUIKeyword()).verifyElementVisible(
+    (new com.vcb.common.WebUIKeyword()).verifyElementVisible(
         	obj)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.verifyElementPresent"(
+def static "com.vcb.common.WebUIKeyword.verifyElementPresent"(
     	TestObject obj	) {
-    (new com.maybank.common.WebUIKeyword()).verifyElementPresent(
+    (new com.vcb.common.WebUIKeyword()).verifyElementPresent(
         	obj)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.getTextsByXpaths"(
+def static "com.vcb.common.WebUIKeyword.getTextsByXpaths"(
     	TestObject testObject	
      , 	List xpaths	
      , 	int timeout	) {
-    (new com.maybank.common.WebUIKeyword()).getTextsByXpaths(
+    (new com.vcb.common.WebUIKeyword()).getTextsByXpaths(
         	testObject
          , 	xpaths
          , 	timeout)
 }
 
 
-def static "com.maybank.common.WebUIKeyword.clickWithoutScrollW3C"(
+def static "com.vcb.common.WebUIKeyword.clickWithoutScrollW3C"(
     	TestObject obj	) {
-    (new com.maybank.common.WebUIKeyword()).clickWithoutScrollW3C(
+    (new com.vcb.common.WebUIKeyword()).clickWithoutScrollW3C(
         	obj)
 }
 
 
-def static "com.maybank.utils.TouchActionUtils.compareUIFieldWithResponseField"(
+def static "com.vcb.utils.TouchActionUtils.compareUIFieldWithResponseField"(
     	List compareArr	
      , 	JsonObject data	
      , 	FailureHandling controlFlow	) {
-    (new com.maybank.utils.TouchActionUtils()).compareUIFieldWithResponseField(
+    (new com.vcb.utils.TouchActionUtils()).compareUIFieldWithResponseField(
         	compareArr
          , 	data
          , 	controlFlow)
 }
 
 
-def static "com.maybank.utils.TouchActionUtils.updateAndVerifyElements"(
+def static "com.vcb.utils.TouchActionUtils.updateAndVerifyElements"(
     	List lst	
      , 	String pathObject	
      , 	int timeout	) {
-    (new com.maybank.utils.TouchActionUtils()).updateAndVerifyElements(
+    (new com.vcb.utils.TouchActionUtils()).updateAndVerifyElements(
         	lst
          , 	pathObject
          , 	timeout)
 }
 
 
-def static "com.maybank.utils.TouchActionUtils.patternChecking"(
+def static "com.vcb.utils.TouchActionUtils.patternChecking"(
     	String testString	) {
-    (new com.maybank.utils.TouchActionUtils()).patternChecking(
+    (new com.vcb.utils.TouchActionUtils()).patternChecking(
         	testString)
 }
 
 
-def static "com.maybank.utils.TouchActionUtils.compareUIFieldWithResponseField"(
+def static "com.vcb.utils.TouchActionUtils.compareUIFieldWithResponseField"(
     	List compareArr	
      , 	JsonObject data	) {
-    (new com.maybank.utils.TouchActionUtils()).compareUIFieldWithResponseField(
+    (new com.vcb.utils.TouchActionUtils()).compareUIFieldWithResponseField(
         	compareArr
          , 	data)
 }
 
 
-def static "com.maybank.mae.pages.Otp.enterOtp"(
+def static "com.vcb.mobile.pages.Otp.enterOtp"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Otp()).enterOtp(
+    (new com.vcb.mobile.pages.Otp()).enterOtp(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Otp.enterPINNo"(
+def static "com.vcb.mobile.pages.Otp.enterPINNo"(
     	String pinNO	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Otp()).enterPINNo(
+    (new com.vcb.mobile.pages.Otp()).enterPINNo(
         	pinNO
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Otp.enterOtp"() {
-    (new com.maybank.mae.pages.Otp()).enterOtp()
+def static "com.vcb.mobile.pages.Otp.enterOtp"() {
+    (new com.vcb.mobile.pages.Otp()).enterOtp()
 }
 
 
-def static "com.maybank.mae.pages.Otp.enterPINNo"(
+def static "com.vcb.mobile.pages.Otp.enterPINNo"(
     	String pinNO	) {
-    (new com.maybank.mae.pages.Otp()).enterPINNo(
+    (new com.vcb.mobile.pages.Otp()).enterPINNo(
         	pinNO)
 }
 
 
-def static "com.maybank.utils.DateUtils.dateValidator"(
+def static "com.vcb.utils.DateUtils.dateValidator"(
     	String dateString	
      , 	String periodString	
      , 	int plusDay	) {
-    (new com.maybank.utils.DateUtils()).dateValidator(
+    (new com.vcb.utils.DateUtils()).dateValidator(
         	dateString
          , 	periodString
          , 	plusDay)
 }
 
 
-def static "com.maybank.utils.DateUtils.convertStringToCalendar"(
+def static "com.vcb.utils.DateUtils.convertStringToCalendar"(
     	String pattern	
      , 	String dateString	) {
-    (new com.maybank.utils.DateUtils()).convertStringToCalendar(
+    (new com.vcb.utils.DateUtils()).convertStringToCalendar(
         	pattern
          , 	dateString)
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentCalendar"(
+def static "com.vcb.utils.DateUtils.getCurrentCalendar"(
     	String timeZone	) {
-    (new com.maybank.utils.DateUtils()).getCurrentCalendar(
+    (new com.vcb.utils.DateUtils()).getCurrentCalendar(
         	timeZone)
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentDate"(
+def static "com.vcb.utils.DateUtils.getCurrentDate"(
     	String timeZone	
      , 	String format	) {
-    (new com.maybank.utils.DateUtils()).getCurrentDate(
+    (new com.vcb.utils.DateUtils()).getCurrentDate(
         	timeZone
          , 	format)
 }
 
 
-def static "com.maybank.utils.DateUtils.convertToFormat"(
+def static "com.vcb.utils.DateUtils.convertToFormat"(
     	String dateInStr	
      , 	String fromFormat	
      , 	String toFormat	
      , 	FailureHandling controlFlow	) {
-    (new com.maybank.utils.DateUtils()).convertToFormat(
+    (new com.vcb.utils.DateUtils()).convertToFormat(
         	dateInStr
          , 	fromFormat
          , 	toFormat
@@ -1378,123 +1378,123 @@ def static "com.maybank.utils.DateUtils.convertToFormat"(
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentDateFormat"(
+def static "com.vcb.utils.DateUtils.getCurrentDateFormat"(
     	String pattern	
      , 	int daysToAdd	) {
-    (new com.maybank.utils.DateUtils()).getCurrentDateFormat(
+    (new com.vcb.utils.DateUtils()).getCurrentDateFormat(
         	pattern
          , 	daysToAdd)
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentMonth"() {
-    (new com.maybank.utils.DateUtils()).getCurrentMonth()
+def static "com.vcb.utils.DateUtils.getCurrentMonth"() {
+    (new com.vcb.utils.DateUtils()).getCurrentMonth()
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentCalendar"() {
-    (new com.maybank.utils.DateUtils()).getCurrentCalendar()
+def static "com.vcb.utils.DateUtils.getCurrentCalendar"() {
+    (new com.vcb.utils.DateUtils()).getCurrentCalendar()
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentDate"(
+def static "com.vcb.utils.DateUtils.getCurrentDate"(
     	String timeZone	) {
-    (new com.maybank.utils.DateUtils()).getCurrentDate(
+    (new com.vcb.utils.DateUtils()).getCurrentDate(
         	timeZone)
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentDate"() {
-    (new com.maybank.utils.DateUtils()).getCurrentDate()
+def static "com.vcb.utils.DateUtils.getCurrentDate"() {
+    (new com.vcb.utils.DateUtils()).getCurrentDate()
 }
 
 
-def static "com.maybank.utils.DateUtils.convertToFormat"(
+def static "com.vcb.utils.DateUtils.convertToFormat"(
     	String dateInStr	
      , 	String fromFormat	
      , 	String toFormat	) {
-    (new com.maybank.utils.DateUtils()).convertToFormat(
+    (new com.vcb.utils.DateUtils()).convertToFormat(
         	dateInStr
          , 	fromFormat
          , 	toFormat)
 }
 
 
-def static "com.maybank.utils.DateUtils.convertToFormat"(
+def static "com.vcb.utils.DateUtils.convertToFormat"(
     	String dateInStr	
      , 	String fromFormat	) {
-    (new com.maybank.utils.DateUtils()).convertToFormat(
+    (new com.vcb.utils.DateUtils()).convertToFormat(
         	dateInStr
          , 	fromFormat)
 }
 
 
-def static "com.maybank.utils.DateUtils.convertToFormat"(
+def static "com.vcb.utils.DateUtils.convertToFormat"(
     	String dateInStr	) {
-    (new com.maybank.utils.DateUtils()).convertToFormat(
+    (new com.vcb.utils.DateUtils()).convertToFormat(
         	dateInStr)
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentDateFormat"(
+def static "com.vcb.utils.DateUtils.getCurrentDateFormat"(
     	String pattern	) {
-    (new com.maybank.utils.DateUtils()).getCurrentDateFormat(
+    (new com.vcb.utils.DateUtils()).getCurrentDateFormat(
         	pattern)
 }
 
 
-def static "com.maybank.utils.DateUtils.getCurrentDateFormat"() {
-    (new com.maybank.utils.DateUtils()).getCurrentDateFormat()
+def static "com.vcb.utils.DateUtils.getCurrentDateFormat"() {
+    (new com.vcb.utils.DateUtils()).getCurrentDateFormat()
 }
 
 
-def static "com.maybank.mae.pages.Login.login"(
+def static "com.vcb.mobile.pages.Login.login"(
     	String username	
      , 	String password	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Login()).login(
+    (new com.vcb.mobile.pages.Login()).login(
         	username
          , 	password
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Login.loginARR"(
+def static "com.vcb.mobile.pages.Login.loginARR"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Login()).loginARR(
+    (new com.vcb.mobile.pages.Login()).loginARR(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Login.invalidSignin"(
+def static "com.vcb.mobile.pages.Login.invalidSignin"(
     	String username	
      , 	String password	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Login()).invalidSignin(
+    (new com.vcb.mobile.pages.Login()).invalidSignin(
         	username
          , 	password
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Login.login"(
+def static "com.vcb.mobile.pages.Login.login"(
     	String username	
      , 	String password	) {
-    (new com.maybank.mae.pages.Login()).login(
+    (new com.vcb.mobile.pages.Login()).login(
         	username
          , 	password)
 }
 
 
-def static "com.maybank.mae.pages.Login.loginARR"() {
-    (new com.maybank.mae.pages.Login()).loginARR()
+def static "com.vcb.mobile.pages.Login.loginARR"() {
+    (new com.vcb.mobile.pages.Login()).loginARR()
 }
 
 
-def static "com.maybank.mae.pages.Login.invalidSignin"(
+def static "com.vcb.mobile.pages.Login.invalidSignin"(
     	String username	
      , 	String password	) {
-    (new com.maybank.mae.pages.Login()).invalidSignin(
+    (new com.vcb.mobile.pages.Login()).invalidSignin(
         	username
          , 	password)
 }
@@ -2083,382 +2083,382 @@ def static "com.kms.katalon.keyword.excel.ExcelKeywords.compareTwoCells"(
 	 * @return A configured WebDriver instance.
 	 * @throws Exception If an error occurs while initializing the driver.
 	 */ 
-def static "com.maybank.helper.TestCloudHelper.createTestCloudWindowsChromeDriver"() {
-    (new com.maybank.helper.TestCloudHelper()).createTestCloudWindowsChromeDriver()
+def static "com.vcb.helper.TestCloudHelper.createTestCloudWindowsChromeDriver"() {
+    (new com.vcb.helper.TestCloudHelper()).createTestCloudWindowsChromeDriver()
 }
 
 
-def static "com.maybank.helper.TestCloudHelper.closeTestCloudBrowser"() {
-    (new com.maybank.helper.TestCloudHelper()).closeTestCloudBrowser()
+def static "com.vcb.helper.TestCloudHelper.closeTestCloudBrowser"() {
+    (new com.vcb.helper.TestCloudHelper()).closeTestCloudBrowser()
 }
 
 
-def static "com.maybank.mae.pages.Pin.enterPin"(
+def static "com.vcb.mobile.pages.Pin.enterPin"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Pin()).enterPin(
+    (new com.vcb.mobile.pages.Pin()).enterPin(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Pin.enterPin"() {
-    (new com.maybank.mae.pages.Pin()).enterPin()
+def static "com.vcb.mobile.pages.Pin.enterPin"() {
+    (new com.vcb.mobile.pages.Pin()).enterPin()
 }
 
 
-def static "com.maybank.mae.pages.Home.clickHomeButton"(
+def static "com.vcb.mobile.pages.Home.clickHomeButton"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickHomeButton(
+    (new com.vcb.mobile.pages.Home()).clickHomeButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyProfileName"(
+def static "com.vcb.mobile.pages.Home.verifyProfileName"(
     	String text	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyProfileName(
+    (new com.vcb.mobile.pages.Home()).verifyProfileName(
         	text
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyMaskingPhoneNumber"(
+def static "com.vcb.mobile.pages.Home.verifyMaskingPhoneNumber"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyMaskingPhoneNumber(
+    (new com.vcb.mobile.pages.Home()).verifyMaskingPhoneNumber(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyReferralCode"(
+def static "com.vcb.mobile.pages.Home.verifyReferralCode"(
     	String text	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyReferralCode(
+    (new com.vcb.mobile.pages.Home()).verifyReferralCode(
         	text
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyViewAllAccountsButtonVisible"(
+def static "com.vcb.mobile.pages.Home.verifyViewAllAccountsButtonVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyViewAllAccountsButtonVisible(
+    (new com.vcb.mobile.pages.Home()).verifyViewAllAccountsButtonVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyNotificationButtonVisible"(
+def static "com.vcb.mobile.pages.Home.verifyNotificationButtonVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyNotificationButtonVisible(
+    (new com.vcb.mobile.pages.Home()).verifyNotificationButtonVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyQuickActionstextVisible"(
+def static "com.vcb.mobile.pages.Home.verifyQuickActionstextVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyQuickActionstextVisible(
+    (new com.vcb.mobile.pages.Home()).verifyQuickActionstextVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyCustomiseButtonVisible"(
+def static "com.vcb.mobile.pages.Home.verifyCustomiseButtonVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyCustomiseButtonVisible(
+    (new com.vcb.mobile.pages.Home()).verifyCustomiseButtonVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySamaSamaLocalVisible"(
+def static "com.vcb.mobile.pages.Home.verifySamaSamaLocalVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifySamaSamaLocalVisible(
+    (new com.vcb.mobile.pages.Home()).verifySamaSamaLocalVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTabungVisible"(
+def static "com.vcb.mobile.pages.Home.verifyTabungVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyTabungVisible(
+    (new com.vcb.mobile.pages.Home()).verifyTabungVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyDealsForYouVisible"(
+def static "com.vcb.mobile.pages.Home.verifyDealsForYouVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyDealsForYouVisible(
+    (new com.vcb.mobile.pages.Home()).verifyDealsForYouVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTopReadsVisible"(
+def static "com.vcb.mobile.pages.Home.verifyTopReadsVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyTopReadsVisible(
+    (new com.vcb.mobile.pages.Home()).verifyTopReadsVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyManageWidgetsVisible"(
+def static "com.vcb.mobile.pages.Home.verifyManageWidgetsVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyManageWidgetsVisible(
+    (new com.vcb.mobile.pages.Home()).verifyManageWidgetsVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySpendingSummaryVisible"(
+def static "com.vcb.mobile.pages.Home.verifySpendingSummaryVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifySpendingSummaryVisible(
+    (new com.vcb.mobile.pages.Home()).verifySpendingSummaryVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySurveyBannerButtonVisible"(
+def static "com.vcb.mobile.pages.Home.verifySurveyBannerButtonVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifySurveyBannerButtonVisible(
+    (new com.vcb.mobile.pages.Home()).verifySurveyBannerButtonVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickLogout"(
+def static "com.vcb.mobile.pages.Home.clickLogout"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickLogout(
+    (new com.vcb.mobile.pages.Home()).clickLogout(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickEyeButton"(
+def static "com.vcb.mobile.pages.Home.clickEyeButton"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickEyeButton(
+    (new com.vcb.mobile.pages.Home()).clickEyeButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickCloseButton"(
+def static "com.vcb.mobile.pages.Home.clickCloseButton"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickCloseButton(
+    (new com.vcb.mobile.pages.Home()).clickCloseButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.hideBalance"(
+def static "com.vcb.mobile.pages.Home.hideBalance"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).hideBalance(
+    (new com.vcb.mobile.pages.Home()).hideBalance(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickViewAllAccountsButton"(
+def static "com.vcb.mobile.pages.Home.clickViewAllAccountsButton"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickViewAllAccountsButton(
+    (new com.vcb.mobile.pages.Home()).clickViewAllAccountsButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifytextWelcomeBack"(
+def static "com.vcb.mobile.pages.Home.verifytextWelcomeBack"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifytextWelcomeBack(
+    (new com.vcb.mobile.pages.Home()).verifytextWelcomeBack(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickLoginButton"(
+def static "com.vcb.mobile.pages.Home.clickLoginButton"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickLoginButton(
+    (new com.vcb.mobile.pages.Home()).clickLoginButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyAccountBalanceNotDisplayed"(
+def static "com.vcb.mobile.pages.Home.verifyAccountBalanceNotDisplayed"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyAccountBalanceNotDisplayed(
+    (new com.vcb.mobile.pages.Home()).verifyAccountBalanceNotDisplayed(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTotalSpendingVisible"(
+def static "com.vcb.mobile.pages.Home.verifyTotalSpendingVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyTotalSpendingVisible(
+    (new com.vcb.mobile.pages.Home()).verifyTotalSpendingVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySpendingSummaryIsNotDisplayed"(
+def static "com.vcb.mobile.pages.Home.verifySpendingSummaryIsNotDisplayed"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifySpendingSummaryIsNotDisplayed(
+    (new com.vcb.mobile.pages.Home()).verifySpendingSummaryIsNotDisplayed(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTextExpensesVisible"(
+def static "com.vcb.mobile.pages.Home.verifyTextExpensesVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyTextExpensesVisible(
+    (new com.vcb.mobile.pages.Home()).verifyTextExpensesVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyCurrentMonthVisible"(
+def static "com.vcb.mobile.pages.Home.verifyCurrentMonthVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyCurrentMonthVisible(
+    (new com.vcb.mobile.pages.Home()).verifyCurrentMonthVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTextSpentSoFar"(
+def static "com.vcb.mobile.pages.Home.verifyTextSpentSoFar"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyTextSpentSoFar(
+    (new com.vcb.mobile.pages.Home()).verifyTextSpentSoFar(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySpendingSummaryIsDisplayed"(
+def static "com.vcb.mobile.pages.Home.verifySpendingSummaryIsDisplayed"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifySpendingSummaryIsDisplayed(
+    (new com.vcb.mobile.pages.Home()).verifySpendingSummaryIsDisplayed(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTotalMonthlySpendingVisible"(
+def static "com.vcb.mobile.pages.Home.verifyTotalMonthlySpendingVisible"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyTotalMonthlySpendingVisible(
+    (new com.vcb.mobile.pages.Home()).verifyTotalMonthlySpendingVisible(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.tapTopReadsLink"(
+def static "com.vcb.mobile.pages.Home.tapTopReadsLink"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).tapTopReadsLink(
+    (new com.vcb.mobile.pages.Home()).tapTopReadsLink(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.tapHeartSymbolButton"(
+def static "com.vcb.mobile.pages.Home.tapHeartSymbolButton"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).tapHeartSymbolButton(
+    (new com.vcb.mobile.pages.Home()).tapHeartSymbolButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.readLikeCount"(
+def static "com.vcb.mobile.pages.Home.readLikeCount"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).readLikeCount(
+    (new com.vcb.mobile.pages.Home()).readLikeCount(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyLikeCountIsIncreamentedbyOne"(
+def static "com.vcb.mobile.pages.Home.verifyLikeCountIsIncreamentedbyOne"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyLikeCountIsIncreamentedbyOne(
+    (new com.vcb.mobile.pages.Home()).verifyLikeCountIsIncreamentedbyOne(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyLikeCountIsIncreamentedbyOneInHomePageTopReads"(
+def static "com.vcb.mobile.pages.Home.verifyLikeCountIsIncreamentedbyOneInHomePageTopReads"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Home()).verifyLikeCountIsIncreamentedbyOneInHomePageTopReads(
+    (new com.vcb.mobile.pages.Home()).verifyLikeCountIsIncreamentedbyOneInHomePageTopReads(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickAccountsButton"(
+def static "com.vcb.mobile.pages.Home.clickAccountsButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickAccountsButton(
+    (new com.vcb.mobile.pages.Home()).clickAccountsButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickSettingsButton"(
+def static "com.vcb.mobile.pages.Home.clickSettingsButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Home()).clickSettingsButton(
+    (new com.vcb.mobile.pages.Home()).clickSettingsButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Home.clickHomeButton"() {
-    (new com.maybank.mae.pages.Home()).clickHomeButton()
+def static "com.vcb.mobile.pages.Home.clickHomeButton"() {
+    (new com.vcb.mobile.pages.Home()).clickHomeButton()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyProfileName"(
+def static "com.vcb.mobile.pages.Home.verifyProfileName"(
     	String text	) {
-    (new com.maybank.mae.pages.Home()).verifyProfileName(
+    (new com.vcb.mobile.pages.Home()).verifyProfileName(
         	text)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyMaskingPhoneNumber"() {
-    (new com.maybank.mae.pages.Home()).verifyMaskingPhoneNumber()
+def static "com.vcb.mobile.pages.Home.verifyMaskingPhoneNumber"() {
+    (new com.vcb.mobile.pages.Home()).verifyMaskingPhoneNumber()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyReferralCode"(
+def static "com.vcb.mobile.pages.Home.verifyReferralCode"(
     	String text	) {
-    (new com.maybank.mae.pages.Home()).verifyReferralCode(
+    (new com.vcb.mobile.pages.Home()).verifyReferralCode(
         	text)
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyViewAllAccountsButtonVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyViewAllAccountsButtonVisible()
+def static "com.vcb.mobile.pages.Home.verifyViewAllAccountsButtonVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyViewAllAccountsButtonVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyNotificationButtonVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyNotificationButtonVisible()
+def static "com.vcb.mobile.pages.Home.verifyNotificationButtonVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyNotificationButtonVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyQuickActionstextVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyQuickActionstextVisible()
+def static "com.vcb.mobile.pages.Home.verifyQuickActionstextVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyQuickActionstextVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyCustomiseButtonVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyCustomiseButtonVisible()
+def static "com.vcb.mobile.pages.Home.verifyCustomiseButtonVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyCustomiseButtonVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySamaSamaLocalVisible"() {
-    (new com.maybank.mae.pages.Home()).verifySamaSamaLocalVisible()
+def static "com.vcb.mobile.pages.Home.verifySamaSamaLocalVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifySamaSamaLocalVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTabungVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyTabungVisible()
+def static "com.vcb.mobile.pages.Home.verifyTabungVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyTabungVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyDealsForYouVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyDealsForYouVisible()
+def static "com.vcb.mobile.pages.Home.verifyDealsForYouVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyDealsForYouVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyTopReadsVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyTopReadsVisible()
+def static "com.vcb.mobile.pages.Home.verifyTopReadsVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyTopReadsVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifyManageWidgetsVisible"() {
-    (new com.maybank.mae.pages.Home()).verifyManageWidgetsVisible()
+def static "com.vcb.mobile.pages.Home.verifyManageWidgetsVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifyManageWidgetsVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySpendingSummaryVisible"() {
-    (new com.maybank.mae.pages.Home()).verifySpendingSummaryVisible()
+def static "com.vcb.mobile.pages.Home.verifySpendingSummaryVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifySpendingSummaryVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.verifySurveyBannerButtonVisible"() {
-    (new com.maybank.mae.pages.Home()).verifySurveyBannerButtonVisible()
+def static "com.vcb.mobile.pages.Home.verifySurveyBannerButtonVisible"() {
+    (new com.vcb.mobile.pages.Home()).verifySurveyBannerButtonVisible()
 }
 
 
-def static "com.maybank.mae.pages.Home.clickLogout"() {
-    (new com.maybank.mae.pages.Home()).clickLogout()
+def static "com.vcb.mobile.pages.Home.clickLogout"() {
+    (new com.vcb.mobile.pages.Home()).clickLogout()
 }
 
 
-def static "com.maybank.mae.pages.Home.clickEyeButton"() {
-    (new com.maybank.mae.pages.Home()).clickEyeButton()
+def static "com.vcb.mobile.pages.Home.clickEyeButton"() {
+    (new com.vcb.mobile.pages.Home()).clickEyeButton()
 }
 
 
-def static "com.maybank.mae.pages.Home.clickCloseButton"() {
-    (new com.maybank.mae.pages.Home()).clickCloseButton()
+def static "com.vcb.mobile.pages.Home.clickCloseButton"() {
+    (new com.vcb.mobile.pages.Home()).clickCloseButton()
 }
 
  /**
@@ -2466,16 +2466,16 @@ def static "com.maybank.mae.pages.Home.clickCloseButton"() {
 	 * @param appPackage
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.openApp"(
+def static "com.vcb.common.MobileDriver.openApp"(
     	String appPackage	) {
-    (new com.maybank.common.MobileDriver()).openApp(
+    (new com.vcb.common.MobileDriver()).openApp(
         	appPackage)
 }
 
 
-def static "com.maybank.common.MobileDriver.takeScreenshot"(
+def static "com.vcb.common.MobileDriver.takeScreenshot"(
     	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).takeScreenshot(
+    (new com.vcb.common.MobileDriver()).takeScreenshot(
         	flowControl)
 }
 
@@ -2485,10 +2485,10 @@ def static "com.maybank.common.MobileDriver.takeScreenshot"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.activateApp"(
+def static "com.vcb.common.MobileDriver.activateApp"(
     	String appID	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).activateApp(
+    (new com.vcb.common.MobileDriver()).activateApp(
         	appID
          , 	flowControl)
 }
@@ -2499,11 +2499,11 @@ def static "com.maybank.common.MobileDriver.activateApp"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.verifyElementExist"(
+def static "com.vcb.common.MobileDriver.verifyElementExist"(
     	MobileTestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).verifyElementExist(
+    (new com.vcb.common.MobileDriver()).verifyElementExist(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2515,11 +2515,11 @@ def static "com.maybank.common.MobileDriver.verifyElementExist"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.verifyElementVisible"(
+def static "com.vcb.common.MobileDriver.verifyElementVisible"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).verifyElementVisible(
+    (new com.vcb.common.MobileDriver()).verifyElementVisible(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2531,11 +2531,11 @@ def static "com.maybank.common.MobileDriver.verifyElementVisible"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.verifyElementNotVisible"(
+def static "com.vcb.common.MobileDriver.verifyElementNotVisible"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).verifyElementNotVisible(
+    (new com.vcb.common.MobileDriver()).verifyElementNotVisible(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2547,12 +2547,12 @@ def static "com.maybank.common.MobileDriver.verifyElementNotVisible"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.dragAndDrop"(
+def static "com.vcb.common.MobileDriver.dragAndDrop"(
     	TestObject fromObject	
      , 	TestObject toObject	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).dragAndDrop(
+    (new com.vcb.common.MobileDriver()).dragAndDrop(
         	fromObject
          , 	toObject
          , 	timeout
@@ -2565,11 +2565,11 @@ def static "com.maybank.common.MobileDriver.dragAndDrop"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.waitForElementPresent"(
+def static "com.vcb.common.MobileDriver.waitForElementPresent"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).waitForElementPresent(
+    (new com.vcb.common.MobileDriver()).waitForElementPresent(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2580,9 +2580,9 @@ def static "com.maybank.common.MobileDriver.waitForElementPresent"(
 	 * @param input
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.setTextNoObjAppium"(
+def static "com.vcb.common.MobileDriver.setTextNoObjAppium"(
     	String input	) {
-    (new com.maybank.common.MobileDriver()).setTextNoObjAppium(
+    (new com.vcb.common.MobileDriver()).setTextNoObjAppium(
         	input)
 }
 
@@ -2592,11 +2592,11 @@ def static "com.maybank.common.MobileDriver.setTextNoObjAppium"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.waitForElementNotPresent"(
+def static "com.vcb.common.MobileDriver.waitForElementNotPresent"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).waitForElementNotPresent(
+    (new com.vcb.common.MobileDriver()).waitForElementNotPresent(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2608,11 +2608,11 @@ def static "com.maybank.common.MobileDriver.waitForElementNotPresent"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.tap"(
+def static "com.vcb.common.MobileDriver.tap"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).tap(
+    (new com.vcb.common.MobileDriver()).tap(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2624,11 +2624,11 @@ def static "com.maybank.common.MobileDriver.tap"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.doubleTap"(
+def static "com.vcb.common.MobileDriver.doubleTap"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).doubleTap(
+    (new com.vcb.common.MobileDriver()).doubleTap(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2641,12 +2641,12 @@ def static "com.maybank.common.MobileDriver.doubleTap"(
 	 * @param log
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.tapAndLog"(
+def static "com.vcb.common.MobileDriver.tapAndLog"(
     	TestObject obj	
      , 	int timeout	
      , 	String log	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).tapAndLog(
+    (new com.vcb.common.MobileDriver()).tapAndLog(
         	obj
          , 	timeout
          , 	log
@@ -2659,11 +2659,11 @@ def static "com.maybank.common.MobileDriver.tapAndLog"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.tapAtPosition"(
+def static "com.vcb.common.MobileDriver.tapAtPosition"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).tapAtPosition(
+    (new com.vcb.common.MobileDriver()).tapAtPosition(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2677,13 +2677,13 @@ def static "com.maybank.common.MobileDriver.tapAtPosition"(
 	 * @param offsetY The Y-axis offset for the tap position
 	 * @param flowControl Optional FailureHandling for error control
 	 */ 
-def static "com.maybank.common.MobileDriver.tapAtPositionWithOffset"(
+def static "com.vcb.common.MobileDriver.tapAtPositionWithOffset"(
     	TestObject obj	
      , 	int timeout	
      , 	int offsetX	
      , 	int offsetY	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).tapAtPositionWithOffset(
+    (new com.vcb.common.MobileDriver()).tapAtPositionWithOffset(
         	obj
          , 	timeout
          , 	offsetX
@@ -2692,12 +2692,12 @@ def static "com.maybank.common.MobileDriver.tapAtPositionWithOffset"(
 }
 
 
-def static "com.maybank.common.MobileDriver.setTextAndDone"(
+def static "com.vcb.common.MobileDriver.setTextAndDone"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).setTextAndDone(
+    (new com.vcb.common.MobileDriver()).setTextAndDone(
         	obj
          , 	textContent
          , 	timeout
@@ -2709,12 +2709,12 @@ def static "com.maybank.common.MobileDriver.setTextAndDone"(
 	 * @param input
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.setText"(
+def static "com.vcb.common.MobileDriver.setText"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).setText(
+    (new com.vcb.common.MobileDriver()).setText(
         	obj
          , 	textContent
          , 	timeout
@@ -2726,9 +2726,9 @@ def static "com.maybank.common.MobileDriver.setText"(
 	 * @param input
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.checkHideKeyBoard"(
+def static "com.vcb.common.MobileDriver.checkHideKeyBoard"(
     	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).checkHideKeyBoard(
+    (new com.vcb.common.MobileDriver()).checkHideKeyBoard(
         	flowControl)
 }
 
@@ -2737,12 +2737,12 @@ def static "com.maybank.common.MobileDriver.checkHideKeyBoard"(
 	 * @param input
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.setTextSimply"(
+def static "com.vcb.common.MobileDriver.setTextSimply"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).setTextSimply(
+    (new com.vcb.common.MobileDriver()).setTextSimply(
         	obj
          , 	textContent
          , 	timeout
@@ -2754,12 +2754,12 @@ def static "com.maybank.common.MobileDriver.setTextSimply"(
 	 * @param input
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.setEncryptedText"(
+def static "com.vcb.common.MobileDriver.setEncryptedText"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).setEncryptedText(
+    (new com.vcb.common.MobileDriver()).setEncryptedText(
         	obj
          , 	textContent
          , 	timeout
@@ -2772,11 +2772,11 @@ def static "com.maybank.common.MobileDriver.setEncryptedText"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.MobileDriver.getText"(
+def static "com.vcb.common.MobileDriver.getText"(
     	TestObject obj	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).getText(
+    (new com.vcb.common.MobileDriver()).getText(
         	obj
          , 	timeout
          , 	flowControl)
@@ -2788,12 +2788,12 @@ def static "com.maybank.common.MobileDriver.getText"(
 	 * @param maxSwipe number of swipe attempts
 	 * @param directionUp true = scroll up, false = scroll down
 	 */ 
-def static "com.maybank.common.MobileDriver.scrollTo"(
+def static "com.vcb.common.MobileDriver.scrollTo"(
     	TestObject obj	
      , 	int maxSwipe	
      , 	boolean directionUp	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).scrollTo(
+    (new com.vcb.common.MobileDriver()).scrollTo(
         	obj
          , 	maxSwipe
          , 	directionUp
@@ -2801,12 +2801,12 @@ def static "com.maybank.common.MobileDriver.scrollTo"(
 }
 
 
-def static "com.maybank.common.MobileDriver.checkElementAndScroll"(
+def static "com.vcb.common.MobileDriver.checkElementAndScroll"(
     	TestObject obj	
      , 	int length	
      , 	boolean directionUp	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).checkElementAndScroll(
+    (new com.vcb.common.MobileDriver()).checkElementAndScroll(
         	obj
          , 	length
          , 	directionUp
@@ -2814,58 +2814,58 @@ def static "com.maybank.common.MobileDriver.checkElementAndScroll"(
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollToTop"(
+def static "com.vcb.common.MobileDriver.scrollToTop"(
     	List scrollPosition	) {
-    (new com.maybank.common.MobileDriver()).scrollToTop(
+    (new com.vcb.common.MobileDriver()).scrollToTop(
         	scrollPosition)
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollToEnd"() {
-    (new com.maybank.common.MobileDriver()).scrollToEnd()
+def static "com.vcb.common.MobileDriver.scrollToEnd"() {
+    (new com.vcb.common.MobileDriver()).scrollToEnd()
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollToText"(
+def static "com.vcb.common.MobileDriver.scrollToText"(
     	String text	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).scrollToText(
+    (new com.vcb.common.MobileDriver()).scrollToText(
         	text
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapEleByTestObject"(
+def static "com.vcb.common.MobileDriver.tapEleByTestObject"(
     	TestObject to	) {
-    (new com.maybank.common.MobileDriver()).tapEleByTestObject(
+    (new com.vcb.common.MobileDriver()).tapEleByTestObject(
         	to)
 }
 
 
-def static "com.maybank.common.MobileDriver.waitForElementByXpathTestObject"(
+def static "com.vcb.common.MobileDriver.waitForElementByXpathTestObject"(
     	TestObject to	) {
-    (new com.maybank.common.MobileDriver()).waitForElementByXpathTestObject(
+    (new com.vcb.common.MobileDriver()).waitForElementByXpathTestObject(
         	to)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapElemtByXml"(
+def static "com.vcb.common.MobileDriver.tapElemtByXml"(
     	String xpath	
      , 	String cacheKey	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).tapElemtByXml(
+    (new com.vcb.common.MobileDriver()).tapElemtByXml(
         	xpath
          , 	cacheKey
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.MobileDriver.verifyMatch"(
+def static "com.vcb.common.MobileDriver.verifyMatch"(
     	TestObject testObject	
      , 	String regexMatch	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.MobileDriver()).verifyMatch(
+    (new com.vcb.common.MobileDriver()).verifyMatch(
         	testObject
          , 	regexMatch
          , 	timeout
@@ -2873,146 +2873,146 @@ def static "com.maybank.common.MobileDriver.verifyMatch"(
 }
 
 
-def static "com.maybank.common.MobileDriver.close"(
+def static "com.vcb.common.MobileDriver.close"(
     	Object appPackage	) {
-    (new com.maybank.common.MobileDriver()).close(
+    (new com.vcb.common.MobileDriver()).close(
         	appPackage)
 }
 
 
-def static "com.maybank.common.MobileDriver.getPageSource"() {
-    (new com.maybank.common.MobileDriver()).getPageSource()
+def static "com.vcb.common.MobileDriver.getPageSource"() {
+    (new com.vcb.common.MobileDriver()).getPageSource()
 }
 
 
-def static "com.maybank.common.MobileDriver.randomInteger"(
+def static "com.vcb.common.MobileDriver.randomInteger"(
     	int minNumber	
      , 	int maxNumber	) {
-    (new com.maybank.common.MobileDriver()).randomInteger(
+    (new com.vcb.common.MobileDriver()).randomInteger(
         	minNumber
          , 	maxNumber)
 }
 
 
-def static "com.maybank.common.MobileDriver.enterPinNo"(
+def static "com.vcb.common.MobileDriver.enterPinNo"(
     	String pinNO	) {
-    (new com.maybank.common.MobileDriver()).enterPinNo(
+    (new com.vcb.common.MobileDriver()).enterPinNo(
         	pinNO)
 }
 
 
-def static "com.maybank.common.MobileDriver.takeScreenshot"() {
-    (new com.maybank.common.MobileDriver()).takeScreenshot()
+def static "com.vcb.common.MobileDriver.takeScreenshot"() {
+    (new com.vcb.common.MobileDriver()).takeScreenshot()
 }
 
 
-def static "com.maybank.common.MobileDriver.activateApp"(
+def static "com.vcb.common.MobileDriver.activateApp"(
     	String appID	) {
-    (new com.maybank.common.MobileDriver()).activateApp(
+    (new com.vcb.common.MobileDriver()).activateApp(
         	appID)
 }
 
 
-def static "com.maybank.common.MobileDriver.verifyElementExist"(
+def static "com.vcb.common.MobileDriver.verifyElementExist"(
     	MobileTestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).verifyElementExist(
+    (new com.vcb.common.MobileDriver()).verifyElementExist(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.verifyElementVisible"(
+def static "com.vcb.common.MobileDriver.verifyElementVisible"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).verifyElementVisible(
+    (new com.vcb.common.MobileDriver()).verifyElementVisible(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.verifyElementNotVisible"(
+def static "com.vcb.common.MobileDriver.verifyElementNotVisible"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).verifyElementNotVisible(
+    (new com.vcb.common.MobileDriver()).verifyElementNotVisible(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.dragAndDrop"(
+def static "com.vcb.common.MobileDriver.dragAndDrop"(
     	TestObject fromObject	
      , 	TestObject toObject	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).dragAndDrop(
+    (new com.vcb.common.MobileDriver()).dragAndDrop(
         	fromObject
          , 	toObject
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.waitForElementPresent"(
+def static "com.vcb.common.MobileDriver.waitForElementPresent"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).waitForElementPresent(
+    (new com.vcb.common.MobileDriver()).waitForElementPresent(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.waitForElementNotPresent"(
+def static "com.vcb.common.MobileDriver.waitForElementNotPresent"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).waitForElementNotPresent(
+    (new com.vcb.common.MobileDriver()).waitForElementNotPresent(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.tap"(
+def static "com.vcb.common.MobileDriver.tap"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).tap(
+    (new com.vcb.common.MobileDriver()).tap(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.doubleTap"(
+def static "com.vcb.common.MobileDriver.doubleTap"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).doubleTap(
+    (new com.vcb.common.MobileDriver()).doubleTap(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapAndLog"(
+def static "com.vcb.common.MobileDriver.tapAndLog"(
     	TestObject obj	
      , 	int timeout	
      , 	String log	) {
-    (new com.maybank.common.MobileDriver()).tapAndLog(
+    (new com.vcb.common.MobileDriver()).tapAndLog(
         	obj
          , 	timeout
          , 	log)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapAtPosition"(
+def static "com.vcb.common.MobileDriver.tapAtPosition"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).tapAtPosition(
+    (new com.vcb.common.MobileDriver()).tapAtPosition(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapAtPositionWithOffset"(
+def static "com.vcb.common.MobileDriver.tapAtPositionWithOffset"(
     	TestObject obj	
      , 	int timeout	
      , 	int offsetX	
      , 	int offsetY	) {
-    (new com.maybank.common.MobileDriver()).tapAtPositionWithOffset(
+    (new com.vcb.common.MobileDriver()).tapAtPositionWithOffset(
         	obj
          , 	timeout
          , 	offsetX
@@ -3020,652 +3020,652 @@ def static "com.maybank.common.MobileDriver.tapAtPositionWithOffset"(
 }
 
 
-def static "com.maybank.common.MobileDriver.tapAtPositionWithOffset"(
+def static "com.vcb.common.MobileDriver.tapAtPositionWithOffset"(
     	TestObject obj	
      , 	int timeout	
      , 	int offsetX	) {
-    (new com.maybank.common.MobileDriver()).tapAtPositionWithOffset(
+    (new com.vcb.common.MobileDriver()).tapAtPositionWithOffset(
         	obj
          , 	timeout
          , 	offsetX)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapAtPositionWithOffset"(
+def static "com.vcb.common.MobileDriver.tapAtPositionWithOffset"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).tapAtPositionWithOffset(
+    (new com.vcb.common.MobileDriver()).tapAtPositionWithOffset(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.setTextAndDone"(
+def static "com.vcb.common.MobileDriver.setTextAndDone"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).setTextAndDone(
+    (new com.vcb.common.MobileDriver()).setTextAndDone(
         	obj
          , 	textContent
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.setText"(
+def static "com.vcb.common.MobileDriver.setText"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).setText(
+    (new com.vcb.common.MobileDriver()).setText(
         	obj
          , 	textContent
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.checkHideKeyBoard"() {
-    (new com.maybank.common.MobileDriver()).checkHideKeyBoard()
+def static "com.vcb.common.MobileDriver.checkHideKeyBoard"() {
+    (new com.vcb.common.MobileDriver()).checkHideKeyBoard()
 }
 
 
-def static "com.maybank.common.MobileDriver.setTextSimply"(
+def static "com.vcb.common.MobileDriver.setTextSimply"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).setTextSimply(
+    (new com.vcb.common.MobileDriver()).setTextSimply(
         	obj
          , 	textContent
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.setEncryptedText"(
+def static "com.vcb.common.MobileDriver.setEncryptedText"(
     	TestObject obj	
      , 	String textContent	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).setEncryptedText(
+    (new com.vcb.common.MobileDriver()).setEncryptedText(
         	obj
          , 	textContent
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.getText"(
+def static "com.vcb.common.MobileDriver.getText"(
     	TestObject obj	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).getText(
+    (new com.vcb.common.MobileDriver()).getText(
         	obj
          , 	timeout)
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollTo"(
+def static "com.vcb.common.MobileDriver.scrollTo"(
     	TestObject obj	
      , 	int maxSwipe	
      , 	boolean directionUp	) {
-    (new com.maybank.common.MobileDriver()).scrollTo(
+    (new com.vcb.common.MobileDriver()).scrollTo(
         	obj
          , 	maxSwipe
          , 	directionUp)
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollTo"(
+def static "com.vcb.common.MobileDriver.scrollTo"(
     	TestObject obj	
      , 	int maxSwipe	) {
-    (new com.maybank.common.MobileDriver()).scrollTo(
+    (new com.vcb.common.MobileDriver()).scrollTo(
         	obj
          , 	maxSwipe)
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollTo"(
+def static "com.vcb.common.MobileDriver.scrollTo"(
     	TestObject obj	) {
-    (new com.maybank.common.MobileDriver()).scrollTo(
+    (new com.vcb.common.MobileDriver()).scrollTo(
         	obj)
 }
 
 
-def static "com.maybank.common.MobileDriver.checkElementAndScroll"(
+def static "com.vcb.common.MobileDriver.checkElementAndScroll"(
     	TestObject obj	
      , 	int length	
      , 	boolean directionUp	) {
-    (new com.maybank.common.MobileDriver()).checkElementAndScroll(
+    (new com.vcb.common.MobileDriver()).checkElementAndScroll(
         	obj
          , 	length
          , 	directionUp)
 }
 
 
-def static "com.maybank.common.MobileDriver.checkElementAndScroll"(
+def static "com.vcb.common.MobileDriver.checkElementAndScroll"(
     	TestObject obj	
      , 	int length	) {
-    (new com.maybank.common.MobileDriver()).checkElementAndScroll(
+    (new com.vcb.common.MobileDriver()).checkElementAndScroll(
         	obj
          , 	length)
 }
 
 
-def static "com.maybank.common.MobileDriver.checkElementAndScroll"(
+def static "com.vcb.common.MobileDriver.checkElementAndScroll"(
     	TestObject obj	) {
-    (new com.maybank.common.MobileDriver()).checkElementAndScroll(
+    (new com.vcb.common.MobileDriver()).checkElementAndScroll(
         	obj)
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollToTop"() {
-    (new com.maybank.common.MobileDriver()).scrollToTop()
+def static "com.vcb.common.MobileDriver.scrollToTop"() {
+    (new com.vcb.common.MobileDriver()).scrollToTop()
 }
 
 
-def static "com.maybank.common.MobileDriver.scrollToText"(
+def static "com.vcb.common.MobileDriver.scrollToText"(
     	String text	) {
-    (new com.maybank.common.MobileDriver()).scrollToText(
+    (new com.vcb.common.MobileDriver()).scrollToText(
         	text)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapElemtByXml"(
+def static "com.vcb.common.MobileDriver.tapElemtByXml"(
     	String xpath	
      , 	String cacheKey	) {
-    (new com.maybank.common.MobileDriver()).tapElemtByXml(
+    (new com.vcb.common.MobileDriver()).tapElemtByXml(
         	xpath
          , 	cacheKey)
 }
 
 
-def static "com.maybank.common.MobileDriver.tapElemtByXml"(
+def static "com.vcb.common.MobileDriver.tapElemtByXml"(
     	String xpath	) {
-    (new com.maybank.common.MobileDriver()).tapElemtByXml(
+    (new com.vcb.common.MobileDriver()).tapElemtByXml(
         	xpath)
 }
 
 
-def static "com.maybank.common.MobileDriver.verifyMatch"(
+def static "com.vcb.common.MobileDriver.verifyMatch"(
     	TestObject testObject	
      , 	String regexMatch	
      , 	int timeout	) {
-    (new com.maybank.common.MobileDriver()).verifyMatch(
+    (new com.vcb.common.MobileDriver()).verifyMatch(
         	testObject
          , 	regexMatch
          , 	timeout)
 }
 
 
-def static "com.maybank.mae.pages.Customise.clickViewAllButton"(
+def static "com.vcb.mobile.pages.Customise.clickViewAllButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).clickViewAllButton(
+    (new com.vcb.mobile.pages.Customise()).clickViewAllButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyApplyButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyApplyButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyApplyButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyApplyButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyTabungButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyTabungButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyTabungButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyTabungButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyInvestmentButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyInvestmentButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyInvestmentButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyInvestmentButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyPromotionsButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyPromotionsButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyPromotionsButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyPromotionsButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyZakatButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyZakatButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyZakatButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyZakatButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifySamaSamaLocalButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifySamaSamaLocalButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifySamaSamaLocalButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifySamaSamaLocalButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyMoviesLesuireButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyMoviesLesuireButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyMoviesLesuireButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyMoviesLesuireButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyPropertyButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyPropertyButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyPropertyButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyPropertyButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyJuniorButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyJuniorButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyJuniorButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyJuniorButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifySecure2UButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifySecure2UButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifySecure2UButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifySecure2UButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyTapTrackWinButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyTapTrackWinButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyTapTrackWinButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyTapTrackWinButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyPNotificationsButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyPNotificationsButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyPNotificationsButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyPNotificationsButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.SwipeToNextScreen"(
+def static "com.vcb.mobile.pages.Customise.SwipeToNextScreen"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).SwipeToNextScreen(
+    (new com.vcb.mobile.pages.Customise()).SwipeToNextScreen(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyKillSwitchButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyKillSwitchButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyKillSwitchButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyKillSwitchButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyTravelDealsButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyTravelDealsButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyTravelDealsButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyTravelDealsButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyERLTicketsButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyERLTicketsButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyERLTicketsButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyERLTicketsButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyFlightTicketsButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyFlightTicketsButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyFlightTicketsButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyFlightTicketsButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyLoyaltyButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyLoyaltyButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyLoyaltyButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyLoyaltyButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifySavedButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifySavedButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifySavedButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifySavedButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyReferAFriendButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyReferAFriendButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyReferAFriendButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyReferAFriendButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyMaybankezyQButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyVcbezyQButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyMaybankezyQButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyVcbezyQButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyArticlesButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyArticlesButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyArticlesButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyArticlesButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyFoodButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyFoodButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyFoodButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyFoodButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyTravelInsuranceButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyTravelInsuranceButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyTravelInsuranceButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyTravelInsuranceButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyATMCashOutButtonExist"(
+def static "com.vcb.mobile.pages.Customise.verifyATMCashOutButtonExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyATMCashOutButtonExist(
+    (new com.vcb.mobile.pages.Customise()).verifyATMCashOutButtonExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.clickBackButton"(
+def static "com.vcb.mobile.pages.Customise.clickBackButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).clickBackButton(
+    (new com.vcb.mobile.pages.Customise()).clickBackButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyDefaulItemsCustomiseScreen"(
+def static "com.vcb.mobile.pages.Customise.verifyDefaulItemsCustomiseScreen"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyDefaulItemsCustomiseScreen(
+    (new com.vcb.mobile.pages.Customise()).verifyDefaulItemsCustomiseScreen(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.clickCustomiseButton"(
+def static "com.vcb.mobile.pages.Customise.clickCustomiseButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).clickCustomiseButton(
+    (new com.vcb.mobile.pages.Customise()).clickCustomiseButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyManageQucikActionsText"(
+def static "com.vcb.mobile.pages.Customise.verifyManageQucikActionsText"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyManageQucikActionsText(
+    (new com.vcb.mobile.pages.Customise()).verifyManageQucikActionsText(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyHoldAndDragDescription"(
+def static "com.vcb.mobile.pages.Customise.verifyHoldAndDragDescription"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyHoldAndDragDescription(
+    (new com.vcb.mobile.pages.Customise()).verifyHoldAndDragDescription(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Customise.verifyCurrentFavoritesText"(
+def static "com.vcb.mobile.pages.Customise.verifyCurrentFavoritesText"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Customise()).verifyCurrentFavoritesText(
+    (new com.vcb.mobile.pages.Customise()).verifyCurrentFavoritesText(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.WelcomeOnboard.enterYourName"(
+def static "com.vcb.mobile.pages.WelcomeOnboard.enterYourName"(
     	String yourName	
      , 	String accountName	) {
-    (new com.maybank.mae.pages.WelcomeOnboard()).enterYourName(
+    (new com.vcb.mobile.pages.WelcomeOnboard()).enterYourName(
         	yourName
          , 	accountName)
 }
 
 
-def static "com.maybank.mae.pages.WelcomeOnboard.enterYourName"(
+def static "com.vcb.mobile.pages.WelcomeOnboard.enterYourName"(
     	String yourName	) {
-    (new com.maybank.mae.pages.WelcomeOnboard()).enterYourName(
+    (new com.vcb.mobile.pages.WelcomeOnboard()).enterYourName(
         	yourName)
 }
 
 
-def static "com.maybank.mae.pages.Maybank2u.navigateToMaybank2u"(
+def static "com.vcb.mobile.pages.Vcb2u.navigateToVcb2u"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Maybank2u()).navigateToMaybank2u(
+    (new com.vcb.mobile.pages.Vcb2u()).navigateToVcb2u(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Maybank2u.viewAllAccounts"(
+def static "com.vcb.mobile.pages.Vcb2u.viewAllAccounts"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Maybank2u()).viewAllAccounts(
+    (new com.vcb.mobile.pages.Vcb2u()).viewAllAccounts(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Maybank2u.navigateToMaybank2u"() {
-    (new com.maybank.mae.pages.Maybank2u()).navigateToMaybank2u()
+def static "com.vcb.mobile.pages.Vcb2u.navigateToVcb2u"() {
+    (new com.vcb.mobile.pages.Vcb2u()).navigateToVcb2u()
 }
 
 
-def static "com.maybank.mae.pages.Maybank2u.viewAllAccounts"() {
-    (new com.maybank.mae.pages.Maybank2u()).viewAllAccounts()
+def static "com.vcb.mobile.pages.Vcb2u.viewAllAccounts"() {
+    (new com.vcb.mobile.pages.Vcb2u()).viewAllAccounts()
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyProfilesExist"(
+def static "com.vcb.mobile.pages.Setting.verifyProfilesExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyProfilesExist(
+    (new com.vcb.mobile.pages.Setting()).verifyProfilesExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyMaybank2uExist"(
+def static "com.vcb.mobile.pages.Setting.verifyVcb2uExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyMaybank2uExist(
+    (new com.vcb.mobile.pages.Setting()).verifyVcb2uExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifySecirityExist"(
+def static "com.vcb.mobile.pages.Setting.verifySecirityExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifySecirityExist(
+    (new com.vcb.mobile.pages.Setting()).verifySecirityExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyNotificationsExist"(
+def static "com.vcb.mobile.pages.Setting.verifyNotificationsExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyNotificationsExist(
+    (new com.vcb.mobile.pages.Setting()).verifyNotificationsExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifySupportExist"(
+def static "com.vcb.mobile.pages.Setting.verifySupportExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifySupportExist(
+    (new com.vcb.mobile.pages.Setting()).verifySupportExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyDefaultViewExist"(
+def static "com.vcb.mobile.pages.Setting.verifyDefaultViewExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyDefaultViewExist(
+    (new com.vcb.mobile.pages.Setting()).verifyDefaultViewExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyAboutSettingsExist"(
+def static "com.vcb.mobile.pages.Setting.verifyAboutSettingsExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyAboutSettingsExist(
+    (new com.vcb.mobile.pages.Setting()).verifyAboutSettingsExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.clickMaybank2uExist"(
+def static "com.vcb.mobile.pages.Setting.clickVcb2uExist"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).clickMaybank2uExist(
+    (new com.vcb.mobile.pages.Setting()).clickVcb2uExist(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.tapScanAndPay"(
+def static "com.vcb.mobile.pages.Setting.tapScanAndPay"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).tapScanAndPay(
+    (new com.vcb.mobile.pages.Setting()).tapScanAndPay(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.tapPaynTransfer"(
+def static "com.vcb.mobile.pages.Setting.tapPaynTransfer"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).tapPaynTransfer(
+    (new com.vcb.mobile.pages.Setting()).tapPaynTransfer(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyDailyLimitText"(
+def static "com.vcb.mobile.pages.Setting.verifyDailyLimitText"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyDailyLimitText(
+    (new com.vcb.mobile.pages.Setting()).verifyDailyLimitText(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyCumulativeLimitText"(
+def static "com.vcb.mobile.pages.Setting.verifyCumulativeLimitText"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyCumulativeLimitText(
+    (new com.vcb.mobile.pages.Setting()).verifyCumulativeLimitText(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyTermsAndConditionsText"(
+def static "com.vcb.mobile.pages.Setting.verifyTermsAndConditionsText"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyTermsAndConditionsText(
+    (new com.vcb.mobile.pages.Setting()).verifyTermsAndConditionsText(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.tapConfirmButton"(
+def static "com.vcb.mobile.pages.Setting.tapConfirmButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).tapConfirmButton(
+    (new com.vcb.mobile.pages.Setting()).tapConfirmButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.enterPassword"(
+def static "com.vcb.mobile.pages.Setting.enterPassword"(
     	Object password	
      , 	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).enterPassword(
+    (new com.vcb.mobile.pages.Setting()).enterPassword(
         	password
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.clickProfileButton"(
+def static "com.vcb.mobile.pages.Setting.clickProfileButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).clickProfileButton(
+    (new com.vcb.mobile.pages.Setting()).clickProfileButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyTextUpdateProfile"(
+def static "com.vcb.mobile.pages.Setting.verifyTextUpdateProfile"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyTextUpdateProfile(
+    (new com.vcb.mobile.pages.Setting()).verifyTextUpdateProfile(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyPhoneNumber"(
+def static "com.vcb.mobile.pages.Setting.verifyPhoneNumber"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyPhoneNumber(
+    (new com.vcb.mobile.pages.Setting()).verifyPhoneNumber(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyProfilePictureUpdatedSuccessfully"(
+def static "com.vcb.mobile.pages.Setting.verifyProfilePictureUpdatedSuccessfully"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyProfilePictureUpdatedSuccessfully(
+    (new com.vcb.mobile.pages.Setting()).verifyProfilePictureUpdatedSuccessfully(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyPhoneNumberUpdatedSuccessfully"(
+def static "com.vcb.mobile.pages.Setting.verifyPhoneNumberUpdatedSuccessfully"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyPhoneNumberUpdatedSuccessfully(
+    (new com.vcb.mobile.pages.Setting()).verifyPhoneNumberUpdatedSuccessfully(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyEmailIdUpdatedSuccessfully"(
+def static "com.vcb.mobile.pages.Setting.verifyEmailIdUpdatedSuccessfully"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyEmailIdUpdatedSuccessfully(
+    (new com.vcb.mobile.pages.Setting()).verifyEmailIdUpdatedSuccessfully(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.clickDuitNowButton"(
+def static "com.vcb.mobile.pages.Setting.clickDuitNowButton"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).clickDuitNowButton(
+    (new com.vcb.mobile.pages.Setting()).clickDuitNowButton(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.verifyNRICNumbertext"(
+def static "com.vcb.mobile.pages.Setting.verifyNRICNumbertext"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).verifyNRICNumbertext(
+    (new com.vcb.mobile.pages.Setting()).verifyNRICNumbertext(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.switchAccountForNricNumber"(
+def static "com.vcb.mobile.pages.Setting.switchAccountForNricNumber"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).switchAccountForNricNumber(
+    (new com.vcb.mobile.pages.Setting()).switchAccountForNricNumber(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.secure2uforDuitNowSettings"(
+def static "com.vcb.mobile.pages.Setting.secure2uforDuitNowSettings"(
     	Object status	
      , 	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).secure2uforDuitNowSettings(
+    (new com.vcb.mobile.pages.Setting()).secure2uforDuitNowSettings(
         	status
          , 	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.tapSecure2u"(
+def static "com.vcb.mobile.pages.Setting.tapSecure2u"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).tapSecure2u(
+    (new com.vcb.mobile.pages.Setting()).tapSecure2u(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Setting.disableSecure2U"(
+def static "com.vcb.mobile.pages.Setting.disableSecure2U"(
     	Object flowControl	) {
-    (new com.maybank.mae.pages.Setting()).disableSecure2U(
+    (new com.vcb.mobile.pages.Setting()).disableSecure2U(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Biometric.setup"(
+def static "com.vcb.mobile.pages.Biometric.setup"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Biometric()).setup(
+    (new com.vcb.mobile.pages.Biometric()).setup(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Biometric.setup"() {
-    (new com.maybank.mae.pages.Biometric()).setup()
+def static "com.vcb.mobile.pages.Biometric.setup"() {
+    (new com.vcb.mobile.pages.Biometric()).setup()
 }
 
  /**
 	 * Clear Android app data
 	 * @return
 	 */ 
-def static "com.maybank.common.Android.clearAppData"(
+def static "com.vcb.common.Android.clearAppData"(
     	String appPackage	) {
-    (new com.maybank.common.Android()).clearAppData(
+    (new com.vcb.common.Android()).clearAppData(
         	appPackage)
 }
 
@@ -3673,9 +3673,9 @@ def static "com.maybank.common.Android.clearAppData"(
 	 * Close Android app
 	 * @return
 	 */ 
-def static "com.maybank.common.Android.killApp"(
+def static "com.vcb.common.Android.killApp"(
     	String appPackage	) {
-    (new com.maybank.common.Android()).killApp(
+    (new com.vcb.common.Android()).killApp(
         	appPackage)
 }
 
@@ -3686,12 +3686,12 @@ def static "com.maybank.common.Android.killApp"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.Android.setText"(
+def static "com.vcb.common.Android.setText"(
     	TestObject to	
      , 	String input	
      , 	int timeout	
      , 	Object flowControl	) {
-    (new com.maybank.common.Android()).setText(
+    (new com.vcb.common.Android()).setText(
         	to
          , 	input
          , 	timeout
@@ -3704,39 +3704,39 @@ def static "com.maybank.common.Android.setText"(
 	 * @param timeout
 	 * @return
 	 */ 
-def static "com.maybank.common.Android.setTextNoObject"(
+def static "com.vcb.common.Android.setTextNoObject"(
     	String input	
      , 	int timeout	
      , 	Object flowControl	) {
-    (new com.maybank.common.Android()).setTextNoObject(
+    (new com.vcb.common.Android()).setTextNoObject(
         	input
          , 	timeout
          , 	flowControl)
 }
 
 
-def static "com.maybank.common.Android.executeADBCommand"(
+def static "com.vcb.common.Android.executeADBCommand"(
     	String command	) {
-    (new com.maybank.common.Android()).executeADBCommand(
+    (new com.vcb.common.Android()).executeADBCommand(
         	command)
 }
 
 
-def static "com.maybank.common.Android.setTextToClipboard"(
+def static "com.vcb.common.Android.setTextToClipboard"(
     	String text	) {
-    (new com.maybank.common.Android()).setTextToClipboard(
+    (new com.vcb.common.Android()).setTextToClipboard(
         	text)
 }
 
 
-def static "com.maybank.common.Android.scrollToTestObject"(
+def static "com.vcb.common.Android.scrollToTestObject"(
     	TestObject grid	
      , 	TestObject findObj	
      , 	ScrollDirectionEnum direction	
      , 	int timeout	
      , 	FailureHandling flowControl	
      , 	boolean flexibleDeivce	) {
-    (new com.maybank.common.Android()).scrollToTestObject(
+    (new com.vcb.common.Android()).scrollToTestObject(
         	grid
          , 	findObj
          , 	direction
@@ -3746,22 +3746,22 @@ def static "com.maybank.common.Android.scrollToTestObject"(
 }
 
 
-def static "com.maybank.common.Android.swipe"(
+def static "com.vcb.common.Android.swipe"(
     	float startXPercentage	
      , 	float endXPercentage	) {
-    (new com.maybank.common.Android()).swipe(
+    (new com.vcb.common.Android()).swipe(
         	startXPercentage
          , 	endXPercentage)
 }
 
 
-def static "com.maybank.common.Android.scrollByW3CAction"(
+def static "com.vcb.common.Android.scrollByW3CAction"(
     	int startX	
      , 	int startY	
      , 	int endX	
      , 	int endY	
      , 	int waitTime	) {
-    (new com.maybank.common.Android()).scrollByW3CAction(
+    (new com.vcb.common.Android()).scrollByW3CAction(
         	startX
          , 	startY
          , 	endX
@@ -3770,12 +3770,12 @@ def static "com.maybank.common.Android.scrollByW3CAction"(
 }
 
 
-def static "com.maybank.common.Android.scrollToNotDirection"(
+def static "com.vcb.common.Android.scrollToNotDirection"(
     	int startX	
      , 	int startY	
      , 	int endX	
      , 	int endY	) {
-    (new com.maybank.common.Android()).scrollToNotDirection(
+    (new com.vcb.common.Android()).scrollToNotDirection(
         	startX
          , 	startY
          , 	endX
@@ -3783,13 +3783,13 @@ def static "com.maybank.common.Android.scrollToNotDirection"(
 }
 
 
-def static "com.maybank.common.Android.scrollToJavascript"(
+def static "com.vcb.common.Android.scrollToJavascript"(
     	int left	
      , 	int top	
      , 	int width	
      , 	int height	
      , 	Object direction	) {
-    (new com.maybank.common.Android()).scrollToJavascript(
+    (new com.vcb.common.Android()).scrollToJavascript(
         	left
          , 	top
          , 	width
@@ -3798,13 +3798,13 @@ def static "com.maybank.common.Android.scrollToJavascript"(
 }
 
 
-def static "com.maybank.common.Android.scrollToTestObject"(
+def static "com.vcb.common.Android.scrollToTestObject"(
     	TestObject grid	
      , 	TestObject findObj	
      , 	ScrollDirectionEnum direction	
      , 	int timeout	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.common.Android()).scrollToTestObject(
+    (new com.vcb.common.Android()).scrollToTestObject(
         	grid
          , 	findObj
          , 	direction
@@ -3813,12 +3813,12 @@ def static "com.maybank.common.Android.scrollToTestObject"(
 }
 
 
-def static "com.maybank.common.Android.scrollToTestObject"(
+def static "com.vcb.common.Android.scrollToTestObject"(
     	TestObject grid	
      , 	TestObject findObj	
      , 	ScrollDirectionEnum direction	
      , 	int timeout	) {
-    (new com.maybank.common.Android()).scrollToTestObject(
+    (new com.vcb.common.Android()).scrollToTestObject(
         	grid
          , 	findObj
          , 	direction
@@ -3826,12 +3826,12 @@ def static "com.maybank.common.Android.scrollToTestObject"(
 }
 
 
-def static "com.maybank.common.Android.scrollByW3CAction"(
+def static "com.vcb.common.Android.scrollByW3CAction"(
     	int startX	
      , 	int startY	
      , 	int endX	
      , 	int endY	) {
-    (new com.maybank.common.Android()).scrollByW3CAction(
+    (new com.vcb.common.Android()).scrollByW3CAction(
         	startX
          , 	startY
          , 	endX
@@ -3839,12 +3839,12 @@ def static "com.maybank.common.Android.scrollByW3CAction"(
 }
 
 
-def static "com.maybank.common.Android.scrollToJavascript"(
+def static "com.vcb.common.Android.scrollToJavascript"(
     	int left	
      , 	int top	
      , 	int width	
      , 	int height	) {
-    (new com.maybank.common.Android()).scrollToJavascript(
+    (new com.vcb.common.Android()).scrollToJavascript(
         	left
          , 	top
          , 	width
@@ -3856,11 +3856,11 @@ def static "com.maybank.common.Android.scrollToJavascript"(
 	 * @param actualValue the value need to evaluate
 	 * @param description
 	 */ 
-def static "com.maybank.assertions.BaseAssert.isNull"(
+def static "com.vcb.assertions.BaseAssert.isNull"(
     	Object actualValue	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.BaseAssert()).isNull(
+    (new com.vcb.assertions.BaseAssert()).isNull(
         	actualValue
          , 	description
          , 	flowControl)
@@ -3871,11 +3871,11 @@ def static "com.maybank.assertions.BaseAssert.isNull"(
 	 * @param actualValue
 	 * @param description short description
 	 */ 
-def static "com.maybank.assertions.BaseAssert.isNotNull"(
+def static "com.vcb.assertions.BaseAssert.isNotNull"(
     	Object actualValue	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.BaseAssert()).isNotNull(
+    (new com.vcb.assertions.BaseAssert()).isNotNull(
         	actualValue
          , 	description
          , 	flowControl)
@@ -3887,12 +3887,12 @@ def static "com.maybank.assertions.BaseAssert.isNotNull"(
 	 * @param actualValue actual value
 	 * @param description
 	 */ 
-def static "com.maybank.assertions.BaseAssert.equals"(
+def static "com.vcb.assertions.BaseAssert.equals"(
     	Object expectedValue	
      , 	Object actualValue	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.BaseAssert()).equals(
+    (new com.vcb.assertions.BaseAssert()).equals(
         	expectedValue
          , 	actualValue
          , 	description
@@ -3905,12 +3905,12 @@ def static "com.maybank.assertions.BaseAssert.equals"(
 	 * @param actualValue actual value
 	 * @param description
 	 */ 
-def static "com.maybank.assertions.BaseAssert.notEquals"(
+def static "com.vcb.assertions.BaseAssert.notEquals"(
     	Object expectedValue	
      , 	Object actualValue	
      , 	String description	
      , 	FailureHandling flowControl	) {
-    (new com.maybank.assertions.BaseAssert()).notEquals(
+    (new com.vcb.assertions.BaseAssert()).notEquals(
         	expectedValue
          , 	actualValue
          , 	description
@@ -3918,67 +3918,67 @@ def static "com.maybank.assertions.BaseAssert.notEquals"(
 }
 
 
-def static "com.maybank.assertions.BaseAssert.isNull"(
+def static "com.vcb.assertions.BaseAssert.isNull"(
     	Object actualValue	
      , 	String description	) {
-    (new com.maybank.assertions.BaseAssert()).isNull(
+    (new com.vcb.assertions.BaseAssert()).isNull(
         	actualValue
          , 	description)
 }
 
 
-def static "com.maybank.assertions.BaseAssert.isNotNull"(
+def static "com.vcb.assertions.BaseAssert.isNotNull"(
     	Object actualValue	
      , 	String description	) {
-    (new com.maybank.assertions.BaseAssert()).isNotNull(
+    (new com.vcb.assertions.BaseAssert()).isNotNull(
         	actualValue
          , 	description)
 }
 
 
-def static "com.maybank.assertions.BaseAssert.equals"(
+def static "com.vcb.assertions.BaseAssert.equals"(
     	Object expectedValue	
      , 	Object actualValue	
      , 	String description	) {
-    (new com.maybank.assertions.BaseAssert()).equals(
+    (new com.vcb.assertions.BaseAssert()).equals(
         	expectedValue
          , 	actualValue
          , 	description)
 }
 
 
-def static "com.maybank.assertions.BaseAssert.notEquals"(
+def static "com.vcb.assertions.BaseAssert.notEquals"(
     	Object expectedValue	
      , 	Object actualValue	
      , 	String description	) {
-    (new com.maybank.assertions.BaseAssert()).notEquals(
+    (new com.vcb.assertions.BaseAssert()).notEquals(
         	expectedValue
          , 	actualValue
          , 	description)
 }
 
 
-def static "com.maybank.mae.pages.Onboarding.navigateToLogin"(
+def static "com.vcb.mobile.pages.Onboarding.navigateToLogin"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Onboarding()).navigateToLogin(
+    (new com.vcb.mobile.pages.Onboarding()).navigateToLogin(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Onboarding.disagreeDisclosure"(
+def static "com.vcb.mobile.pages.Onboarding.disagreeDisclosure"(
     	FailureHandling flowControl	) {
-    (new com.maybank.mae.pages.Onboarding()).disagreeDisclosure(
+    (new com.vcb.mobile.pages.Onboarding()).disagreeDisclosure(
         	flowControl)
 }
 
 
-def static "com.maybank.mae.pages.Onboarding.navigateToLogin"() {
-    (new com.maybank.mae.pages.Onboarding()).navigateToLogin()
+def static "com.vcb.mobile.pages.Onboarding.navigateToLogin"() {
+    (new com.vcb.mobile.pages.Onboarding()).navigateToLogin()
 }
 
 
-def static "com.maybank.mae.pages.Onboarding.disagreeDisclosure"() {
-    (new com.maybank.mae.pages.Onboarding()).disagreeDisclosure()
+def static "com.vcb.mobile.pages.Onboarding.disagreeDisclosure"() {
+    (new com.vcb.mobile.pages.Onboarding()).disagreeDisclosure()
 }
 
 

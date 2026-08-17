@@ -15,7 +15,7 @@
       <guid>796dd0e5-e119-421a-92f1-961d33e7b393</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Loan/Personal Loan - Pre Onboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Loan/Personal Loan - Pre Onboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -28,7 +28,7 @@
       <guid>9bfb07f5-4d9b-4f4c-af96-307dd17a45b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Loan/Personal Loan - Post Onboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Loan/Personal Loan - Post Onboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>af92d8f3-744d-4443-901d-5234a958672d</id>
@@ -80,7 +80,7 @@
       <guid>d357d4ba-7340-4798-9613-8914aec895d2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Loan/Home Loan</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Loan/Home Loan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>345d31f2-6d53-4584-ac97-4cb5df40b80a</id>

@@ -15,7 +15,7 @@
       <guid>bf66d228-b14a-486c-913f-ccf994bc203f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Filter Expense</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Filter Expense</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b8c9d0e1-f2a3-4567-bcde-567890123407</id>

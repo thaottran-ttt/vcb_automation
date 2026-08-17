@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9D7E34060D89C397CEAEE2C88067BAD2",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.AndroidPhoneFavouritesPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

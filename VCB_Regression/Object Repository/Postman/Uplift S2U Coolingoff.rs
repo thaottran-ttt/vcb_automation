@@ -30,7 +30,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://al-identity.maybank.com:1443/mdip/s2u/v2/coolingoff/customer/remove</restUrl>
+   <restUrl>https://al-identity.vcb.com:1443/mdip/s2u/v2/coolingoff/customer/remove</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

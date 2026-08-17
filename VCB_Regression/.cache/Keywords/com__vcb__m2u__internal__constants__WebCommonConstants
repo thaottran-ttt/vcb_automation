@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8196320F8501CDC4FD1A409BCA15D3D5",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.constants.WebCommonConstants",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

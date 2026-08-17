@@ -15,7 +15,7 @@
       <guid>b5c152f3-db60-4375-b95f-1ebcfc0e645d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Articles And Promotions/Articles - Top Read</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Articles And Promotions/Articles - Top Read</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -64,7 +64,7 @@
       <guid>c7213535-ee54-4b90-9500-bd1a70d34db7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Articles And Promotions/Articles - Read More</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Articles And Promotions/Articles - Read More</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -113,7 +113,7 @@
       <guid>3c73755e-b130-45f2-b745-1c394ec1cac8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Articles And Promotions/Articles - Like Articles</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Articles And Promotions/Articles - Like Articles</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

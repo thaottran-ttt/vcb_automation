@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "FC0306275C0A2A385C9C6F85B7456242",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.AndroidPhoneOtpPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

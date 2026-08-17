@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4E623C285C7B981E28CB49D6450B3352",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.chrome.fixeddeposit.ChromeWebFixedDepositPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

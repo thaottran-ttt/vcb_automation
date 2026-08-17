@@ -15,7 +15,7 @@
       <guid>05820a28-49ef-4d5f-b4a9-6cb951698635</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Loyalty Card/Create New Loyalty Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Loyalty Card/Create New Loyalty Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5c20a56f-f86b-4ba2-b4a9-1d75ecfb1f0e</id>
@@ -79,7 +79,7 @@
       <guid>8471b220-3f23-48b8-83a5-a22ec434e1bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Loyalty Card/Validate Existing Loyalty Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Loyalty Card/Validate Existing Loyalty Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f9d31455-297e-450d-8e96-40cf347aa6f3</id>

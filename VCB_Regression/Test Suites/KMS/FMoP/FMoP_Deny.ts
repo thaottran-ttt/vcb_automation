@@ -15,7 +15,7 @@
       <guid>1ace9496-8340-45b8-8557-be604c38f131</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP 3rdParty Fav with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP 3rdParty Fav with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -124,7 +124,7 @@
       <guid>1f76e109-b6e0-4dc1-9e4b-19dd16a7c007</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP 3rdParty with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP 3rdParty with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -245,7 +245,7 @@
       <guid>ded6c8f0-ff32-456d-b83f-efc522c9538c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP DuitNow Fav OFFUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP DuitNow Fav OFFUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -354,7 +354,7 @@
       <guid>0e7317ba-5d67-4308-924b-1eb7ae7620ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP DuitNow Fav ONUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP DuitNow Fav ONUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -463,7 +463,7 @@
       <guid>4dbd653c-1b05-421d-a815-7823a245a4e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Duitnow Open OFFUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Duitnow Open OFFUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -662,7 +662,7 @@
       <guid>8cd31149-903f-484e-88d1-23a4b2253c3d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Duitnow Open ONFUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Duitnow Open ONFUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -861,7 +861,7 @@
       <guid>6e0783eb-5e37-4486-93d8-95d1565605ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP FTT with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP FTT with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1156,7 +1156,7 @@
       <guid>83710c1c-9f39-4726-a4c0-a30ca852246f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Giro Fav with Deny Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Giro Fav with Deny Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1331,7 +1331,7 @@
       <guid>4bac6469-e01a-46ad-8963-d8f0abcf98ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Giro Open with Deny Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Giro Open with Deny Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1500,7 +1500,7 @@
       <guid>4e522322-d364-4672-a03a-89a406a7d287</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP IBFT Fav with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP IBFT Fav with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1699,7 +1699,7 @@
       <guid>0a58d4b2-5394-4a88-bf63-f62ae640d26e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP IBFT Open with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP IBFT Open with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1898,7 +1898,7 @@
       <guid>16f66caa-e173-498d-9e47-25dac64f8504</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP JomPAY Fav OFFUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP JomPAY Fav OFFUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2025,7 +2025,7 @@
       <guid>a8da8097-5ecf-40e2-8546-c323da8bd3b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP JomPAY Fav ONUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP JomPAY Fav ONUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2152,7 +2152,7 @@
       <guid>8f65c064-2002-43c3-a339-74125574e645</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP JomPAY Open OFFUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP JomPAY Open OFFUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2279,7 +2279,7 @@
       <guid>f7b9c6f2-cb1f-4fab-8241-c219fcf3456d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP JomPAY Open ONUS with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP JomPAY Open ONUS with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2406,7 +2406,7 @@
       <guid>18db89bf-85e0-4000-8a3b-076305e894cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Miga Buy Gold By RM with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Miga Buy Gold By RM with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2497,7 +2497,7 @@
       <guid>d6e32651-d69e-4ebd-ae4d-aff5ee5acb90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Paybills Fav OFFUS with Deny Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Paybills Fav OFFUS with Deny Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2672,7 +2672,7 @@
       <guid>ef83d6c8-aca2-4d72-9007-54e0112ce6fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Paybills Fav ONUS with Deny Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Paybills Fav ONUS with Deny Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2847,7 +2847,7 @@
       <guid>355022ae-82cd-48d3-82eb-ba707c628bb9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Paybills Open OFFUS with Deny Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Paybills Open OFFUS with Deny Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3022,7 +3022,7 @@
       <guid>9cfca282-81c7-41eb-a849-83f763e3dfaa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Paybills Open ONUS with Deny Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Paybills Open ONUS with Deny Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3197,7 +3197,7 @@
       <guid>c2adc2ea-0684-4725-b680-aeede1409adf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Reload Mobile with Deny Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Reload Mobile with Deny Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3330,7 +3330,7 @@
       <guid>08ddcd20-d5da-46ea-81f9-9e93571b253f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Zakat Fav with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Zakat Fav with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3469,7 +3469,7 @@
       <guid>84b73bd8-87e6-42f9-8ed9-0598822b3d29</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/Deny/FMoP Zakat Open with Deny</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/Deny/FMoP Zakat Open with Deny</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

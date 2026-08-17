@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "744AC90385F8970BA9082B4ECC3FD91D",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.AndroidPhoneConfirmationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -18,16 +18,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.maybank.common.WebUIKeyword
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage
-import com.maybank.m2u.internal.pages.base.WebHomePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage as WCP
-import com.maybank.m2u.internal.pages.base.WebSecure2uAuthorisationPage
-import com.maybank.m2u.internal.pages.base.WebStatusScreenPage
-import com.maybank.m2u.internal.pages.base.paytransfer.WebPayPageJomPAY
-import com.maybank.utils.MapUtils
-import com.maybank.utils.StringUtils
+import com.vcb.common.WebUIKeyword
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage
+import com.vcb.m2u.internal.pages.base.WebHomePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage as WCP
+import com.vcb.m2u.internal.pages.base.WebSecure2uAuthorisationPage
+import com.vcb.m2u.internal.pages.base.WebStatusScreenPage
+import com.vcb.m2u.internal.pages.base.paytransfer.WebPayPageJomPAY
+import com.vcb.utils.MapUtils
+import com.vcb.utils.StringUtils
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale

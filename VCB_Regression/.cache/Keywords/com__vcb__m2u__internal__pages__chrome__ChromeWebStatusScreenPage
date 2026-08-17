@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4DD422386C46AD38A051B52A2D667C59",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.chrome.ChromeWebStatusScreenPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

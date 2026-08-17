@@ -15,7 +15,7 @@
       <guid>c2542767-fc90-49bb-bf82-15c28b78b722</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change App PIN/Change App PIN - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change App PIN/Change App PIN - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -118,7 +118,7 @@
       <guid>229ecc9d-955c-4eab-ad27-40c040c7b459</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change App PIN/Change App PIN - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change App PIN/Change App PIN - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -221,7 +221,7 @@
       <guid>4bc37670-a678-4307-95be-df21bd155cbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change App PIN/Change App PIN - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change App PIN/Change App PIN - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -324,7 +324,7 @@
       <guid>60195c42-a89b-477c-864a-2424a120b8f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change Password/Change Password - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change Password/Change Password - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -409,7 +409,7 @@
       <guid>336652f2-57a7-4123-9c73-7d109c8e4c97</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change Password/Change Password - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change Password/Change Password - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -494,7 +494,7 @@
       <guid>fbaaf6ca-2a35-4949-b765-99e5073bbc8c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change Password/Change Password - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change Password/Change Password - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -579,7 +579,7 @@
       <guid>76489a5b-e4e5-4726-a024-1ee479b90588</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change Security Questions/Change Security Questions - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change Security Questions/Change Security Questions - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -658,7 +658,7 @@
       <guid>fcac76d9-616c-4ddc-9ff3-8d1974ec051e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change Security Questions/Change Security Questions - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change Security Questions/Change Security Questions - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -737,7 +737,7 @@
       <guid>de0b5319-9914-4df1-b3b8-d7f8ecfe90ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Change Security Questions/Change Security Questions - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Change Security Questions/Change Security Questions - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -816,7 +816,7 @@
       <guid>8c4605b1-a9e3-44a9-96f8-6d22ce4480ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -901,7 +901,7 @@
       <guid>3cfaa9cb-2c3a-42db-99c5-3c55537aa718</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -980,7 +980,7 @@
       <guid>6c1cd4a5-bad8-428f-b1b6-0dc11ae2dfbe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1059,7 +1059,7 @@
       <guid>07318d28-637a-4e02-ac13-659658bd782c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Special Case</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Special Case</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

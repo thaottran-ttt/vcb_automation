@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B8C8A64ACC7AA2156EF7F4975B71C776",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.WelcomeOnboardPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

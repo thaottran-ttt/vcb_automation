@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E79F3C65F1D109FC7FA085483178BC80",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.safari.SafariWebLoginPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

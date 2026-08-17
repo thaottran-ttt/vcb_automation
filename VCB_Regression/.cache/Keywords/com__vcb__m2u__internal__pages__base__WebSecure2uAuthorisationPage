@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "508C91D803414E4B33F2D4FE8F2C23F8",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.base.WebSecure2uAuthorisationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

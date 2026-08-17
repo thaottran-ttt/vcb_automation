@@ -120,7 +120,7 @@
       <name>navItem</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank Islamic Gold Account-i'</defaultValue>
+      <defaultValue>'Vcb Islamic Gold Account-i'</defaultValue>
       <description></description>
       <id>3072c888-0a92-464f-9ce8-611c898439a6</id>
       <masked>false</masked>

@@ -15,7 +15,7 @@
       <guid>73c0ff15-bc69-4c89-9fc9-8c552429fdd3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Card details</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Card details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -52,7 +52,7 @@
       <guid>71d882ac-3abc-450f-8564-3f8b7b9e1f90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Default screen for no credit card -Box for Card STP web inapp</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Default screen for no credit card -Box for Card STP web inapp</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -89,7 +89,7 @@
       <guid>1b1c6787-42ef-4566-9121-2570fe8570a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/S2U Enforcement - User not yet reg s2u</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/S2U Enforcement - User not yet reg s2u</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -126,7 +126,7 @@
       <guid>51868817-5dc2-4e26-a023-a3a6536d930e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/3 dot - set PIN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/3 dot - set PIN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -163,7 +163,7 @@
       <guid>37a4e38c-1200-435f-8096-a9b3fc9652c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Card Name</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Card Name</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -200,7 +200,7 @@
       <guid>a3029e53-94e9-4e8b-b5dd-71ecd6cb32df</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Card Number - with masked . Only show last 4 digit</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Card Number - with masked . Only show last 4 digit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -255,7 +255,7 @@
       <guid>c1f6bd99-ae0e-400b-b0f9-02d61d2d59c4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Outstanding Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Outstanding Balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -376,7 +376,7 @@
       <guid>2ecf6c32-2b14-49ee-8991-0cb08ce71645</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Outstanding Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Outstanding Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>008c4406-0bfd-430f-9c16-7e3cab9bfd50</id>
@@ -524,7 +524,7 @@
       <guid>51cdf8be-65be-4779-b658-ea6067b58cc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Transaction history</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Transaction history</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -567,7 +567,7 @@
       <guid>1dc66563-cc75-46f3-951b-d284b811b64a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Credit Card activation</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Credit Card activation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a167a489-f7fc-462a-a067-6951dd93932a</id>
@@ -649,7 +649,7 @@
       <guid>29c21bbf-436e-402f-9270-a16c3bae6a5b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayCard Credit Card/Card details Dashboard/Card details</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayCard Credit Card/Card details Dashboard/Card details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

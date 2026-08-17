@@ -206,7 +206,7 @@
       <name>fromToData</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank / Maybank Islamic'</defaultValue>
+      <defaultValue>'Vcb / Vcb Islamic'</defaultValue>
       <description></description>
       <id>ab9eb632-516c-47b0-883a-a07be1cde122</id>
       <masked>false</masked>
@@ -325,7 +325,7 @@
       <name>type</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank1'</defaultValue>
+      <defaultValue>'Vcb1'</defaultValue>
       <description></description>
       <id>d7ed7902-c25b-4cbc-827d-d1ec8d5ccf73</id>
       <masked>false</masked>

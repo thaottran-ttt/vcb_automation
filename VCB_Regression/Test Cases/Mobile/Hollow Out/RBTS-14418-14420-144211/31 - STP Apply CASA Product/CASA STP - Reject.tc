@@ -194,7 +194,7 @@
       <name>accountType</name>
    </variable>
    <variable>
-      <defaultValue>['Savings Account', 'Savings Account-i', 'Savings based on the contract of Commodity Murabahah', 'Profit rates that are calculated daily and credited half-yearly in June and December', 'Various account management options: over the counter, ATM and Debit Card, Maybank2u.com and M2U Mobile']</defaultValue>
+      <defaultValue>['Savings Account', 'Savings Account-i', 'Savings based on the contract of Commodity Murabahah', 'Profit rates that are calculated daily and credited half-yearly in June and December', 'Various account management options: over the counter, ATM and Debit Card, Vcb2u.com and M2U Mobile']</defaultValue>
       <description></description>
       <id>4f95642b-ff08-48a6-94d1-2862fea4c872</id>
       <masked>false</masked>

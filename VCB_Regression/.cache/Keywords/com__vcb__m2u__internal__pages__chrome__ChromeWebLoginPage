@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2B90F412C8BD78029C444B9154F3AB1E",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.chrome.ChromeWebLoginPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

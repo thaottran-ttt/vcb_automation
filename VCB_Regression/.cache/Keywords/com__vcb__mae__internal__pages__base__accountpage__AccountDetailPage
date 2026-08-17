@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "630604F4E596F7AF2C6E9BCB4EB2A42A",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.accountpage.AccountDetailPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -338,7 +338,7 @@
       <name>accountType</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank'</defaultValue>
+      <defaultValue>'Vcb'</defaultValue>
       <description></description>
       <id>7838029c-26bb-4ac8-93b7-f4210ce09dca</id>
       <masked>false</masked>

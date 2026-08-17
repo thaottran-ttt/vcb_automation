@@ -15,7 +15,7 @@
       <guid>2d39d6c9-46f1-4b2c-bf62-8847810d4e08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/QR Pay/Verify QR pay scan exist</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/QR Pay/Verify QR pay scan exist</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

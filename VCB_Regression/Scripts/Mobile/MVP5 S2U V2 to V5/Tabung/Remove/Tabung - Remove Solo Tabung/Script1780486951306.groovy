@@ -14,15 +14,15 @@ import com.kms.katalon.core.testdata.TestData as TestData
 import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.tabung.TabungPage
-import com.maybank.utils.MapUtils
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.tabung.TabungPage
+import com.vcb.utils.MapUtils
 
 TabungPage tabungPage = BasePage.getPage(TabungPage)
 
 Map tabungMap = MapUtils.parseObjectToMap(tabungMap)
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Tabung/Common/Tabung Common'), [('username') : username, ('password') : password
+WebUI.callTestCase(findTestCase('Mobile/VCB/Tabung/Common/Tabung Common'), [('username') : username, ('password') : password
 	, ('idNumber') : idNumber, ('PAN') : PAN, ('action') : action, ('edit') : edit, ('tabungMap') : tabungMap
 	, ('mobileNumberShareBill') : mobileNumberShareBill, ('isGroup') : isGroup, ('status') : status, ('statusTitle') : statusTitle
 	, ('statusDescription') : statusDescription, ('verifyDashboard') : verifyDashboard, ('actionTabung') : actionTabung

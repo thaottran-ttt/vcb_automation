@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "1982538C9C97B91852EBC22159463F05",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.safari.modulesettings.SafariWebSettingsPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

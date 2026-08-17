@@ -15,7 +15,7 @@
       <guid>f6d5d210-bd54-407b-839a-58216fb9845f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Apply Card/Credit Card/Supplementary Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Apply Card/Credit Card/Supplementary Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2f90e974-7795-4fae-8383-f86446890363</id>

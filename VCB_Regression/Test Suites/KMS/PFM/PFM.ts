@@ -15,7 +15,7 @@
       <guid>7c26d5a9-27dc-4607-8a97-74179929903e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Split bill request - Add contacts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Split bill request - Add contacts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>19310a79-c180-4bf9-b32e-459e45a55baa</id>
@@ -74,13 +74,13 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <iterationNameVariable>
-         <defaultValue>['Hi! Meet your finance BFF', 'We\'re here to give you a rundown of your expenses with Maybank, be it locally or abroad. You can add cash transactions too.']</defaultValue>
+         <defaultValue>['Hi! Meet your finance BFF', 'We\'re here to give you a rundown of your expenses with Vcb, be it locally or abroad. You can add cash transactions too.']</defaultValue>
          <description></description>
          <id>d49eeea1-fb1f-459c-ba57-b1b7fe629904</id>
          <masked>false</masked>
          <name>summary</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Add Expense</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Add Expense</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>566c68ab-1a0d-41bb-bbe8-dfcbe4662f59</id>
@@ -162,7 +162,7 @@
       <guid>2e1cc177-694f-44fa-aac0-00959c17e8bd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Add Category</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Add Category</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e328d011-24a5-4f25-a03a-8c5d03749c30</id>
@@ -238,7 +238,7 @@
       <guid>99634eba-dbfb-4e00-8bfa-ef305424f502</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Split bill request - Split Evenly</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Split bill request - Split Evenly</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4f93547a-31f2-4a67-8adf-659cd1ce2f19</id>
@@ -326,7 +326,7 @@
       <guid>fedfef05-a1f0-4964-8f06-aaafc98c0d41</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Expense Split bill - Seperately</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Expense Split bill - Seperately</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e9e4e3f1-82ad-4d62-913f-aca397a2a49b</id>

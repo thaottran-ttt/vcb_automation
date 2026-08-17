@@ -16,17 +16,17 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.common.Android
-import com.maybank.common.BaseKeyword
-import com.maybank.common.FlowControlEnum
-import com.maybank.common.MobileDriver
-import com.maybank.common.MobileThread
-import com.maybank.common.PlatformEnum
-import com.maybank.common.WebUIKeyword
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.CommonPage
-import com.maybank.utils.ListUtils
-import com.maybank.utils.MobileDriverUtils
+import com.vcb.common.Android
+import com.vcb.common.BaseKeyword
+import com.vcb.common.FlowControlEnum
+import com.vcb.common.MobileDriver
+import com.vcb.common.MobileThread
+import com.vcb.common.PlatformEnum
+import com.vcb.common.WebUIKeyword
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage
+import com.vcb.utils.ListUtils
+import com.vcb.utils.MobileDriverUtils
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
 
@@ -95,7 +95,7 @@ class TestListener {
 
 			if(ListUtils.isStringInList(GlobalVariable.G_websiteTestCaseFolderPath, testCaseId)) {
 				'Open Browser and Bypass Secure'
-				CustomKeywords.'com.maybank.m2u.pages.WebCommon.openBrowserAndBypassSecure'(GlobalVariable.G_url, isRunWebsiteAndMobile)
+				CustomKeywords.'com.vcb.m2u.pages.WebCommon.openBrowserAndBypassSecure'(GlobalVariable.G_url, isRunWebsiteAndMobile)
 			}
 
 			GlobalVariable.G_isFirstRun = false
@@ -127,11 +127,11 @@ class TestListener {
 		MobileDriverUtils.setDriverMobile()
 		CommonPage commonPage = BasePage.getPage(CommonPage)
 
-		// Switch Environment On Mae
+		// Switch Environment On Vcb
 		switch (GlobalVariable.G_projectName) {
 			case {GlobalVariable.G_projectName}:
-			// Get Environment Name On MAE App
-				String envName = commonPage.getEnvNameOnMae(GlobalVariable.G_projectName, GlobalVariable.G_MAEVersionFileName)
+			// Get Environment Name On VCB App
+				String envName = commonPage.getEnvNameOnMae(GlobalVariable.G_projectName, GlobalVariable.G_VCBVersionFileName)
 				Mobile.comment(envName)
 				if ((GlobalVariable.G_isFirstRun && envName) || (!GlobalVariable.G_keepApp && envName)) {
 					// Switch Environment In TestListener

@@ -260,7 +260,7 @@
       <name>verifyBal</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank1'</defaultValue>
+      <defaultValue>'Vcb1'</defaultValue>
       <description></description>
       <id>42a85471-b0c3-47c7-b519-ff0e23198246</id>
       <masked>false</masked>

@@ -11,13 +11,13 @@ description: "Task list for feature implementation"
 
 **Tests**: Not requested in the spec. This project has no automated test framework (per plan.md's
 Technical Context) — "verification" tasks below mean manually running the Test Case in Katalon
-Studio / `katalonc` against the `mae-regression` profile, per `quickstart.md`.
+Studio / `katalonc` against the `vcb-regression` profile, per `quickstart.md`.
 
 **Organization**: Tasks are grouped by user story from spec.md (US1 = P1 happy path + reject
 outcome, US2 = P2 insufficient balance, US3 = P3 amount boundary). **Important deviation from the
 generic template**: this feature is a single reusable script (FR-012 requires exactly one common
 flow, not per-story files), so almost every task edits the same two files
-(`Test Cases/Mobile/MAE/AI Common/PayBill_AI.tc` and its matching `Scripts/.../PayBill_AI/*.groovy`).
+(`Test Cases/Mobile/VCB/AI Common/PayBill_AI.tc` and its matching `Scripts/.../PayBill_AI/*.groovy`).
 Tasks are therefore sequential within a file by necessity, not parallelizable across stories —
 `[P]` is only used where genuinely different files are touched.
 
@@ -31,8 +31,8 @@ Tasks are therefore sequential within a file by necessity, not parallelizable ac
 
 Katalon Studio ENTERPRISE mobile project (`RBTS.prj`), single project — no frontend/backend split.
 All new files live under:
-- `Test Cases/Mobile/MAE/AI Common/PayBill_AI.tc`
-- `Scripts/Mobile/MAE/AI Common/PayBill_AI/Script<timestamp>.groovy` (filename timestamp is
+- `Test Cases/Mobile/VCB/AI Common/PayBill_AI.tc`
+- `Scripts/Mobile/VCB/AI Common/PayBill_AI/Script<timestamp>.groovy` (filename timestamp is
   assigned by Katalon Studio when the script is first saved; any placeholder timestamp is fine as
   long as the folder name `PayBill_AI` matches the Test Case name, mirroring the `Zakat_AI` /
   `3rd party transfer_AI` sibling convention).
@@ -43,21 +43,21 @@ All new files live under:
 
 **Purpose**: Create the new Test Case and its matching Script skeleton
 
-- [X] T001 Create `Test Cases/Mobile/MAE/AI Common/PayBill_AI.tc` with all parameter variables and
+- [X] T001 Create `Test Cases/Mobile/VCB/AI Common/PayBill_AI.tc` with all parameter variables and
       default values from `contracts/paybill-common-testcase-contract.md` (username, password,
       idNumber, PAN, accountName, accessFlow, tranferName, payBillName, billerID, membershipType,
       amount, minAmount, maxAmount, errorMsgMinAmount, confirmationData, textNextPageConfirmation,
       status, favName, statusScreenTitle, statusScreenDescription, pushNotificationTitle,
       pushNotificationDescription, isRunFav, isFuture, isInsufficientAmount, testCaseType),
-      structured identically to `Test Cases/Mobile/MAE/AI Common/Zakat_AI.tc`.
+      structured identically to `Test Cases/Mobile/VCB/AI Common/Zakat_AI.tc`.
 - [X] T002 Create the matching script folder/file
-      `Scripts/Mobile/MAE/AI Common/PayBill_AI/Script<timestamp>.groovy` with the standard
+      `Scripts/Mobile/VCB/AI Common/PayBill_AI/Script<timestamp>.groovy` with the standard
       boilerplate (package-less script header, imports for `WebUI`, `findTestCase`,
       `FailureHandling`, `TestObjectTypeEnum`, `BasePage`, `HomePage`, `CommonPage`, `PayBillPage`,
       `ConfirmationPage`, `Secure2uAuthorisationPage`, `StatusScreenPage`, `PushNotificationPage`,
-      `AccountDetailPage`, `com.maybank.utils.{ListUtils,MapUtils,StringUtils}`,
-      `com.maybank.assertions.BaseAssert`) and page-object retrieval via `BasePage.getPage(...)`,
-      mirroring the header of `Scripts/Mobile/MAE/AI Common/DuitNow transfer_AI/*.groovy`.
+      `AccountDetailPage`, `com.vcb.utils.{ListUtils,MapUtils,StringUtils}`,
+      `com.vcb.assertions.BaseAssert`) and page-object retrieval via `BasePage.getPage(...)`,
+      mirroring the header of `Scripts/Mobile/VCB/AI Common/DuitNow transfer_AI/*.groovy`.
 
 **Checkpoint**: Empty but structurally valid Test Case + Script pair exists and opens in Katalon Studio.
 
@@ -69,10 +69,10 @@ All new files live under:
 every user story (and the reject outcome) depends on. **No user story work can begin until this
 phase is complete.**
 
-- [X] T003 In `Scripts/Mobile/MAE/AI Common/PayBill_AI/Script<timestamp>.groovy`, implement the
-      login step: `WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber'):idNumber, ('PAN'):PAN, ('password'):password, ('username'):username, ('accountName'):accountName], FailureHandling.STOP_ON_FAILURE)` (FR-001).
+- [X] T003 In `Scripts/Mobile/VCB/AI Common/PayBill_AI/Script<timestamp>.groovy`, implement the
+      login step: `WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber'):idNumber, ('PAN'):PAN, ('password'):password, ('username'):username, ('accountName'):accountName], FailureHandling.STOP_ON_FAILURE)` (FR-001).
 - [X] T004 In the same script, implement navigation to Bayar Bill: call
-      `WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Entry point'), [('accessFlow'):accessFlow, ('actionName'):tranferName, ...])` followed by `payBillPage.tapPayBill()`, with the entry
+      `WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Entry point'), [('accessFlow'):accessFlow, ('actionName'):tranferName, ...])` followed by `payBillPage.tapPayBill()`, with the entry
       point taken from the `accessFlow` parameter (FR-002).
 - [X] T005 In the same script, implement biller selection with both paths: when `isRunFav` is
       false, `payBillPage.searchPayBill(payBillName)` then `payBillPage.setBiller([billerID, membershipType])`; when `isRunFav` is true, `payBillPage.selectFavourites(favName)` instead
@@ -98,7 +98,7 @@ reject value and confirm the flow stops right after authorization.
 
 ### Implementation for User Story 1
 
-- [X] T008 [US1] In `Scripts/Mobile/MAE/AI Common/PayBill_AI/Script<timestamp>.groovy`, implement
+- [X] T008 [US1] In `Scripts/Mobile/VCB/AI Common/PayBill_AI/Script<timestamp>.groovy`, implement
       the authorization step: `secure2uAuthorisationPage.authorize(status)` (FR-005).
 - [X] T009 [US1] **Adapted from planned approach** — implemented as the existing sibling
       `PayBill.tc` script's proven `if (status == Approve && testCaseType == Default) {...} else
@@ -121,7 +121,7 @@ reject value and confirm the flow stops right after authorization.
       `homePage.navigateToAccountDetail()` then
       `accountDetailPage.verifyM2UHistoryFirstItemToday(history, '-RM ' + amount)` (FR-009).
 - [ ] T014 [US1] Manually execute `PayBill_AI.tc` in Katalon Studio (or via `katalonc` against the
-      `mae-regression` profile) with default parameters (`status = 'Approve'`) and confirm the run
+      `vcb-regression` profile) with default parameters (`status = 'Approve'`) and confirm the run
       passes through all 7 steps to a "Payment successful" screen with the four checkpoints
       verified — validates SC-002 and the `quickstart.md` happy-path section.
 - [ ] T015 [US1] Manually execute `PayBill_AI.tc` with `status` set to a reject value and confirm
@@ -171,7 +171,7 @@ minimum-amount error message is shown and the flow does not proceed to authoriza
 
 ### Implementation for User Story 3
 
-- [X] T018 [US3] In `Scripts/Mobile/MAE/AI Common/PayBill_AI/Script<timestamp>.groovy`, add a
+- [X] T018 [US3] In `Scripts/Mobile/VCB/AI Common/PayBill_AI/Script<timestamp>.groovy`, add a
       boundary-validation guard right after amount entry (after T006, before T007):
       `payBillPage.verifyEditMinMaxAmount(maxAmount, minAmount, errorMsgMinAmount)`, then `return`
       immediately when `testCaseType` indicates the boundary-check variant, without proceeding to
@@ -190,12 +190,12 @@ minimum-amount error message is shown and the flow does not proceed to authoriza
 **Purpose**: Remaining Edge Cases from spec.md that are not tied to a specific priority story, plus
 final Definition of Done validation.
 
-- [X] T020 [P] In `Scripts/Mobile/MAE/AI Common/PayBill_AI/Script<timestamp>.groovy`, add the
+- [X] T020 [P] In `Scripts/Mobile/VCB/AI Common/PayBill_AI/Script<timestamp>.groovy`, add the
       future-dated payment branch: when `isFuture` is true, set a future payment date before
       confirmation review so the confirmation screen's `Date` field reflects it (Edge Case:
       future-dated payment).
 - [ ] T021 Run the full `quickstart.md` validation pass — all four scenarios (happy path, reject,
-      insufficient balance, amount boundary) executed at least once against the `mae-regression`
+      insufficient balance, amount boundary) executed at least once against the `vcb-regression`
       profile with the expected outcome — confirming this feature's Definition of Done.
 - [X] T022 [P] Confirmed no hand-edits were made to `Libs/CustomKeywords.groovy`,
       `Libs/internal/GlobalVariable.groovy`, `PayBillPage.groovy`, `AndroidPhonePayBillPage.groovy`,
@@ -280,9 +280,9 @@ Task: "Audit that no shared Libs/ or page-object files were hand-edited"
 ## Notes
 
 - **Manual verification tasks not executed**: T014, T015, T017, T019, and T021 require a live
-  Android device/emulator with Appium and the MAE UAT app, which this implementation environment
+  Android device/emulator with Appium and the VCB UAT app, which this implementation environment
   does not have. All code tasks (T001–T013, T016, T018, T020, T022) are complete; a QA engineer
-  with Katalon Studio access should run these five verification tasks against the `mae-regression`
+  with Katalon Studio access should run these five verification tasks against the `vcb-regression`
   profile per `quickstart.md` before marking this feature done.
 - **T009/T016 adapted from the original task wording**: rather than a hard early `return` right
   after authorization/before it, both reuse the existing `PayBill.tc` sibling script's proven

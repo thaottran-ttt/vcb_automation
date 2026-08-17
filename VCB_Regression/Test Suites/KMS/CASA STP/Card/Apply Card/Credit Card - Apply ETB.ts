@@ -15,7 +15,7 @@
       <guid>4d0704e6-279c-4550-b94f-30c02dbb0738</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Apply Card/Credit Card/Credit Card - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Apply Card/Credit Card/Credit Card - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2b304599-48ae-4556-acfc-674f1d5a81e0</id>
@@ -181,7 +181,7 @@
       <guid>e6b26f32-8d14-4888-b4be-2d4728cc6e5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Card/Apply Card/Credit Card/Resume Credit Card Application</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Card/Apply Card/Credit Card/Resume Credit Card Application</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>386a3027-1e74-493a-b9bb-3d18954e1a1f</id>

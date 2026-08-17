@@ -38,7 +38,7 @@
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>https://al-identity.maybank.com:1443/mdip/s2u/v3/admin/register/activate</restUrl>
+   <restUrl>https://al-identity.vcb.com:1443/mdip/s2u/v3/admin/register/activate</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

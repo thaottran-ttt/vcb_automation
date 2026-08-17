@@ -5,8 +5,8 @@
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
-      <description>com.maybank2u.life</description>
-      <initValue>'com.maybank2u.life.uat'</initValue>
+      <description>com.vcb.app</description>
+      <initValue>'com.vcb.app.uat'</initValue>
       <name>G_appId</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -20,7 +20,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>bvRSA2</description>
-      <initValue>'https://m2umobilesit.maybank.com.my/cgi-bin/bvRSA2/m2u/common/login.do'</initValue>
+      <initValue>'https://vcbmobile.uat.vcb.com.vn/cgi-bin/bvRSA2/m2u/common/login.do'</initValue>
       <name>G_url</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -61,22 +61,22 @@
       <valueType>NUMBER</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>com.maybank2u.life-uatent</description>
-      <initValue>'com.maybank2u.life-uatent'</initValue>
+      <description>com.vcb.app-uatent</description>
+      <initValue>'com.vcb.app-uatent'</initValue>
       <name>G_bundleId</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>com.maybank2u.life.uat</description>
-      <initValue>'com.maybank2u.life.uat'</initValue>
+      <description>com.vcb.app.uat</description>
+      <initValue>'com.vcb.app.uat'</initValue>
       <name>G_appPackage</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>MAEApp/app-uat.apk</description>
-      <initValue>'MAEApp/app-uat.apk'</initValue>
+      <description>VCBApp/app-uat.apk</description>
+      <initValue>'VCBApp/app-uat.apk'</initValue>
       <name>G_appPath</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
@@ -308,8 +308,8 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'/Test Data/KMS/MAEVersion.xlsx'</initValue>
-      <name>G_MAEVersionFileName</name>
+      <initValue>'/Test Data/KMS/VCBVersion.xlsx'</initValue>
+      <name>G_VCBVersionFileName</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>

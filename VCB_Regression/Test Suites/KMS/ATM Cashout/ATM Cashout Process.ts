@@ -15,7 +15,7 @@
       <guid>e9655fe2-56c4-4dc6-8c27-8e129481f696</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ATM Cashout/ATM CashOut - Register Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ATM Cashout/ATM CashOut - Register Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -70,7 +70,7 @@
       <guid>8bc827ce-82d2-4138-9a45-41a283c436b2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ATM Cashout/ATM CashOut - Register Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ATM Cashout/ATM CashOut - Register Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -125,7 +125,7 @@
       <guid>608811be-5156-4c02-9799-8fb7991a46e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ATM Cashout/ATM CashOut - Register Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ATM Cashout/ATM CashOut - Register Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -180,7 +180,7 @@
       <guid>c7e486d5-e823-4999-885a-95449b3c80e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ATM Cashout/ATM CashOut - Add Preferred Amt</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ATM Cashout/ATM CashOut - Add Preferred Amt</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -235,7 +235,7 @@
       <guid>1e730c21-73e3-472a-82b1-85381343e161</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ATM Cashout/ATM CashOut - Edit And Remove</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ATM Cashout/ATM CashOut - Edit And Remove</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -290,7 +290,7 @@
       <guid>9bfa1f0d-8dab-4377-a1eb-a9a9339352cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ATM Cashout/ATM CashOut - Unlink</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ATM Cashout/ATM CashOut - Unlink</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

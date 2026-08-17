@@ -14,26 +14,26 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.common.BaseKeyword
-import com.maybank.common.MobileDriver
-import com.maybank.mae.internal.pages.base.BasePage as BasePage
-import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
-import com.maybank.mae.internal.pages.base.ConfirmationPage as ConfirmationPage
-import com.maybank.mae.internal.pages.base.EnterAmountPage as EnterAmountPage
-import com.maybank.mae.internal.pages.base.FavouritesPage as FavouritesPage
-import com.maybank.mae.internal.pages.base.HomePage as HomePage
-import com.maybank.mae.internal.pages.base.PushNotificationPage as PushNotificationPage
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
-import com.maybank.mae.internal.pages.base.ShareReceiptPage as ShareReceiptPage
-import com.maybank.mae.internal.pages.base.StatusScreenPage as StatusScreenPage
-import com.maybank.mae.internal.pages.base.transferpage.TabungHajiPage as TabungHajiPage
-import com.maybank.mae.internal.pages.base.transferpage.TransferPage
-import com.maybank.utils.ListUtils
-import com.maybank.utils.MapUtils
-import com.maybank.utils.StringUtils as StringUtils
+import com.vcb.common.BaseKeyword
+import com.vcb.common.MobileDriver
+import com.vcb.mobile.internal.pages.base.BasePage as BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage as CommonPage
+import com.vcb.mobile.internal.pages.base.ConfirmationPage as ConfirmationPage
+import com.vcb.mobile.internal.pages.base.EnterAmountPage as EnterAmountPage
+import com.vcb.mobile.internal.pages.base.FavouritesPage as FavouritesPage
+import com.vcb.mobile.internal.pages.base.HomePage as HomePage
+import com.vcb.mobile.internal.pages.base.PushNotificationPage as PushNotificationPage
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
+import com.vcb.mobile.internal.pages.base.ShareReceiptPage as ShareReceiptPage
+import com.vcb.mobile.internal.pages.base.StatusScreenPage as StatusScreenPage
+import com.vcb.mobile.internal.pages.base.transferpage.TabungHajiPage as TabungHajiPage
+import com.vcb.mobile.internal.pages.base.transferpage.TransferPage
+import com.vcb.utils.ListUtils
+import com.vcb.utils.MapUtils
+import com.vcb.utils.StringUtils as StringUtils
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.maybank.mae.internal.pages.base.CommonPage.TestObjectTypeEnum
+import com.vcb.mobile.internal.pages.base.CommonPage.TestObjectTypeEnum
 
 CommonPage commonPage = BasePage.getPage(CommonPage)
 
@@ -65,14 +65,14 @@ List shareReceiptData = ListUtils.parseObjectToList(shareReceiptData)
 List titlePushNotification = ListUtils.parseObjectToList(titlePushNotification)
 List messagePushNotification = ListUtils.parseObjectToList(messagePushNotification)
 
-//WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+//WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
 //        , ('username') : username, ('accountName') : accountName], BaseKeyword.defaultFailureHandling)
 
 'Get Balance'
 String balance = homePage.getBalance(true)
 
 'Access Transfer'
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Entry point'), [('accessFlow') : 'Quick Action', ('actionName') : functionName
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Entry point'), [('accessFlow') : 'Quick Action', ('actionName') : functionName
         , ('menuName') : functionName], FailureHandling.STOP_ON_FAILURE)
 
 'select TABUNG HAJI'
@@ -133,5 +133,5 @@ if (shouldValidationShareReceipt) {
 }
 
 if (shouldValidateM2UHistory) {
-	WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Reprint Receipt'), [('product') : M2UHistoryProductName], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Reprint Receipt'), [('product') : M2UHistoryProductName], FailureHandling.STOP_ON_FAILURE)
 }

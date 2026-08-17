@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0E2F31C89865A6A0E0457A7DCF034B1E",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.NotificationSettingPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

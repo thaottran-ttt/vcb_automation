@@ -35,7 +35,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.maybank2u.life</value>
+      <value>com.vcb.app</value>
       <webElementGuid>9a8b7c6d-5e4f-3a2b-1c0d-9e8f7a6b5c4d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
@@ -213,7 +213,7 @@
       <matchCondition>equals</matchCondition>
       <name>package</name>
       <type>Main</type>
-      <value>com.maybank2u.life</value>
+      <value>com.vcb.app</value>
       <webElementGuid>44444444-4444-4444-4444-444444444444</webElementGuid>
    </webElementProperties>
    <webElementProperties>

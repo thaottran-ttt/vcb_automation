@@ -15,7 +15,7 @@
       <guid>6b5996a3-ed06-49ab-ba92-aae6bba8248f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Dashboard/Fixed Deposit Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Dashboard/Fixed Deposit Dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2b6ca33e-50f5-4300-8719-8cc688d33ebf</id>
@@ -55,7 +55,7 @@
       <guid>a8ebd8be-6e8d-48c4-a933-0239d89722de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Dashboard/Fixed Deposit Detail Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Dashboard/Fixed Deposit Detail Dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

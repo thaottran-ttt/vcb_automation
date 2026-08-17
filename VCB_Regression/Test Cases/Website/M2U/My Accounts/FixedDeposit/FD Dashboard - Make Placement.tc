@@ -175,7 +175,7 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank Islamic Gold Account-i'</defaultValue>
+      <defaultValue>'Vcb Islamic Gold Account-i'</defaultValue>
       <description></description>
       <id>77bccfce-417f-4b46-87ab-8932adbc93f5</id>
       <masked>false</masked>
@@ -238,7 +238,7 @@
       <name>principalAmount</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank Conventional Fixed Deposit'</defaultValue>
+      <defaultValue>'Vcb Conventional Fixed Deposit'</defaultValue>
       <description></description>
       <id>f83b546a-e05c-477a-8bf9-076a4887ed1b</id>
       <masked>false</masked>

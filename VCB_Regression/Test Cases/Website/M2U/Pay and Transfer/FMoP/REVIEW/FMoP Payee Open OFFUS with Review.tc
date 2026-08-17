@@ -260,7 +260,7 @@
       <name>length</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank'</defaultValue>
+      <defaultValue>'Vcb'</defaultValue>
       <description></description>
       <id>f525c931-52b5-4ea9-983e-d7671aa71dbc</id>
       <masked>false</masked>

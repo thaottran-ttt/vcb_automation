@@ -15,7 +15,7 @@
       <guid>60e7b17c-499d-4525-898f-8223f7621d02</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP 3rdParty Fav with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP 3rdParty Fav with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -118,7 +118,7 @@
       <guid>cd840e06-8129-455a-816f-4bd51dd78a07</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP 3rdParty with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP 3rdParty with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -233,7 +233,7 @@
       <guid>98ac52d3-6e96-459b-95fb-70c271fbf3cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP DuitNow Fav OFFUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP DuitNow Fav OFFUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -342,7 +342,7 @@
       <guid>3162f59f-bb1f-41fc-b591-681be06617f2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP DuitNow Fav ONUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP DuitNow Fav ONUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -451,7 +451,7 @@
       <guid>4f914c19-f0e3-435f-8a32-8f1c0b47cb85</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Duitnow Open OFFUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Duitnow Open OFFUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -650,7 +650,7 @@
       <guid>32173d9b-49f5-4998-8678-b623bb4bc055</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Duitnow Open ONUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Duitnow Open ONUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -849,7 +849,7 @@
       <guid>ba729f86-4814-4ae0-90b2-e8b671b0369e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP FTT Transfer with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP FTT Transfer with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1150,7 +1150,7 @@
       <guid>a548bfa1-b78f-4009-9d9f-3f3f23ac08f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Giro Fav with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Giro Fav with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1349,7 +1349,7 @@
       <guid>45c3cce7-bd8b-45ff-b2e4-4342939bf8af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Giro Open with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Giro Open with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1548,7 +1548,7 @@
       <guid>444aa59a-b9d0-4091-aab1-09e363035315</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP IBFT Fav with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP IBFT Fav with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1747,7 +1747,7 @@
       <guid>1bace41c-c40b-4823-908c-60bbc5362861</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP IBFT Open with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP IBFT Open with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1946,7 +1946,7 @@
       <guid>680817df-4277-4f69-83ce-389bd8897229</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP JomPAY Fav OFFUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP JomPAY Fav OFFUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2073,7 +2073,7 @@
       <guid>abb20ff1-fe62-4b37-b311-8483a0319dcd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP JomPAY Fav ONUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP JomPAY Fav ONUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2200,7 +2200,7 @@
       <guid>e55b6b40-44f8-498c-b064-ca393d539e12</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP JomPAY Open OFFUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP JomPAY Open OFFUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2327,7 +2327,7 @@
       <guid>712f598d-f254-45e3-94c4-14c5abf9edc4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP JomPAY Open ONUS with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP JomPAY Open ONUS with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2454,7 +2454,7 @@
       <guid>acea0faf-5f38-44bf-bb7f-cd5a24df54f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Miga Buy Gold By RM with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Miga Buy Gold By RM with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2545,7 +2545,7 @@
       <guid>4597952c-6595-4c13-8062-09538d2a3c59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Paybills Fav OFFUS with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Paybills Fav OFFUS with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2726,7 +2726,7 @@
       <guid>53d2a863-d561-444c-82c7-875e7ccff10d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Paybills Fav ONUS with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Paybills Fav ONUS with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2907,7 +2907,7 @@
       <guid>04a66eb5-91ca-4d11-9153-a38d546b13e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Paybills Open OFFUS with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Paybills Open OFFUS with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3088,7 +3088,7 @@
       <guid>4047f796-5e79-4ae4-b1eb-80478bb5b81d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Paybills Open ONUS with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Paybills Open ONUS with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3269,7 +3269,7 @@
       <guid>220a3f3f-ece5-4f3a-8724-29c16f0b97f9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Reload Game with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Reload Game with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3414,7 +3414,7 @@
       <guid>ec2d7db8-a6d8-4d72-a8bb-6d041bd592ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Reload Mobile with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Reload Mobile with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3553,7 +3553,7 @@
       <guid>9698734c-708f-4266-8d9b-a8ec04a7017c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Self Transfer with CQ Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Self Transfer with CQ Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3644,7 +3644,7 @@
       <guid>6aba1a8c-bd53-4df3-8e98-085f8e4567cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Zakat Fav with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Zakat Fav with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3783,7 +3783,7 @@
       <guid>f0ddeceb-9b1b-4c06-afd1-28c00a718d6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/CQ/FMoP Zakat Open with CQ</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/CQ/FMoP Zakat Open with CQ</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

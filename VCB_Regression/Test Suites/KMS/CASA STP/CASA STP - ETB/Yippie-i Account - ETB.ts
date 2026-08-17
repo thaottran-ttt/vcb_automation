@@ -15,7 +15,7 @@
       <guid>1d20a174-83f7-4d1c-b566-d47fa3a6ca8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Yippie-i Account - NRIC</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Yippie-i Account - NRIC</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2770794b-b9e2-48e6-9dfd-403831826e43</id>
@@ -193,7 +193,7 @@
       <guid>dcd35a0a-9b90-442d-a42b-812bc2505a54</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Yippie-i Account - Passport</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Yippie-i Account - Passport</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>364f1f9e-9e37-4132-912b-97cc9389ec55</id>

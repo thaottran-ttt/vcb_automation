@@ -125,7 +125,7 @@
       <name>PAN</name>
    </variable>
    <variable>
-      <defaultValue>'MAE Wallet'</defaultValue>
+      <defaultValue>'VCB Wallet'</defaultValue>
       <description></description>
       <id>0de7e681-2cf1-4e40-9e7e-230a05e502c3</id>
       <masked>false</masked>

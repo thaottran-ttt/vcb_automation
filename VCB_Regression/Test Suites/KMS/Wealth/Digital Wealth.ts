@@ -15,7 +15,7 @@
       <guid>544b4bf6-daf1-44da-9f62-a1fb5f3e4b2e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Digital Wealth</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Digital Wealth</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0feddbae-2f50-4598-9927-3f7a982947c5</id>

@@ -15,7 +15,7 @@
       <guid>e51424ef-86b7-43d6-b0ca-90f496696ff2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/Visa Direct/1. Open/VD Transfer - Status Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/Visa Direct/1. Open/VD Transfer - Status Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -334,7 +334,7 @@
       <guid>9d247c00-f0f0-4f53-adc3-d400b79cd56c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/Visa Direct/1. Open/VD Transfer - Status Rejected</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/Visa Direct/1. Open/VD Transfer - Status Rejected</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -653,7 +653,7 @@
       <guid>87da8dce-25bf-4b1b-a885-550364dc69a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/Visa Direct/1. Open/VD Transfer - Status Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/Visa Direct/1. Open/VD Transfer - Status Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -972,7 +972,7 @@
       <guid>56dd5d7f-85b1-423a-8b79-acd476fcb1d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/Visa Direct/2. Favorite/VD FavoriteTransfer - Status Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/Visa Direct/2. Favorite/VD FavoriteTransfer - Status Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1297,7 +1297,7 @@
       <guid>96781fe6-b4a0-40aa-a1de-27bf1e3b409c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/Visa Direct/2. Favorite/VD FavoriteTransfer - Status Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/Visa Direct/2. Favorite/VD FavoriteTransfer - Status Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1622,7 +1622,7 @@
       <guid>93c4fd6c-87df-48e1-94c5-1ad212373fcc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/Visa Direct/2. Favorite/VD FavoriteTransfer - Status Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/Visa Direct/2. Favorite/VD FavoriteTransfer - Status Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

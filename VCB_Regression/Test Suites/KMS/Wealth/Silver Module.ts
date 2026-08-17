@@ -15,7 +15,7 @@
       <guid>68a83fbf-9963-46df-b220-a98b62dd88a5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Silver/Silver - Silver with zero amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Silver/Silver - Silver with zero amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>607d43b9-e411-430c-a382-9db24b961814</id>
@@ -61,7 +61,7 @@
       <guid>97ffe8b2-d1be-40b7-8250-94ca796f848f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Silver/Silver - Silver No transaction history</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Silver/Silver - Silver No transaction history</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4c5de336-bae4-41ed-bf6f-302ea1bc4d52</id>
@@ -107,7 +107,7 @@
       <guid>696fbaf7-f15d-402f-9902-08af0c605176</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Silver/Silver - Silver with more than zero amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Silver/Silver - Silver with more than zero amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6a1ebdf4-95d0-4e9b-8823-283f7d728077</id>
@@ -153,7 +153,7 @@
       <guid>fdb84269-a1b9-46ce-b33a-ecd08abf1f6f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Silver/Silver - Transaction history</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Silver/Silver - Transaction history</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>22776742-9f56-4bab-8fd8-4dc3a1a39a1e</id>

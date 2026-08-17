@@ -15,7 +15,7 @@
       <guid>25eae252-7300-4061-afe1-ca914f1d3e14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Account and Card Dashboard/Card Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Account and Card Dashboard/Card Dashboard</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -64,7 +64,7 @@
       <guid>6b5830bc-57e6-4ba0-bdd6-78794deb51e1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Pay Card/Pay Card Any Amount - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Pay Card/Pay Card Any Amount - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f3102c94-110f-426f-bc4f-82269b701106</id>
@@ -152,7 +152,7 @@
       <guid>706c4952-2a38-450d-a008-d5c2c404dd4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Pay Card/Pay Card Any Amount - Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Pay Card/Pay Card Any Amount - Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2a98c8e3-8178-4094-bcf4-7e090677f2b2</id>
@@ -282,7 +282,7 @@
       <guid>e6d42f57-ccb7-40a8-9377-fa85ce7dd334</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Pay Card/Pay Card Any Amount - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Pay Card/Pay Card Any Amount - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>45f9fbb0-dbe6-4d42-864c-6bfe47ab3808</id>
@@ -358,7 +358,7 @@
       <guid>3455bb41-2e7a-46de-915e-32cd720227b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Pay Card/Pay Card Any Amount - Expire</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Pay Card/Pay Card Any Amount - Expire</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0c32ba62-75b9-4faa-a03f-110692b65f2b</id>
@@ -434,7 +434,7 @@
       <guid>8c42e3d5-6cae-43f8-8de8-75f65035ce80</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Card/PayBill_Card_Open_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Card/PayBill_Card_Open_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bd03f636-ffcd-40c6-b2bd-14f680683dbb</id>

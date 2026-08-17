@@ -1,7 +1,7 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.common.BaseKeyword
+import com.vcb.common.BaseKeyword
 
 
 WebUI.callTestCase(findTestCase('Website/M2U/Pay and Transfer/Transfer/Own Accounts/Common/Transfer Own Account'), [('username') : username

@@ -15,7 +15,7 @@
       <guid>76bf5be7-8f32-4be2-a248-59b0b3883391</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MainDashboard/TC4_MainDashboardSpendingSummary</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MainDashboard/TC4_MainDashboardSpendingSummary</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

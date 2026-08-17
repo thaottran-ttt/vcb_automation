@@ -15,7 +15,7 @@
       <guid>5131508a-2358-49f0-bbf6-6bbff4608c9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Open Transfer/3rdParty_Open_FieldValidation</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Open Transfer/3rdParty_Open_FieldValidation</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>21a6ed94-92fb-4fa1-90a0-457c02389f95</id>
@@ -133,7 +133,7 @@
       <guid>e6ca2b60-10cf-4671-9f80-aa4b82578b83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Open Transfer/3rdParty_Open_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Open Transfer/3rdParty_Open_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>890b3335-e294-4d5b-9d2a-971371985635</id>
@@ -251,7 +251,7 @@
       <guid>94628732-803d-44f2-97e9-4e7b0c2d2b8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Open Transfer/3rdParty_Open_Insufficient_Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Open Transfer/3rdParty_Open_Insufficient_Amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>231ad42c-3b54-4588-8250-b8d2d595ffa8</id>
@@ -357,7 +357,7 @@
       <guid>7a91ee38-5db9-435f-b2e5-8d1c9db60bb3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Open Transfer/3rdParty_Open_Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Open Transfer/3rdParty_Open_Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b0ecfaef-e521-4a81-946b-8d6f2fc13443</id>
@@ -457,7 +457,7 @@
       <guid>3e07b323-61eb-4f1a-8860-161ca7394ced</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Open Transfer/3rdParty_Open_Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Open Transfer/3rdParty_Open_Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c778e689-d8e0-4521-ab46-ed647230e59d</id>
@@ -557,7 +557,7 @@
       <guid>94857f5d-371d-49fa-a11c-2d3b55020944</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Open Transfer/3rdParty_FutureTransfer_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Open Transfer/3rdParty_FutureTransfer_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>979e0c5f-56b8-4485-b322-58323ac8976d</id>
@@ -663,7 +663,7 @@
       <guid>5d004f1d-373f-4246-af55-94200233b9e9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Favourite Transfer/3rdParty_FavTransfer_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Favourite Transfer/3rdParty_FavTransfer_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>52ad40ee-4914-4db0-a1e4-8b91320d7669</id>
@@ -769,7 +769,7 @@
       <guid>f4669a3d-58d7-4fdd-949c-6aedb1408d92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Favourite Transfer/3rdParty_FavTransfer_Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Favourite Transfer/3rdParty_FavTransfer_Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>70d14119-7bb7-4004-8130-ec8102986a62</id>
@@ -875,7 +875,7 @@
       <guid>b102e23c-181f-41e0-a50f-2fe5f86c20aa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Favourite Transfer/3rdParty_FavFutureTransfer_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Favourite Transfer/3rdParty_FavFutureTransfer_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0f069750-f1ff-4a93-998c-80b714fa6041</id>
@@ -981,7 +981,7 @@
       <guid>57de8cc3-6cd8-4d17-abd5-198c2e68341d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/3rd Party Transfer/Favourite Transfer/3rdParty_FavTransfer_Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/3rd Party Transfer/Favourite Transfer/3rdParty_FavTransfer_Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d9a3567b-1a2f-4ba0-9019-4273fd57ed32</id>

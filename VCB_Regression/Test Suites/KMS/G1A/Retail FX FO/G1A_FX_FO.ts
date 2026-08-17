@@ -15,7 +15,7 @@
       <guid>ecf613a4-60d2-404b-bcc9-ba5f281db83b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/G1A_Retail FX_FO - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/G1A_Retail FX_FO - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -172,7 +172,7 @@
       <guid>b64f6ba2-b34e-4fb6-9d45-c0e20c905125</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/G1A_Retail FX_FO - Expire</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/G1A_Retail FX_FO - Expire</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -329,7 +329,7 @@
       <guid>9321c31c-0270-4af2-8dfd-bfc9842d21ff</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Retail FX/G1A_Retail FX_FO - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Retail FX/G1A_Retail FX_FO - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

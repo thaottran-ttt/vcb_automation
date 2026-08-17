@@ -3,11 +3,11 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.common.MobileDriver
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.CommonPage
-import com.maybank.mae.internal.pages.base.HomePage
-import com.maybank.mae.internal.pages.base.paybill.JomPayPage
+import com.vcb.common.MobileDriver
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage
+import com.vcb.mobile.internal.pages.base.HomePage
+import com.vcb.mobile.internal.pages.base.paybill.JomPayPage
 
 import internal.GlobalVariable as GlobalVariable
 
@@ -17,10 +17,10 @@ HomePage homePage = BasePage.getPage(HomePage)
 
 JomPayPage jomPayPage = BasePage.getPage(JomPayPage)
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
             , ('username') : userName], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('Test Cases/Mobile/MAE/JomPay/Access JomPay Section'), [('userName') : userName, ('password') : password], 
+WebUI.callTestCase(findTestCase('Test Cases/Mobile/VCB/JomPay/Access JomPay Section'), [('userName') : userName, ('password') : password], 
     FailureHandling.STOP_ON_FAILURE)
 
 'Enter PayBills Info'

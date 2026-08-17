@@ -14,11 +14,11 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.common.MobileDriver as MobileDriver
+import com.vcb.common.MobileDriver as MobileDriver
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Tabung Haji/Common/Tabung Haji Transfer'), [('username') : username, ('password') : password
+WebUI.callTestCase(findTestCase('Mobile/VCB/Tabung Haji/Common/Tabung Haji Transfer'), [('username') : username, ('password') : password
         , ('idNumber') : idNumber, ('PAN') : PAN, ('accountName') : accountName, ('functionName') : functionName, ('tabName') : tabName
         , ('amount') : amount, ('recipientReferenceData') : recipientReferenceData, ('confirmationData') : confirmationData
         , ('confirmationDataButton') : confirmationDataButton, ('status') : status, ('statusScreenTitle') : approveStatusScreenTitle

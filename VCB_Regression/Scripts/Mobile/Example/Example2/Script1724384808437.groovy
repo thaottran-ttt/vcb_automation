@@ -15,14 +15,14 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.assertions.BaseAssert
-import com.maybank.common.Android
-import com.maybank.common.MobileDriver
-import com.maybank.common.MobileDriver.ScrollDirectionEnum
-import com.maybank.mae.internal.pages.base.accountpage.AccountsPage as AccountsPage
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.CommonPage
-import com.maybank.utils.StringUtils
+import com.vcb.assertions.BaseAssert
+import com.vcb.common.Android
+import com.vcb.common.MobileDriver
+import com.vcb.common.MobileDriver.ScrollDirectionEnum
+import com.vcb.mobile.internal.pages.base.accountpage.AccountsPage as AccountsPage
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage
+import com.vcb.utils.StringUtils
 
 import internal.GlobalVariable
 import io.appium.java_client.android.AndroidDriver

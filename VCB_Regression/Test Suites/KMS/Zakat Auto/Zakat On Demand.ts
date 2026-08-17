@@ -15,7 +15,7 @@
       <guid>2263faf9-870b-439a-814f-b0d57f3441db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_Kedah(NisabMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_Kedah(NisabMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -112,7 +112,7 @@
       <guid>6832cf54-9cb4-4a2e-a0db-debd8dbccb3d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_Kelantan(NisabMet)-Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_Kelantan(NisabMet)-Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -203,7 +203,7 @@
       <guid>8cf017d8-5652-45b6-9471-0548584d3306</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_KL(NisabNotMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_KL(NisabNotMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -294,7 +294,7 @@
       <guid>d0a19b98-2449-44d7-b551-00ab4e0120f3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_Selangor(NisabNotMet)-Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/1. Pendapatan/Pendapatan_Selangor(NisabNotMet)-Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -385,7 +385,7 @@
       <guid>dd9eba00-d0bf-4274-9d50-eb4bbe6af78e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_Kedah(NisabMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_Kedah(NisabMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -482,7 +482,7 @@
       <guid>f1b88955-caf1-4682-b01b-6077bb472c90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_Kelantan(NisabMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_Kelantan(NisabMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -573,7 +573,7 @@
       <guid>1c6ab33c-49d8-41fb-89cf-c37f2d6be4fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_KL(NisabNotMet)-Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_KL(NisabNotMet)-Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -664,7 +664,7 @@
       <guid>52d218ad-da3e-442c-a2c2-3c0a3b25f37e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_Selangor(NisabNotMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/2. Simpanan/Simpanan_Selangor(NisabNotMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -755,7 +755,7 @@
       <guid>71633b54-6b45-4ba9-a0b6-0eeb0467fe90</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/4. Emas/Emas_Kedah(NisabMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/4. Emas/Emas_Kedah(NisabMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -846,7 +846,7 @@
       <guid>d6b7e04d-e706-49ab-86ad-4fb74e316a83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/4. Emas/Emas_Kelantan(NisabNotMet)-Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/4. Emas/Emas_Kelantan(NisabNotMet)-Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -937,7 +937,7 @@
       <guid>724472ab-7eaf-439a-acc6-0f344c50228e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/4. Emas/Emas_KL(NisabNotMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/4. Emas/Emas_KL(NisabNotMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1028,7 +1028,7 @@
       <guid>7502e775-0334-40a2-a7e2-d819c0d5390b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/4. Emas/Emas_Selangor(NisabMet)-Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/4. Emas/Emas_Selangor(NisabMet)-Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1119,7 +1119,7 @@
       <guid>5e8fa7f6-f415-47cc-8165-eb55cbef7952</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/3. Pelaburan/Pelaburan_KL(NisabNotMet)-Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/3. Pelaburan/Pelaburan_KL(NisabNotMet)-Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1210,7 +1210,7 @@
       <guid>77e607a3-81d8-48f0-9dff-4fa396abcd3f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/3. Pelaburan/Pelaburan_Kelantan(NisabMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/3. Pelaburan/Pelaburan_Kelantan(NisabMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1301,7 +1301,7 @@
       <guid>ad3cd5c0-58e9-4e34-81f2-8dbf9cfd0c1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/5. KWSP/KWSP_Selangor(NisabNotMet)-Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/5. KWSP/KWSP_Selangor(NisabNotMet)-Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1392,7 +1392,7 @@
       <guid>edd5fb2b-ad2b-47b1-83f6-26621797c776</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/5. KWSP/KWSP_Kedah(NisabNotMet)-Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/5. KWSP/KWSP_Kedah(NisabNotMet)-Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1483,7 +1483,7 @@
       <guid>354c38c1-8354-4da4-8d58-6b44f5726394</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/Edit or Delete/Edit_ZOD</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/Edit or Delete/Edit_ZOD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1544,7 +1544,7 @@
       <guid>1b25b183-1850-45eb-9d25-47dcc7bb7b5e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zakat Auto/Zakat On Demand/Edit or Delete/Delete_ZOD</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zakat Auto/Zakat On Demand/Edit or Delete/Delete_ZOD</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

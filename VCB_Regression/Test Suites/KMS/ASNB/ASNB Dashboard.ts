@@ -15,7 +15,7 @@
       <guid>4b8908f1-36d9-4f39-965b-39bcb80271bb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Dashboard/ASNB Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Dashboard/ASNB Dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>54760650-6c5f-4079-b9e5-54e188f64c63</id>

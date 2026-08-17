@@ -15,7 +15,7 @@
       <guid>cc8bb31e-3f2c-4c0b-9af8-e093f8518bae</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Food And Beverage/Food And Beverage - Makan Mana - Spin</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Food And Beverage/Food And Beverage - Makan Mana - Spin</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -70,7 +70,7 @@
       <guid>6e23d44d-ddd5-467a-9c8f-6a4c3e1a257e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Food And Beverage/Food And Beverage - Quick Actions</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Food And Beverage/Food And Beverage - Quick Actions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -119,7 +119,7 @@
       <guid>bc6c27df-376a-4727-99d1-f1d912eb4f06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Food And Beverage/Food And Beverage - Discover - Filter</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Food And Beverage/Food And Beverage - Discover - Filter</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -75,7 +75,7 @@
    </variable>
    <variable>
       <defaultValue>'oxhWAdmPKdsBYTMF8mwd8Q=='</defaultValue>
-      <description>Maybank@11</description>
+      <description>Vcb@11</description>
       <id>f777b901-2b67-4184-910f-e34695e22e39</id>
       <masked>false</masked>
       <name>password</name>

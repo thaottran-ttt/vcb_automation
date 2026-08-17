@@ -15,7 +15,7 @@
       <guid>f94c3b52-37e2-4671-8d26-34da0823bcbc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Buy Gold/Buy Gold - By Gram - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Buy Gold/Buy Gold - By Gram - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3abe85b7-79a1-4752-96ce-fc83782199fa</id>
@@ -103,7 +103,7 @@
       <guid>ea023570-aeb9-4a78-8d0d-7846ef832445</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Buy Gold/Buy Gold - By RM - Aprrove</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Buy Gold/Buy Gold - By RM - Aprrove</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7d4e0b79-43c2-4a4c-86ee-94b0b433eefd</id>
@@ -203,7 +203,7 @@
       <guid>634d93c3-a5e2-4eb9-a47b-9b066df9b765</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Sell Gold/Sell Gold - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Sell Gold/Sell Gold - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>80dcfadd-4e97-4b17-8ad8-0510e2566b94</id>
@@ -297,7 +297,7 @@
       <guid>a82aa6ff-983b-4486-8f9f-0857ea5474a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Buy Gold/Buy Gold - By Gram - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Buy Gold/Buy Gold - By Gram - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a911415c-5630-4070-b84d-dd062d455307</id>
@@ -385,7 +385,7 @@
       <guid>a58d8f33-18a6-4528-8b39-39530f01a071</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Buy Gold/Buy Gold - By Gram - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Buy Gold/Buy Gold - By Gram - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>63cbf357-60d6-41cb-9788-85f4cdb173aa</id>
@@ -473,7 +473,7 @@
       <guid>d0d6e00d-4f09-4e3c-9a0a-bcc4face4df5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Buy Gold/Buy Gold - By RM - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Buy Gold/Buy Gold - By RM - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>084f9305-8f31-47e2-8866-3a86d025daa6</id>
@@ -561,7 +561,7 @@
       <guid>7eee7904-3ab6-47ad-9706-455dc2fe7bd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Buy Gold/Buy Gold - By RM - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Buy Gold/Buy Gold - By RM - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ce436b37-39db-4360-ba0b-5737f913ea75</id>
@@ -649,7 +649,7 @@
       <guid>e261c0b9-dadc-4fc3-b6ea-533795179bc1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Sell Gold/Sell Gold - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Sell Gold/Sell Gold - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d44c3dd2-f112-47cc-a91b-efa3776368fe</id>
@@ -737,7 +737,7 @@
       <guid>2eee5988-59c3-4099-add7-524cb0c123bc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Sell Gold/Sell Gold - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Sell Gold/Sell Gold - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ab29ccea-f28a-472c-bf34-ef2354f338c4</id>

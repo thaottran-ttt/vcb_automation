@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3A06F4E77E3DA9DEFD4594120C0578A7",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.zakat.AndroidPhoneZakatPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

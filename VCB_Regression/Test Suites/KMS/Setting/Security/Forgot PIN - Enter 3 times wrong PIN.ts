@@ -15,7 +15,7 @@
       <guid>5c710009-55a7-430d-9e35-e9c2b953ea9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Enter 3 times wrong PIN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Security/Forgot PIN/Forgot PIN - Enter 3 times wrong PIN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>55cc51ab-d353-4907-bccc-a69dfcb282a0</id>

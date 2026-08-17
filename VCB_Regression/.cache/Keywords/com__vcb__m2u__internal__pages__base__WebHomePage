@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F5887693A7814A594BB08D57F28FD573",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.base.WebHomePage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

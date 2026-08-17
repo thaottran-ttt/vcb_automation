@@ -15,7 +15,7 @@
       <guid>1a5d7fbd-3837-4c9d-84bf-884560145dbd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MainDashboard/TC2_MainDashboardAccountBalanceWallet</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MainDashboard/TC2_MainDashboardAccountBalanceWallet</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

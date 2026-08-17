@@ -6,7 +6,7 @@
 
 **Status**: Draft
 
-**Input**: User description: "create a paybill test case common" (source material: `Data For AI/video/Paybill on MAE.mov` demo recording of the MAE app Bayar Bill flow, and `Data For AI/init data.txt` parameter defaults for that flow)
+**Input**: User description: "create a paybill test case common" (source material: `Data For AI/video/Paybill on VCB.mov` demo recording of the VCB app Bayar Bill flow, and `Data For AI/init data.txt` parameter defaults for that flow)
 
 ## Clarifications
 
@@ -30,7 +30,7 @@
 ### User Story 1 - Reusable happy-path bill payment verification (Priority: P1)
 
 A QA regression engineer needs one reusable, parameterized "common" test case that drives the
-full Bayar Bill (Pay Bill) journey in the MAE app end-to-end — from login through a successful
+full Bayar Bill (Pay Bill) journey in the VCB app end-to-end — from login through a successful
 payment to a chosen biller — so that every bill-payment regression scenario (approve, reject,
 future-dated, insufficient balance, min/max amount, favourite biller, etc.) can call the same
 common flow with different input parameters instead of each duplicating the same steps.
@@ -203,13 +203,13 @@ message and does not allow the payment to proceed.
 - Authorization uses the generic `authorize(status)` keyword (auto-detecting Secure2u
   biometric/PIN, TAC, or OTP) rather than a bill-payment-specific authorization variant, consistent
   with the closest existing sibling PayBill scripts in this project.
-- The currency is Malaysian Ringgit (RM) and the target app is the MAE mobile app (Android only, per
+- The currency is Malaysian Ringgit (RM) and the target app is the VCB mobile app (Android only, per
   this project's current device coverage) — iOS/tablet is out of scope.
 - Favourite-biller save/reuse (`isRunFav`) and future-dated payment (`isFuture`) are supported as
   optional parameters/entry variants of the same common flow, not as separate common test cases.
 - Test data (biller name/ID, account, amount, expected messages) is supplied via this project's
   existing Test Data mechanism, consistent with how other modules' common test cases source their
   data.
-- The demo recording (`Paybill on MAE.mov`) and `init data.txt` describe the same reference scenario
+- The demo recording (`Paybill on VCB.mov`) and `init data.txt` describe the same reference scenario
   (Bayar Bill → Indah Water Consortium, RM 1000, Approve, "Payment successful") used as the default/
   happy-path parameter set for User Story 1.

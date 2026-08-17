@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0025E90BCC160D634AB14B560917493E",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.base.accountpage.WebUnitTrustDetailsPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

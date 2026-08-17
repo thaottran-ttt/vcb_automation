@@ -38,7 +38,7 @@ The confirmation message verified after a successful payment.
 
 | Field | Type | Notes |
 |---|---|---|
-| `pushNotificationTitle` | string | `'Maybank2u: Payments'`. |
+| `pushNotificationTitle` | string | `'Vcb2u: Payments'`. |
 | `pushNotificationDescription` | string (template) | `'Successful payment of RM ${amount} to Indah Water Consortium. REF:${refID}'` — `${amount}` and `${refID}` are substituted at runtime. |
 
 ## Account Balance

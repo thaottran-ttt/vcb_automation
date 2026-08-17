@@ -8,8 +8,8 @@ covers **how a test case is written** and **how a script call reaches the common
 Katalon stores every case as two files under mirrored folders:
 
 ```
-Test Cases/Mobile/MAE/Common/CheckInputOTPPasswordSettings.tc            ← definition (XML)
-Scripts/Mobile/MAE/Common/CheckInputOTPPasswordSettings/Script<ts>.groovy ← implementation
+Test Cases/Mobile/VCB/Common/CheckInputOTPPasswordSettings.tc            ← definition (XML)
+Scripts/Mobile/VCB/Common/CheckInputOTPPasswordSettings/Script<ts>.groovy ← implementation
 ```
 
 `Test Cases/` and `Scripts/` mirror 1:1 by folder name. The script folder is named after the
@@ -26,7 +26,7 @@ method signature). `defaultValue` is the fallback, usually pointing at a Profile
    <name>password</name>
 </variable>
 <variable>
-   <defaultValue>com.maybank.common.FlowControlEnum.STOP</defaultValue>
+   <defaultValue>com.vcb.common.FlowControlEnum.STOP</defaultValue>
    <name>flowControl</name>
 </variable>
 ```
@@ -37,9 +37,9 @@ Each declared variable is available in the script as a bound global of that name
 
 ```groovy
 // 1. Imports: Katalon's standard block + the BASE page classes used (never AndroidPhone*)
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.HomePage
-import com.maybank.mae.internal.pages.base.settingpage.SettingPage
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.HomePage
+import com.vcb.mobile.internal.pages.base.settingpage.SettingPage
 import internal.GlobalVariable as GlobalVariable
 
 // 2. Resolve pages through the FACTORY (never `new`)
@@ -89,11 +89,11 @@ needs an `AndroidPhone*` class at the exact mirrored path (even empty) or `getPa
 
 ## Two different meanings of "common"
 
-- **`CommonPage`** (`mae/internal/pages/base/CommonPage.groovy`) — reusable **dynamic locators**
+- **`CommonPage`** (`vcb/internal/pages/base/CommonPage.groovy`) — reusable **dynamic locators**
   parameterised by text/index. Base declares `abstract TestObject lblDynamic(String text)`;
   `AndroidPhoneCommonPage` implements it as `findTestObject(path, ['text': text])`, injecting the
   value into a placeholder in the Object Repository XPath.
-- **`MobileDriver`** (`com.maybank.common`) — the reusable **action keywords** every page inherits.
+- **`MobileDriver`** (`com.vcb.common`) — the reusable **action keywords** every page inherits.
   Uniform wrapper pattern — log → try → `Mobile.*` → catch → `handleError`:
 
   ```groovy
@@ -119,7 +119,7 @@ only the middle (module-specific) steps change. When asked to generate a new one
 to this shape instead of inventing a new structure each time:
 
 ```
-1. Login S2U            — always WebUI.callTestCase('Mobile/MAE/Common/Login Secure2u', ...)
+1. Login S2U            — always WebUI.callTestCase('Mobile/VCB/Common/Login Secure2u', ...)
 2. [middle steps]        — MODULE-SPECIFIC: navigate to the module, enter the transaction's data
 3. Authorize             — S2U/TAC/OTP authorization
 4. Status / Confirm      — verify status screen, extract RefID
@@ -148,7 +148,7 @@ prefer it over the more specific `authorizeS2UV5BioPin`/`authorizeWithTacOrOTP` 
 reference script for that exact module uses the specific one.
 
 **Practical process when asked for a new one:** find the closest existing sibling script
-for that module/product (e.g. search `Test Cases/Mobile/MAE/<Module>` or `G1A/<Module>` for
+for that module/product (e.g. search `Test Cases/Mobile/VCB/<Module>` or `G1A/<Module>` for
 a matching product name) to source the exact tail keyword names and page objects, keep its
 step 1/3 calls as-is, and only replace the middle steps with what the user describes.
 

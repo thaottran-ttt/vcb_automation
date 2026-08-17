@@ -15,7 +15,7 @@
       <guid>94416c49-3b8e-4936-a3b0-9ef931bfb773</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Wealth Portfolio/G1A_Wealth_Porfolio</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Wealth Portfolio/G1A_Wealth_Porfolio</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

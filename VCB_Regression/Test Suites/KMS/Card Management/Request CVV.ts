@@ -15,7 +15,7 @@
       <guid>2a001271-b102-412f-b776-e644c3c77320</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Card Management/ViewCard - Full Account Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Card Management/ViewCard - Full Account Number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -64,7 +64,7 @@
       <guid>4dfd5011-ca06-4c39-893d-1ea78c25ac73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Card Management/Request CVV - Rejected</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Card Management/Request CVV - Rejected</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -131,7 +131,7 @@
       <guid>ada114d7-ff23-4bd5-93a0-337a3bc5931d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Card Management/Request CVV - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Card Management/Request CVV - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -198,7 +198,7 @@
       <guid>166b941a-0abb-4ed7-acee-124c6f7704ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Card Management/Request CVV - Approved</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Card Management/Request CVV - Approved</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

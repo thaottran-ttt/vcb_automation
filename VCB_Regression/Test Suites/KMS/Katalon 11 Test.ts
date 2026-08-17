@@ -15,7 +15,7 @@
       <guid>32e7f822-5dbb-4da3-8521-c7775c5847a8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Own Transfer/Self Transfer to Saving Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Own Transfer/Self Transfer to Saving Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -100,7 +100,7 @@
       <guid>8925731e-3dad-4986-bc53-85c0eeb5f470</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Reload/Internet Reload/Reload Internet Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Reload/Internet Reload/Reload Internet Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -233,7 +233,7 @@
       <guid>4ffc8471-02cc-4652-9090-0557309285eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Duitnow/Common/G1A_Transfer_Duitnow</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Duitnow/Common/G1A_Transfer_Duitnow</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

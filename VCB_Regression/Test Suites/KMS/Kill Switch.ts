@@ -15,7 +15,7 @@
       <guid>c9d949d4-cff6-4b64-a44e-6e8eb8b75615</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Kill Switch/Quick Action - Secure2u Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Kill Switch/Quick Action - Secure2u Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -88,7 +88,7 @@
       <guid>e47d51f7-c63d-4c61-8315-a2c6a3552b5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Kill Switch/Quick Action - Secure2u Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Kill Switch/Quick Action - Secure2u Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -161,7 +161,7 @@
       <guid>750b7054-ac8f-415d-9387-60ac5cee04a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Kill Switch/Quick Action - Secure2u Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Kill Switch/Quick Action - Secure2u Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -234,7 +234,7 @@
       <guid>dd9080ae-79d1-464e-94a0-22d21fee5bf8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Kill Switch/Account - Secure2u Approve - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Kill Switch/Account - Secure2u Approve - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -307,7 +307,7 @@
       <guid>8dea0137-d71c-4cad-82ec-7d3964af6cc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Kill Switch/Account - Secure2u Approve - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Kill Switch/Account - Secure2u Approve - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -380,7 +380,7 @@
       <guid>e9c14277-8666-4c65-aff0-885b8eca329f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Kill Switch/Account - Secure2u Approve - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Kill Switch/Account - Secure2u Approve - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

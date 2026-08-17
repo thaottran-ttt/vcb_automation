@@ -252,7 +252,7 @@
       <name>tranferName</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank2u: Transfer'</defaultValue>
+      <defaultValue>'Vcb2u: Transfer'</defaultValue>
       <description></description>
       <id>10d89b60-29cc-4ce2-8d1e-6d8968790181</id>
       <masked>false</masked>

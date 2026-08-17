@@ -15,7 +15,7 @@
       <guid>f3ecdae0-8744-45b5-bd19-e810c1a83e14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PFM/Add Expense - Add manual transaction</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PFM/Add Expense - Add manual transaction</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f6a7b8c9-d0e1-2345-fabc-345678901205</id>

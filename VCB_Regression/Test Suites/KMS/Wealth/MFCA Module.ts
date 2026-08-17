@@ -15,7 +15,7 @@
       <guid>b807f6c8-3c18-4c3f-a401-b2bde5f46a4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/MFCA/MFCA - MFCA Dashboard</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/MFCA/MFCA - MFCA Dashboard</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2a2cbd56-067f-48b0-b65c-5a9e2f495ee2</id>
@@ -61,7 +61,7 @@
       <guid>636403fa-86d1-4871-a9fb-81dff891ea96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/MFCA/MFCA - MFCA with one account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/MFCA/MFCA - MFCA with one account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a62fb2ae-0efb-4420-9ff9-27a10ac1ec62</id>
@@ -113,7 +113,7 @@
       <guid>0cb41661-c674-4fad-9dc1-24b80ebcee2f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/MFCA/MFCA - MFCA currency details</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/MFCA/MFCA - MFCA currency details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bc908572-6e4f-4913-bdfd-86f8af1a4a05</id>
@@ -165,7 +165,7 @@
       <guid>153140dd-959d-44a2-a05f-889b98bdad9c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/MFCA/MFCA - MFCA with dropdown - details</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/MFCA/MFCA - MFCA with dropdown - details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>af8c1782-c5ce-40c7-890e-e7ce94527d7a</id>
@@ -217,7 +217,7 @@
       <guid>dcb5af00-885f-45c9-8905-427ceef10ba5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/MFCA/MFCA - MFCA with more than 1 accounts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/MFCA/MFCA - MFCA with more than 1 accounts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b7a7d36b-1212-49f8-94e8-e011d259cd67</id>

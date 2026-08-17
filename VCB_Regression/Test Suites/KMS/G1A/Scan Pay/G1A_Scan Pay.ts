@@ -15,7 +15,7 @@
       <guid>73475326-15af-4833-92e1-431c39574b1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Scan And Pay/G1A_ScanPay</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Scan And Pay/G1A_ScanPay</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

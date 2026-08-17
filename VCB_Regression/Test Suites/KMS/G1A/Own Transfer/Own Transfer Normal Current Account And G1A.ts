@@ -15,7 +15,7 @@
       <guid>721fa789-54dd-448c-91c3-863332c6f677</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c9efbd9c-ee7e-487c-b6b2-0bb261f4200b</id>
@@ -169,7 +169,7 @@
       <guid>d3440d0d-8cb8-4cbd-a9a1-08a96bf4ac15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>64a67c39-1829-4b3d-a53b-260b599b127f</id>
@@ -317,7 +317,7 @@
       <guid>8e967a82-dcdc-4e72-8011-16f6a93506e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f62fb459-58d9-4e49-9b45-ac3f61ad868a</id>
@@ -465,7 +465,7 @@
       <guid>4cec472f-cfd5-4cd3-8696-e0ca471803f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Normal Current Account (5)/G1A to Normal Current Account/Self Transfer From G1A Account To Normal Current Account - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9d388e65-65df-41a6-80ec-4a639d813042</id>
@@ -613,7 +613,7 @@
       <guid>24e4d782-5319-4695-9619-d43465a1df73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Normal Current Account (5)/Normal Current Account to G1A/Self Transfer From Normal Current Account To G1A Account - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Normal Current Account (5)/Normal Current Account to G1A/Self Transfer From Normal Current Account To G1A Account - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a4ff767f-0c37-4423-b946-ffa3eab2535f</id>
@@ -761,7 +761,7 @@
       <guid>36e5b2f0-3d46-43a7-9678-31479d0786f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Normal Current Account (5)/Normal Current Account to G1A/Self Transfer From Normal Current Account To G1A Account - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Normal Current Account (5)/Normal Current Account to G1A/Self Transfer From Normal Current Account To G1A Account - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>36d9a99a-bc81-4268-825b-37491f05fc54</id>
@@ -909,7 +909,7 @@
       <guid>f960dfe2-2595-4829-a6c6-adeec685489a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Normal Current Account (5)/Normal Current Account to G1A/Self Transfer From Normal Current Account To G1A Account - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Normal Current Account (5)/Normal Current Account to G1A/Self Transfer From Normal Current Account To G1A Account - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c9905def-215a-476a-872c-307f415024ef</id>

@@ -15,7 +15,7 @@
       <guid>05989773-0e07-4dd4-9664-77d7f5269f53</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MGIA No Transaction History</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MGIA No Transaction History</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c48414e0-12b0-4073-9e11-be1f661ea852</id>
@@ -61,7 +61,7 @@
       <guid>455a7f98-5c49-4aaa-869f-a6910b2ab1cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MIGA with more than one account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MIGA with more than one account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>319aa9bf-f206-4d61-8bdb-3207e59f2c04</id>
@@ -107,7 +107,7 @@
       <guid>dd279001-9e8f-4aa9-823d-95246bb0c0af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MIGA with more than zero amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MIGA with more than zero amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>993faacf-3ca7-4ac9-9028-062d1bdbae6b</id>
@@ -153,7 +153,7 @@
       <guid>cc9b1465-7e54-4481-89cf-7793b13f614b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MGIA with zero amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MGIA with zero amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>be4d8c74-7fbe-44aa-a6c5-ba62408bd1b3</id>
@@ -199,7 +199,7 @@
       <guid>4453dee6-6d24-4875-b41e-27ad59d3ac4d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MIGA with zero amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MIGA with zero amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f1d8671a-9a19-4337-a874-6a1fa2b3eb89</id>
@@ -245,7 +245,7 @@
       <guid>e2907332-d83d-4445-83c1-03203f016cc3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MIGA No transaction history</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MIGA No transaction history</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f6f4d27f-3343-4377-b55b-862e00e946c4</id>
@@ -291,7 +291,7 @@
       <guid>4e43163c-e5c8-4ce2-a82b-51583140f179</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MGIA with more than zero amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MGIA with more than zero amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4d099a21-d5f2-4f2f-86af-ab0a8958499e</id>
@@ -337,7 +337,7 @@
       <guid>c48e05fd-cf33-4750-a2e2-3077e55d6feb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MGIA transaction history</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MGIA transaction history</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3de052a7-180e-4871-92f8-6f307af9041a</id>
@@ -383,7 +383,7 @@
       <guid>16514c14-5f3e-46b3-a814-57cb50febb49</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Wealth/Gold Module/MIGA Transaction History</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Wealth/Gold Module/MIGA Transaction History</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f2cfe135-3093-44ee-9fee-f057f88192eb</id>

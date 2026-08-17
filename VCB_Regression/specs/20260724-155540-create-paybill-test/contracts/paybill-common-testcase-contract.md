@@ -1,8 +1,8 @@
-# Contract: `Mobile/MAE/AI Common/PayBill_AI` common test case
+# Contract: `Mobile/VCB/AI Common/PayBill_AI` common test case
 
 This is the "interface" this feature exposes: the parameter signature future scenario-specific
 "thin caller" test cases (e.g. an eventual `PayBill_AI_Reject`, `PayBill_AI_InsufficientBalance`)
-will invoke via `WebUI.callTestCase(findTestCase('Mobile/MAE/AI Common/PayBill_AI'), [...])`, per
+will invoke via `WebUI.callTestCase(findTestCase('Mobile/VCB/AI Common/PayBill_AI'), [...])`, per
 FR-012. Field names mirror `Data For AI/init data.txt` so existing test data stays reusable.
 
 ## Inputs (Test Case variables)
@@ -25,7 +25,7 @@ FR-012. Field names mirror `Data For AI/init data.txt` so existing test data sta
 | `favName` | string | only when `isRunFav` | `'Paybill'` |
 | `statusScreenTitle` | list<string> | only on success path | `['Payment successful']` |
 | `statusScreenDescription` | list<string> | no | `[]` |
-| `pushNotificationTitle` | string | only on success path | `'Maybank2u: Payments'` |
+| `pushNotificationTitle` | string | only on success path | `'Vcb2u: Payments'` |
 | `pushNotificationDescription` | string (template) | only on success path | `'Successful payment of RM ${param1} to Indah Water Consortium. REF:${param2}'` |
 | `isRunFav` | boolean | no | `false` |
 | `isFuture` | boolean | no | `false` |

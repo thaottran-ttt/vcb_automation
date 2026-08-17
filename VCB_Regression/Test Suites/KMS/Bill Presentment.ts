@@ -15,7 +15,7 @@
       <guid>81ac95d9-9cc4-4df2-a1be-6f4de6eea2c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Bill Presentent/Not registered payee</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Bill Presentent/Not registered payee</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>64453b54-5baa-4e77-8845-481ebfecebd5</id>
@@ -97,7 +97,7 @@
       <guid>6af765ac-6826-4dad-b185-97a72538f151</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Bill Presentent/View 3 months statements</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Bill Presentent/View 3 months statements</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c154f7f1-0659-4a74-be82-657dd39e77b6</id>
@@ -149,7 +149,7 @@
       <guid>cd9c7b51-9b59-4f99-a0f4-31ac3ff42a1c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Bill Presentent/Split bill View Amount - pending payment</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Bill Presentent/Split bill View Amount - pending payment</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>22cb3d25-ba0e-4624-8d8d-6ba09ec6f8db</id>

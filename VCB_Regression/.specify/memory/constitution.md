@@ -25,10 +25,10 @@ Follow-up TODOs:
 
 ## I. Project Overview
 
-MAE_Regression (`RBTS.prj`) is Maybank's regression test pack for the MAE mobile app (plus a thinner
+VCB_Regression (`RBTS.prj`) is Vcb's regression test pack for the VCB mobile app (plus a thinner
 M2U website layer), built on Katalon Studio ENTERPRISE. It contains ~1400+ Groovy test cases covering
 modules such as transfers, DuitNow, Secure2u, Tabung, Fixed Deposit, and onboarding. Primary users are
-Maybank QA/regression engineers who run these suites against UAT/SIT environments ahead of releases.
+Vcb QA/regression engineers who run these suites against UAT/SIT environments ahead of releases.
 
 ---
 
@@ -39,8 +39,8 @@ Maybank QA/regression engineers who run these suites against UAT/SIT environment
   gradle build/test task.
 - Execution: Katalon Studio (GUI), or the Katalon CLI console runner (`katalonc`, selecting
   `-testSuitePath` and `-executionProfile`).
-- Environments are defined in `Profiles/*.glbl`: `mae-regression` (UAT app id
-  `com.maybank2u.life.uat`, SIT backend), `default`/others (production-style bundle id), plus
+- Environments are defined in `Profiles/*.glbl`: `vcb-regression` (UAT app id
+  `com.vcb.app.uat`, SIT backend), `default`/others (production-style bundle id), plus
   UAT1/2/4/5, TAC, SIT, production, credit-card, test, and browser (safari/firefox) profiles.
 - No CI configuration exists in this repo.
 
@@ -50,7 +50,7 @@ Maybank QA/regression engineers who run these suites against UAT/SIT environment
 
 - `Test Cases/` and `Scripts/` mirror each other 1:1 by folder name; `Test Data/` holds the CSV/XLSX
   data per module.
-- Three-tier page-object architecture: public keyword layer (`Keywords/com/maybank/mae/pages/`) →
+- Three-tier page-object architecture: public keyword layer (`Keywords/com/vcb/vcb/pages/`) →
   abstract base layer (`internal/pages/base/<domain>/`) → device-specific implementation
   (`internal/pages/androidphone/<domain>/AndroidPhone<Name>Page`).
 - `BasePage.getPage()` is the factory: it resolves the concrete implementation class via reflection
@@ -109,7 +109,7 @@ in the repo.
 (Inferred default — please confirm)
 - A new or changed test case has a matching `Scripts/` entry (1:1 mirror).
 - A new page object has both an abstract base class and a concrete `AndroidPhone<Name>Page`.
-- The affected Test Suite has been executed against the target profile (e.g. `mae-regression`) with
+- The affected Test Suite has been executed against the target profile (e.g. `vcb-regression`) with
   no regressions in adjacent test cases.
 - No hand-edits were made to generated `Libs/` files or a suite's generated runner `.groovy`.
 

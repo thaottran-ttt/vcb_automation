@@ -15,7 +15,7 @@
       <guid>b04a20c9-0dd1-4222-b365-cd01e898d42a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Profile/TANGOMAESR-1</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Profile/TANGOMAESR-1</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>141d0daf-5c29-4a3c-9def-e5440bdeece8</id>
@@ -73,7 +73,7 @@
       <guid>4a08eb7d-0468-4322-b82a-6c2a27c760eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Profile/TANGOMAESR-2</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Profile/TANGOMAESR-2</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1c4a1b73-d406-4f96-b03d-2e1c0115d4b1</id>
@@ -125,7 +125,7 @@
       <guid>2fccdfad-d525-499a-afe3-6995ac2cf2e2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Profile/TANGOMAESR-3, 4</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Profile/TANGOMAESR-3, 4</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cd11f140-651d-401b-aacc-fa9e17bf4542</id>

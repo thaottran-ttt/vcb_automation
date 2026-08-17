@@ -15,7 +15,7 @@
       <guid>15566dad-e68d-4c27-95a0-9d5f3090141a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/PBA Account/Private Banking Account-i NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/PBA Account/Private Banking Account-i NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -238,7 +238,7 @@
       <guid>4c2412a4-09e7-40ed-be43-79b9bd5d7398</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/PBA Account/Private Banking Account NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/PBA Account/Private Banking Account NTB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -461,7 +461,7 @@
       <guid>2078f7a5-213c-4b5c-9d6d-77bc3c290846</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/PBA Account/Private Banking Account ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/PBA Account/Private Banking Account ETB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -630,7 +630,7 @@
       <guid>5fce91f7-cf4f-4884-8e45-35e988f4037d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Account/PBA Account/Private Banking Account-i ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Account/PBA Account/Private Banking Account-i ETB</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

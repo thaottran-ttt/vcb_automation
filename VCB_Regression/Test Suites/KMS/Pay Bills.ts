@@ -15,7 +15,7 @@
       <guid>168c938b-d89e-49ad-8c5e-79e19c6088a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Open/PayBill_Open_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Open/PayBill_Open_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a48e87dd-2e53-4eb6-98fc-50380b9bb71e</id>
@@ -157,7 +157,7 @@
       <guid>3e1b4670-2ee0-4ad8-b347-a2d6af47fdea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Open/Field 2/PayBill_Open_Field2_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Open/Field 2/PayBill_Open_Field2_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b6100922-216c-411c-8651-db7d7e250c46</id>
@@ -299,7 +299,7 @@
       <guid>55de1bc5-2f40-43c6-bf9d-7cbc66297369</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Open/PayBill_Open_Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Open/PayBill_Open_Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>212fdbbc-e085-4702-a78a-715c6ed40f05</id>
@@ -411,7 +411,7 @@
       <guid>0c04510e-f13e-4205-9182-3d42eaefefe7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Open/PayBill_Open_Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Open/PayBill_Open_Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4f6f00fa-f760-4f65-abed-27e4e80cc377</id>
@@ -523,7 +523,7 @@
       <guid>e7ad54d3-b954-44cb-9056-90a3d875f78e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Open/PayBill_Open_Future_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Open/PayBill_Open_Future_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>af5c1b98-6011-4467-8c85-349b58521d3d</id>
@@ -659,7 +659,7 @@
       <guid>99f54d11-fa45-4920-9996-0f0614f8aa8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Fav/PayBill_Fav_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Fav/PayBill_Fav_Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>16c4ecbd-16c9-4ada-9df7-d96a5b0b336b</id>
@@ -789,7 +789,7 @@
       <guid>94c635f9-fc91-4e79-95ad-6770c539cfac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Special Case/PayBill_SpecialCase_Insufficient_Amount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Special Case/PayBill_SpecialCase_Insufficient_Amount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f0c89180-05ab-498c-aeb4-067d486038b4</id>
@@ -907,7 +907,7 @@
       <guid>3176f363-43dd-4fcf-8217-ebd8fa2bd8b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Special Case/PayBills_SpecialCase_WrongBiller</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Special Case/PayBills_SpecialCase_WrongBiller</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bf693fb6-399b-4c4b-a15e-c6d94f4173e8</id>
@@ -1013,7 +1013,7 @@
       <guid>f12de466-6b42-4716-855f-5be17141c797</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/PayBill/Special Case/PayBills_SpecialCase_EditMinMaxAmount</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/PayBill/Special Case/PayBills_SpecialCase_EditMinMaxAmount</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ff72f8e0-1f6d-4a13-a38b-996a428096eb</id>

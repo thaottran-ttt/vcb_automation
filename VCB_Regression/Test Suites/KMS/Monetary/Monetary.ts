@@ -15,7 +15,7 @@
       <guid>e2015808-04a9-41a2-ae13-5bb7d0e7417f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/IBFT Open</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/IBFT Open</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -226,7 +226,7 @@
       <guid>74298b8d-ca5e-4609-8f93-4152f951a638</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/IBFT Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/IBFT Fav</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -437,7 +437,7 @@
       <guid>0fd5ce6e-024c-4db4-aa24-5fa4b9d8cd71</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/DuitNow Transfer ON-US- Fav - Instant Transfer</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/DuitNow Transfer ON-US- Fav - Instant Transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -546,7 +546,7 @@
       <guid>ddc08ab8-8789-43e5-a389-fc302e6147c1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/DuitNow Transfer - ON-US - Instant Transfer</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/DuitNow Transfer - ON-US - Instant Transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -673,7 +673,7 @@
       <guid>b3904efc-a2fa-4caf-a8d7-993e6cd6f55d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/DuitNow Transfer - OFF-US - Instant Transfer</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/DuitNow Transfer - OFF-US - Instant Transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -794,7 +794,7 @@
       <guid>9fa3c4a1-70d5-40b2-a003-0f8dadbb3865</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/DuitNow Transfer OFF-US- Fav - Instant Transfer</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/DuitNow Transfer OFF-US- Fav - Instant Transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -909,7 +909,7 @@
       <guid>13a16883-975a-4e9b-9081-81953e263a5a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/Reload Mobile Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/Reload Mobile Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1078,7 +1078,7 @@
       <guid>3970c9c4-6a31-4a56-97ba-67316f4756fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/DuitNow Request - Mobile Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/DuitNow Request - Mobile Number</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1187,7 +1187,7 @@
       <guid>7ced454f-e87d-4bc7-a2ef-6bf1fc8bd473</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/Own Transfer</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/Own Transfer</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1320,7 +1320,7 @@
       <guid>5eeaf4a0-9013-4011-bd57-cc8a88a6164f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/3rdParty_FavTransfer_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/3rdParty_FavTransfer_Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1429,7 +1429,7 @@
       <guid>b3673f31-b646-47c7-828e-f73b55442327</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/3rdParty_Open_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/3rdParty_Open_Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1538,7 +1538,7 @@
       <guid>cb5ca890-b8d3-4808-a4e3-f283c88876cb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/JomPay Payment OFF-US</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/JomPay Payment OFF-US</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1647,7 +1647,7 @@
       <guid>83a64a55-104b-4ffd-84f3-ea56b1ccdd08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/JomPay Payment OFF-US - Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/JomPay Payment OFF-US - Fav</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1756,7 +1756,7 @@
       <guid>7627357b-54e9-4aff-8095-2558f885e417</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/JomPay Payment ON-US</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/JomPay Payment ON-US</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1865,7 +1865,7 @@
       <guid>e303a5fc-465f-49bb-936d-a88aeddf2d6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/JomPay Payment ON-US - Fav</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/JomPay Payment ON-US - Fav</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1974,7 +1974,7 @@
       <guid>8519fead-8764-4341-871e-b9ce4e4bfe48</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/PayBill_Fav_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/PayBill_Fav_Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2101,7 +2101,7 @@
       <guid>a1f4f043-e2f7-414f-b564-cc98ba9f6040</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/PayBill_Open_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/PayBill_Open_Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2234,7 +2234,7 @@
       <guid>e72b6b3d-f842-45dc-aa34-ac63e2048e8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/Zakat_Fav_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/Zakat_Fav_Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2367,7 +2367,7 @@
       <guid>c2911daf-65ab-4f56-aca8-2e7614211b08</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Monetary/Zakat_Open_Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Monetary/Zakat_Open_Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

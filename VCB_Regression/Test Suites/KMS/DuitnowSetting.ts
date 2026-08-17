@@ -15,7 +15,7 @@
       <guid>71fca16f-cf25-4605-a24e-11677c7c35f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Update account - Deregister - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Update account - Deregister - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -88,7 +88,7 @@
       <guid>0eab0053-92fc-4cf6-9a12-890e0262dcf4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Edit account - Deregister - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Edit account - Deregister - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -161,7 +161,7 @@
       <guid>10ffff78-5773-4ade-aaa0-0baf2f7870d6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive - Expire</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive - Expire</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -234,7 +234,7 @@
       <guid>6045b00e-7fd2-40a0-b131-3ee6c8db90fb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Update account - Deregister - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Update account - Deregister - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -307,7 +307,7 @@
       <guid>f8fe25f9-3675-42ef-9921-40d9229c8357</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive, Reactive - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive, Reactive - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -380,7 +380,7 @@
       <guid>c28c210f-fa64-449e-bb3e-e1b795a0cffb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive, Reactive - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive, Reactive - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -459,7 +459,7 @@
       <guid>2efaf6cf-62f3-4776-a67b-cf78f0e15173</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Update account - Deregister - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy Registration - Update account - Deregister - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -538,7 +538,7 @@
       <guid>fc39378a-40bd-495b-853c-c9bbc26329d0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -611,7 +611,7 @@
       <guid>f945cfb7-c371-4816-b585-916424e1cd14</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/Duitnow AutoDebit</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/Duitnow AutoDebit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -672,7 +672,7 @@
       <guid>a28e051a-8bd7-404e-9c35-9ebce09e90b5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/Duitnow Blocked List</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/Duitnow Blocked List</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -733,7 +733,7 @@
       <guid>31e3de99-bbc0-450f-9135-2a2352f1977b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow - Edit account - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow - Edit account - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -806,7 +806,7 @@
       <guid>14a1327d-2446-44e5-ab91-8458837eda92</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow - Update account - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow - Update account - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -879,7 +879,7 @@
       <guid>56cef2a5-980e-4e9e-8fed-70e756c4ddab</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive, Reactive - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy - Deactive, Reactive - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -952,7 +952,7 @@
       <guid>4727d176-9687-4aa7-b02a-afe3f19fcc6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/DuitNow Transfer/Proxy/Settings/DuitNow Proxy edit Account - Secure2u Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/DuitNow Transfer/Proxy/Settings/DuitNow Proxy edit Account - Secure2u Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

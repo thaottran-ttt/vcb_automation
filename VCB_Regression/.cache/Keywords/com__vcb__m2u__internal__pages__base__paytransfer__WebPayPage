@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DA6E215E494434E3BF1F552D99CF68F6",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.base.paytransfer.WebPayPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

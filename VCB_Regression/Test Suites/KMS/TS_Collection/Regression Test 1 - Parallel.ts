@@ -425,7 +425,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/KMS/MAE Regression/PFM - Add Category</testSuiteEntity>
+         <testSuiteEntity>Test Suites/KMS/VCB Regression/PFM - Add Category</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -455,7 +455,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/KMS/MAE Account Card Apply</testSuiteEntity>
+         <testSuiteEntity>Test Suites/KMS/VCB Account Card Apply</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -475,7 +475,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/KMS/Maybank2U Premier Account</testSuiteEntity>
+         <testSuiteEntity>Test Suites/KMS/Vcb2U Premier Account</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

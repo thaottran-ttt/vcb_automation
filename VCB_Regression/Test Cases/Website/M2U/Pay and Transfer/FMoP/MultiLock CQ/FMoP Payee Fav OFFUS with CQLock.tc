@@ -234,7 +234,7 @@
       <name>referenceNumber</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank1'</defaultValue>
+      <defaultValue>'Vcb1'</defaultValue>
       <description></description>
       <id>d769c116-64dc-49e2-be28-79a41fdae506</id>
       <masked>false</masked>

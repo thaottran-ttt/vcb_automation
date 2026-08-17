@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A295C974C92995F35FBCF8B281F2333A",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.settingpage.SettingDuitnowPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

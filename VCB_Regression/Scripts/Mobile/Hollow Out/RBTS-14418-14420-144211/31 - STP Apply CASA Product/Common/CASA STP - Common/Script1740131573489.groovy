@@ -2,14 +2,14 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 
 import com.kms.katalon.core.model.FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.CommonPage
-import com.maybank.mae.internal.pages.base.ConfirmationPage
-import com.maybank.mae.internal.pages.base.HomePage
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage
-import com.maybank.mae.internal.pages.base.StatusScreenPage
-import com.maybank.mae.internal.pages.base.applypage.ApplyAccountPage
-import com.maybank.mae.internal.pages.base.applypage.ApplyPage
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage
+import com.vcb.mobile.internal.pages.base.ConfirmationPage
+import com.vcb.mobile.internal.pages.base.HomePage
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage
+import com.vcb.mobile.internal.pages.base.StatusScreenPage
+import com.vcb.mobile.internal.pages.base.applypage.ApplyAccountPage
+import com.vcb.mobile.internal.pages.base.applypage.ApplyPage
 
 import internal.GlobalVariable as GlobalVariable
 
@@ -21,8 +21,8 @@ ConfirmationPage confirmationPage = BasePage.getPage(ConfirmationPage)
 StatusScreenPage statusScreenPage = BasePage.getPage(StatusScreenPage)
 Secure2uAuthorisationPage secure2uAuthorisationPage = BasePage.getPage(Secure2uAuthorisationPage)
 
-'Login MAE Secure2u'
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+'Login VCB Secure2u'
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
 		, ('username') : username, ('accountName') : accountName], FailureHandling.STOP_ON_FAILURE)
 
 'Tap Apply Button'

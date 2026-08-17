@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "21388AA398283CB0CE6EA59DADBFFDC9",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.StatusScreenPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

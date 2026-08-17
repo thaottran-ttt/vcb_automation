@@ -97,7 +97,7 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>['Overview', 'Asset classification', 'My Assets', 'Maybank Islamic Gold Account-i']</defaultValue>
+      <defaultValue>['Overview', 'Asset classification', 'My Assets', 'Vcb Islamic Gold Account-i']</defaultValue>
       <description></description>
       <id>9c14dd63-0463-4389-af32-c2a130a26b05</id>
       <masked>false</masked>

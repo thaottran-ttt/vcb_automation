@@ -15,7 +15,7 @@
       <guid>7d5d0429-2aae-42d7-a9b9-85e3dfec7aaa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MainDashboard/TC3_MainDashboardQuickAction</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MainDashboard/TC3_MainDashboardQuickAction</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

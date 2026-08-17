@@ -304,7 +304,7 @@
       <name>amount</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank Overseas Transfer'</defaultValue>
+      <defaultValue>'Vcb Overseas Transfer'</defaultValue>
       <description></description>
       <id>7dc0eb19-782f-47ac-8045-1301d7dded47</id>
       <masked>false</masked>

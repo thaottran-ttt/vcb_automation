@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Push Notification</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f4478b55-7964-41c0-8beb-be804f3b0441</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eed94390-d685-482b-ab37-355d37827871</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>841f557e-546a-4741-b583-699bf457b833</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>17c77aac-5532-48b0-b970-06b37081b896</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80dd6bb8-d7db-4f96-906f-7cb17a4d0449</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9112a757-37d3-4b78-a37e-3cf1d6626390</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description></description>
+      <id>eed94390-d685-482b-ab37-355d37827871</id>
+      <masked>false</masked>
+      <name>titlePN</name>
+   </variable>
+   <variable>
+      <defaultValue>'Welcome to the VCB app.'</defaultValue>
+      <description></description>
+      <id>841f557e-546a-4741-b583-699bf457b833</id>
+      <masked>false</masked>
+      <name>startMessage</name>
+   </variable>
+   <variable>
+      <defaultValue>'Welcome to the VCB app. View your important notifications here to stay on top of your activities.'</defaultValue>
+      <description></description>
+      <id>17c77aac-5532-48b0-b970-06b37081b896</id>
+      <masked>false</masked>
+      <name>messagePN</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>80dd6bb8-d7db-4f96-906f-7cb17a4d0449</id>
+      <masked>false</masked>
+      <name>ref</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9112a757-37d3-4b78-a37e-3cf1d6626390</id>
+      <masked>false</masked>
+      <name>amount</name>
+   </variable>
+</TestCaseEntity>

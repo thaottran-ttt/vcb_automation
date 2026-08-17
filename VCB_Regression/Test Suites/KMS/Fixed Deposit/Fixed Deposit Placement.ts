@@ -15,7 +15,7 @@
       <guid>f8609555-da66-441a-b3bd-21426347afb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6b57239a-1367-41ba-9429-cc69a77905b8</id>
@@ -103,7 +103,7 @@
       <guid>1845176c-f054-42a8-b813-e7217c7e205c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>838e64d7-7e88-4880-9672-3b44a06200a8</id>
@@ -185,7 +185,7 @@
       <guid>39e7c9ab-e473-4e36-b5b7-e1fc3792fbb1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>056029f1-be09-4549-a3e6-856a4fe3c02b</id>
@@ -267,7 +267,7 @@
       <guid>7c6cc983-4f92-43c6-b76e-c0f59a22f91c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Insufficient</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/Islamic/Apply FD - Islamic - Insufficient</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2e817072-e7bc-4d20-96a9-adf3df2ee098</id>
@@ -343,7 +343,7 @@
       <guid>e0d12c8e-d6a3-4fae-a0cb-2eec2faf58ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/Conventional/Apply FD - Maybank Flexi FD - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/Conventional/Apply FD - Vcb Flexi FD - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>46425aa7-fd39-4222-ac11-abd0047e7d9a</id>
@@ -425,7 +425,7 @@
       <guid>09edbd58-82b7-4be1-b84c-e08473214a9a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/GIA/Apply FD - GIA - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/GIA/Apply FD - GIA - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>929043ba-9fdd-41aa-a716-e0f3b9235103</id>
@@ -513,7 +513,7 @@
       <guid>dc496ef8-aad8-4b09-9c88-eaa3d62903d5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/PNA-i/Apply FD - PNA-i - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/PNA-i/Apply FD - PNA-i - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0ad9920b-f8b1-408c-b4cf-661ea1a71954</id>
@@ -595,7 +595,7 @@
       <guid>72698c33-a3be-4365-b9a3-66836a7bb7fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Fixed Deposit/Apply/TC03 - Access Fixed Deposit Section</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Fixed Deposit/Apply/TC03 - Access Fixed Deposit Section</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ca0737ad-44a3-4c7e-9913-cc363b28fdd1</id>

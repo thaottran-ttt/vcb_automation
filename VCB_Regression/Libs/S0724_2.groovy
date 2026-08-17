@@ -20,12 +20,12 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\THAIQU~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Mobile\\MAE\\AI Common\\PayBill_AI\\20260724_162838\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\THAIQU~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Mobile\\VCB\\AI Common\\PayBill_AI\\20260724_162838\\execution.properties')
 
 TestCaseMain.beforeStart()
 
 new ExecutionMain().init();
 
 
-        TestCaseMain.runTestCase('Test Cases/Mobile/MAE/AI Common/PayBill_AI', new TestCaseBinding('Test Cases/Mobile/MAE/AI Common/PayBill_AI', [:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/Mobile/VCB/AI Common/PayBill_AI', new TestCaseBinding('Test Cases/Mobile/VCB/AI Common/PayBill_AI', [:]), FailureHandling.STOP_ON_FAILURE , false)
     

@@ -15,7 +15,7 @@
       <guid>ce7dcde0-5263-422d-b875-21cd9bc9f6a0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zesi-i/Zest-i ETB/Zest-i ETB High Risk</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zesi-i/Zest-i ETB/Zest-i ETB High Risk</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5e7e296b-1da4-4e56-afba-57e6bdf47fe6</id>

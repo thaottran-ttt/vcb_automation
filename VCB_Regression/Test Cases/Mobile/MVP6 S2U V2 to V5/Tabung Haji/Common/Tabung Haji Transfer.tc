@@ -215,7 +215,7 @@
       <name>PAN</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank2u.Premier'</defaultValue>
+      <defaultValue>'Vcb2u.Premier'</defaultValue>
       <description></description>
       <id>b7aa21a5-78bc-401b-9934-cee9029831c1</id>
       <masked>false</masked>

@@ -7,21 +7,21 @@ PayBill implementation to source from. No `NEEDS CLARIFICATION` markers remain.
 ## Decision: Which sibling script to model the new script on
 
 - **Decision**: Model `PayBill_AI` on the existing `Zakat_AI` / `3rd party transfer_AI` /
-  `DuitNow transfer_AI` scripts in `Scripts/Mobile/MAE/AI Common/`, using `DuitNow transfer_AI` as
+  `DuitNow transfer_AI` scripts in `Scripts/Mobile/VCB/AI Common/`, using `DuitNow transfer_AI` as
   the primary reference specifically for the "Check History" step (the only one of the three that
   already implements it).
 - **Rationale**: These are the only existing scripts that follow the exact 7-step skeleton this
   project's rules mandate for `AI Common` test cases. Reusing their proven `callTestCase`/page-object
   idioms avoids inventing a new pattern.
 - **Alternatives considered**: Writing the flow from scratch by generalizing from the non-AI-Common
-  `Test Cases/Mobile/MAE/G1A/Paybill/Common/PayBill.tc` script directly — rejected because that
+  `Test Cases/Mobile/VCB/G1A/Paybill/Common/PayBill.tc` script directly — rejected because that
   script is invoked differently (as a shared helper called by many pre-existing scenario test
   cases with its own parameter contract) and does not follow the `AI Common` 7-step shape or
   naming convention.
 
 ## Decision: Login step
 
-- **Decision**: `WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber'):idNumber, ('PAN'):PAN, ('password'):password, ('username'):username, ('accountName'):accountName], FailureHandling.STOP_ON_FAILURE)`.
+- **Decision**: `WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber'):idNumber, ('PAN'):PAN, ('password'):password, ('username'):username, ('accountName'):accountName], FailureHandling.STOP_ON_FAILURE)`.
 - **Rationale**: Literal, mandated call per `.claude/rules/ai-common-testcase-skeleton.md` step 1;
   identical across every existing `AI Common` script.
 - **Alternatives considered**: None — this is a fixed project convention.
@@ -33,7 +33,7 @@ PayBill implementation to source from. No `NEEDS CLARIFICATION` markers remain.
   `payBillPage.setBiller([billerID, membershipType])` → `commonPage.enterNO(amount)` →
   `confirmationPage.verifyConfirmation(confirmationData, textNextPageConfirmation)`. Entry point
   (Quick Action vs. menu) is driven through the shared `Entry point` common test case
-  (`WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Entry point'), [('accessFlow'):accessFlow, ('actionName'):actionName, ...])`),
+  (`WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Entry point'), [('accessFlow'):accessFlow, ('actionName'):actionName, ...])`),
   matching FR-002's "entry point is a parameter" requirement. The favourite-biller path
   (`payBillPage.selectFavourites(payBillName)`) and the min/max boundary path
   (`payBillPage.verifyEditMinMaxAmount(maxAmount, minAmount, errorMsgMinAmount)`, then early return)

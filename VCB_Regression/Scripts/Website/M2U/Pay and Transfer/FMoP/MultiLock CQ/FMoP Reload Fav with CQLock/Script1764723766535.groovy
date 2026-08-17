@@ -14,23 +14,23 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.common.BaseKeyword as BaseKeyword
-import com.maybank.common.WebUIKeyword as WebUIKeyword
-import com.maybank.m2u.internal.pages.base.WebBasePage as WebBasePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage as WebCommonPage
-import com.maybank.m2u.internal.pages.base.WebHomePage
-import com.maybank.m2u.internal.pages.base.WebSecure2uAuthorisationPage
-import com.maybank.m2u.internal.pages.base.WebStatusScreenPage
-import com.maybank.m2u.internal.pages.base.paytransfer.WebReloadPage
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage
-import com.maybank.utils.ListUtils
-import com.maybank.utils.MapUtils
+import com.vcb.common.BaseKeyword as BaseKeyword
+import com.vcb.common.WebUIKeyword as WebUIKeyword
+import com.vcb.m2u.internal.pages.base.WebBasePage as WebBasePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage as WebCommonPage
+import com.vcb.m2u.internal.pages.base.WebHomePage
+import com.vcb.m2u.internal.pages.base.WebSecure2uAuthorisationPage
+import com.vcb.m2u.internal.pages.base.WebStatusScreenPage
+import com.vcb.m2u.internal.pages.base.paytransfer.WebReloadPage
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage
+import com.vcb.utils.ListUtils
+import com.vcb.utils.MapUtils
 
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 
-import com.maybank.m2u.internal.pages.base.rsapage.WebRsaPage
+import com.vcb.m2u.internal.pages.base.rsapage.WebRsaPage
 
 Map fromToData = MapUtils.parseObjectToMap(fromToData)
 Map inputTransferData = MapUtils.parseObjectToMap(inputTransferData)
@@ -49,8 +49,8 @@ WebRsaPage webRsaPage = WebBasePage.getPage(WebRsaPage)
 
 webSecure2uAuthorisationPage.setID_NUMBER(idNumber)
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u With Secure Question'), [('idNumber') : idNumber, ('PAN') : PAN
-        , ('password') : GlobalVariable.G_password, ('username') : username, ('accountName') : '', ('flowControl') : com.maybank.common.FlowControlEnum.STOP
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u With Secure Question'), [('idNumber') : idNumber, ('PAN') : PAN
+        , ('password') : GlobalVariable.G_password, ('username') : username, ('accountName') : '', ('flowControl') : com.vcb.common.FlowControlEnum.STOP
         , ('failStopTestSuite') : false, ('yourName') : GlobalVariable.G_yourName], BaseKeyword.defaultFailureHandling)
 
 WebUI.callTestCase(findTestCase('Website/M2U/Common/Login'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)

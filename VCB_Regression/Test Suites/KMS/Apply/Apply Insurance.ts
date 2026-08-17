@@ -15,7 +15,7 @@
       <guid>32a95462-a1a2-4a62-8e39-7a10bcbfff69</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Insurance/Motor Insurance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Insurance/Motor Insurance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -166,7 +166,7 @@
       <guid>0264be6e-6c0b-4a05-8ba4-5ee60b691fe0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Insurance/Trip Care 360 Takaful</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Insurance/Trip Care 360 Takaful</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9e1e2745-3f0e-46d3-b05c-882c86e400e1</id>
@@ -326,7 +326,7 @@
       <guid>36fbc5ce-a538-4ce8-b8d0-ed539e4d0c56</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Apply/Insurance/Trip Care 360</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Apply/Insurance/Trip Care 360</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>37aef42c-1e91-4f26-a8ff-8b9ae5374c12</id>

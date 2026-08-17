@@ -15,7 +15,7 @@
       <guid>78d6f727-f4bc-496c-aad0-93acfc0c2b67</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP 3rdParty Fav with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP 3rdParty Fav with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -112,7 +112,7 @@
       <guid>afb4a8a6-df62-41c2-b669-460f38febbee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP 3rdParty with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP 3rdParty with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -233,7 +233,7 @@
       <guid>10491eca-c370-435c-9979-e9e412812585</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Doitnow Open OFFUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Doitnow Open OFFUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -426,7 +426,7 @@
       <guid>b1b8f328-16a4-42df-9d3b-ffd5c27f886f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP DuitNow Fav ONUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP DuitNow Fav ONUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -535,7 +535,7 @@
       <guid>5d270a8e-2f9e-4d3a-b894-8cd9ceebfecd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP DuitNow Fav OFFUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP DuitNow Fav OFFUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -644,7 +644,7 @@
       <guid>1e2e8de5-b8b2-4853-8b30-7422e7e3f892</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Duitnow Open ONFUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Duitnow Open ONFUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -843,7 +843,7 @@
       <guid>cad97e10-e163-485d-b7d1-999e28457108</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP FTT Transfer with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP FTT Transfer with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1138,7 +1138,7 @@
       <guid>6065c00d-2aa6-4c52-ad37-661f477c94d4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Giro Fav with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Giro Fav with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1337,7 +1337,7 @@
       <guid>92d06616-c064-4fae-8994-23cef698e29e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Giro Open with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Giro Open with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1536,7 +1536,7 @@
       <guid>db5c7fc9-03b5-4a9d-a757-c585ffe45a44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP IBFT Fav with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP IBFT Fav with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1735,7 +1735,7 @@
       <guid>0ae95646-697a-40c7-a2c1-7b92b322f3ce</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP IBFT Open with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP IBFT Open with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1922,7 +1922,7 @@
       <guid>e43528c9-3376-45d7-b272-d658531534e0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP JomPAY Fav OFFUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP JomPAY Fav OFFUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2049,7 +2049,7 @@
       <guid>0055e099-81a8-4caf-a329-d7b1055620ed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP JomPAY Fav ONUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP JomPAY Fav ONUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2176,7 +2176,7 @@
       <guid>5e9c8996-220a-4d28-9ca7-43469ee9d48a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP JomPAY Open OFFUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP JomPAY Open OFFUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2303,7 +2303,7 @@
       <guid>fc684655-52e7-45bb-9e48-db4afb6ae2ca</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP JomPAY Open ONUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP JomPAY Open ONUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2430,7 +2430,7 @@
       <guid>54a1db58-b8f1-4797-8976-d0031c7156f6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Miga Buy Gold By RM with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Miga Buy Gold By RM with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2521,7 +2521,7 @@
       <guid>599b89bd-fa61-456f-915c-325d3f83bed1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Paybills Fav OFFUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Paybills Fav OFFUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2696,7 +2696,7 @@
       <guid>9f88ad9e-8e76-48be-b9d5-63f156578ad2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Paybills Fav ONUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Paybills Fav ONUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2871,7 +2871,7 @@
       <guid>6712174f-0ce6-4b07-8f03-3504320f61e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Paybills Open OFFUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Paybills Open OFFUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3046,7 +3046,7 @@
       <guid>35da621c-f7b7-4d5d-a13e-9e4a2c400a1e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Paybills Open ONUS with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Paybills Open ONUS with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3221,7 +3221,7 @@
       <guid>e60607fd-39f4-4fd3-b427-51b7432fd5de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Reload Mobile with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Reload Mobile with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3354,7 +3354,7 @@
       <guid>fac3f083-9dce-405a-a045-9421938fcd26</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP ScanPay_Monetary_MerchantOFF with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP ScanPay_Monetary_MerchantOFF with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3415,7 +3415,7 @@
       <guid>06021340-2a95-4ddb-ab66-0e663430e47c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP ScanPay_Monetary_MerchantON with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP ScanPay_Monetary_MerchantON with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3476,7 +3476,7 @@
       <guid>90ef444f-b8ff-4e9f-8ec2-8621c03c80b4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Self Transfer to Saving Account with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Self Transfer to Saving Account with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3561,7 +3561,7 @@
       <guid>60997c7c-b9fb-491e-8cd8-fa0dc87ee295</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Zakat Fav with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Zakat Fav with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -3700,7 +3700,7 @@
       <guid>b73f233d-fc4e-4e95-acf6-54b682e04f96</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/FMoP/REVIEW/FMoP Zakat Open with Review</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/FMoP/REVIEW/FMoP Zakat Open with Review</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

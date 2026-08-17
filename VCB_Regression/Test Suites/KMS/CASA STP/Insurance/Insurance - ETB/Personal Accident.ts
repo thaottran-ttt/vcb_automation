@@ -15,7 +15,7 @@
       <guid>969a20be-76d5-4cf6-9448-4a32c974faf8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Personal Accident/Hero15 - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Personal Accident/Hero15 - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d0633afc-b670-4284-a3ce-30799e70a9fe</id>
@@ -79,7 +79,7 @@
       <guid>9f87cbf2-d694-43ae-916b-8ff36f328fcf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Personal Accident/PersonaLady - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Personal Accident/PersonaLady - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4dc5473c-c28f-4b7a-bffa-5c4084e6ac14</id>
@@ -143,7 +143,7 @@
       <guid>46c3e5fd-398a-4017-b3ef-95995557697a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Personal Accident/Premier PA Plus - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Personal Accident/Premier PA Plus - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>57ee4d4c-57a4-44af-9d55-84cb66107f52</id>
@@ -207,7 +207,7 @@
       <guid>ce6c8d02-a191-4d4f-8f48-a48a2f6e7c70</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Personal Accident/Takaful Hero15 - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Personal Accident/Takaful Hero15 - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>258184bc-6241-499c-af26-1afcb3247af6</id>
@@ -271,7 +271,7 @@
       <guid>ee0a3396-d5b6-4ccf-892d-c9c0e8160b7c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Personal Accident/Takaful PersonaLady - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Personal Accident/Takaful PersonaLady - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>03b3b285-ac1e-402c-90fc-220968116456</id>
@@ -335,7 +335,7 @@
       <guid>577c2ba3-1506-4b86-bb3b-d666ddbb6389</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Personal Accident/Takaful PA Plus - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Personal Accident/Takaful PA Plus - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>11edab2f-427f-4e3c-b1c6-ce0bee47890a</id>

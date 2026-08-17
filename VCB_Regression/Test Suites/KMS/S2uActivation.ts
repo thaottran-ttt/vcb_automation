@@ -15,7 +15,7 @@
       <guid>696e06dc-3df5-4fb5-8f45-e5b6b82903f0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/S2U Activation/Toggle off Secure2u</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/S2U Activation/Toggle off Secure2u</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>59f45739-6e9f-4d0c-9d4f-fdb8c45ecc91</id>
@@ -67,7 +67,7 @@
       <guid>1e8a965b-a676-4b15-b19e-3ad0f3d048ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/S2U Activation/Trigger secure2u</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/S2U Activation/Trigger secure2u</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a43fc8c8-e6a4-4c7e-bddb-9edaadd2bd20</id>

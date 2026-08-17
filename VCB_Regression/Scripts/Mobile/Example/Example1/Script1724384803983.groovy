@@ -16,11 +16,11 @@ import com.kms.katalon.core.util.KeywordUtil
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.common.MobileDriver
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.CommonPage
-import com.maybank.mae.internal.pages.base.HomePage
-import com.maybank.mae.internal.pages.base.transferpage.TransferPage
+import com.vcb.common.MobileDriver
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage
+import com.vcb.mobile.internal.pages.base.HomePage
+import com.vcb.mobile.internal.pages.base.transferpage.TransferPage
 
 import internal.GlobalVariable
 import io.appium.java_client.AppiumDriver
@@ -31,7 +31,7 @@ import org.openqa.selenium.Keys as Keys
 //////commonPage.swipe(5, 1000, 5, 100)
 ////commonPage.backToHome()
 ////'Navigate To Login'
-//////CustomKeywords.'com.maybank.mae.pages.Onboarding.navigateToLogin'()
+//////CustomKeywords.'com.vcb.mobile.pages.Onboarding.navigateToLogin'()
 ////
 ////String xpath = "(//*[@class = 'android.widget.ImageView'])[3]"
 ////MobileDriver.tapElemtByXml(xpath)
@@ -58,8 +58,8 @@ import org.openqa.selenium.Keys as Keys
 
 //MobileDriver.testFlowControl()
 
-//Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/MAE/Android/Biometric Screen/btnDiffNo'), 10, FailureHandling.STOP_ON_FAILURE)
-//Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/MAE/Android/Biometric Screen/btnDiffNo'), 10, FailureHandling.STOP_ON_FAILURE)
+//Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/VCB/Android/Biometric Screen/btnDiffNo'), 10, FailureHandling.STOP_ON_FAILURE)
+//Mobile.waitForElementPresent(findTestObject('Object Repository/Mobile/VCB/Android/Biometric Screen/btnDiffNo'), 10, FailureHandling.STOP_ON_FAILURE)
 
 BasePage basePage = BasePage.getPage(TransferPage)
 String title = basePage.getValueUI("HomePage.title")

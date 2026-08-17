@@ -15,7 +15,7 @@
       <guid>7afbc2b4-18a7-4812-b985-f1dc4aed9103</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Common/Login Secure2u Without Check Logout</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Common/Login Secure2u Without Check Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>abd05b7c-42f0-42c9-ba47-64d21ed49953</id>
@@ -481,7 +481,7 @@
       <guid>c991c3f4-861d-49cb-849c-f754583e61fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/M2U/Pay and Transfer/Tabung Haji/Tabung Haji_TH to Other Maybank Account</testCaseId>
+      <testCaseId>Test Cases/Website/M2U/Pay and Transfer/Tabung Haji/Tabung Haji_TH to Other Vcb Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e05ae7f3-c6dc-4648-9e13-9dfaa73ba166</id>

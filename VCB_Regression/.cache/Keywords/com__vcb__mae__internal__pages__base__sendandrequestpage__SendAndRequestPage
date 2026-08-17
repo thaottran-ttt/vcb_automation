@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2F06F41071AFDAD1E510D0E63A76CF41",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.sendandrequestpage.SendAndRequestPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

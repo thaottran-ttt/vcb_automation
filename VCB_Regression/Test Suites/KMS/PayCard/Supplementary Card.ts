@@ -15,7 +15,7 @@
       <guid>d7f8e00b-5b02-4017-bbd6-0d4ff5f1e0f1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Pay Card/Supplementary Card/Pay any amount - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Pay Card/Supplementary Card/Pay any amount - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

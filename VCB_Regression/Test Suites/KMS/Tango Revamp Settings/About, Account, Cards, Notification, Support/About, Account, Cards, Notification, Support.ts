@@ -15,7 +15,7 @@
       <guid>3b4760e2-0fdc-4802-986a-fb193d083848</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/About/TANGOMAESR-1636</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/About/TANGOMAESR-1636</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7104d742-ed04-4264-8be4-7d4e34b2e749</id>
@@ -61,7 +61,7 @@
       <guid>950d9826-1d87-4a70-9b6c-bc1b14a7c019</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Accounts/TANGOMAESR-14, 15, 18, 19</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Accounts/TANGOMAESR-14, 15, 18, 19</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bc7e4143-3bf0-4cb3-b6ad-9a6ea9ddfaea</id>
@@ -107,7 +107,7 @@
       <guid>56b0a2b3-b899-4bbd-b0ab-528ce1ace794</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Cards/TANGOMAESR-21</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Cards/TANGOMAESR-21</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>491ae0be-2b70-44e8-b519-377edebf3403</id>
@@ -153,7 +153,7 @@
       <guid>7a781262-ecac-44fa-98d8-0ade4f8d91ac</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Notifications/TANGOMAESR-1634</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Notifications/TANGOMAESR-1634</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7bf1d5b1-8631-4ddf-920d-203b72c4051b</id>
@@ -199,7 +199,7 @@
       <guid>5950caab-6212-43f0-8a63-dbdb83ddaabc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Support/TANGOMAESR-1635</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Support/TANGOMAESR-1635</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1b828fc7-5065-476a-86ff-706c1ac6ef14</id>

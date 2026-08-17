@@ -17,15 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.maybank.mae.internal.pages.base.BasePage
-import com.maybank.mae.internal.pages.base.HomePage
-import com.maybank.mae.internal.pages.base.moneylock.MoneyLock as MoneyLock
+import com.vcb.mobile.internal.pages.base.BasePage
+import com.vcb.mobile.internal.pages.base.HomePage
+import com.vcb.mobile.internal.pages.base.moneylock.MoneyLock as MoneyLock
 
 HomePage homePage = BasePage.getPage(HomePage)
 MoneyLock moneyLock = BasePage.getPage(MoneyLock)
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login'), [('username') : username, ('password') : password, ('pinCode') : GlobalVariable.G_pinCode
-        , ('yourName') : GlobalVariable.G_yourName, ('accountName') : accountName, ('flowControl') : com.maybank.common.FlowControlEnum.STOP
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login'), [('username') : username, ('password') : password, ('pinCode') : GlobalVariable.G_pinCode
+        , ('yourName') : GlobalVariable.G_yourName, ('accountName') : accountName, ('flowControl') : com.vcb.common.FlowControlEnum.STOP
         , ('failStopTestSuite') : false], FailureHandling.STOP_ON_FAILURE)
 
 if (Mobile.waitForElementPresent(findTestObject('Object/Secure2u/btnOK'),5,FailureHandling.OPTIONAL)) {

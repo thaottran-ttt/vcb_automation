@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-import com.maybank.m2u.internal.constants.WebCommonConstants as WCC
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage as WCP
+import com.vcb.m2u.internal.constants.WebCommonConstants as WCC
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage as WCP
 
 'Verify container and background color'
 WebUI.verifyElementVisible(WCP.lblContainClass(WCC.TOAST_MESSAGE_CONTAINER_CLASS))

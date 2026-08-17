@@ -15,7 +15,7 @@
       <guid>141bfdee-912c-4ed3-89ec-2ef618f85830</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Insurance-Takaful/Medical/OneMedical Insurance - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Insurance-Takaful/Medical/OneMedical Insurance - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4107d509-11b8-461f-8cb8-28f02b5511b5</id>

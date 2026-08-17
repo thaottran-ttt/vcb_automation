@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "87194BF34171DAB151F9C275451982EF",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.sendandrequestpage.AndroidPhoneSendAndRequestMoneyPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

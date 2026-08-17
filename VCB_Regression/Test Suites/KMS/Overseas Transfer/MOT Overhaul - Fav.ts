@@ -15,7 +15,7 @@
       <guid>mot0-aaaa-4001-8001-000000000001</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -316,7 +316,7 @@
       <guid>mot0-aaaa-4002-8002-000000000002</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -611,7 +611,7 @@
       <guid>mot0-aaaa-4003-8003-000000000003</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -906,7 +906,7 @@
       <guid>mot0-aaaa-4004-8004-000000000004</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Insufficient</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/1 - Open/MOT Transfer - Status Insufficient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1201,7 +1201,7 @@
       <guid>mot0-aaaa-4005-8005-000000000005</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1490,7 +1490,7 @@
       <guid>mot0-aaaa-4006-8006-000000000006</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1785,7 +1785,7 @@
       <guid>mot0-aaaa-4007-8007-000000000007</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -2080,7 +2080,7 @@
       <guid>mot0-aaaa-4008-8008-000000000008</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Insufficient</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Oversea Transfer/MOT/2 - Fav/MOT Transfer Fav - Status Insufficient</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

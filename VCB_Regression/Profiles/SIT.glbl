@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://m2umobilesit.maybank.com.my/cgi-bin/bvAT4UI1/m2u/common/login.do'</initValue>
+      <initValue>'https://vcbmobile.uat.vcb.com.vn/cgi-bin/bvAT4UI1/m2u/common/login.do'</initValue>
       <name>G_url</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

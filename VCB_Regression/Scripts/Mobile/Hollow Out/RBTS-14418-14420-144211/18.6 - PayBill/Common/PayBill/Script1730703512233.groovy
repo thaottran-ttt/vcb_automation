@@ -14,22 +14,22 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import com.maybank.assertions.BaseAssert as BaseAssert
-import com.maybank.mae.internal.pages.base.BasePage as BasePage
-import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
-import com.maybank.mae.internal.pages.base.ConfirmationPage as ConfirmationPage
-import com.maybank.mae.internal.pages.base.FavouritesPage as FavouritesPage
-import com.maybank.mae.internal.pages.base.HomePage as HomePage
-import com.maybank.mae.internal.pages.base.paybill.PayBillPage as PayBillPage
-import com.maybank.mae.internal.pages.base.paybill.PayBillPage.PayBillTestCaseType as PayBillTestCaseType
-import com.maybank.mae.internal.pages.base.PushNotificationPage as PushNotificationPage
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
-import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage.S2UStatusEnum as S2UStatusEnum
-import com.maybank.mae.internal.pages.base.ShareReceiptPage as ShareReceiptPage
-import com.maybank.mae.internal.pages.base.StatusScreenPage as StatusScreenPage
-import com.maybank.mae.internal.pages.base.transferpage.TransferPage
-import com.maybank.utils.ListUtils
-import com.maybank.utils.StringUtils as StringUtils
+import com.vcb.assertions.BaseAssert as BaseAssert
+import com.vcb.mobile.internal.pages.base.BasePage as BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage as CommonPage
+import com.vcb.mobile.internal.pages.base.ConfirmationPage as ConfirmationPage
+import com.vcb.mobile.internal.pages.base.FavouritesPage as FavouritesPage
+import com.vcb.mobile.internal.pages.base.HomePage as HomePage
+import com.vcb.mobile.internal.pages.base.paybill.PayBillPage as PayBillPage
+import com.vcb.mobile.internal.pages.base.paybill.PayBillPage.PayBillTestCaseType as PayBillTestCaseType
+import com.vcb.mobile.internal.pages.base.PushNotificationPage as PushNotificationPage
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage as Secure2uAuthorisationPage
+import com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage.S2UStatusEnum as S2UStatusEnum
+import com.vcb.mobile.internal.pages.base.ShareReceiptPage as ShareReceiptPage
+import com.vcb.mobile.internal.pages.base.StatusScreenPage as StatusScreenPage
+import com.vcb.mobile.internal.pages.base.transferpage.TransferPage
+import com.vcb.utils.ListUtils
+import com.vcb.utils.StringUtils as StringUtils
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
@@ -58,8 +58,8 @@ FavouritesPage favouritesPage = BasePage.getPage(FavouritesPage)
 
 PushNotificationPage pushNotificationPage = BasePage.getPage(PushNotificationPage)
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
-        , ('username') : username, ('accountName') : accountName, ('flowControl') : com.maybank.common.FlowControlEnum.STOP
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+        , ('username') : username, ('accountName') : accountName, ('flowControl') : com.vcb.common.FlowControlEnum.STOP
         , ('failStopTestSuite') : false], FailureHandling.STOP_ON_FAILURE)
 
 
@@ -74,7 +74,7 @@ if (commonPage.waitForElementNotPresent(commonPage.lblDynamic(tranferName), Glob
 }
 
 'Select PayBills Module at Entry Point'
-WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Entry point'), [('accessFlow') : accessFlow, ('actionName') : tranferName, ('accountName') : accountName
+WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Entry point'), [('accessFlow') : accessFlow, ('actionName') : tranferName, ('accountName') : accountName
 	, ('menuName') : tranferName], FailureHandling.STOP_ON_FAILURE)
 
 'Check flow Fav'

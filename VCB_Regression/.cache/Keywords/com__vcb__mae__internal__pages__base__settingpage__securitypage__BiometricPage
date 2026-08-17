@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D6A260CD224CF5393527597F2A2F7490",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.settingpage.securitypage.BiometricPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -15,7 +15,7 @@
       <guid>2dde45ad-afce-4eea-9080-5b73ee6b7a05</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Set As Primary Account/G1A_Set As Primary Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Set As Primary Account/G1A_Set As Primary Account</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -15,7 +15,7 @@
       <guid>852bf90b-fb8f-46e1-907b-082bc6ab0a8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Open/Open DuitNow to CASA - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Open/Open DuitNow to CASA - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bbcb9c8f-af93-40ec-b047-a8703f6f6b1d</id>
@@ -187,7 +187,7 @@
       <guid>2d8e7cf4-fdd2-43c3-a00c-1d58f54af59d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Open/Open DuitNow to CASA - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Open/Open DuitNow to CASA - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0b55ee9f-700f-4a00-b52a-c8214e9ea7d4</id>
@@ -323,7 +323,7 @@
       <guid>e8c508ed-bf1d-4939-92a2-5f369eae793f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Open/Open DuitNow to CASA - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Open/Open DuitNow to CASA - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>152104ef-0d8b-4914-b04b-92f0327d42f8</id>
@@ -459,7 +459,7 @@
       <guid>797823ad-37f2-4b14-9aac-7dae76a65da3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Future/Open DuitNow to CASA Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Future/Open DuitNow to CASA Future</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>caaeadcc-a7f6-458f-8669-b25ecf3872af</id>
@@ -613,7 +613,7 @@
       <guid>281ff950-427e-4519-a385-9fb92a14b752</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Favorite/Favourite DuitNow to CASA</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Favorite/Favourite DuitNow to CASA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d2d534e3-63b9-480b-8ba2-afd6c911b88f</id>
@@ -779,7 +779,7 @@
       <guid>d2378404-0fcd-4001-b388-c45d403e818c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Open/Open DuitNow to Credit Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Open/Open DuitNow to Credit Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e0d7dde9-3a1c-435c-973d-817aadca3020</id>
@@ -951,7 +951,7 @@
       <guid>6d4cbacb-3bf1-4876-a447-28cc1cd1dcef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Open/Open DuitNow to Hire Purchase</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Open/Open DuitNow to Hire Purchase</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>debf8c41-1e47-49d3-a1db-d9af34c8e641</id>
@@ -1123,7 +1123,7 @@
       <guid>a3a47d24-192e-44e2-b66b-78320bf91fc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/DuitNow Open/Open DuitNow to Loan</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/DuitNow Open/Open DuitNow to Loan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4ddb8883-d805-4dd8-8dae-a886488cac28</id>
@@ -1295,7 +1295,7 @@
       <guid>13ee0354-69e3-40b4-8fff-708ce3a36491</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/Special Case/DuitNow Special Case - Edit amt, Recipient Reference, Min Max Amt</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/Special Case/DuitNow Special Case - Edit amt, Recipient Reference, Min Max Amt</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5a241f9f-b7e2-4c4d-b105-ee6b550a5bb4</id>
@@ -1419,7 +1419,7 @@
       <guid>acc9afc0-42ba-4466-b57c-75f978fa85ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/Special Case/DuitNow Special Case Access</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/Special Case/DuitNow Special Case Access</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c03b7c45-3f6a-458c-ac2f-e9d0b4efbe39</id>
@@ -1477,7 +1477,7 @@
       <guid>697c51e8-2011-4921-902f-610fc1d3e51d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/DuitNow/Special Case/DuitNow Special Case - insuff balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/DuitNow/Special Case/DuitNow Special Case - insuff balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ef5d3b5b-4ee6-42f9-a2e7-5ce7ee384f5d</id>

@@ -15,7 +15,7 @@
       <guid>1b869e0f-017a-4330-b444-079b9fdb6e8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Common/Login Secure2u Without Check Logout</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Common/Login Secure2u Without Check Logout</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c8860bd8-ea39-48ae-b83c-46c26615f4ba</id>
@@ -379,7 +379,7 @@
       <guid>ce2d0431-2595-4cd1-b64e-bc3fbe06949f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/M2U/ModuleSettings/Settings Account/Maybank2u Pay</testCaseId>
+      <testCaseId>Test Cases/Website/M2U/ModuleSettings/Settings Account/Vcb2u Pay</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d1d64d12-7fc0-4da2-9de5-fc4ac48eb92a</id>
@@ -387,7 +387,7 @@
             <iterationType>ALL</iterationType>
             <value></value>
          </iterationEntity>
-         <testDataId>Data Files/KMS_M2U/ModuleSettings/SettingsAccounts/Maybank2u Pay</testDataId>
+         <testDataId>Data Files/KMS_M2U/ModuleSettings/SettingsAccounts/Vcb2u Pay</testDataId>
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>

@@ -15,7 +15,7 @@
       <guid>e61b56a8-7113-4d34-ad55-957ab51eb9e3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Own Transfer/Self Transfer to Saving Account Future Transfer</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Own Transfer/Self Transfer to Saving Account Future Transfer</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>839a974e-3b07-4b5d-85d7-792c75c071b7</id>
@@ -109,7 +109,7 @@
       <guid>8a800c3a-94b3-4f37-a478-2b212106daed</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Own Transfer/Self Transfer to Saving Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Own Transfer/Self Transfer to Saving Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dcbcae8d-1f31-48ca-aae1-5785fcd0d3c7</id>
@@ -203,7 +203,7 @@
       <guid>0f84d106-9c21-4832-ae62-08d19382343c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Own Transfer/Self Transfer With Current Account</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Own Transfer/Self Transfer With Current Account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d900a359-7843-4fa3-9f99-0f72f5b27175</id>
@@ -297,7 +297,7 @@
       <guid>1b0dada3-bfaf-420e-b2fe-57377d282642</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Own Transfer/Self Transfer Insufficient balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Own Transfer/Self Transfer Insufficient balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ff8cf911-a471-452a-90a4-6b9c25023619</id>
@@ -391,7 +391,7 @@
       <guid>512d5de8-2d5c-4519-8aab-529c32a53593</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Own Transfer/Self Transfer Entry From Account and Wallet</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Own Transfer/Self Transfer Entry From Account and Wallet</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>443b9b60-f8e8-4216-9dd6-568bde6a89c6</id>

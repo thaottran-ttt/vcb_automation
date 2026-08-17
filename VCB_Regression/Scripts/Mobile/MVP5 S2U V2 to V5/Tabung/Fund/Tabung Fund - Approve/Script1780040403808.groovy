@@ -15,7 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Mobile/MAE/Tabung/Common/Tabung Common'), [('username') : username, ('password') : password
+WebUI.callTestCase(findTestCase('Mobile/VCB/Tabung/Common/Tabung Common'), [('username') : username, ('password') : password
         , ('idNumber') : idNumber, ('PAN') : PAN, ('action') : action, ('edit') : edit, ('mobileNumberShareBill') : mobileNumberShareBill
         , ('isGroup') : isGroup, ('status') : status, ('statusTitle') : statusTitle, ('statusDescription') : statusDescription
         , ('tabungMap') : tabungMap, ('verifyDashboard') : verifyDashboard

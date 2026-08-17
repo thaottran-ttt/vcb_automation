@@ -15,7 +15,7 @@
       <guid>dd8fb70b-ce21-41d3-8a0c-77cd3c14929b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Mobile Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Mobile Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3d0ee543-0233-49ea-bd4f-502a8e491312</id>
@@ -112,7 +112,7 @@
       <guid>e9fff1c3-94d4-4382-9740-cff3d9fc0bb4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Mobile Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Mobile Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f66316ae-1620-4123-ac95-8f2f8d9f5e76</id>
@@ -209,7 +209,7 @@
       <guid>0f72170d-1967-4c50-b68b-3cda8a950a64</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Mobile Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Mobile Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>27f1a732-42b4-4b2b-9af3-75c6bbdae86c</id>
@@ -306,7 +306,7 @@
       <guid>5804d180-9206-471a-afb3-611a64f283f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Bank eWallet Account Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Bank eWallet Account Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>23fc6d9e-accb-469f-94a9-38ff741a9d34</id>
@@ -409,7 +409,7 @@
       <guid>cb2b2c60-801b-42d1-aa48-4c778c53de57</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - NRIC Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - NRIC Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>540ca9bd-ca53-4625-a7fb-1e03f9634280</id>
@@ -512,7 +512,7 @@
       <guid>5d4a865d-1318-4896-9854-871eda0f38af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Business Registration Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Business Registration Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1bfaf287-47b5-4ca9-9aa0-6d729cb0732d</id>
@@ -615,7 +615,7 @@
       <guid>a3005789-2bac-4d7c-81b1-75f3ef507b4b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Army Police ID</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/ON US/DuitNow Request - Army Police ID</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>0ccfcddd-6db5-44d2-a16f-95dec4f678a9</id>
@@ -718,7 +718,7 @@
       <guid>245559d2-54d9-4f44-83b7-4a0d3636900b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/OFF US/DuitNow Request OFF - Mobile Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/OFF US/DuitNow Request OFF - Mobile Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>46541dbf-48a8-4c4f-a16d-9e6a8cef71f9</id>
@@ -821,7 +821,7 @@
       <guid>f918e3ed-a4e3-4d93-b58b-43e90376909f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - Mobile Number - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - Mobile Number - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3b1bb5ee-2350-4ca8-ac3b-8011fa115d05</id>
@@ -924,7 +924,7 @@
       <guid>8ec72163-62be-4361-bdcb-530e662f3cbb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - Mobile Number - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - Mobile Number - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>87310f38-4623-4964-9e70-43aaa537dd97</id>
@@ -1027,7 +1027,7 @@
       <guid>7f83b6e1-d642-4153-b206-05fa5bff6877</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - Favourite Request</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - Favourite Request</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>610672b5-f32b-453f-802d-0707169e6fdd</id>
@@ -1148,7 +1148,7 @@
       <guid>459820bb-6e33-4263-963f-a261a5df5908</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - View Created Requests</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Request/Specical Cases/DuitNow Request - View Created Requests</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>35fe26b0-7473-4399-a14f-62415a3245a6</id>
@@ -1242,7 +1242,7 @@
       <guid>df1a795a-9aaa-4303-9fc3-bf2e0f47b3de</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>37dfb14f-b94e-403f-82f9-e4edfd89a5cc</id>
@@ -1318,7 +1318,7 @@
       <guid>fe2de029-a1c5-4174-914a-d07b0051a5e5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>cb6d723f-121c-413c-a87a-cf8a0ec678f3</id>
@@ -1394,7 +1394,7 @@
       <guid>26294cc8-b588-4cb6-bc7a-f8c37006abc2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Insufficient balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Insufficient balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ce5a55b5-2390-445a-97e7-f251a8b1aa34</id>
@@ -1482,7 +1482,7 @@
       <guid>35335739-c547-45bc-aa67-0072c42323d3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Request/Pay DuitNow Request - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>09bf86af-0be4-4497-b2fa-c12f1b442e31</id>
@@ -1558,7 +1558,7 @@
       <guid>92a5af02-acaa-4a8a-b595-966bb2ff67c8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - Mobile Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - Mobile Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>72a17bd6-5eda-4f5d-8732-2be8aa6fb351</id>
@@ -1670,7 +1670,7 @@
       <guid>a69e759b-e823-40f3-99d6-01067384c90d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - Bank eWallet Account Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - Bank eWallet Account Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c177a28f-3967-4314-94c0-87b0404a9ed4</id>
@@ -1782,7 +1782,7 @@
       <guid>280c9cd3-1b66-4ea2-967d-1eb23d22758b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - NRIC</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - NRIC</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7c918d95-9dc4-4156-9d11-f8ac897324a4</id>
@@ -1894,7 +1894,7 @@
       <guid>be9f9985-0116-45b7-b840-afc1a350cca0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - BRN</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - BRN</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ff9971e7-b486-4519-a07c-9f6ee2e4ba7a</id>
@@ -2006,7 +2006,7 @@
       <guid>ddd85c13-4c43-4783-8f27-cb9363c467a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - Army Police</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Forward Request/ON US/Forward Request - Army Police</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2361215c-9e0c-496b-980b-d67a1a2c1989</id>
@@ -2118,7 +2118,7 @@
       <guid>e8ded8b6-8e7c-4325-8b8d-9424fd2073f4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Forward Request/OFF US/Forward Request OFF - Mobile Number</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Forward Request/OFF US/Forward Request OFF - Mobile Number</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2349dbb4-e178-4013-a783-1fd053a6bd24</id>
@@ -2230,7 +2230,7 @@
       <guid>f132b1cb-c469-404c-992a-9584f4f616fd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Special Cases/Reject DuitNow Request</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Special Cases/Reject DuitNow Request</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>891c4d99-7384-4ade-9555-ad6f7b4a5ffe</id>
@@ -2318,7 +2318,7 @@
       <guid>e3b89d44-c18a-4296-b6a1-39f5b85ddb59</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Special Cases/Block DuitNow Request</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Special Cases/Block DuitNow Request</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>70d181a7-e87a-4413-b9c7-6010e90297f0</id>
@@ -2406,7 +2406,7 @@
       <guid>69b41ed2-9fa6-4a2e-ac53-cbec7186e666</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Special Cases/Unblock DuitNow Setting</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Special Cases/Unblock DuitNow Setting</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ba94bfc9-b3cd-4630-aef0-ba1190b80d2d</id>
@@ -2482,7 +2482,7 @@
       <guid>ff4d49ce-9f44-4b4b-b787-71d881f4d386</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e2fee0e8-8c3b-4773-a8be-488f7f53d682</id>
@@ -2558,7 +2558,7 @@
       <guid>0b8e49f5-9f02-477c-ac31-4bf15425e07e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>63b09b0c-4c7f-450b-99ad-f39085b07821</id>
@@ -2634,7 +2634,7 @@
       <guid>941406fa-5175-4216-9974-9e1583335cf2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Insufficient balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Insufficient balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>754c8d7c-69e1-41b7-bdc3-b693b828eb1f</id>
@@ -2722,7 +2722,7 @@
       <guid>46f4cbde-f3e1-4b90-9995-b4fa27afab3e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Request To Pay/DuitNow Request/Pay Forward Request/Pay Forward DuitNow Request - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9c328eb0-658f-4477-bc62-906cabf7e782</id>

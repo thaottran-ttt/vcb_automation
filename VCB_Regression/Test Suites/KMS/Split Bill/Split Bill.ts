@@ -15,7 +15,7 @@
       <guid>65ec1c2a-5d64-48f6-ae92-ee7399a94b60</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Add contacts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Add contacts</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8f552ecb-4eed-44ed-9d9c-8a5e0dcec9bc</id>
@@ -73,7 +73,7 @@
       <guid>810ae6ac-4f4e-48dd-9a1b-fec0b443dfb6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Request separately</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Request separately</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>274ea258-814d-44f9-b08b-d6bc9eb92415</id>
@@ -239,7 +239,7 @@
       <guid>7988eb98-c903-45b2-9ecf-4c354404277f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Request evenly</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Request evenly</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4c9d3219-0673-4912-862a-6e9291006241</id>
@@ -399,7 +399,7 @@
       <guid>ee00d9db-7bae-4dfb-b1bc-169cf370ab06</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Entry point - Account details</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Entry point - Account details</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>7ba59161-a980-4dbc-bf72-3c78de59e0ae</id>
@@ -559,7 +559,7 @@
       <guid>73126ca5-b672-4540-a415-f0f4b52adaf3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Request evenly by group</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Request evenly by group</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f605adea-c894-4a1e-8491-76ef0c3c9488</id>
@@ -719,7 +719,7 @@
       <guid>4b54dc2b-c39c-44b8-8b52-cac0b1725567</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Entry point - Wallet</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Entry point - Wallet</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2d137fd1-eb32-4b9b-91b8-e40c0f3fb031</id>
@@ -849,7 +849,7 @@
       <guid>2145ce6d-a9ec-4060-8309-b9ac81f10afa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Add Fav from Sucess Bill</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Add Fav from Sucess Bill</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a5a35f8e-695e-4ab1-a692-d24ace8a9e6c</id>
@@ -991,7 +991,7 @@
       <guid>f452e3d5-ab10-43b0-85b6-e881c1d7752b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Split Bill/Split bill request - Edit and Delete Fav Grp</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Split Bill/Split bill request - Edit and Delete Fav Grp</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>09b3d9f0-d7a1-4496-8d3f-bdcdf157cf17</id>

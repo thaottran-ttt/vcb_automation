@@ -15,7 +15,7 @@
       <guid>fc2aeeb4-f46b-4a53-86cd-fd3eb2811dc7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Share Receipt/ShareRecipt</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Share Receipt/ShareRecipt</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>19e37b0b-5026-42a1-aa7e-8382f756e271</id>

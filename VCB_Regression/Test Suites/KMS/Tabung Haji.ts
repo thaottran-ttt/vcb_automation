@@ -15,7 +15,7 @@
       <guid>87d81a25-d55e-4898-8712-c674fff4058b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Special Case/Tabung Haji - User dont have TH account linked</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Special Case/Tabung Haji - User dont have TH account linked</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>998b2c53-96e4-4d37-9e94-36b8d280e78f</id>
@@ -73,7 +73,7 @@
       <guid>47e6f67a-a80a-4aaf-8522-ce79f2e3e846</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own TH/Own TH to own TH Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own TH/Own TH to own TH Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>11bf2a8c-32dd-49a1-a9be-10fc1300cb88</id>
@@ -203,7 +203,7 @@
       <guid>3fdcab46-ed2b-478a-92e9-cfb33d3955b9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own TH/Own TH to own TH Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own TH/Own TH to own TH Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e3d14f5b-4321-46a6-b93c-c5b23ea5d866</id>
@@ -315,7 +315,7 @@
       <guid>fd4e8c3a-1bd3-4c09-87ff-960e192febb2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own TH/Own TH to own TH Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own TH/Own TH to own TH Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b0830bcd-bb1f-492d-abfd-6bcbf05cb82d</id>
@@ -427,7 +427,7 @@
       <guid>c0007292-542c-4020-aed5-fd318ea98fe7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own TH/Own TH to own TH - Insufficient Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own TH/Own TH to own TH - Insufficient Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>a9ad8943-8a46-44ca-a6de-e3e250453fce</id>
@@ -545,7 +545,7 @@
       <guid>fabe9d85-6790-4f09-a45f-461f349ba5af</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own MBB/Own TH to own MBB Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own MBB/Own TH to own MBB Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>55955d8e-1778-4d9c-9385-0f0a362507bd</id>
@@ -675,7 +675,7 @@
       <guid>19172eaf-c9cf-4107-9296-4c2a3926f9fa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own MBB/Own TH to own MBB Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own MBB/Own TH to own MBB Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>9a967211-ae78-402a-bbd5-941783523ab9</id>
@@ -787,7 +787,7 @@
       <guid>a40b67ff-8df3-4e4e-babd-bd91f4ab0813</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own MBB/Own TH to own MBB Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own MBB/Own TH to own MBB Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ca5bc4be-3b89-4033-a347-beae41a1f132</id>
@@ -899,7 +899,7 @@
       <guid>d2e58116-b1e8-4b4f-8f7a-9f56cd4e61a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own TH to own MBB/Own TH to own MBB - Insufficient Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own TH to own MBB/Own TH to own MBB - Insufficient Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>dc2256ee-ab1f-4076-b3ab-b348be92d24f</id>
@@ -1017,7 +1017,7 @@
       <guid>c2e78913-5074-443a-89a6-6fa8d104cdc8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own MBB to own TH/Own MBB to own TH Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own MBB to own TH/Own MBB to own TH Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2effc96b-6a2c-435b-b179-fd7506c9829d</id>
@@ -1147,7 +1147,7 @@
       <guid>0d9ee5ca-5b6e-41f4-a139-9476fe6edd4c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own MBB to own TH/Own MBB to own TH Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own MBB to own TH/Own MBB to own TH Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d3cb634d-2f0f-40a8-8219-73599af7fe7f</id>
@@ -1259,7 +1259,7 @@
       <guid>281f058b-dd8f-4cab-a84e-51641fa41279</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own MBB to own TH/Own MBB to own TH Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own MBB to own TH/Own MBB to own TH Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b58756e0-13f5-455a-9d78-2401bde129ed</id>
@@ -1371,7 +1371,7 @@
       <guid>7a455acd-be9e-4262-b035-bc7d747cdd73</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Own MBB to own TH/Own MBB to own TH - Insufficient Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Own MBB to own TH/Own MBB to own TH - Insufficient Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>fc47d12c-59bd-4928-a7f4-507db14929f0</id>
@@ -1489,7 +1489,7 @@
       <guid>4443a4cc-8524-46dc-9850-df95894e4d8b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open TH to Other TH/Open TH to Other TH Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open TH to Other TH/Open TH to Other TH Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c0bcd2f0-8a9b-4507-98fd-25cf8e0199ed</id>
@@ -1637,7 +1637,7 @@
       <guid>a451592f-13b7-4b99-ba62-84c389d76274</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open TH to Other TH/Open TH to Other TH Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open TH to Other TH/Open TH to Other TH Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2873d3a5-3ee2-437e-a4aa-32d3e6eeb1d9</id>
@@ -1767,7 +1767,7 @@
       <guid>924444e5-3b6d-43b3-9d50-b24aaf2bf2b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open TH to Other TH/Open TH to Other TH Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open TH to Other TH/Open TH to Other TH Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b4ca3741-2091-449f-a898-b6a16252196f</id>
@@ -1897,7 +1897,7 @@
       <guid>fac17771-0b75-4e53-a005-8e322877f19d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open TH to Other TH/Open TH to Other TH - Insufficient Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open TH to Other TH/Open TH to Other TH - Insufficient Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bed64baa-06b8-4570-891d-58b474297edd</id>
@@ -2033,7 +2033,7 @@
       <guid>d40ec84f-2fb6-4be8-bdd0-fdaea3d9b82e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4cd166f4-2a66-427b-9069-7b3f135b578c</id>
@@ -2181,7 +2181,7 @@
       <guid>0a38b4a7-2079-495f-a02e-5900b6db388f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>289e04c4-54c9-424f-88f3-c18a22d444ed</id>
@@ -2311,7 +2311,7 @@
       <guid>653c0c8b-adf7-4ada-8122-5f75021ddac4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>764b6e1b-8645-4cc0-9d87-6cf9509ef5ef</id>
@@ -2441,7 +2441,7 @@
       <guid>8832142d-8804-42c4-b06e-fae537b625cd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH - Insufficient Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Open MBB to Other TH/Open MBB to Other TH - Insufficient Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f688d4a2-b465-40de-b3a6-9e43030645b7</id>
@@ -2577,7 +2577,7 @@
       <guid>0d752f74-2bc7-4901-8617-5a996678d3fe</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Favourite/Favourite Tabung Haji Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Favourite/Favourite Tabung Haji Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>63440bbb-8de2-4d37-8770-c181d0206d88</id>
@@ -2701,7 +2701,7 @@
       <guid>2e5796ff-a8c1-4b45-8a24-d5dabc1aa95a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Favourite/Favourite Tabung Haji Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Favourite/Favourite Tabung Haji Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f0420d57-6aeb-4a73-a66f-16b4738ed0c5</id>
@@ -2825,7 +2825,7 @@
       <guid>0e361569-6021-464c-aab9-138785de2194</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Favourite/Favourite Tabung Haji Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Favourite/Favourite Tabung Haji Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>32e64d44-8b45-4e82-b885-914445237b11</id>
@@ -2949,7 +2949,7 @@
       <guid>f97c5f87-c275-4806-b66a-f101230043ee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Favourite/Favourite Tabung Haji - Insufficient Balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Favourite/Favourite Tabung Haji - Insufficient Balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6d3e86e5-de0b-4586-9717-7a4bb8fe4742</id>
@@ -3067,7 +3067,7 @@
       <guid>a76329d5-8e73-4db9-9886-5bbcf6a559c5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Special Case/Access Tabung Haji</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Special Case/Access Tabung Haji</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>060b46c1-941c-4220-b927-34f5d8f25d28</id>
@@ -3125,7 +3125,7 @@
       <guid>4390476e-40d2-4438-8676-33aaed0d5662</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tabung Haji/Special Case/Tabung Haji- Edit Amount, Recipient Reference</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tabung Haji/Special Case/Tabung Haji- Edit Amount, Recipient Reference</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>f46f3472-c555-4269-b932-b1dd6cdc434c</id>

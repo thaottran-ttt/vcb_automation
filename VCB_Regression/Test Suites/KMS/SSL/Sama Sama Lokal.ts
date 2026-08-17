@@ -15,7 +15,7 @@
       <guid>4476ffb3-b905-44c4-8b32-7de0f9f7790a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/SSL/Sama Sama Lokal - Add Location</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/SSL/Sama Sama Lokal - Add Location</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -82,7 +82,7 @@
       <guid>048d48a2-097f-4ce8-a634-e7f74187732e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/SSL/Sama Sama Lokal - Tab Validation</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/SSL/Sama Sama Lokal - Tab Validation</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -155,7 +155,7 @@
       <guid>bbffc47d-7519-44f7-bfac-e09ed367964d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/SSL/Sama Sama Lokal - End To End</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/SSL/Sama Sama Lokal - End To End</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>ef82fcdf-cee7-40a7-b279-0ea8fecae846</id>

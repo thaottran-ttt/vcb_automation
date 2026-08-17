@@ -15,7 +15,7 @@
       <guid>aadf6c9a-1430-4b3c-9855-bb9c5a3eb43b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Apply/Apply New Miga - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Apply/Apply New Miga - Expired</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>036f28b6-9c79-43fd-ac6b-1f3d5245d3b0</id>
@@ -97,7 +97,7 @@
       <guid>12cd1bdd-7a95-4e01-8211-871996a9504d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Apply/Apply New Miga - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Apply/Apply New Miga - Reject</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4cf43325-2fd1-483a-a851-a214bb2f2f11</id>
@@ -179,7 +179,7 @@
       <guid>d4f84779-2aa4-441c-927f-c89f8dc35fa8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/MIGA/Apply/Apply New Miga - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/MIGA/Apply/Apply New Miga - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>721b02ce-3d4d-4bd2-9c2e-eefcb941d144</id>

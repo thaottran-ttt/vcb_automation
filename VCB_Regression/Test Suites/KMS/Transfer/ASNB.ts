@@ -15,7 +15,7 @@
       <guid>7db5115c-dd35-45a4-b1c4-342640224e62</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Account Wealth Tranfer - Favorite - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Account Wealth Tranfer - Favorite - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -154,7 +154,7 @@
       <guid>db68d1ac-a72a-4be2-97c2-438e369bbdef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Account Wealth Tranfer - Favorite - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Account Wealth Tranfer - Favorite - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -293,7 +293,7 @@
       <guid>94dedf80-48fe-4b80-8dc7-e8b9c0a8fad3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Account Wealth Tranfer - Favorite - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Account Wealth Tranfer - Favorite - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -432,7 +432,7 @@
       <guid>b6f22570-3d81-4915-b800-2be2528bf567</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Account Wealth Tranfer - Open - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Account Wealth Tranfer - Open - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -571,7 +571,7 @@
       <guid>376dc82a-21e2-4061-aa18-18a83471ddee</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Account Wealth Tranfer - Open - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Account Wealth Tranfer - Open - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -710,7 +710,7 @@
       <guid>4e7e9bc0-0fbb-4076-9047-89163009a502</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Account Wealth Tranfer - Open - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Account Wealth Tranfer - Open - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -849,7 +849,7 @@
       <guid>8486a6c3-3737-4aa1-89ae-ce681e217ef4</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Quick Action Transfer - Favorite - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Quick Action Transfer - Favorite - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -982,7 +982,7 @@
       <guid>141aa937-f175-4327-bd20-2d24868069d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Quick Action Transfer - Favorite - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Quick Action Transfer - Favorite - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1115,7 +1115,7 @@
       <guid>26433e97-3747-461f-9348-9dc64beefefb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Quick Action Transfer - Favorite - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Quick Action Transfer - Favorite - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1248,7 +1248,7 @@
       <guid>da9794ea-ec0f-4fc9-a3bc-1109e915d1a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Quick Action Transfer - Open - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Quick Action Transfer - Open - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1381,7 +1381,7 @@
       <guid>5e3429bc-2cff-4797-ad39-438b4ffb8e0d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Quick Action Transfer - Open - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Quick Action Transfer - Open - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -1514,7 +1514,7 @@
       <guid>a2e7ec9b-6e31-405e-8765-4506692093cc</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/ASNB/ASNB Quick Action Transfer - Open - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/ASNB/ASNB Quick Action Transfer - Open - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -312,7 +312,7 @@
       <name>isInternational</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank1'</defaultValue>
+      <defaultValue>'Vcb1'</defaultValue>
       <description></description>
       <id>075fafbe-741d-4066-91ef-f77a153c105b</id>
       <masked>false</masked>

@@ -15,7 +15,7 @@
       <guid>8e63ed9b-b11a-47a6-a0a2-8f13271f9964</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transaction History/TC1_Check Transaction History</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transaction History/TC1_Check Transaction History</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>1288c5ef-bf95-4781-8196-01626df7893a</id>

@@ -139,7 +139,7 @@
       <name>tabName</name>
    </variable>
    <variable>
-      <defaultValue>'Maybank Islamic Hire Purchase'</defaultValue>
+      <defaultValue>'Vcb Islamic Hire Purchase'</defaultValue>
       <description></description>
       <id>2d6b4ba5-4db8-40f6-b210-a2cffc3cda06</id>
       <masked>false</masked>

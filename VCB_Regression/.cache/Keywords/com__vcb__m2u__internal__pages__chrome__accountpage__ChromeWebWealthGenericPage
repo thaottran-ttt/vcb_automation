@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F6FDD5CD0F1E8789D41C520461847D91",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.chrome.accountpage.ChromeWebWealthGenericPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

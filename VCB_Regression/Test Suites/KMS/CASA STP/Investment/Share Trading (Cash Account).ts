@@ -15,7 +15,7 @@
       <guid>d759a7e4-ac35-4449-8832-e13b46e6cd3a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Investment/Share Trading (Cash Account) - NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Investment/Share Trading (Cash Account) - NTB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6f6c130f-bb17-41f5-b4ee-e6f93e003eb6</id>
@@ -79,7 +79,7 @@
       <guid>9ba9b87c-467e-4a8b-bf95-c315cb576884</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Investment/Share Trading (Cash Account) - ETB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Investment/Share Trading (Cash Account) - ETB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>079102e6-02f4-4a33-b3a2-f553276b8fe7</id>

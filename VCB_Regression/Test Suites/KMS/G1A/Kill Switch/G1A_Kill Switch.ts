@@ -15,7 +15,7 @@
       <guid>71e64b8d-dd92-4fcc-83f9-d08ab466427f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Kill Switch/G1A_Kill_Switch</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Kill Switch/G1A_Kill_Switch</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

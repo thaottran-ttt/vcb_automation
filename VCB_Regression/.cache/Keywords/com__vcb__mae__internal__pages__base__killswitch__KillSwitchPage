@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C861899833194ED43934AAE7EFA0251D",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.base.killswitch.KillSwitchPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

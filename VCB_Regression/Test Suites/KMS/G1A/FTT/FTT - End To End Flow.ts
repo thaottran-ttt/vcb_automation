@@ -15,7 +15,7 @@
       <guid>a4ca5bde-0a67-4540-a021-7a46a5cf78a7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/FTT/FTT Transfer From G1A Account To Japan Country - Status Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/FTT/FTT Transfer From G1A Account To Japan Country - Status Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -316,7 +316,7 @@
       <guid>c3e9aa6e-952e-43d0-8bd2-a5e3a96da3b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/FTT/FTT Transfer From G1A Account To Japan Country - Status Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/FTT/FTT Transfer From G1A Account To Japan Country - Status Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -551,7 +551,7 @@
       <guid>3b8e2657-751f-43b4-aaaa-1b7530de801e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/FTT/FTT Transfer From G1A Account To Japan Country - Status Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/FTT/FTT Transfer From G1A Account To Japan Country - Status Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

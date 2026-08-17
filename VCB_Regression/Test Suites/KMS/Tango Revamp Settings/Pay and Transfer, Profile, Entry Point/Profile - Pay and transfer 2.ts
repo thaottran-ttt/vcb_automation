@@ -15,7 +15,7 @@
       <guid>4be82262-5c74-4c43-b926-9cfd2316266b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-24</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-24</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4886cd3a-3dec-40a0-97d3-8f3bbf6c4d5d</id>
@@ -109,7 +109,7 @@
       <guid>f37ddae3-2ebf-4574-9e7d-60e0c496657d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-25</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-25</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>8bcf506c-774d-48af-80e1-907b1428f6c2</id>
@@ -197,7 +197,7 @@
       <guid>0ba32720-35e4-4f27-8459-e8e625feb901</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-20</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-20</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>93262482-d6ab-4081-8546-2d23f5d01608</id>
@@ -243,7 +243,7 @@
       <guid>9eafc284-93b6-4642-83b4-ab431073377a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-22, 1759</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Tango/Tango Revamp Settings/Pay and Transfer/TANGOMAESR-22, 1759</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>2182b0b7-ed9a-462d-aeb5-745425fb5d70</id>

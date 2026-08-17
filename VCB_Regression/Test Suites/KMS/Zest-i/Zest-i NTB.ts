@@ -15,7 +15,7 @@
       <guid>af44d07b-1068-4e0b-8a56-1fd00c6845ba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zesi-i/Zest-i NTB/Zest-i Passport NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zesi-i/Zest-i NTB/Zest-i Passport NTB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>929ddcfa-6184-4c07-98f2-7f2b835a17ad</id>
@@ -199,7 +199,7 @@
       <guid>35fea8a0-925c-4df3-a87f-143039c71efa</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zesi-i/Zest-i NTB/Zest-i Mykad NTB</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zesi-i/Zest-i NTB/Zest-i Mykad NTB</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>6e6e2685-a934-4940-9d1e-f8b83f28525f</id>
@@ -323,7 +323,7 @@
       <guid>97d98e9a-997f-4387-bb7d-d60a064c9929</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Zesi-i/Zest-i NTB/Zest-i Mykad NTB Apply Later</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Zesi-i/Zest-i NTB/Zest-i Mykad NTB Apply Later</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>386918ad-3fbb-4895-b413-84b94871fbf9</id>

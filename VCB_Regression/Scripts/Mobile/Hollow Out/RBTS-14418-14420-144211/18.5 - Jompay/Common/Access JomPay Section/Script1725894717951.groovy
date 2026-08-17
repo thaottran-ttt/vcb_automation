@@ -1,12 +1,12 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import com.kms.katalon.core.model.FailureHandling as FailureHandling
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.common.MobileDriver
-import com.maybank.mae.internal.pages.base.accountpage.AccountsPage as AccountsPage
-import com.maybank.mae.internal.pages.base.BasePage as BasePage
-import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
-import com.maybank.mae.internal.pages.base.HomePage as HomePage
-import com.maybank.mae.internal.pages.base.paybill.JomPayPage as JomPayPage
+import com.vcb.common.MobileDriver
+import com.vcb.mobile.internal.pages.base.accountpage.AccountsPage as AccountsPage
+import com.vcb.mobile.internal.pages.base.BasePage as BasePage
+import com.vcb.mobile.internal.pages.base.CommonPage as CommonPage
+import com.vcb.mobile.internal.pages.base.HomePage as HomePage
+import com.vcb.mobile.internal.pages.base.paybill.JomPayPage as JomPayPage
 import internal.GlobalVariable as GlobalVariable
 
 MobileDriver.info("Start " + TC_name)
@@ -21,7 +21,7 @@ JomPayPage jomPayPage = BasePage.getPage(JomPayPage)
 
 if(shouldCheckLogin) {
 	'Login flow'
-	WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login'), [('appId') : GlobalVariable.G_appPath, ('username') : userName
+	WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login'), [('appId') : GlobalVariable.G_appPath, ('username') : userName
 			, ('password') : password], FailureHandling.STOP_ON_FAILURE)
 }
 
@@ -32,9 +32,9 @@ switch (accessFlow) {
         commonPage.checkEnterPassword(password)
 
         break
-    case 'MAE Wallet':
+    case 'VCB Wallet':
         'Navigate To View All Accounts'
-        CustomKeywords.'com.maybank.mae.pages.Maybank2u.viewAllAccounts'()
+        CustomKeywords.'com.vcb.mobile.pages.Vcb2u.viewAllAccounts'()
 
         'Navigate to PayBills screen'
         accountsPage.navigateToPayBillsScreen(accountName, password)

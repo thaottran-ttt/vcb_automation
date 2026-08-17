@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9961F905CD8633F990FCFC55FD51B93B",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.safari.accountpage.SafariWebWealthGenericPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

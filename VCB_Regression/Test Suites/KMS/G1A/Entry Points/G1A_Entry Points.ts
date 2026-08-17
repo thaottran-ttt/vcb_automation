@@ -15,7 +15,7 @@
       <guid>0817bad9-b9de-47fe-9b06-6edc3e9e397a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Entry Points/G1A_Entry_Points</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Entry Points/G1A_Entry_Points</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

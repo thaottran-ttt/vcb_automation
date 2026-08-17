@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8A1A236A87E876C07B6FE92B6898F9E2",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mae.internal.pages.androidphone.AndroidPhoneOnboardingPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

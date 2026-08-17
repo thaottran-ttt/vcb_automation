@@ -15,7 +15,7 @@
       <guid>062c5304-f173-430e-b792-f613eb9a8840</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Articles And Promotions/Promotions - Quick Actions</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Articles And Promotions/Promotions - Quick Actions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

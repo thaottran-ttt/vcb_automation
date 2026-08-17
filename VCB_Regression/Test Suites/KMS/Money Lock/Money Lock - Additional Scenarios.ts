@@ -15,7 +15,7 @@
       <guid>7a17bab9-823f-4e09-99d7-f57e8a6e5c6c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Terms and Conditions</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Terms and Conditions</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -118,7 +118,7 @@
       <guid>6cd9fa64-371a-42a0-af37-f0b688c68f01</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Learn More</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Learn More</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -215,7 +215,7 @@
       <guid>4971e6f5-06b0-40f6-90e1-eb71131700a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Perform Transfer then ML</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Perform Transfer then ML</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -378,7 +378,7 @@
       <guid>79729170-4296-48df-894d-f1e75e127505</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Perform PayBill then ML</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Perform PayBill then ML</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -613,7 +613,7 @@
       <guid>487829e4-8fa4-4355-9e98-22807a39a13e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Money Lock/Money Lock - Perform Reload then ML</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Money Lock/Money Lock - Perform Reload then ML</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

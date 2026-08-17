@@ -15,7 +15,7 @@
       <guid>6bda3f53-9d6a-4cd8-b60e-3d483e422ad7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Global Access Account-i</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/CASA STP/Apply Account/ETB/ETB - NRIC_Passport/Global Access Account-i</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>28d19620-9fd4-4180-a8a3-2c9745b968ad</id>

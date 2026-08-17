@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "9C1FCFC608D45967AAA08BE49AE6EFB8",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.base.paytransfer.WebTabungHajiPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

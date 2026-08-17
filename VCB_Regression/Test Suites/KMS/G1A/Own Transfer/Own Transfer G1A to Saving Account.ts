@@ -15,7 +15,7 @@
       <guid>c7de99dc-ab5e-47ca-a7a8-58f79c48938c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Saving Account (1)/G1A to Saving/Self Transfer From G1A Account To Saving Account - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Saving Account (1)/G1A to Saving/Self Transfer From G1A Account To Saving Account - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -160,7 +160,7 @@
       <guid>40594802-8ed5-4073-87d2-6dc5204c1536</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Saving Account (1)/G1A to Saving/Self Transfer From G1A Account To Saving Account - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Saving Account (1)/G1A to Saving/Self Transfer From G1A Account To Saving Account - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -305,7 +305,7 @@
       <guid>fea2606b-07c3-4ae1-a36a-c3d1039aa970</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Saving Account (1)/G1A to Saving/Self Transfer From G1A Account To Saving Account - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Saving Account (1)/G1A to Saving/Self Transfer From G1A Account To Saving Account - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -450,7 +450,7 @@
       <guid>0f3a6a56-b30c-4c6f-ae58-d26a196b758e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Saving Account (1)/Saving to G1A/Self Transfer From Saving Account To G1A Account - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Saving Account (1)/Saving to G1A/Self Transfer From Saving Account To G1A Account - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -595,7 +595,7 @@
       <guid>cdb269b7-9401-46f6-9a0a-4a1fb9c42d67</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Saving Account (1)/Saving to G1A/Self Transfer From Saving Account To G1A Account - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Saving Account (1)/Saving to G1A/Self Transfer From Saving Account To G1A Account - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -740,7 +740,7 @@
       <guid>9cb7e99b-259e-4500-9ea3-ea5d7468518d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/G1A/Own Transfer/Saving Account (1)/Saving to G1A/Self Transfer From Saving Account To G1A Account - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/G1A/Own Transfer/Saving Account (1)/Saving to G1A/Self Transfer From Saving Account To G1A Account - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -1,0 +1,14 @@
+{
+  "keywordFileContentHash": "8ADE8F50F313F07D596C8F1481C32559",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.m2u.internal.pages.base.fixeddeposit.WebFixedDepositPage",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.m2u.internal.pages.base.fixeddeposit.WebFixedDepositPage$Dropdown",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

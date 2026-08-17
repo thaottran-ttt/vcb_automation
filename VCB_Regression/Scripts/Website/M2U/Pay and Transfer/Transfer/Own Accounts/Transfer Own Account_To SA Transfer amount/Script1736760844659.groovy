@@ -1,11 +1,11 @@
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.maybank.common.BaseKeyword
-import com.maybank.m2u.internal.pages.base.WebBasePage
-import com.maybank.m2u.internal.pages.base.WebCommonPage
-import com.maybank.m2u.internal.pages.base.WebHomePage
-import com.maybank.m2u.internal.pages.base.paytransfer.WebTransfer
+import com.vcb.common.BaseKeyword
+import com.vcb.m2u.internal.pages.base.WebBasePage
+import com.vcb.m2u.internal.pages.base.WebCommonPage
+import com.vcb.m2u.internal.pages.base.WebHomePage
+import com.vcb.m2u.internal.pages.base.paytransfer.WebTransfer
 
 import internal.GlobalVariable as GlobalVariable
 

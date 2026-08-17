@@ -15,7 +15,7 @@
       <guid>852bf90b-fb8f-46e1-907b-082bc6ab0a8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Open/Open GIRO to CASA - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Open/Open GIRO to CASA - Approve</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>bbcb9c8f-af93-40ec-b047-a8703f6f6b1d</id>
@@ -187,7 +187,7 @@
       <guid>0f1498f7-5521-4e20-b1b4-0db0add63078</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Open/Open GIRO to CASA - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Open/Open GIRO to CASA - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -320,7 +320,7 @@
       <guid>3065b4d9-7815-4862-bafe-c9f5c5aff2a9</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Open/Open GIRO to CASA - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Open/Open GIRO to CASA - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -453,7 +453,7 @@
       <guid>20ae1441-d6e8-4013-b294-13dc588f8a7e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Future/Open GIRO to CASA Future</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Future/Open GIRO to CASA Future</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -604,7 +604,7 @@
       <guid>281ff950-427e-4519-a385-9fb92a14b752</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Favorite/Favourite GIRO to CASA</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Favorite/Favourite GIRO to CASA</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>d2d534e3-63b9-480b-8ba2-afd6c911b88f</id>
@@ -770,7 +770,7 @@
       <guid>d2378404-0fcd-4001-b388-c45d403e818c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Open/Open GIRO to Credit Card</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Open/Open GIRO to Credit Card</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>e0d7dde9-3a1c-435c-973d-817aadca3020</id>
@@ -942,7 +942,7 @@
       <guid>6d4cbacb-3bf1-4876-a447-28cc1cd1dcef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Open/Open GIRO to Hire Purchase</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Open/Open GIRO to Hire Purchase</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>debf8c41-1e47-49d3-a1db-d9af34c8e641</id>
@@ -1114,7 +1114,7 @@
       <guid>a3a47d24-192e-44e2-b66b-78320bf91fc5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Giro Open/Open GIRO to Loan</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Giro Open/Open GIRO to Loan</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>4ddb8883-d805-4dd8-8dae-a886488cac28</id>
@@ -1286,7 +1286,7 @@
       <guid>13ee0354-69e3-40b4-8fff-708ce3a36491</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Special Case/GIRO Special Case - Edit amt, Recipient Reference, Min Max Amt</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Special Case/GIRO Special Case - Edit amt, Recipient Reference, Min Max Amt</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>5a241f9f-b7e2-4c4d-b105-ee6b550a5bb4</id>
@@ -1410,7 +1410,7 @@
       <guid>acc9afc0-42ba-4466-b57c-75f978fa85ea</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Special Case/GIRO Special Case Access</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Special Case/GIRO Special Case Access</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c03b7c45-3f6a-458c-ac2f-e9d0b4efbe39</id>
@@ -1468,7 +1468,7 @@
       <guid>1be41967-af9d-468e-852c-cf5cc807d58c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Transfer/Giro/Special Case/Giro Special Case - insuff balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Transfer/Giro/Special Case/Giro Special Case - insuff balance</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>b9426b25-e25f-4bd2-96cc-95d0af677579</id>

@@ -15,7 +15,7 @@
       <guid>ad7a3460-ae2a-4471-8b30-e0e221e5b97d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Movies and Leisure - Wetix/Create Transaction - Approve</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Movies and Leisure - Wetix/Create Transaction - Approve</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -88,7 +88,7 @@
       <guid>ffc00bc0-607b-4fbb-ba0b-a1dbf2ece638</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Movies and Leisure - Wetix/Create Transaction - Reject</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Movies and Leisure - Wetix/Create Transaction - Reject</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -161,7 +161,7 @@
       <guid>50f01def-2304-4186-b89f-c26ef8b56018</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Movies and Leisure - Wetix/Create Transaction - Expired</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Movies and Leisure - Wetix/Create Transaction - Expired</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -234,7 +234,7 @@
       <guid>0ce82b03-04fa-448d-a2b1-e278a9810dfd</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Movies and Leisure - Wetix/Create Transaction - Insufficient balance</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Movies and Leisure - Wetix/Create Transaction - Insufficient balance</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>

@@ -15,7 +15,7 @@
       <guid>52af1595-2e5d-44d0-ba34-945b579b6c8d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Maybank2u/SettingsProfile</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Vcb2u/SettingsProfile</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -112,7 +112,7 @@
       <guid>8565f9bb-51b1-4911-91cc-a61c92566ee0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Accounts/Verify UI Settings - Accounts</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Accounts/Verify UI Settings - Accounts</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -179,7 +179,7 @@
       <guid>81241e9a-14fe-4b59-9254-37e2d59c5137</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Listing/Settings - Llisting</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Listing/Settings - Llisting</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -276,7 +276,7 @@
       <guid>93eafee8-a09c-4408-b8e4-79feaa19c761</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>false</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Maybank2u/SettingsSecure2U</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Vcb2u/SettingsSecure2U</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -337,7 +337,7 @@
       <guid>7263dde3-e975-4047-bc27-ee28a5afdbcf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Maybank2u/SettingsSupport</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Vcb2u/SettingsSupport</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
@@ -422,7 +422,7 @@
       <guid>7e77926a-008d-45f8-a5b0-8f0311015a8e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/MAE/Settings/Maybank2u/SettingsAbout</testCaseId>
+      <testCaseId>Test Cases/Mobile/VCB/Settings/Vcb2u/SettingsAbout</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
