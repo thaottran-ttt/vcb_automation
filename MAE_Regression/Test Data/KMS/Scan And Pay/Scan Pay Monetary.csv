@@ -1,0 +1,2 @@
+username,password,idNumber,PAN,minAmount,dailyLimitExceededAmount,P2PqrCodeImage,MerchantOFFqrCodeImage,MerchantONqrCodeImage,InvalidqrCodeImage,TimeoutqrCodeImage
+HUNGUAT10,oxhWAdmPKdsI6woWWukVxg==,940328138747,0000007001853513,1,9999999,P2P.png,out.png,merchant.png,invalid.png,timeout.png

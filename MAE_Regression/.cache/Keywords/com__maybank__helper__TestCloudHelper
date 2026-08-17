@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "63119465EC5B84BF542C7E6C9FD1EF94",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.helper.TestCloudHelper",
+      "keywordMethods": [
+        {
+          "name": "createTestCloudWindowsChromeDriver",
+          "parameters": [],
+          "javadoc": "/**\r\n\t * Creates a TestCloud Windows ChromeDriver instance.\r\n\t *\r\n\t * @param apiKey         The API key for authenticating with TestCloud.\r\n\t * @param orgId          The organization ID associated with TestCloud.\r\n\t * @param browserVersion The desired browser version (default: \"131\").\r\n\t * @return A configured WebDriver instance.\r\n\t * @throws Exception If an error occurs while initializing the driver.\r\n\t */"
+        },
+        {
+          "name": "closeTestCloudBrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

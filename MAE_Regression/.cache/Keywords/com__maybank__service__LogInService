@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "96738C1631BD04123F9E92299951C311",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.service.LogInService",
+      "keywordMethods": [
+        {
+          "name": "getToken",
+          "parameters": [
+            {
+              "name": "apiKey",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

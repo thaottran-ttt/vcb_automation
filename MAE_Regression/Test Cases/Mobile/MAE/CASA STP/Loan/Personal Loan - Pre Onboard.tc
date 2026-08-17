@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Personal Loan - Pre Onboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6851f29-e274-460f-9592-300e6b1bd328</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ae795b67-be5d-4cb0-b5f6-cc2fb62b4250</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>GlobalVariable.G_timeoutLong</defaultValue>
+      <description></description>
+      <id>ae795b67-be5d-4cb0-b5f6-cc2fb62b4250</id>
+      <masked>false</masked>
+      <name>timeout</name>
+   </variable>
+</TestCaseEntity>

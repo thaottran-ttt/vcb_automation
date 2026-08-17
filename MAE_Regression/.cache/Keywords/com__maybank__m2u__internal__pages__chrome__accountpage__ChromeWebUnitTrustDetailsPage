@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3949E5A3A3CDFBD547226BC9D95139AA",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.chrome.accountpage.ChromeWebUnitTrustDetailsPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

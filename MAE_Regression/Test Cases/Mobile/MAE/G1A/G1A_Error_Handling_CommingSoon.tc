@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>G1A_Error_Handling_CommingSoon</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>be902888-8f25-4b05-8078-8535086d893c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e1198c07-63fd-40fc-aafe-77a0df128153</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>06c70939-4be1-495e-9a8b-0bfbab771bd6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1c2e8efd-214a-4683-8180-95a2f8f68efb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2e5619f3-7f8a-45bd-b787-1631f0ef6c53</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>608dfc65-df61-4bb8-b5ba-12cc971c01c5</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1115157d-186a-4299-84a5-b291c275a61a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HAUAT47'</defaultValue>
+      <description></description>
+      <id>e1198c07-63fd-40fc-aafe-77a0df128153</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>06c70939-4be1-495e-9a8b-0bfbab771bd6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Global Access Account-i'</defaultValue>
+      <description></description>
+      <id>1c2e8efd-214a-4683-8180-95a2f8f68efb</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'View All'</defaultValue>
+      <description></description>
+      <id>2e5619f3-7f8a-45bd-b787-1631f0ef6c53</id>
+      <masked>false</masked>
+      <name>action</name>
+   </variable>
+   <variable>
+      <defaultValue>['Goal-Based Investment', 'Tabung', 'Sama-Sama Lokal', 'Movies &amp; Leisure', 'Flight Tickets', 'ATM Cash-out']</defaultValue>
+      <description></description>
+      <id>608dfc65-df61-4bb8-b5ba-12cc971c01c5</id>
+      <masked>false</masked>
+      <name>entryPoints</name>
+   </variable>
+   <variable>
+      <defaultValue>'No Risk Profile. You need to set up a risk profile to continue.'</defaultValue>
+      <description></description>
+      <id>1115157d-186a-4299-84a5-b291c275a61a</id>
+      <masked>false</masked>
+      <name>toastBarMsg</name>
+   </variable>
+</TestCaseEntity>

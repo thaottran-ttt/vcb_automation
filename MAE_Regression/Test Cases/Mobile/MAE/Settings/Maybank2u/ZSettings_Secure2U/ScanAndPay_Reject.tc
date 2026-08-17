@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ScanAndPay_Reject</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>26318e29-c708-4d28-87c1-69f4b26c3e83</testCaseGuid>
+</TestCaseEntity>

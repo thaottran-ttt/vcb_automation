@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Houseowner_Householder Takaful - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b46ff2b2-d1e1-437c-a9ff-ff54ed976518</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9420cd35-c55b-491a-ac31-f78a3cd95dbf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d45c44a-6f51-4001-8d4e-8eeb03f535cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>05cec138-e9f8-4e01-b263-5a9bb32f4f86</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>540b8f23-b081-4883-955b-bb61eaf1ce11</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b92c51ab-befd-454f-81b3-94e6b2370eea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>53938f11-ca04-4bc0-8cad-dd0aebbba9bd</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'INSURANCE/TAKAFUL'</defaultValue>
+      <description></description>
+      <id>9420cd35-c55b-491a-ac31-f78a3cd95dbf</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description></description>
+      <id>2d45c44a-6f51-4001-8d4e-8eeb03f535cc</id>
+      <masked>false</masked>
+      <name>subTabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Houseowner/Householder Takaful'</defaultValue>
+      <description></description>
+      <id>05cec138-e9f8-4e01-b263-5a9bb32f4f86</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
+   <variable>
+      <defaultValue>['Houseowner/Householder Takaful', 'A Shariah-compliant plan for costs of replacement or repair to your home with 15% off when you buy this plan online.', 'Coverage for damages caused by fire, lightning, domestic explosion, road vehicles or animals.', 'Reimbursement for damages caused by acts of nature like floods, hurricanes, typhoons, windstroms, and more.', 'Reimbursement for loss of rent up to 10% of your total sum insured/covered.', 'Coverage for damages caused by bursting, or overflowing of domestic water tanks, apparatus or pipes.', 'Coverage for theft by actual forcible and violent entry into the house.']</defaultValue>
+      <description></description>
+      <id>540b8f23-b081-4883-955b-bb61eaf1ce11</id>
+      <masked>false</masked>
+      <name>introPageData</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>b92c51ab-befd-454f-81b3-94e6b2370eea</id>
+      <masked>false</masked>
+      <name>runValidation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Apply Insurance'</defaultValue>
+      <description></description>
+      <id>53938f11-ca04-4bc0-8cad-dd0aebbba9bd</id>
+      <masked>false</masked>
+      <name>etiqaTitle</name>
+   </variable>
+</TestCaseEntity>

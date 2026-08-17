@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>PersonaLady - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1d7efa66-59c3-4b6b-a3f1-da0376dbda64</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>966f08a9-959a-4f52-98db-8822e23a1201</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aaf95afb-db26-4445-a7e8-3c00e2039b22</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f92983b-45dd-450c-8188-fd3b90b62be4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ed7452a4-f919-4974-b5c8-6c17a261e1ee</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f8d5adaa-6cf6-4d0d-9ffb-7861fb46b4d0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97dba33c-87a4-4678-ae1b-52b46dd97a1d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'INSURANCE/TAKAFUL'</defaultValue>
+      <description></description>
+      <id>966f08a9-959a-4f52-98db-8822e23a1201</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Personal Accident'</defaultValue>
+      <description></description>
+      <id>aaf95afb-db26-4445-a7e8-3c00e2039b22</id>
+      <masked>false</masked>
+      <name>subTabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'PesonaLady'</defaultValue>
+      <description></description>
+      <id>8f92983b-45dd-450c-8188-fd3b90b62be4</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
+   <variable>
+      <defaultValue>['PesonaLady', 'A complete plan to protect women against female cancers, losses resulting from crime-related accidents and more, from just RM21/month.', 'Up to RM30,000 for Kidnap and Abduction', 'RM20,000 for Female Cancers', 'RM20,000 for Maternity Complications due to accident', 'Up to RM5,000 for reimbursement on medical expenses due to accidents', 'Up to RM1,000 for Snatch Theft']</defaultValue>
+      <description></description>
+      <id>ed7452a4-f919-4974-b5c8-6c17a261e1ee</id>
+      <masked>false</masked>
+      <name>introPageData</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f8d5adaa-6cf6-4d0d-9ffb-7861fb46b4d0</id>
+      <masked>false</masked>
+      <name>runValidation</name>
+   </variable>
+   <variable>
+      <defaultValue>'PesonaLady Insurance Plan'</defaultValue>
+      <description></description>
+      <id>97dba33c-87a4-4678-ae1b-52b46dd97a1d</id>
+      <masked>false</masked>
+      <name>etiqaTitle</name>
+   </variable>
+</TestCaseEntity>

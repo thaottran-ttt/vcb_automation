@@ -1,0 +1,14 @@
+{
+  "HomePage": {
+    "title": "Home Page"
+  },
+  "ApplyPage": {
+    "FixedDepositsTab": "FIXED DEPOSITS" ,
+    "FixedDeposits": {
+      "FixedDepositAccount": "Fixed Deposit Account"
+    }
+  },
+  "General": {
+    "cancel": "Cancel"
+  }
+}

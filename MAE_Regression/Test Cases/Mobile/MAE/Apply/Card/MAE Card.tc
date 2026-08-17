@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MAE Card</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>196f55f9-5ee4-4608-a383-645c5cf0b23f</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>2ccef8a0-b1f6-4af3-9f80-b9eb226442c9</id>
+      <masked>false</masked>
+      <name>skipRestartAfterTestCase</name>
+   </variable>
+   <variable>
+      <defaultValue>'autosam07'</defaultValue>
+      <description></description>
+      <id>57674341-decf-4a04-9a15-b1e4a7ae2bc4</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>52a9a057-0b5f-4e88-bd16-d4b7312d5719</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'910603135107'</defaultValue>
+      <description></description>
+      <id>23e1ebbd-0b81-43b5-ba85-7ead0080c3ba</id>
+      <masked>false</masked>
+      <name>idNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>'0000007001404606'</defaultValue>
+      <description></description>
+      <id>81dfb472-5d69-435a-84b6-d369fb355d85</id>
+      <masked>false</masked>
+      <name>PAN</name>
+   </variable>
+   <variable>
+      <defaultValue>'CARDS'</defaultValue>
+      <description></description>
+      <id>91cad42d-6c7c-422e-87cc-1496bddb115f</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'MAE card'</defaultValue>
+      <description></description>
+      <id>f4329a2c-48b2-475c-88be-7642fddfd637</id>
+      <masked>false</masked>
+      <name>cardType</name>
+   </variable>
+   <variable>
+      <defaultValue>['Request Card', 'Get your MAE card delivered straight to your doorstep!', 'Note: You will be charged RM8 upon successful card application.', 'Benefits', 'Free unlimited withdrawals at Maybank ATMs.']</defaultValue>
+      <description></description>
+      <id>1deb05c0-7c5d-44dd-9dd2-7b1b2ac7cbad</id>
+      <masked>false</masked>
+      <name>requestCardData</name>
+   </variable>
+   <variable>
+      <defaultValue>[('Address Line 1') : 'ASDASD', ('Address Line 2') : 'ASDASD', ('City') : 'KUALA LUMPUR']</defaultValue>
+      <description></description>
+      <id>4bc48712-8835-4b54-b11e-36342ac7a791</id>
+      <masked>false</masked>
+      <name>inputRequestCardStepTwoData</name>
+   </variable>
+   <variable>
+      <defaultValue>'I have read and agree to the Terms &amp; Conditions'</defaultValue>
+      <description></description>
+      <id>c2c88ebe-5a7b-4290-b548-546ab74f5f93</id>
+      <masked>false</masked>
+      <name>agreeDataStepTwo</name>
+   </variable>
+   <variable>
+      <defaultValue>'Reject'</defaultValue>
+      <description></description>
+      <id>76b1f248-fa01-456c-a9fa-9311596cf54d</id>
+      <masked>false</masked>
+      <name>s2uStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>['MAE card application unsuccessful. Please try again.']</defaultValue>
+      <description></description>
+      <id>4aec62ee-b7e3-42b8-a98a-2a9dc6cad0e1</id>
+      <masked>false</masked>
+      <name>titleStatusScreenRejectData</name>
+   </variable>
+   <variable>
+      <defaultValue>['Your Secure Verification authorisation was rejected.']</defaultValue>
+      <description></description>
+      <id>852dd0e4-7352-41e8-9f83-f1628da9e7e7</id>
+      <masked>false</masked>
+      <name>descriptionStatusScreenRejectData</name>
+   </variable>
+   <variable>
+      <defaultValue>['Your card is on its way! You should receive it within 7 working days.']</defaultValue>
+      <description></description>
+      <id>5ea3bfe0-bb64-4934-abe6-ab7bf7e1236f</id>
+      <masked>false</masked>
+      <name>titleStatusScreenApproveData</name>
+   </variable>
+   <variable>
+      <defaultValue>['']</defaultValue>
+      <description></description>
+      <id>93bab094-54d5-4722-9f41-47891bbb0b1b</id>
+      <masked>false</masked>
+      <name>descriptionStatusScreenApproveData</name>
+   </variable>
+</TestCaseEntity>

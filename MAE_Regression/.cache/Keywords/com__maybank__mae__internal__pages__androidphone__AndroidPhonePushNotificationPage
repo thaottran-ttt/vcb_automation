@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "030DC58C193E555EDB589639C4F287C2",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.AndroidPhonePushNotificationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

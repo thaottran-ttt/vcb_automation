@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Forgot PIN - Enter 3 times wrong PIN</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>fefeb884-afe7-4a18-a956-dce93d38bf1b</testSuiteGuid>
+   <testCaseLink>
+      <guid>5c710009-55a7-430d-9e35-e9c2b953ea9d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/MAE/Settings/Security/Forgot PIN/Forgot PIN - Enter 3 times wrong PIN</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>55cc51ab-d353-4907-bccc-a69dfcb282a0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/KMS/Settings/Security/Forgot PIN - Enter 3 times wrong PIN</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>55cc51ab-d353-4907-bccc-a69dfcb282a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>71ddd6d0-e608-488f-a50c-5e8058bf3794</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55cc51ab-d353-4907-bccc-a69dfcb282a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>a179ce64-ac81-4a84-8947-8c4b1d37ea96</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55cc51ab-d353-4907-bccc-a69dfcb282a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>idNumber</value>
+         <variableId>17c4959f-5dae-4c0c-b6fa-3ae182bfa8fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55cc51ab-d353-4907-bccc-a69dfcb282a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PAN</value>
+         <variableId>603a8374-224b-456b-b422-a7ffbf78d90f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>55cc51ab-d353-4907-bccc-a69dfcb282a0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>accountName</value>
+         <variableId>071eaaf3-80fe-44a6-98b9-25257d278ad5</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

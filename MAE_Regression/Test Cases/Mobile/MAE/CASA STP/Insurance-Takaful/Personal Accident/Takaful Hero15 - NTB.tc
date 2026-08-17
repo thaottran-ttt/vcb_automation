@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Takaful Hero15 - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40f1eb4a-435f-4c10-a02a-85d1378786cd</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27bd22d0-9a2a-4692-8545-aca30be20b94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9e038732-bc65-4688-a603-5ca63d24926e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>07c75000-9f26-44f6-9f93-c0d662536a63</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9a522a6b-d44d-4d5b-8ca2-4db542d5ee2b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8f38685c-7f08-4b16-9d13-ca9ca7067e22</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3bfe3340-d349-4ac1-8958-a60f098855f6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'INSURANCE/TAKAFUL'</defaultValue>
+      <description></description>
+      <id>27bd22d0-9a2a-4692-8545-aca30be20b94</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Personal Accident'</defaultValue>
+      <description></description>
+      <id>9e038732-bc65-4688-a603-5ca63d24926e</id>
+      <masked>false</masked>
+      <name>subTabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Takaful Hero15'</defaultValue>
+      <description></description>
+      <id>07c75000-9f26-44f6-9f93-c0d662536a63</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
+   <variable>
+      <defaultValue>['Takaful Hero15', 'A Shariah-compliant takaful plan for men to cover against male cancers, illnesses, accidents and losses from as low as RM30/month.', 'RM20,000 for Male Cancers', 'Up to RM30,000 for settlement of outstanding Hire Purchase Loan', 'RM20,000 per legitimate child for Children Education Fund', 'RM10,000 Infertility Compassionate Cash', 'RM8,000 for settlement of outstanding household utilities']</defaultValue>
+      <description></description>
+      <id>9a522a6b-d44d-4d5b-8ca2-4db542d5ee2b</id>
+      <masked>false</masked>
+      <name>introPageData</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>8f38685c-7f08-4b16-9d13-ca9ca7067e22</id>
+      <masked>false</masked>
+      <name>runValidation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Takaful Hero 15 Plan'</defaultValue>
+      <description></description>
+      <id>3bfe3340-d349-4ac1-8958-a60f098855f6</id>
+      <masked>false</masked>
+      <name>etiqaTitle</name>
+   </variable>
+</TestCaseEntity>

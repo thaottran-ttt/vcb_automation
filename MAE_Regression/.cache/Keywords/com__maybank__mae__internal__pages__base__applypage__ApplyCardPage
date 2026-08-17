@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "ECE10626170A33ADE1077756953575BB",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.applypage.ApplyCardPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

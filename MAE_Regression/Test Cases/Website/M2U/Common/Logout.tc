@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Logout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b42c3e7d-a2de-4d90-b6b8-dd779612b232</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>da98f9fa-3717-47e8-ab39-420d520e769c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f039cde6-f719-484f-9362-0bb19debe2a6</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'autofadh05'</defaultValue>
+      <description></description>
+      <id>da98f9fa-3717-47e8-ab39-420d520e769c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>f039cde6-f719-484f-9362-0bb19debe2a6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>OneMedical Insurance - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7b69bee0-6b5d-4566-87e3-23a5c9336550</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c636f558-ed94-45b6-94cd-7694fef0c7ab</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>62743e93-7d21-4d5f-8415-7d6a71f66ede</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2154a13e-cbca-4edb-8fc4-8ae3fab2185c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c42ed53d-ff3e-41de-9e28-de11fa182ddc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2b903e03-424c-4923-beda-2b2faee1a6dc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a30a5aea-ca34-44b2-a88c-7b28836b2252</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'INSURANCE/TAKAFUL'</defaultValue>
+      <description></description>
+      <id>c636f558-ed94-45b6-94cd-7694fef0c7ab</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medical'</defaultValue>
+      <description></description>
+      <id>62743e93-7d21-4d5f-8415-7d6a71f66ede</id>
+      <masked>false</masked>
+      <name>subTabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'OneMedical Insurance'</defaultValue>
+      <description></description>
+      <id>2154a13e-cbca-4edb-8fc4-8ae3fab2185c</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
+   <variable>
+      <defaultValue>['OneMedical Insurance', 'Get unlimited lifetime medical coverage with no medical examinations required.', 'Get high annual coverage limit of up to RM150,000.', 'Guarantee Letters provided with just one tap away via the Etiqa+ app.', 'Coverage for inpatient and day care surgery as well as outpatient.', 'Lump sum cash benefit for communicable diseases such as COVID-19, Malaria, SARS and more.']</defaultValue>
+      <description></description>
+      <id>c42ed53d-ff3e-41de-9e28-de11fa182ddc</id>
+      <masked>false</masked>
+      <name>introPageData</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>2b903e03-424c-4923-beda-2b2faee1a6dc</id>
+      <masked>false</masked>
+      <name>runValidation</name>
+   </variable>
+   <variable>
+      <defaultValue>'OneMedical Insurance'</defaultValue>
+      <description></description>
+      <id>a30a5aea-ca34-44b2-a88c-7b28836b2252</id>
+      <masked>false</masked>
+      <name>etiqaTitle</name>
+   </variable>
+</TestCaseEntity>

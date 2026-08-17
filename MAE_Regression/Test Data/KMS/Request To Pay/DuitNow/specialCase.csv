@@ -1,0 +1,2 @@
+tcName,username,password,idNumber,PAN,accountName,functionName,duitnowType,itemNameInThreeDot,popupData,successMsg,pushNotificationTitle,pushNotificationDescription
+reject duitnow request,HUNGUAT45,oxhWAdmPKdsI6woWWukVxg==,850405145243,0000007001861177,"''",Send & Request,Incoming,Reject Request,"['Reject Request', 'Are you sure you\'d like to reject this incoming request?']",

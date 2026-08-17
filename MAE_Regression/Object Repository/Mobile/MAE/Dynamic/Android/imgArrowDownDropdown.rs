@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>imgArrowDownDropdown</name>
+   <tag></tag>
+   <elementGuidId>a99814d2-cb3b-4cd0-a557-cdeac967941c</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <locator>(//android.widget.TextView[@text = &quot;${text}&quot; or . = &quot;${text}&quot;]/following-sibling::*//android.widget.TextView/following-sibling::android.widget.ImageView | //android.widget.TextView[@text = &quot;${text}&quot; or . = &quot;${text}&quot;]/following-sibling::*//android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageView)[${index}]</locator>
+   <locatorCollection>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//android.widget.TextView[@text = &quot;${text}&quot; or . = &quot;${text}&quot;]/following-sibling::*//android.widget.TextView/following-sibling::android.widget.ImageView | //android.widget.TextView[@text = &quot;${text}&quot; or . = &quot;${text}&quot;]/following-sibling::*//android.view.ViewGroup/android.view.ViewGroup/android.widget.ImageView)[${index}]</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector()</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <platform>ANDROID</platform>
+</MobileElementEntity>

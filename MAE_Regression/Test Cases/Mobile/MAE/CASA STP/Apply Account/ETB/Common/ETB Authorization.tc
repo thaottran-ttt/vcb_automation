@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ETB Authorization</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cc4b22c4-6030-43e8-be3a-43a5928b24e9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aa361dea-4adb-4967-b30c-1981a16abdf0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>89a38d09-be4b-446c-a654-ad62c56f2fd8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2391a835-ba2c-4695-9868-180ebc959910</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Reject'</defaultValue>
+      <description></description>
+      <id>aa361dea-4adb-4967-b30c-1981a16abdf0</id>
+      <masked>false</masked>
+      <name>s2uStatus</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>89a38d09-be4b-446c-a654-ad62c56f2fd8</id>
+      <masked>false</masked>
+      <name>statusScreenTitle</name>
+   </variable>
+   <variable>
+      <defaultValue>[]</defaultValue>
+      <description></description>
+      <id>2391a835-ba2c-4695-9868-180ebc959910</id>
+      <masked>false</masked>
+      <name>statusScreenDescription</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check MFCA Item show on Wealth Dashboard</description>
+   <name>MFCA - MFCA Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b6fc53ae-87f3-4166-b169-046f94d51729</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7961d4db-73cd-4cc0-b260-6473024c00cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f209507d-ee45-49b6-851d-b82bdfeda38f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6823a11-3dfd-4dc8-be0f-c66bcda44d01</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38d39219-749b-4f89-8d34-f698f4f89777</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>aaacd794-a37e-4f16-8ede-16835c4af3e1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HUNGUAT28'</defaultValue>
+      <description></description>
+      <id>7961d4db-73cd-4cc0-b260-6473024c00cc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>f209507d-ee45-49b6-851d-b82bdfeda38f</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6823a11-3dfd-4dc8-be0f-c66bcda44d01</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'WEALTH'</defaultValue>
+      <description></description>
+      <id>38d39219-749b-4f89-8d34-f698f4f89777</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Foreign Currency'</defaultValue>
+      <description></description>
+      <id>aaacd794-a37e-4f16-8ede-16835c4af3e1</id>
+      <masked>false</masked>
+      <name>itemName</name>
+   </variable>
+</TestCaseEntity>

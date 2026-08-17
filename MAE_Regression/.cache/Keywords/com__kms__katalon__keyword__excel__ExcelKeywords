@@ -1,0 +1,1380 @@
+{
+  "keywordFileContentHash": "A78E95EED0B832439AD63759D5D7B220",
+  "keywordClasses": [
+    {
+      "name": "com.kms.katalon.keyword.excel.ExcelKeywords",
+      "keywordMethods": [
+        {
+          "name": "createExcelFile",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Create a new excel file\r\n\t *\r\n\t * @param filePath path of excel file\r\n\t */"
+        },
+        {
+          "name": "createExcelSheet",
+          "parameters": [
+            {
+              "name": "workbook",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Add a default sheet to workbook\r\n\t *\r\n\t * @param workbook the workbook that needs to add new default sheet\r\n\t */"
+        },
+        {
+          "name": "createExcelSheet",
+          "parameters": [
+            {
+              "name": "workbook",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sheetName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Add a new sheet to workbook\r\n\t *\r\n\t * @param workbook the workbook that needs to add new sheet\r\n\t * @param sheetName the name of new sheet\r\n\t */"
+        },
+        {
+          "name": "getSheetNames",
+          "parameters": [
+            {
+              "name": "workbook",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get name of sheets in workbook\r\n\t *\r\n\t * @param workbook\r\n\t * @return list of sheet\u0027s name\r\n\t */"
+        },
+        {
+          "name": "createExcelSheets",
+          "parameters": [
+            {
+              "name": "workbook",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sheetNames",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [
+                  {
+                    "fullClassName": "java.lang.String",
+                    "unresolvedClassName": "String",
+                    "isArray": false,
+                    "isGnericsPlaceHolder": false,
+                    "hasImmutableClassName": false,
+                    "genericsTypes": [],
+                    "errorOnParsing": false
+                  }
+                ],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Add multiple sheets to workbook\r\n\t *\r\n\t * @param workbook the workbook that needs to add new sheets\r\n\t * @param sheetNames the list of sheet names\r\n\t */"
+        },
+        {
+          "name": "getWorkbook",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get workbook from existing excel file\r\n\t *\r\n\t * @param filePath location path of excel file\r\n\t * @return workbook\r\n\t */"
+        },
+        {
+          "name": "createWorkbook",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Create new workbook\r\n\t *\r\n\t * @param filePath location path of excel file\r\n\t * @return new workbook\r\n\t */"
+        },
+        {
+          "name": "saveWorkbook",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "workbook",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Save workbook into file\r\n\t *\r\n\t * @param filePath the location of excel file that will be written\r\n\t * @param workbook the workbook contains data\r\n\t */"
+        },
+        {
+          "name": "setValueToCellByIndex",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rowIndex",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "colIndex",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Set value to cell by cell index\r\n\t *\r\n\t * @param sheet sheet in workbook\r\n\t * @param colIndex column index starts by 0\r\n\t * @param rowIndex row index starts by 0\r\n\t * @param value value with any data type (String, Numeric, Boolean, Date with format MM/dd/yyyy,\r\n\t * \t\t\t\t\tformula with character \"\u003d\" at the beginning of the string\r\n\t * @Example setValueToCellByIndex(sheet, 1, 2, 123)\r\n\t */"
+        },
+        {
+          "name": "setValueToCellByAddress",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cellAddress",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "value",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Set value to cell by cell Address\r\n\t *\r\n\t * @param sheet sheet in workbook\r\n\t * @param cellAddress cell address in sheet\r\n\t * @param value value with any data type (String, Numeric, Boolean, Date with format MM/dd/yyyy,\r\n\t * \t\t\t\t\tformula with character \"\u003d\" at the beginning of the string\r\n\t * @Example setValueToCellByAddress(sheet, \"A10\", 123)\r\n\t */"
+        },
+        {
+          "name": "setValueToCellByAddresses",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "content",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.Map",
+                "unresolvedClassName": "Map",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Set multiple values to multiple cells with cell addresses\r\n\t *\r\n\t * @param sheet sheet in workbook\r\n\t * @param content map object with \"key\" \u003d \"cell address\" and \"value\" \u003d \"value\" with any data type\r\n\t * \t\t\t\t\t(String, Numeric, Boolean, Date with format MM/dd/yyyy,\r\n\t * \t\t\t\t\tformula with character \"\u003d\" at the beginning of the string\r\n\t * @Example\r\n\t * \t\tcontent.putAt(\"C5\",12)\r\n\t * \t\tcontent.putAt(\"C6\",true)\r\n\t * \t\tsetValueToCellByAddresses(sheet, content)\r\n\t */"
+        },
+        {
+          "name": "getExcelSheet",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sheetIndex",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get an Excel sheet\r\n\t *\r\n\t * @param filePath the location of excel file\r\n\t * @param sheetIndex the index of returned sheet\r\n\t * @return a sheet object\r\n\t * */"
+        },
+        {
+          "name": "getExcelSheet",
+          "parameters": [
+            {
+              "name": "wbs",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sheetName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get an Excel sheet from an opening workbook\r\n\t *\r\n\t * @param wbs the opening workbook\r\n\t * @param sheetName the sheet name of the workbook\r\n\t * @return a sheet object.\r\n\t * @example getExcelSheet(workbook1,\"Sheet1\")\r\n\t * */"
+        },
+        {
+          "name": "getExcelSheetByName",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sheetName",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get an Excel sheet by name\r\n\t *\r\n\t * @param filePath the location of excel file\r\n\t * @param sheetName the name of returned sheet\r\n\t * @return a sheet object\r\n\t * */"
+        },
+        {
+          "name": "getCellByIndex",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rowIdx",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "colIdx",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get cell by index\r\n\t *\r\n\t * @param sheet the sheet object that contains cell\r\n\t * @param rowIdx row index of the cell\r\n\t * @param colIdx column index of the cell\r\n\t * @return a cell object (this function returns null if the object is null)\r\n\t * */"
+        },
+        {
+          "name": "getCellByAddress",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cellAddress",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get cell by address\r\n\t *\r\n\t * @param sheet the sheet object that contains cell\r\n\t * @param cellAddress the address of cell\r\n\t * @return a cell object (this function returns null if the object is null)\r\n\t * */"
+        },
+        {
+          "name": "locateCell",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cellContent",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.Object",
+                "unresolvedClassName": "java.lang.Object",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Locate the first position of the cell based on the cell content\r\n\t * @param sheet the sheet object contains the cell\r\n\t * @param cellContent the content to locate the cell. If the cell is in Date format, the cellContent should be in (MM/dd/yyyy), e.g (\"10/01/2019\")\r\n\t * @return a list of integer (row, column)\r\n\t */"
+        },
+        {
+          "name": "getCellValue",
+          "parameters": [
+            {
+              "name": "cell",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Cell",
+                "unresolvedClassName": "Cell",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Read data from a single cell\r\n\t *\r\n\t * @param cell the cell that needs to read data\r\n\t * @return the value of cell. If the cell is in date format, the returned value is in Date format \"MM/dd/yyyy\".\r\n\t * */"
+        },
+        {
+          "name": "getCellValueByIndex",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rowIdx",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "colIdx",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get cell value by index\r\n\t *\r\n\t * @param sheet the sheet object that contains cell\r\n\t * @param rowIdx row index of the cell\r\n\t * @param colIdx column index of the cell\r\n\t * @return a cell value\r\n\t * */"
+        },
+        {
+          "name": "getCellIndexByAddress",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cellAddress",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get cell position by address\r\n\t *\r\n\t * @param sheet the sheet object that contains cell\r\n\t * @param cellAddress the address of cell\r\n\t * @return a map contains position of the cell, e.g: [\"column\":2, \"row\": 1]\r\n\t * */"
+        },
+        {
+          "name": "getCellValueByAddress",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cellAddress",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get cell value by address\r\n\t *\r\n\t * @param sheet the sheet object that contains cell\r\n\t * @param cellAddress the address of the cell\r\n\t * @return a cell value\r\n\t * */"
+        },
+        {
+          "name": "getLastRow",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get get last row\r\n\t *\r\n\t * @param sheet the sheet object that contains cell\r\n\t * @param cellAddress the address of the cell\r\n\t * @return a cell value\r\n\t * */"
+        },
+        {
+          "name": "getRowIndexByCellContent",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cellContent",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "columnIdxForCell",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get row index by cell content\r\n\t *\r\n\t * @param sheet the sheet object that contains the row\r\n\t * @param cellContent the content of the cell\r\n\t * @param columnIdxForCell the column index of the cell\r\n\t * @return the row index\r\n\t * */"
+        },
+        {
+          "name": "getTableContent",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "startRow",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "endRow",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get the excel data to a list of rows\r\n\t *\r\n\t * @param sheet the sheet object to get the data\r\n\t * @param startRow the start row to get the data\r\n\t * @param endRow the end row to get the data\r\n\t * @return a list of rows\r\n\t * */"
+        },
+        {
+          "name": "getDataRows",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rowIndexs",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [
+                  {
+                    "fullClassName": "java.lang.Integer",
+                    "unresolvedClassName": "Integer",
+                    "isArray": false,
+                    "isGnericsPlaceHolder": false,
+                    "hasImmutableClassName": false,
+                    "genericsTypes": [],
+                    "errorOnParsing": false
+                  }
+                ],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get data rows from a list of row indexes\r\n\t *\r\n\t * @param sheet the sheet object contains the rows\r\n\t * @param rowIndexes the list of row indexes\r\n\t * @return a list of rows\r\n\t * */"
+        },
+        {
+          "name": "getMapOfKeyValueRows",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "keyRowIdx",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "valueRowIdx",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get a map of {{key1:value1},...{keyn:valuen}} from a row of keys and a row of values of a sheet\r\n\t *\r\n\t * @param sheet the sheet object that contains the row\r\n\t * @param keyRowIdx the index of the header row\r\n\t * @param valueRowIdx the index of row needs to get the data\r\n\t * @return a map from a row of keys and a row of values of a sheet, e.g: {{key1:value1},...{keyn:valuen}}\r\n\t * */"
+        },
+        {
+          "name": "getCellValueByRangeAddress",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "topLeftAddress",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rightBottomAddress",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get cell values by addresses\r\n\t *\r\n\t * @param sheet the sheet object that contains cells\r\n\t * @param topLeftAddress the address of the first cell\r\n\t * @param rightBottomAddress the address of the last cell\r\n\t * @return a list of cell values\r\n\t * */"
+        },
+        {
+          "name": "getCellValuesByRangeIndexes",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rowInd1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "colInd1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "rowInd2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "colInd2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "int",
+                "unresolvedClassName": "int",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get cell values by indexes\r\n\t *\r\n\t * @param sheet the sheet object that contains cells\r\n\t * @param rowInd1 the row index of the first cell\r\n\t * @param colInd1 the column index of the first cell\r\n\t * @param rowInd2 the row index of the last cell\r\n\t * @param colInd2 the column index of the last cell\r\n\t * @return a list of cell values\r\n\t * */"
+        },
+        {
+          "name": "getColumnsByIndex",
+          "parameters": [
+            {
+              "name": "sheet",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "columnIndexes",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.util.List",
+                "unresolvedClassName": "List",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [
+                  {
+                    "fullClassName": "java.lang.Integer",
+                    "unresolvedClassName": "Integer",
+                    "isArray": false,
+                    "isGnericsPlaceHolder": false,
+                    "hasImmutableClassName": false,
+                    "genericsTypes": [],
+                    "errorOnParsing": false
+                  }
+                ],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Get map of columns data\r\n\t *\r\n\t * @param sheet the sheet object that contains the row\r\n\t * @param columnIndexes indexes of columns\r\n\t * @return map of a columns data contains the column index and cell data\r\n\t * */"
+        },
+        {
+          "name": "compareTwoExcels",
+          "parameters": [
+            {
+              "name": "workbook1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "workbook2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "isValueOnly",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Compare value of two excel workbooks\r\n\t *\r\n\t * @param workbook1 the first workbook need to compare\r\n\t * @param workbook2 the second workbook need to compare\r\n\t * @param isValueOnly true if check value and type only regardless of cell style, false if not\r\n\t * @return true if two excel workbooks equal, false if not\r\n\t * */"
+        },
+        {
+          "name": "compareTwoSheets",
+          "parameters": [
+            {
+              "name": "sheet1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sheet2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "isValueOnly",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Compare two excel sheets\r\n\t *\r\n\t * @param sheet1 the first sheet need to compare\r\n\t * @param sheet2 the second sheet need to compare\r\n\t * @param isValueOnly true if check value and type only regardless of cell style, false if not\r\n\t * @return true if two excel sheets equal, false if not\r\n\t * */"
+        },
+        {
+          "name": "compareTwoRows",
+          "parameters": [
+            {
+              "name": "row1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Row",
+                "unresolvedClassName": "Row",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "row2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Row",
+                "unresolvedClassName": "Row",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "isValueOnly",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Compare two excel rows\r\n\t *\r\n\t * @param row1 the first row need to compare\r\n\t * @param row2 the second row need to compare\r\n\t * @param isValueOnly true if check value and type only regardless of cell style, false if not\r\n\t * @return true if two excel rows equal, false if not\r\n\t * */"
+        },
+        {
+          "name": "compareTwoCells",
+          "parameters": [
+            {
+              "name": "cell1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Cell",
+                "unresolvedClassName": "Cell",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cell2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Cell",
+                "unresolvedClassName": "Cell",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "isValueOnly",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "boolean",
+                "unresolvedClassName": "boolean",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": true,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Compare two excel cells\r\n\t *\r\n\t * @param cell1 the first cell need to compare\r\n\t * @param cell2 the second cell need to compare\r\n\t * @param isValueOnly true if check value and type only regardless of cell style, false if not\r\n\t * @return true if two excel cells equal, false if not\r\n\t * */"
+        },
+        {
+          "name": "getExcelSheet",
+          "parameters": [
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "getExcelSheet",
+          "parameters": [
+            {
+              "name": "wbs",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "compareTwoExcels",
+          "parameters": [
+            {
+              "name": "workbook1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "workbook2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Workbook",
+                "unresolvedClassName": "Workbook",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "compareTwoSheets",
+          "parameters": [
+            {
+              "name": "sheet1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "sheet2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Sheet",
+                "unresolvedClassName": "Sheet",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "compareTwoRows",
+          "parameters": [
+            {
+              "name": "row1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Row",
+                "unresolvedClassName": "Row",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "row2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Row",
+                "unresolvedClassName": "Row",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "compareTwoCells",
+          "parameters": [
+            {
+              "name": "cell1",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Cell",
+                "unresolvedClassName": "Cell",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "cell2",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.apache.poi.ss.usermodel.Cell",
+                "unresolvedClassName": "Cell",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

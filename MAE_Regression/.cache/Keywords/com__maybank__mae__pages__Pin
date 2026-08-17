@@ -1,0 +1,35 @@
+{
+  "keywordFileContentHash": "1887EB52AD69B058FFE001E3F6F54DD6",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.pages.Pin",
+      "keywordMethods": [
+        {
+          "name": "enterPin",
+          "parameters": [
+            {
+              "name": "flowControl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.model.FailureHandling",
+                "unresolvedClassName": "FailureHandling",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "enterPin",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Toast Message</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc0f78ea-7fea-44c2-8805-501f30ea51b3</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>989bec62-f114-4e53-aff8-d4c8c3ccd015</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f09e3a05-a7bf-48c9-8e00-e70a19b6e562</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>989bec62-f114-4e53-aff8-d4c8c3ccd015</id>
+      <masked>false</masked>
+      <name>titleString</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f09e3a05-a7bf-48c9-8e00-e70a19b6e562</id>
+      <masked>false</masked>
+      <name>messageString</name>
+   </variable>
+</TestCaseEntity>

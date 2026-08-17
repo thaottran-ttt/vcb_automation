@@ -1,0 +1,2 @@
+username,password,idNumber,PAN,itemM2uSettingName,rejectTitleStatus,rejectDescriptionStatus,expiredtTitleStatus,expiredDescriptionStatus
+HAUAT07,oxhWAdmPKdsI6woWWukVxg==,831108147412,0000007001853539,Scan & Pay,"['Authorisation failed', 'Scan & Pay activation unsuccessful']","['Your Secure Verification authorisation was rejected.', '']","['Authorisation failed']","['Your Secure Verification authorisation has expired. Please perform the transaction again.']"

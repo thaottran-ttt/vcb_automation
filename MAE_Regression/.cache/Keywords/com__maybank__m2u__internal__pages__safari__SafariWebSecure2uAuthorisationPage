@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DE50A194BD2EA8C177E1A74BE7CA907D",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.safari.SafariWebSecure2uAuthorisationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

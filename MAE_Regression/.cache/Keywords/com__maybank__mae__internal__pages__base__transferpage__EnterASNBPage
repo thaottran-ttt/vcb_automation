@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "23824CEA9F9DF64A9FD8369AD512B3E8",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.transferpage.EnterASNBPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

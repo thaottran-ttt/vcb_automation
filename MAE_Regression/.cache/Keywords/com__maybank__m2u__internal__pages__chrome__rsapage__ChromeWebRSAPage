@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0360DB912516D9013E233AD9088C867E",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.chrome.rsapage.ChromeWebRsaPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

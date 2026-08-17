@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Toggle ON-OFF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0fe968ff-cb10-472d-8b06-b3448f8f507d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26aa3cde-7d35-4daa-b327-0a9a8a90bbba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>af4b46b5-798d-413d-b5e8-d9b9c1485d02</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'aisamfd08'</defaultValue>
+      <description></description>
+      <id>26aa3cde-7d35-4daa-b327-0a9a8a90bbba</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>af4b46b5-798d-413d-b5e8-d9b9c1485d02</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>com.maybank.common.FlowControlEnum.STOP</defaultValue>
+      <description></description>
+      <id>d6eadc03-1ad9-4a7b-8ce1-89d5362d3f4e</id>
+      <masked>false</masked>
+      <name>flowControl</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f7d2d7e7-a211-4a97-9a70-83b814c3e86d</id>
+      <masked>false</masked>
+      <name>failStopTestSuite</name>
+   </variable>
+</TestCaseEntity>

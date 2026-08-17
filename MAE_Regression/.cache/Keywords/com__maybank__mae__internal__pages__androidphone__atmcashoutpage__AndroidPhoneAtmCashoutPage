@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "FE4F2F7AD164686C27257DCDBCA1D095",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.atmcashoutpage.AndroidPhoneAtmCashoutPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

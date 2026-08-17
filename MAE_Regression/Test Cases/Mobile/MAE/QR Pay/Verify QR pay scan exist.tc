@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify QR pay scan exist</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b860675e-f9b4-40b6-bec5-205a2a94bf57</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e7f92299-c176-42cc-9ef5-ea4023a2d23d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>com.maybank.common.FlowControlEnum.STOP</defaultValue>
+      <description></description>
+      <id>d6eadc03-1ad9-4a7b-8ce1-89d5362d3f4e</id>
+      <masked>false</masked>
+      <name>flowControl</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f7d2d7e7-a211-4a97-9a70-83b814c3e86d</id>
+      <masked>false</masked>
+      <name>failStopTestSuite</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,3 @@
+username,password,idNumber,PAN,accountName,functionName,duitnowType,confirmationData,statusScreenData,rejectStatusScreenData,expiredStatusScreenData,insufficientBalanceAccountName,insufficientBalanceMsg,insufficientStatusScreenData
+
+HUNGUAT46,oxhWAdmPKdsI6woWWukVxg==,950213147691,0000007001861185,'',Send & Request,Incoming,[],['Transaction successful'],['Transaction unsuccessful'],"['Transaction unsuccessful', 'Secure2u has expired. Please perform the transaction again.']",Zest-i,Your account balance is insufficient. Please try again.,['Transaction unsuccessful']

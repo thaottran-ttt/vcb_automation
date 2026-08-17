@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DD95959B17F8A40B4FA08C0D648A668C",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.chrome.paytransfer.ChromeWebPayPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

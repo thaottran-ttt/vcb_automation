@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8AB43D1D6369068018DB3194BE35D5F6",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.accountpage.AndroidPhoneWealthPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B4EBC066631868D94C66636981EDE42D",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.settingpage.securitypage.AndroidPhoneKillSwitchPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A2D05CFC6A6B0D1B9562A718D9300E2E",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.AndroidPhoneWelcomeOnboardPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

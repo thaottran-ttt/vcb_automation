@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "CBFD5B3A39F9E57B13826C92E771E6E2",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.paybill.AndroidPhoneJomPayPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2B576D12576AABA6D1259A53BB0B3397",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.paybill.ZakatPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

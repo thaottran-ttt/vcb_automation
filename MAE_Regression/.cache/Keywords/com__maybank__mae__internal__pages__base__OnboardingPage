@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "0A0899130413AB2571A34BB5E3401C09",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.OnboardingPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

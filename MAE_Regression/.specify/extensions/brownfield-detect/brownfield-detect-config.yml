@@ -1,0 +1,12 @@
+# brownfield-detect extension — before /constitution runs, classifies the project and gathers
+# the constitution sections:
+#   brownfield → auto-draft Sections I–VIII from codebase evidence
+#   greenfield → interview the user for Sections I–VIII
+#
+# Wired in .specify/extensions.yml as a before_constitution hook
+# (command: speckit.brownfield-detect → /apac-sdlc-speckit-brownfield-detect).
+#
+# This file is read by the /apac-sdlc-speckit-brownfield-detect skill.
+
+brownfield_detect:
+  enabled: true                       # set false to disable without editing extensions.yml

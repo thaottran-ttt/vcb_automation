@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Motorcycle Insurance - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>59504c75-3fe1-485d-b9b2-aea83c2d2a5a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>97ede655-4209-47d3-8eff-15cac424981c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>91895288-b56b-4dde-978e-3a00d725add3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c3c09171-4632-4ed9-b438-0fa44db845fe</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e307f662-61f7-4332-8723-0507c4398067</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0863976c-9257-45b3-a136-1869b556ae5f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>31780787-f80c-4725-b33c-799f83017ac1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'INSURANCE/TAKAFUL'</defaultValue>
+      <description></description>
+      <id>97ede655-4209-47d3-8eff-15cac424981c</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Motorcycle'</defaultValue>
+      <description></description>
+      <id>91895288-b56b-4dde-978e-3a00d725add3</id>
+      <masked>false</masked>
+      <name>subTabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Motorcycle Insurance'</defaultValue>
+      <description></description>
+      <id>c3c09171-4632-4ed9-b438-0fa44db845fe</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
+   <variable>
+      <defaultValue>['Motorcycle Insurance', 'A plan with comprehensive coverage for loss and damage to your motorcycle.', 'Instant 10% rebate when you renew your policy online.', 'Covers you for loss or damage from accidents, fire and theft.', 'Get third-party coverage for death, injury and property damage.', 'Get more protection for your passenger from only RM 15/year.']</defaultValue>
+      <description></description>
+      <id>e307f662-61f7-4332-8723-0507c4398067</id>
+      <masked>false</masked>
+      <name>introPageData</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>0863976c-9257-45b3-a136-1869b556ae5f</id>
+      <masked>false</masked>
+      <name>runValidation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fast &amp; Easy Motorcycle Insurance'</defaultValue>
+      <description></description>
+      <id>31780787-f80c-4725-b33c-799f83017ac1</id>
+      <masked>false</masked>
+      <name>etiqaTitle</name>
+   </variable>
+</TestCaseEntity>

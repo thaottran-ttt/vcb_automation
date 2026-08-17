@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "09066558C8A33E2B1FCDC458CA1BC313",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.utils.RegexUtils",
+      "keywordMethods": [
+        {
+          "name": "patternChecking",
+          "parameters": [
+            {
+              "name": "testString",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

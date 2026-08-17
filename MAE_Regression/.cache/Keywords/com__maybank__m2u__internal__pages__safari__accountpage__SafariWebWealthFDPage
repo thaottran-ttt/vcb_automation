@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4A746FA19C9AB81FAD5502F0650D56DB",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.safari.accountpage.SafariWebWealthFDPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

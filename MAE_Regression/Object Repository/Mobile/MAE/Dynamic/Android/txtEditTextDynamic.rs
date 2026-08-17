@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MobileElementEntity>
+   <description></description>
+   <name>txtEditTextDynamic</name>
+   <tag></tag>
+   <elementGuidId>318e769c-5c23-4bfe-8f5f-7a5d581dd384</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <locator>(//android.view.View[@text = &quot;${text}&quot;]/following-sibling::android.widget.EditText | //android.view.View[@text = &quot;${text}&quot;]/following-sibling::android.view.View//android.widget.EditText | //android.widget.TextView[@text = &quot;${text}&quot;]/following-sibling::*//android.widget.EditText)[1]&#xd;
+</locator>
+   <locatorCollection>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector()</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//android.view.View[@text = &quot;${text}&quot;]/following-sibling::android.widget.EditText | //android.view.View[@text = &quot;${text}&quot;]/following-sibling::android.view.View//android.widget.EditText | //android.widget.TextView[@text = &quot;${text}&quot;]/following-sibling::*//android.widget.EditText)[1]&#xd;
+</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <platform>ANDROID</platform>
+</MobileElementEntity>

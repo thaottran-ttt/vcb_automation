@@ -1,0 +1,27 @@
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.maybank.common.BaseKeyword
+import com.maybank.m2u.internal.pages.base.WebBasePage
+import com.maybank.m2u.internal.pages.base.WebCommonPage
+import com.maybank.m2u.internal.pages.base.WebHomePage
+import com.maybank.m2u.internal.pages.base.paytransfer.WebTransfer
+
+import internal.GlobalVariable as GlobalVariable
+
+WebHomePage webHomePage = WebBasePage.getPage(WebHomePage)
+WebTransfer webTransfer = WebBasePage.getPage(WebTransfer)
+WebCommonPage webCommonPage = WebBasePage.getPage(WebCommonPage)
+
+WebUI.callTestCase(findTestCase('Website/M2U/Common/Login'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
+
+'Navigate To Transfer'
+webHomePage.navigate(navItem, tabName)
+
+'Transfer to'
+webTransfer.selectTextDynamic(transferTo)
+
+WebUI.delay(GlobalVariable.G_timeoutMiniShort)
+
+'Verify Transfer amount'
+webTransfer.verifyAmount()

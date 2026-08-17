@@ -1,0 +1,148 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import com.maybank.mae.internal.pages.base.settingpage.SettingPage as SettingPage
+import com.maybank.mae.internal.pages.base.BasePage as BasePage
+import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
+import com.maybank.mae.internal.pages.base.HomePage as HomePage
+import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage
+
+FailureHandling flowControl = FailureHandling.STOP_ON_FAILURE
+String TRANSFER = "Transfer"
+String DNS = "DuitNow Services"
+String DUITNOWID = "Your DuitNow IDs"
+String CONFIRM_DETAIL = "Please confirm your DuitNow details"
+String SUCCESSFUL_NOTI = "You’ve successfully linked your account to DuitNow"
+String NRIC_NUMBER = "NRIC Number"
+String SWITCH_ACC = "Switch account"
+String AGREE = "Agree and Confirm"
+String SUCCESSFULLY_SWITCH = "DuitNow account successfully switched"
+String DEREGISTER = "Deregister DuitNow"
+String CONFIRM = "Confirm"
+String DUITNOW_REMOVED = "DuitNow ID removed"
+String SELECT_ACCOUNT = "Select account"
+
+HomePage homePage = HomePage.getPage(HomePage)
+CommonPage commonPage = BasePage.getPage(CommonPage)
+SettingPage settingPage = BasePage.getPage(SettingPage)
+Secure2uAuthorisationPage secure2uAuthorisationPage = BasePage.getPage(Secure2uAuthorisationPage)
+
+
+WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : GlobalVariable.G_password
+        , ('username') : username, ('accountName') : '', ('flowControl') : com.maybank.common.FlowControlEnum.STOP, ('failStopTestSuite') : false
+        , ('yourName') : GlobalVariable.G_yourName], FailureHandling.STOP_ON_FAILURE)
+
+
+//Register
+'Click Settings button'
+homePage.clickSettingsButton(flowControl)
+
+'Verify the user is successfully logged in'
+homePage.verifyProfileName(profileName, flowControl)
+//CustomKeywords.'com.maybank.mae.pages.Setting.enterPassword'(password, flowControl)
+
+'Click Pay and Transfer'
+settingPage.tapPaynTransfer(flowControl)
+
+'Tap Transfer'
+commonPage.verifyElementVisible(commonPage.lblDynamic(TRANSFER), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(TRANSFER, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap Duitnow Services'
+commonPage.verifyElementVisible(commonPage.lblDynamic(DNS), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(DNS, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Select account'
+commonPage.verifyElementVisible(commonPage.lblDynamic(DUITNOWID), GlobalVariable.G_timeoutMedium, flowControl)
+Mobile.tap(commonPage.lblDynamicNo(SELECT_ACCOUNT, 1), GlobalVariable.G_timeoutMedium, FailureHandling.STOP_ON_FAILURE)
+
+'Choose account'
+commonPage.tap(commonPage.lblDynamic(accountName), GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap Continue'
+commonPage.tapContinueBtn()
+
+'Agrre and Confirmation'
+commonPage.verifyElementVisible(commonPage.lblDynamic(CONFIRM_DETAIL), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapButton(AGREE, GlobalVariable.G_timeoutMedium, flowControl)
+
+Mobile.delay(3)
+commonPage.verifyElementVisible(commonPage.lblDynamic(SUCCESSFUL_NOTI), GlobalVariable.G_timeoutMedium, flowControl)
+
+'Click Done'
+commonPage.tapDoneBtn(flowControl)
+
+'Click Pay and Transfer'
+settingPage.tapPaynTransfer(flowControl)
+
+//Switch
+'Tap Transfer'
+commonPage.verifyElementVisible(commonPage.lblDynamic(TRANSFER), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(TRANSFER, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap Duitnow Services'
+commonPage.verifyElementVisible(commonPage.lblDynamic(DNS), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(DNS, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap NRIC number'
+commonPage.verifyElementVisible(commonPage.lblDynamic(NRIC_NUMBER), GlobalVariable.G_timeoutMedium, flowControl)
+Mobile.tap(commonPage.lblDynamic(NRIC_NUMBER), GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap Switch account'
+commonPage.verifyElementVisible(commonPage.lblDynamic(SWITCH_ACC), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(SWITCH_ACC, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Choose updated account'
+commonPage.tap(commonPage.lblDynamic(accountNameUpdate), GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap Continue'
+commonPage.tapContinueBtn()
+
+'Agrre and Confirmation'
+commonPage.verifyElementVisible(commonPage.lblDynamic(CONFIRM_DETAIL), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapButton(AGREE, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Authorisation'
+secure2uAuthorisationPage.authorize(status)
+
+'Verify successful'
+commonPage.verifyElementVisible(commonPage.lblDynamic(SUCCESSFULLY_SWITCH), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapDoneBtn()
+
+Mobile.delay(15)
+
+//Deregister
+'Tap NRIC number'
+commonPage.verifyElementVisible(commonPage.lblDynamic(NRIC_NUMBER), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(NRIC_NUMBER, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap Deregister DuitNow'
+commonPage.verifyElementVisible(commonPage.lblDynamic(DEREGISTER), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(DEREGISTER, GlobalVariable.G_timeoutMedium, flowControl)
+
+'Tap Deregister DuitNow'
+commonPage.verifyElementVisible(commonPage.lblDynamic(CONFIRM), GlobalVariable.G_timeoutMedium, flowControl)
+commonPage.tapText(CONFIRM, GlobalVariable.G_timeoutMedium, verifyElementVisible)
+
+Mobile.delay(5)
+
+'Authorisation'
+secure2uAuthorisationPage.authorize(status)
+
+'Verify Deregister successful'
+commonPage.verifyElementVisible(commonPage.lblDynamic(DUITNOW_REMOVED), GlobalVariable.G_timeoutMedium, flowControl)

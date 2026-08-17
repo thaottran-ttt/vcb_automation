@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Motorcycle Takaful - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e61240c4-6fcf-46a1-8f46-307bdce74a16</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>dd3dd4b1-6de2-4342-9265-16c888178423</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7c1159c1-33e4-410e-a0c3-8999f2437114</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>98b3fba2-5014-48d7-a19d-9e686bafb1aa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>51f8bff2-b303-445a-afd5-0c03ff718563</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>10b9bb74-fc59-402c-803e-01ab33933f42</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d63fe0a4-3b19-4b47-a611-20198b76b84e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'INSURANCE/TAKAFUL'</defaultValue>
+      <description></description>
+      <id>dd3dd4b1-6de2-4342-9265-16c888178423</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Motorcycle'</defaultValue>
+      <description></description>
+      <id>7c1159c1-33e4-410e-a0c3-8999f2437114</id>
+      <masked>false</masked>
+      <name>subTabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Motorcycle Takaful'</defaultValue>
+      <description></description>
+      <id>98b3fba2-5014-48d7-a19d-9e686bafb1aa</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
+   <variable>
+      <defaultValue>['Motorcycle Takaful', 'A Shariah-compliant with extensive coverage for loss and damage to your motorcycle.', 'Instant 10% rebate when you renew your policy online.', 'Covers you for loss or damage from accidents, fire and theft.', 'Get third-party coverage for death, injury and property damage.', 'Get more protection for your passenger from only RM 15/year.']</defaultValue>
+      <description></description>
+      <id>51f8bff2-b303-445a-afd5-0c03ff718563</id>
+      <masked>false</masked>
+      <name>introPageData</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>10b9bb74-fc59-402c-803e-01ab33933f42</id>
+      <masked>false</masked>
+      <name>runValidation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Fast &amp; Easy Motorcycle Takaful'</defaultValue>
+      <description></description>
+      <id>d63fe0a4-3b19-4b47-a611-20198b76b84e</id>
+      <masked>false</masked>
+      <name>etiqaTitle</name>
+   </variable>
+</TestCaseEntity>

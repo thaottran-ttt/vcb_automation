@@ -1,0 +1,25 @@
+# graphify ignore file — gitignore syntax (patterns match by basename or path)
+
+# IDE / build tool metadata — not source
+.idea/
+.settings/
+.vscode/
+.gradle/
+.classpath
+.project
+.DS_Store
+
+# Compiled output / copied runner scripts
+bin/
+build/
+
+# Katalon runtime cache + generated reports
+.cache/
+Reports/
+entityReference.index
+
+# Katalon Object Repository entries — XML saved as .rs, misdetected as Rust
+*.rs
+
+# Katalon Test Case defs — XML saved as .tc, not real source code
+*.tc

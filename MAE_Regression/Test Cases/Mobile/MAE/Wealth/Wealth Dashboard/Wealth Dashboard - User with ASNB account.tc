@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Wealth Dashboard - User with ASNB account</name>
+   <tag>Wealth Dashboard Tag</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c5f4420b-859d-4607-981d-f1bfc78715c7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c404b22d-4759-48cf-b39e-3403cb705c9f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b2496f5d-06a2-440b-9d97-4a93c63260da</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b478f462-0464-4c19-a69d-73b358ff3c7e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>980410aa-edbf-49ba-93fe-795291fde765</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HAUAT52'</defaultValue>
+      <description></description>
+      <id>c404b22d-4759-48cf-b39e-3403cb705c9f</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>b2496f5d-06a2-440b-9d97-4a93c63260da</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b478f462-0464-4c19-a69d-73b358ff3c7e</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'WEALTH'</defaultValue>
+      <description></description>
+      <id>980410aa-edbf-49ba-93fe-795291fde765</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+</TestCaseEntity>

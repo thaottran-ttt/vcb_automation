@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3741B0FB47C3AEFC37E24E49F6B05FB8",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.applypage.AndroidPhoneApplyPageInsurance",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

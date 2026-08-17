@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3385E180F0FEB63E0826C33AF582A799",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.applypage.ApplyASNBLoanPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

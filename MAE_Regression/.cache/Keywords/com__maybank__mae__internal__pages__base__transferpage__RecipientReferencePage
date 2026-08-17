@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "4F98C1D633E7610EC0DE1DD3660800E8",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.transferpage.RecipientReferencePage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

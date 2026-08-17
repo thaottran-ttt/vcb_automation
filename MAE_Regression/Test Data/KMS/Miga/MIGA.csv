@@ -1,0 +1,2 @@
+username,password,idNumber,PAN,transactionMap,transactionMapByGold,transactionMapSellGold,addressMap,isApplyMiga
+HAUAT42,oxhWAdmPKdsI6woWWukVxg==,890314148545,0000007001869055,"[('type') : 'Buy', ('amount') : '1000']","[('type') : 'Buy', ('amount') : '25']","[('type') : 'Sell', ('amount') : '25']","[('Address line 2') : 'ASDASD', ('state') : 'Kedah']",FALSE

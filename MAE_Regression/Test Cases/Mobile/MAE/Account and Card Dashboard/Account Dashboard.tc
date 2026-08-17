@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Account Dashboard</name>
+   <tag>Account Dashboard Tag</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e032d112-f7e8-4725-a26b-2213b0c25536</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1e98ccf1-cfac-42b9-89da-86662b7700fc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fb69008a-c7f2-4834-9924-16a3a768dc00</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>87c2da51-a05c-4eae-b4d8-3681a384975c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>076287f5-7231-4c3d-8046-9965e096289e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6eab8996-8131-4e8b-af97-3e40d72d07d8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'FMoPUser00042'</defaultValue>
+      <description></description>
+      <id>1e98ccf1-cfac-42b9-89da-86662b7700fc</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>fb69008a-c7f2-4834-9924-16a3a768dc00</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'Savings Account-i TEST'</defaultValue>
+      <description></description>
+      <id>87c2da51-a05c-4eae-b4d8-3681a384975c</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Accounts'</defaultValue>
+      <description></description>
+      <id>076287f5-7231-4c3d-8046-9965e096289e</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Home'</defaultValue>
+      <description></description>
+      <id>6eab8996-8131-4e8b-af97-3e40d72d07d8</id>
+      <masked>false</masked>
+      <name>homeTab</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "062FA23D1D5C8AE40E2B8EF19B2B972E",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.pfmpage.PFMPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

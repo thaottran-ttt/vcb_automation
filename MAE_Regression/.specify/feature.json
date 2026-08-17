@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "feature": {
+    "id": "20260724-155540",
+    "name": "PayBill Common Test Case (AI Common)",
+    "description": "create a paybill test case common",
+    "created_at": "2026-07-24",
+    "status": "draft",
+    "integration": "claude",
+    "workflow": "speckit"
+  },
+  "feature_directory": "specs/20260724-155540-create-paybill-test"
+}

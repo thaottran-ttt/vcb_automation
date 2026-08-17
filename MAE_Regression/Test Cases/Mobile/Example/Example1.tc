@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Example1</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f32bd61-85dd-4de3-a0ca-c6fc4110355b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>44d965af-1dd5-4a03-bedd-0d98ca1f1336</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6eadc03-1ad9-4a7b-8ce1-89d5362d3f4e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f7d2d7e7-a211-4a97-9a70-83b814c3e86d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'no'</defaultValue>
+      <description></description>
+      <id>44d965af-1dd5-4a03-bedd-0d98ca1f1336</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>com.maybank.common.FlowControlEnum.STOP</defaultValue>
+      <description></description>
+      <id>d6eadc03-1ad9-4a7b-8ce1-89d5362d3f4e</id>
+      <masked>false</masked>
+      <name>flowControl</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>f7d2d7e7-a211-4a97-9a70-83b814c3e86d</id>
+      <masked>false</masked>
+      <name>failStopTestSuite</name>
+   </variable>
+</TestCaseEntity>
+skipRestartAfterTestCase

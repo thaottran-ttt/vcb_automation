@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Network logs</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ff95ea2e-dc25-4480-a39c-20fccaa070c1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>edccd094-183e-4a9f-8a8a-2beab11710e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>977cf318-062c-42ef-9e56-55f942c1c56a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'transaction/verifyAndExecute'</defaultValue>
+      <description></description>
+      <id>edccd094-183e-4a9f-8a8a-2beab11710e8</id>
+      <masked>false</masked>
+      <name>apiKeyword</name>
+   </variable>
+   <variable>
+      <defaultValue>['v2', 'v5']</defaultValue>
+      <description></description>
+      <id>977cf318-062c-42ef-9e56-55f942c1c56a</id>
+      <masked>false</masked>
+      <name>expectedValues</name>
+   </variable>
+</TestCaseEntity>

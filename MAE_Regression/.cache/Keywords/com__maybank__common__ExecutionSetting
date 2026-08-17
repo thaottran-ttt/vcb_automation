@@ -1,0 +1,18 @@
+{
+  "keywordFileContentHash": "9DF385D08E803670CAB7ADD7A731FCF8",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.common.ExecutionSetting",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.maybank.common.DeviceTypeEnum",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.maybank.common.PlatformMobileEnum",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

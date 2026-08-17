@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F6AC2A2A188BD279FB055F9DB3712973",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.accountpage.KillSwitchPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

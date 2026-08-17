@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "7149EAA13ED882BF9454235C5A210761",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.AndroidPhoneMaybank2uPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

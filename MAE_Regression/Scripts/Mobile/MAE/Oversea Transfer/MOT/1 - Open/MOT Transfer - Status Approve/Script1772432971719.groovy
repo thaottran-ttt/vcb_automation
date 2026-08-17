@@ -1,0 +1,229 @@
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.maybank.mae.internal.pages.base.BasePage
+import com.maybank.mae.internal.pages.base.CommonPage
+import com.maybank.mae.internal.pages.base.HomePage
+import com.maybank.mae.internal.pages.base.CommonPage.TestObjectTypeEnum
+import com.maybank.mae.internal.pages.base.Secure2uAuthorisationPage
+import com.maybank.mae.internal.pages.base.accountpage.AccountsPage
+import com.maybank.mae.internal.pages.base.transferpage.TransferPage
+import com.maybank.mae.internal.pages.base.ConfirmationPage
+import com.maybank.mae.internal.pages.base.transferpage.EnterOverseasPage
+import com.maybank.mae.internal.pages.base.PushNotificationPage
+import com.maybank.mae.internal.pages.base.accountpage.AccountDetailPage
+import com.maybank.mae.internal.pages.base.ShareReceiptPage
+import com.maybank.mae.internal.pages.base.StatusScreenPage
+import internal.GlobalVariable as GlobalVariable
+import com.maybank.utils.StringUtils
+import com.maybank.utils.ListUtils
+import com.maybank.utils.MapUtils
+
+'Login MAE Secure2u'
+WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+		, ('username') : username, ('accountName') : accountName], FailureHandling.STOP_ON_FAILURE)
+
+HomePage homePage = BasePage.getPage(HomePage)
+
+CommonPage commonPage = BasePage.getPage(CommonPage)
+
+TransferPage transferPage = BasePage.getPage(TransferPage)
+
+Secure2uAuthorisationPage s2u = BasePage.getPage(Secure2uAuthorisationPage)
+
+AccountsPage accountsPage = BasePage.getPage(AccountsPage)
+
+ConfirmationPage confirmationPage = BasePage.getPage(ConfirmationPage)
+
+EnterOverseasPage enterOverseasPage = BasePage.getPage(EnterOverseasPage)
+
+PushNotificationPage pushNotificationPage = BasePage.getPage(PushNotificationPage)
+
+ShareReceiptPage shareReceiptPage = BasePage.getPage(ShareReceiptPage)
+
+AccountDetailPage accountDetailPage = BasePage.getPage(AccountDetailPage)
+
+StatusScreenPage statusScreenPage = BasePage.getPage(StatusScreenPage)
+
+
+List statusTitle = ListUtils.parseObjectToList(statusTitle)
+List statusDescription = ListUtils.parseObjectToList(statusDescription)
+
+String amount = amount
+
+String newBalance = ''
+
+List<String> verifyList = new ArrayList()
+
+'Tap Button Accounts'
+homePage.tapBtnAccounts()
+
+'Check And Tap Got It'
+accountsPage.checkAndTapGotIt()
+
+'Choose An Other Account'
+confirmationPage.chooseAnotherAccount(accountName)
+
+'Extract current balance'
+String balance = accountDetailPage.getAccountBalanceAmountValue()
+
+'Select Transfer Button'
+accountsPage.selectTransferButton()
+
+'Select OVERSEAS Tab'
+transferPage.selectTransferToTab(transferTab)
+
+'Select tab New Transfer -> select country name'
+enterOverseasPage.selectCountryNameInOverseas(tabNewTransfer, countryName)
+
+'Verify UI Debiting Account'
+enterOverseasPage.verifyUIDebitingAccount()
+
+'Select Debiting Account Name'
+enterOverseasPage.selectDebitingAccount(debitingAccountName)
+
+'Select Continue Button'
+enterOverseasPage.selectContinueButton(FailureHandling.OPTIONAL)
+
+'Select Input Amount'
+enterOverseasPage.selectInputAmount()
+
+'Enter Amount'
+commonPage.enterNO(amount)
+
+'Select Dropdown Convert To'
+enterOverseasPage.selectDropdownConvertTo(currency)
+
+'Select Continue Button'
+enterOverseasPage.selectContinueButton()
+
+'SST 1 Here'
+if (verifySST) {
+	enterOverseasPage.verifySSTTransferType(typeTransfer)
+}
+
+'Select Maybank Overseas Transfer type'
+enterOverseasPage.selectForeignTelegraphicTransfer(typeTransfer, currencyFrom)
+
+'Select Continue Button - may need multiple taps'
+enterOverseasPage.tapContinue(FailureHandling.OPTIONAL)
+
+commonPage.waitLoading()
+Mobile.delay(GlobalVariable.G_timeoutMedium)
+enterOverseasPage.tapContinue(FailureHandling.OPTIONAL)
+
+'Step 1 of 3 - Recipient Bank Details (bank name, account number only)'
+enterOverseasPage.ovhMOTStep1RecipientBankDetails(receivingBank, beneficiaryAccountNumber)
+
+'Step 2 of 3 - Recipient Details'
+enterOverseasPage.ovhMOTStep2RecipientDetails(recipientNationality, beneficiaryName, passportNumber, addressLine1, addressLine2, postCode, country, mobileNumber, emailAddress)
+
+'Step 3 of 3 - Transfer Details'
+enterOverseasPage.ovhMOTStep3TransferDetails(purposeOfTransfer, subPurpose, relationship, additionalDetails)
+
+'Confirmation screen - verify all details'
+enterOverseasPage.ovhMOTConfirm(
+	receivingBank,
+	beneficiaryAccountNumber,
+	recipientNationality,
+	beneficiaryName,
+	passportNumber,
+	addressLine1,
+	addressLine2,
+	country,
+	mobileNumber,
+	emailAddress,
+	purposeOfTransfer,
+	subPurpose,
+	relationship,
+	additionalDetails
+)
+
+'Enter Terms And Conditions'
+enterOverseasPage.enterTermsAndConditions()
+
+'Enter Transfer From'
+enterOverseasPage.enterTransferFrom(verifySST)
+commonPage.delay(10)
+'Authorisation'
+//s2u.authorize(status, [], FailureHandling.OPTIONAL)
+s2u.authorizeS2UV5BioPin(status, [], FailureHandling.OPTIONAL)
+commonPage.delay(GlobalVariable.G_timeoutMedium)
+
+'Status screen'
+String RefID = statusScreenPage.verifyStatusScreen(statusTitle, statusDescription)
+
+String formattedAmount = String.format("%.2f", Double.parseDouble(amount)/100)
+verifyList.add(RefID)
+verifyList.add(formattedAmount)
+
+if(status == "Approve") {
+	'Get Foreign Currency Amount'
+	String foreignCurrencyAmount = shareReceiptPage.getForeignCurrencyAmount()
+	notificationDescription = transferPage.constructNotificationTemplateFTT(formattedAmount, foreignCurrencyAmount, beneficiaryName, receivingBank2, beneficiaryAccountNumber, RefID)
+	Mobile.comment(notificationDescription)
+	Mobile.delay(GlobalVariable.G_timeoutMiniShort)
+
+	'Verify receipt and get total amount (including fees)'
+	String totalAmountCents = enterOverseasPage.ovhVerifyReceiptAndGetTotal(verifyList, FailureHandling.OPTIONAL, verifySST)
+
+	if(addFav) {
+		enterOverseasPage.ovhAddToFavourites(typeTransfer)
+	}
+
+	commonPage.tapDoneBtn(FailureHandling.OPTIONAL)
+	Mobile.comment(notificationTitle)
+	Mobile.comment(notificationDescription)
+	
+	'Verify notification'
+	pushNotificationPage.verifyPushNotification(notificationTitle, notificationDescription, FailureHandling.OPTIONAL, TestObjectTypeEnum.TEXT)
+
+	'Back to Home Page and navigate to account'
+	commonPage.backToHome()
+
+	'Tap to Account'
+	homePage.tapBtnAccounts()
+	'Select Account'
+	if (accountName != '') {
+		'Tap to account'
+		accountsPage.selectAccount(accountName)
+
+		'Get new balance'
+		commonPage.delay(GlobalVariable.G_timeoutMiniShort)
+		newBalance = accountDetailPage.getAccountBalanceAmountValue()
+
+		'Verify balance after transaction'
+		BasePage.verifyBalanceAfterSpending(balance, newBalance, totalAmountCents, 'Verify balance after transaction',FailureHandling.OPTIONAL)
+
+		'Verify Transaction History'
+		enterOverseasPage.ovhVerifyTransactionHistory(typeTransfer, verifyList, FailureHandling.OPTIONAL)
+		
+		
+	} else {
+		'Navigate to Account Detail'
+		homePage.navigateToAccountDetail()
+	}
+} else {
+
+	enterOverseasPage.tapDone()
+
+	'Status is Reject/Expire/Insufficient - verify balance has NOT changed'
+	commonPage.backToHome()
+
+	'Tap to Account'
+	homePage.tapBtnAccounts()
+	'Select Account'
+	if (accountName != '') {
+		accountsPage.selectAccount(accountName)
+
+		'Get new balance after rejected/expired transaction'
+		commonPage.delay(GlobalVariable.G_timeoutMiniShort)
+		newBalance = homePage.getBalance()
+
+		'Verify balance is unchanged (no deduction should have occurred)'
+		BasePage.verifyBalanceAfterSpending(balance, newBalance, '0', 'Verify balance unchanged after ' + status, FailureHandling.OPTIONAL)
+	}
+}

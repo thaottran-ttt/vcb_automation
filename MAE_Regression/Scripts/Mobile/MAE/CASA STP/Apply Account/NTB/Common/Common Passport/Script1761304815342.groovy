@@ -1,0 +1,155 @@
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import com.maybank.mae.internal.pages.base.BasePage
+import com.maybank.mae.internal.pages.base.OnboardingPage
+import com.maybank.mae.internal.pages.base.HomePage
+import com.maybank.mae.internal.pages.base.CommonPage as CommonPage
+import com.maybank.mae.internal.pages.base.applypage.ApplyAccountPage
+import com.maybank.mae.internal.pages.base.applypage.ApplyCASAPage
+import com.maybank.mae.internal.pages.base.applypage.ApplyPage
+import com.maybank.mae.internal.pages.base.PushNotificationPage
+import com.maybank.mae.internal.pages.base.Secure2uPage as Secure2uPage
+import com.maybank.utils.ListUtils as ListUtils
+import com.maybank.utils.StringUtils as StringUtils
+import com.maybank.utils.MapUtils
+import com.maybank.common.MobileDriver
+
+OnboardingPage onboardingPage = BasePage.getPage(OnboardingPage)
+HomePage homePage = BasePage.getPage(HomePage)
+ApplyAccountPage applyAccountPage = BasePage.getPage(ApplyAccountPage)
+ApplyCASAPage applyCASAPage = BasePage.getPage(ApplyCASAPage)
+ApplyPage applyPage = BasePage.getPage(ApplyPage)
+CommonPage commonPage = BasePage.getPage(CommonPage)
+PushNotificationPage pushNotificationPage = BasePage.getPage(PushNotificationPage)
+Secure2uPage secure2uPage = BasePage.getPage(Secure2uPage)
+
+Map passportDetails = MapUtils.parseObjectToMap(passportDetails)
+Map personalDetails = MapUtils.parseObjectToMap(personalDetails)
+Map employmentDetails = MapUtils.parseObjectToMap(employmentDetails)
+Map residentialDetails = MapUtils.parseObjectToMap(residentialDetails)
+Map branchDetails = MapUtils.parseObjectToMap(branchDetails)
+Map securityQuestions = MapUtils.parseObjectToMap(securityQuestions)
+Map pushNotificationMessage = MapUtils.parseObjectToMap(pushNotificationMessage)
+Map suitabilityAssessment = MapUtils.parseObjectToMap(suitabilityAssessment)
+List statusScreenSuccess = ListUtils.parseObjectToList(statusScreenSuccess)
+
+'Clear Cache'
+commonPage.clearDataAndCache()
+
+'Navigate to Homepage'
+if (!applyCASAPage.quickActions()) {
+	onboardingPage.navigateToLogin()
+}
+
+'Tap Apply'
+MobileDriver.takeScreenshot()
+homePage.tapApply()
+
+'Select Account Type'
+applyAccountPage.selectAccountType(accountType)
+
+'Tap Apply Now'
+MobileDriver.delay(GlobalVariable.G_timeoutShort)
+applyAccountPage.tapApplyNow()
+
+'ID Type & Enter Passport Number'
+def passportInfo = applyCASAPage.chooseIdTypeandPassport(idType, passportDetails, runValidations)
+String fullName          = passportInfo['Full name']
+String passportNumber    = passportInfo['Passport Number']
+String passportExpDate   = passportInfo['Passport Expiry Date']
+String dateOfBirth       = passportInfo['Date of Birth']
+
+'Suitability Asssessment Page'
+boolean checkSuitabilityAssessment = applyCASAPage.fillSuitabilityAssessment(suitabilityAssessment)
+
+'Fill in Personal Details'
+String mobileNumber = applyCASAPage.fillPersonalDetailsPassport(personalDetails, accountType)
+
+'Fill in Residentials Details'
+applyCASAPage.fillResidentialDetails(residentialDetails)
+
+'Fill in Employment Details'
+applyCASAPage.fillEmploymentDetails(employmentDetails)
+
+'Fill in Preferred Branch'
+applyCASAPage.preferredBranch(branchDetails)
+
+'Declaration Page'
+applyCASAPage.declarationPage(runValidations, declarationText)
+
+'Confirmation Page'
+applyCASAPage.confirmationPage(idType, personalDetails, residentialDetails, employmentDetails, branchDetails)
+
+'Request OTP'
+applyCASAPage.verifyOtpPage()
+
+'Wait For Next Page'
+commonPage.waitLoading()
+
+'Verify Success Screen'
+(accountType == "Global Access Account-i") ? applyCASAPage.verifyG1ASuccessPage(statusScreenSuccess) : applyCASAPage.verifySuccessPage(statusScreenSuccess)
+
+'M2U ID Registration Page'
+String m2uUsername = applyCASAPage.M2UIDPage(m2uUsername, m2uPassword)
+
+'Verify Notification Message'
+applyCASAPage.verifyPushNotification(pushNotificationMessage, FailureHandling.OPTIONAL)
+
+'M2U Security Page'
+applyCASAPage.securityImageAndPhrase(securityPhrase)
+
+'Security Questions'
+applyCASAPage.fillSecurityQuestions(securityQuestions)
+
+'Account Creation Success Page'
+applyCASAPage.verifym2uRegistered()
+
+'Write into Excel'
+Map<String, String> accountData = [	
+	'Full name'      : fullName,
+	'passportNumber' : passportNumber,
+	'passportExpDate': passportExpDate,
+	'dateOfBirth'	 : dateOfBirth,
+	'mobileNumber'	 : mobileNumber,
+	'm2uUsername'    : m2uUsername
+]
+int currentRow = applyCASAPage.writeDataToExcel(accountData, "/Test Data/KMS/CASA STP/", "Apply CASA STP.xlsx", "Output CASA STP")
+
+'Back to Homepage'
+applyCASAPage.Homepage()
+	
+'Login'
+boolean isLoggedInBefore = WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login'), [('appId') : GlobalVariable.G_appPath, ('username') : m2uUsername
+	, ('password') : GlobalVariable.G_password, ('pinCode') : '111111', ('yourName') : GlobalVariable.G_yourName, ('accountName') : accountType, ('skipAccountLoginCheck') : false],
+	FailureHandling.STOP_ON_FAILURE)
+	
+'Unhide Balance'
+applyCASAPage.unhideBalance()
+
+'Get Account Info'
+accountType    = homePage.getAccountName()
+accountNumber  = homePage.getAccountNumber()
+
+'Write into Excel'
+Map<String, String> accountData2 = [
+	'accountType'    : accountType,
+	'accountNumber'  : accountNumber
+]
+applyCASAPage.writeDataToExcel(accountData2, "/Test Data/KMS/CASA STP/", "Apply CASA STP.xlsx", "Output CASA STP", currentRow)
+

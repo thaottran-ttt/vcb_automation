@@ -1,0 +1,2 @@
+username,password,idNumber,PAN,s2uStatus,skipRestartAfterTestCase,nricNumber,fullName,ethnicity,email,mobiNumber,buildingName,area,postcode,plateNumber,tripType,travelWith,country
+HAUAT17,oxhWAdmPKdsI6woWWukVxg==,910428137985,0000007001853679,Reject,TRUE,770305555675,Users,Malay,test@gmai.com,170007521,ABCDE,MALAY,56000,ABC1234,Single Trip,Just myself,Domestic (Malaysia)

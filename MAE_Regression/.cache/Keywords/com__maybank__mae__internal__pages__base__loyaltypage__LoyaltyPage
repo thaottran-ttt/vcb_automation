@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "508A523203E978B2020B7912BAB8AF0E",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.loyaltypage.LoyaltyPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

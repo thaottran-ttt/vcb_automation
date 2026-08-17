@@ -1,0 +1,7 @@
+# graphify outputs — commit graph.html, graph.json, GRAPH_REPORT.md
+# exclude machine-specific state and local-only files
+graphify-out/.graphify_*
+graphify-out/manifest.json
+graphify-out/cost.json
+# semantic + AST extraction cache — rebuild locally, never push
+graphify-out/cache/

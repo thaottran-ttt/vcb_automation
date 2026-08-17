@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C97189EB71E777996DC0478C215B4443",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.settingpage.AndroidPhoneSettingDuitnowPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

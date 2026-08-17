@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Entry-Zakat Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>cfbf4970-f969-4d99-a47a-4fdbbf12d365</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c2b44564-43a1-4c34-9259-232fd055b3ae</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e96335e4-e7ce-4c7d-bdd8-89092f8007f6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>409fac4c-676c-4282-b869-0f69edcf7805</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c2b44564-43a1-4c34-9259-232fd055b3ae</id>
+      <masked>false</masked>
+      <name>Validation</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e96335e4-e7ce-4c7d-bdd8-89092f8007f6</id>
+      <masked>false</masked>
+      <name>ZakatBox</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>409fac4c-676c-4282-b869-0f69edcf7805</id>
+      <masked>false</masked>
+      <name>Verify</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+{
+  "keywordFileContentHash": "478258716E27DD883B4C075B6F2A4EB4",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.base.accountpage.WebWealthPage",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.maybank.m2u.internal.pages.base.accountpage.WebWealthPage$1",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

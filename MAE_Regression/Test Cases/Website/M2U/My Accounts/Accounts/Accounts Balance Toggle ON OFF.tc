@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Accounts Balance Toggle ON OFF</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6112ac99-7f58-4ece-95e9-1b7d1afd623a</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf044965-cec6-4f7a-9118-557b9277991d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6327e3b8-4ca3-4884-8052-eb042e48b0e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f6f8d2af-ed75-443b-af1d-3efa9738f0ce</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'samuat04'</defaultValue>
+      <description></description>
+      <id>bf044965-cec6-4f7a-9118-557b9277991d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>6327e3b8-4ca3-4884-8052-eb042e48b0e6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'ACCOUNTS\nRM'</defaultValue>
+      <description></description>
+      <id>f6f8d2af-ed75-443b-af1d-3efa9738f0ce</id>
+      <masked>false</masked>
+      <name>verifyBalanceUI</name>
+   </variable>
+</TestCaseEntity>

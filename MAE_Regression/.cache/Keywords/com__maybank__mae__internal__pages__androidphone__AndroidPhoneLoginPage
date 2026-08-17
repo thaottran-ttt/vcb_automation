@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5D1935754D6556125BBE286A42E48D14",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.AndroidPhoneLoginPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

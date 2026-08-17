@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Wealth Dashboard - Total Balance</name>
+   <tag>Wealth Dashboard Tag</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5a2d21fe-19fa-4e28-9511-72dacb026e03</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>834d3e2e-0614-4b93-8e9e-347bed1e4f9a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>38ce6f95-257a-4d8d-9732-c0cb81c978ea</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd92934c-5725-49f1-92c4-4d40d85ddaf4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>bf603af9-501d-426f-ba53-bce4046d76ae</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'HAUAT06'</defaultValue>
+      <description></description>
+      <id>834d3e2e-0614-4b93-8e9e-347bed1e4f9a</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>38ce6f95-257a-4d8d-9732-c0cb81c978ea</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>fd92934c-5725-49f1-92c4-4d40d85ddaf4</id>
+      <masked>false</masked>
+      <name>accountName</name>
+   </variable>
+   <variable>
+      <defaultValue>'WEALTH'</defaultValue>
+      <description></description>
+      <id>bf603af9-501d-426f-ba53-bce4046d76ae</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+</TestCaseEntity>

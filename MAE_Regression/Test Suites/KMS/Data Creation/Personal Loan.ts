@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Personal Loan</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>3</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>81cb438c-7f97-4261-b33e-feb0e11dacc1</testSuiteGuid>
+   <testCaseLink>
+      <guid>fb4ddb7f-4621-4ea5-a934-920f7603bd42</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/MAE/Apply/Loan/Personal Loan - Post Onboard</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>90b663cd-4b38-4284-a06e-f995790e16b9</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value>1-1</value>
+         </iterationEntity>
+         <testDataId>Data Files/KMS/Data Creation/Apply Personal Loan</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>90b663cd-4b38-4284-a06e-f995790e16b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>NRIC</value>
+         <variableId>150b075d-6d8a-4fa0-9163-885b53c2e7f4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90b663cd-4b38-4284-a06e-f995790e16b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Access Number</value>
+         <variableId>680b01ca-ef69-4fe9-8622-daa29c7d5e3e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c837e721-285e-49f7-a622-d6d5057ce96f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>90b663cd-4b38-4284-a06e-f995790e16b9</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>f904165d-dab9-45b5-a754-dbf45228c9d7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>486072d7-6c43-4f9d-8992-c815e4893a49</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>fffc8095-9a51-479b-adf0-76798edf7180</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txtFundNameASNB</name>
+   <tag></tag>
+   <elementGuidId>e16ab1b3-79ce-4b2e-8fc3-1a798471d038</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'WealthDetailsCardNew---row')]/div[contains(@class,'col-xs-12')]/div[contains(@class,'WealthDetailsCardNew---addMarginBottom')]/h4</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,47 @@
+version: "1.0"
+hooks:
+  # kb-context extension — load relevant knowledge base context (rag / llm-wiki / graphify)
+  # into the session before the spec is drafted or clarified.
+  # Skill: /apac-sdlc-speckit-load-kb  (config: .specify/extensions/kb-context/kb-config.yml)
+  # feature-branch extension — create + switch to the feature's git branch before the spec is
+  # drafted (runs after kb-context). Skill: /apac-sdlc-speckit-create-branch
+  #
+  before_specify:
+    - extension: "kb-context"
+      command: "speckit.load-kb"
+      description: "Load relevant knowledge base context before drafting the spec"
+      optional: false
+      enabled: true
+    - extension: "feature-branch"
+      command: "speckit.create-branch"
+      description: "Create and switch to the feature's git branch before drafting the spec"
+      optional: false
+      enabled: true
+
+  before_clarify:
+    - extension: "kb-context"
+      command: "speckit.load-kb"
+      description: "Load relevant knowledge base context before clarifying the spec"
+      optional: false
+      enabled: true
+
+  # brownfield-detect extension — classify brownfield vs greenfield and gather the constitution
+  # sections (auto-draft for brownfield, interview for greenfield) before /constitution composes.
+  # Skill: /apac-sdlc-speckit-brownfield-detect  (config: .specify/extensions/brownfield-detect/brownfield-detect-config.yml)
+  before_constitution:
+    - extension: "brownfield-detect"
+      command: "speckit.brownfield-detect"
+      description: "Detect brownfield vs greenfield and gather constitution sections"
+      optional: false
+      enabled: true
+
+  # after_specify: []
+  # before_plan: []
+  # after_plan: []
+  # before_tasks: []
+  # after_tasks: []
+  # before_analyze: []
+  # after_analyze: []
+  # after_constitution: []
+  # before_implement: []
+  # after_implement: []

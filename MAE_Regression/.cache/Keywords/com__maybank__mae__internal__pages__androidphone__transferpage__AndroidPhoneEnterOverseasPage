@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F260E814650D86DD96C2F9643F9FB0B0",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.transferpage.AndroidPhoneEnterOverseasPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

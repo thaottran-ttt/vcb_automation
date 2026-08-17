@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Data Disclosure - Disagree</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>deef65a9-af0d-4426-9237-e5047f26e90c</testCaseGuid>
+</TestCaseEntity>

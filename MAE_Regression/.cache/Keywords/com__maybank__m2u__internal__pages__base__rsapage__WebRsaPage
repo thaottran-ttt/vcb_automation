@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "B2DC3FAFAED6A71F5E9E13A07D571B5A",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.base.rsapage.WebRsaPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

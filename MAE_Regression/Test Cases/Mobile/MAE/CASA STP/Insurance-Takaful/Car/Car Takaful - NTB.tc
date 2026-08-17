@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Car Takaful - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>83877465-1cc1-4421-9b78-4ee72cb85c75</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74950985-249d-499b-893f-f3cc102a39cc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6668c2a2-d4a0-4e7a-b18f-4ba29bb087d9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f4acac40-1349-4413-a80c-d842ca26a503</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d00b90d-448d-4070-a9c6-257a2abf2d65</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b432cf3-f05f-4a13-be91-80da03a549ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ed0ce7a-6511-45ab-a12b-1f3ee68aecf2</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'INSURANCE/TAKAFUL'</defaultValue>
+      <description></description>
+      <id>74950985-249d-499b-893f-f3cc102a39cc</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Car'</defaultValue>
+      <description></description>
+      <id>6668c2a2-d4a0-4e7a-b18f-4ba29bb087d9</id>
+      <masked>false</masked>
+      <name>subTabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Car Takaful'</defaultValue>
+      <description></description>
+      <id>f4acac40-1349-4413-a80c-d842ca26a503</id>
+      <masked>false</masked>
+      <name>insuranceType</name>
+   </variable>
+   <variable>
+      <defaultValue>['Car Takaful', 'A Shariah-compliant car takaful sign-up/renewal with coverage against car loss, theft or damages. Choose optional add-ons for total peace of mind.', '10% OFF on top of No-Claim Discount (NCD)', 'Get up to 30% Etiqa Cashback by Driving Less', '0% instalment with Maybank Credit Cards', '24/7 Roadside Assistance with complimentary towing up to 200KM', 'Super fast claim approvals (within 30 minutes) for claims worth RM5,000 and below']</defaultValue>
+      <description></description>
+      <id>8d00b90d-448d-4070-a9c6-257a2abf2d65</id>
+      <masked>false</masked>
+      <name>introPageData</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>8b432cf3-f05f-4a13-be91-80da03a549ca</id>
+      <masked>false</masked>
+      <name>runValidation</name>
+   </variable>
+   <variable>
+      <defaultValue>'Motor Takaful'</defaultValue>
+      <description></description>
+      <id>0ed0ce7a-6511-45ab-a12b-1f3ee68aecf2</id>
+      <masked>false</masked>
+      <name>etiqaTitle</name>
+   </variable>
+</TestCaseEntity>

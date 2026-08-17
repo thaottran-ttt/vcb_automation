@@ -1,0 +1,22 @@
+TC_name,userName,password,accountName,transactionType,filterType,receiptTitle
+Pay Card,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Loan Repayment,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Pay Bill,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,21st Century
+JomPay,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,JomPAY Bill Payment
+Zakat,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,Zakat
+Reload,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,UMobile Internet UMI
+3rd Party Transfer,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,3rd Party Transfer (PT AINA ABDUL)
+3rd Party Transfer Future,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,3rd Party Transfer (ALI AUTO G)
+Credit Transfer,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+GIRO,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Duitnow,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+ASNB,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Tabung Haji,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Send and Request Money,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Split Bill,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Request To Pay - DuitNow Request,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Request To Pay - Pay DuitNow Request,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Request To Pay - Pay Forward Request,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+Scan and Pay (Monetary),HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,QRPay
+PFM,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,
+ERL ticket,HUNGUAT09,oxhWAdmPKdsI6woWWukVxg==,Personal Current Account,M2U History,60 days,ERL Ticket

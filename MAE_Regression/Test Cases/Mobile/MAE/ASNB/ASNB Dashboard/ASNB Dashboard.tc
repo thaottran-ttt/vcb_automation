@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>ASNB Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89b9b491-3408-47ca-9304-f24a2e79fc1e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3e0091b6-9dd4-4324-9c1b-59b1dbf7a792</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4c2c1ed7-9d42-4881-8993-e06bb6809e67</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>534fe3e4-4b9c-4e03-a308-58f563a2c48a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'autofadh08'</defaultValue>
+      <description></description>
+      <id>3e0091b6-9dd4-4324-9c1b-59b1dbf7a792</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'oxhWAdmPKdsI6woWWukVxg=='</defaultValue>
+      <description></description>
+      <id>4c2c1ed7-9d42-4881-8993-e06bb6809e67</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'WEALTH'</defaultValue>
+      <description></description>
+      <id>534fe3e4-4b9c-4e03-a308-58f563a2c48a</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+</TestCaseEntity>

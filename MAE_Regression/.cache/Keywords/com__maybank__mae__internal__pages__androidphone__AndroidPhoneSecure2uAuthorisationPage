@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "FFAEF6BFA5DFA258802AC6A6F7A4E032",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.androidphone.AndroidPhoneSecure2uAuthorisationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

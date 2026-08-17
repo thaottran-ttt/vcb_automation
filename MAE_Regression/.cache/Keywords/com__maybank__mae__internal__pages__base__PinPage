@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "249A5B8DC4E085107C472C35EA3BA543",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.mae.internal.pages.base.PinPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

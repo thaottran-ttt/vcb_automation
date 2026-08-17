@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>MAE Card - NTB</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e57e928e-f381-4dc1-adcc-bad14c585a94</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f502466c-0142-4388-bb95-c7babc3a7e26</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>72ac7639-c43a-4bc2-87f0-d5aa1ef597ce</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>42376f9c-91dd-4f10-9732-afa7e186bb03</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'CARDS'</defaultValue>
+      <description></description>
+      <id>f502466c-0142-4388-bb95-c7babc3a7e26</id>
+      <masked>false</masked>
+      <name>tabName</name>
+   </variable>
+   <variable>
+      <defaultValue>'MAE card'</defaultValue>
+      <description></description>
+      <id>72ac7639-c43a-4bc2-87f0-d5aa1ef597ce</id>
+      <masked>false</masked>
+      <name>cardType</name>
+   </variable>
+   <variable>
+      <defaultValue>'Sorry, you need to have MAE Wallet before you can apply for card. Please apply for MAE Wallet under ACCOUNTS and try again. If you already have a MAE account, please login and try again.'</defaultValue>
+      <description></description>
+      <id>42376f9c-91dd-4f10-9732-afa7e186bb03</id>
+      <masked>false</masked>
+      <name>errorMsg</name>
+   </variable>
+</TestCaseEntity>

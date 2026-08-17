@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Transaction History</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3f11b7c9-d0aa-4263-8f50-f181e387c256</testSuiteGuid>
+   <testCaseLink>
+      <guid>8e63ed9b-b11a-47a6-a0a2-8f13271f9964</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Mobile/MAE/Transaction History/TC1_Check Transaction History</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>1288c5ef-bf95-4781-8196-01626df7893a</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/KMS/Transaction History</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>1288c5ef-bf95-4781-8196-01626df7893a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username</value>
+         <variableId>8f99ad7b-da5b-4e24-8f33-99950a7c0b5a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>1288c5ef-bf95-4781-8196-01626df7893a</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
+         <variableId>caf02a72-f267-4636-8a8d-92d9a8025b78</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ea9e67b4-5864-4a15-9195-307a305181d4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d6eadc03-1ad9-4a7b-8ce1-89d5362d3f4e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f7d2d7e7-a211-4a97-9a70-83b814c3e86d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1d9dab16-8d1b-453e-aeac-307a7e2b4433</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F842230D2BC6CDFDEDC1786E274808CA",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.chrome.ChromeWebSecure2uAuthorisationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

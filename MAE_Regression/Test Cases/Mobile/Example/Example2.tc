@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Example2</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>692275c6-7382-427b-988d-9e6cb8c823d7</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f38d3fc9-1287-4caa-96b8-92c9baf3ef33</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>com.maybank.common.FlowControlEnum.STOP</defaultValue>
+      <description></description>
+      <id>f38d3fc9-1287-4caa-96b8-92c9baf3ef33</id>
+      <masked>false</masked>
+      <name>flowControl</name>
+   </variable>
+</TestCaseEntity>

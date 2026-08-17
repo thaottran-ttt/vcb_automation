@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "66C15BB66DFC421F9B7128630FBB5C19",
+  "keywordClasses": [
+    {
+      "name": "com.maybank.m2u.internal.pages.safari.paytransfer.SafariWebTabungHajiPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

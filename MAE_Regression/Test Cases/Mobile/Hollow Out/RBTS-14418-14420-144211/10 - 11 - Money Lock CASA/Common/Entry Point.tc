@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Entry Point</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1f76f786-5619-4450-b2c0-a2cb2e07a8fd</testCaseGuid>
+   <variable>
+      <defaultValue>'Account Detail'</defaultValue>
+      <description></description>
+      <id>f4469b2e-de92-482d-9057-b1e282b93573</id>
+      <masked>false</masked>
+      <name>entryFlow</name>
+   </variable>
+   <variable>
+      <defaultValue>'Money Lock'</defaultValue>
+      <description></description>
+      <id>a2a98a21-5283-483d-a2d0-d98ff52f0ccd</id>
+      <masked>false</masked>
+      <name>functionName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Personal Current Account'</defaultValue>
+      <description></description>
+      <id>a3f61551-21b2-4622-8eaf-6d259154a8a4</id>
+      <masked>false</masked>
+      <name>selectAccountName</name>
+   </variable>
+</TestCaseEntity>

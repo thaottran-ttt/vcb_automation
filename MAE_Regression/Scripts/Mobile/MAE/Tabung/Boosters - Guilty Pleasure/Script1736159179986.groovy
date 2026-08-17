@@ -1,0 +1,34 @@
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.maybank.mae.internal.pages.base.BasePage
+import com.maybank.mae.internal.pages.base.CommonPage
+import com.maybank.mae.internal.pages.base.HomePage
+import com.maybank.mae.internal.pages.base.tabung.TabungPage
+
+import internal.GlobalVariable as GlobalVariable
+
+HomePage homePage = BasePage.getPage(HomePage)
+
+CommonPage commonPage = BasePage.getPage(CommonPage)
+
+TabungPage tabungPage = BasePage.getPage(TabungPage)
+
+WebUI.callTestCase(findTestCase('Mobile/MAE/Common/Login Secure2u'), [('idNumber') : idNumber, ('PAN') : PAN, ('password') : password
+        , ('username') : username, ('accountName') : '', ('flowControl') : com.maybank.common.FlowControlEnum.STOP, ('failStopTestSuite') : false
+        , ('yourName') : 'Test'], FailureHandling.STOP_ON_FAILURE)
+
+'Navigate to View All Screen'
+homePage.selectQuickActions(action)
+
+'Navigate to Tabung Screen'
+homePage.selectQuickActions(subAction)
+
+'Select Tab Boosters'
+commonPage.selectTab(commonPage.frmHorizontalScrollNo(1), tabName, GlobalVariable.G_timeoutMedium)
+
+'Spare Change'
+tabungPage.processGuiltyPleasure(limitAmt, fundAmt)
+
+commonPage.backToHome()

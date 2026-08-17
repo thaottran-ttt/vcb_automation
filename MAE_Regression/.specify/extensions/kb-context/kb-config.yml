@@ -1,0 +1,15 @@
+# kb-context extension — loads relevant knowledge base context before /specify and /clarify.
+#
+# Wired in .specify/extensions.yml as a before_specify + before_clarify hook
+# (command: speckit.load-kb → /apac-sdlc-speckit-load-kb).
+#
+# This file is read by the /apac-sdlc-speckit-load-kb skill.
+
+kb_context:
+  enabled: true                      # set false to disable without editing extensions.yml
+  events:
+    - before_specify
+    - before_clarify
+
+  # KB query mode passed to the rag_query MCP tool (when the rag pattern is active).
+  rag_mode: "hybrid"
