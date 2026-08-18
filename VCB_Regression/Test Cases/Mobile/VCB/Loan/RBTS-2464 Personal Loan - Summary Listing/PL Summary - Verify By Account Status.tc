@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>PL Summary - Verify By Account Status</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>5032f4cb-bebc-4df7-b02c-55edf2ae8cdf</testCaseGuid>
-</TestCaseEntity>

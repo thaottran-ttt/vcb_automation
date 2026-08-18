@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "446D783CA18DA687A337CE1555A02654",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.transferpage.TransferPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "08E5E2B02F39D4619E19BF603882C28A",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.accountpage.LoanPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

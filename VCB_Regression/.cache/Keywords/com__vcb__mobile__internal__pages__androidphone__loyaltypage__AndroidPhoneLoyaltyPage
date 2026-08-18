@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A577C6FE0A2D2AEA0E8012BAE74B9F8F",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.loyaltypage.AndroidPhoneLoyaltyPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

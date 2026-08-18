@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E1E18904773673A3C79412CB14601979",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.settingpage.securitypage.KillSwitchPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

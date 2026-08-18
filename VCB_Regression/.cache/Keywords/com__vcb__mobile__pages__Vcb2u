@@ -1,0 +1,59 @@
+{
+  "keywordFileContentHash": "E75E0E84E94C1D59C261B2E49DA37FD0",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.pages.Vcb2u",
+      "keywordMethods": [
+        {
+          "name": "navigateToVcb2u",
+          "parameters": [
+            {
+              "name": "flowControl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.model.FailureHandling",
+                "unresolvedClassName": "FailureHandling",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "viewAllAccounts",
+          "parameters": [
+            {
+              "name": "flowControl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.model.FailureHandling",
+                "unresolvedClassName": "FailureHandling",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "navigateToVcb2u",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "viewAllAccounts",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>ScanAndPay_Expire</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>fdbb2abf-5ce5-48ff-8cae-c60e15b9bbfa</testCaseGuid>
-</TestCaseEntity>

@@ -25,7 +25,7 @@ import com.vcb.m2u.internal.pages.base.modulesettings.WebSettingsPage
 WebSettingsPage webSettingsPage = WebBasePage.getPage(WebSettingsPage)
 WebSecure2uAuthorisationPage webSecure2uAuthorisationPage = WebBasePage.getPage(WebSecure2uAuthorisationPage)
 
-WebUI.callTestCase(findTestCase('Test Cases/Website/M2U/ModuleSettings/common/NavigateToSettings'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
+WebUI.callTestCase(findTestCase('null'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
 
 'Switch Account Settings'
 webSettingsPage.switchSettings(settingName)

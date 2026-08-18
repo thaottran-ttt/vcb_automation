@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "AD4352FDD272AAD31BB3E86996941932",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.Vcb2uPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D4B0EF82078C40E14835A3361B1D3B30",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.applypage.AndroidPhoneApplyCardPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "ED9F2ADDAB6081A881FB59FF3F2BE598",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.settingpage.securitypage.AndroidPhoneKillSwitchPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

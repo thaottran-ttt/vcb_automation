@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "08A509220256ADA68F3C67ABA79E8BB9",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.AndroidPhonePushNotificationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

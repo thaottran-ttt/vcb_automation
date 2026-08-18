@@ -11,55 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>0a7c5739-301a-4b19-90dc-79e7c242eb1e</testSuiteGuid>
-   <testCaseLink>
-      <guid>29a33e53-d1bf-4a26-a876-e1ac99369317</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/VCB/Common/Login Secure2u Without Check Logout Stay In Secure2u</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>71572eb9-1d08-49f6-a42d-5cbf1699e430</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dc47b740-c715-4c46-89c4-9e939abbb5b8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>bf5dea70-026c-4d1d-8084-f13de7f1158c</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ff1a6402-33be-4a06-ba1b-bce97f7aa782</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4021d45a-9977-4220-a334-c1a2851baaec</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>8e7c5844-1e2c-40e9-a6fe-1689621ae75d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>dfe076f5-a414-4133-af6b-adaf19713a0c</variableId>
-      </variableLink>
-   </testCaseLink>
+   
    <testCaseLink>
       <guid>0dd7b59b-8861-473f-8487-0bf6e11d6862</guid>
       <isReuseDriver>false</isReuseDriver>

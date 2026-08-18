@@ -1,0 +1,59 @@
+{
+  "keywordFileContentHash": "65B22EC269A6AEC2DDDFB00C8C0BE13C",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.pages.Onboarding",
+      "keywordMethods": [
+        {
+          "name": "navigateToLogin",
+          "parameters": [
+            {
+              "name": "flowControl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.model.FailureHandling",
+                "unresolvedClassName": "FailureHandling",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "disagreeDisclosure",
+          "parameters": [
+            {
+              "name": "flowControl",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.model.FailureHandling",
+                "unresolvedClassName": "FailureHandling",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "navigateToLogin",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "disagreeDisclosure",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8D6C448C5FD44DB5721F655625362932",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.settingpage.AndroidPhoneSettingPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

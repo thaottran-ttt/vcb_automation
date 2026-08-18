@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "36A6E0BC1EB3B1008B0EF9C62B7D66B5",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.applypage.AndroidPhoneApplyHomeLoanPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

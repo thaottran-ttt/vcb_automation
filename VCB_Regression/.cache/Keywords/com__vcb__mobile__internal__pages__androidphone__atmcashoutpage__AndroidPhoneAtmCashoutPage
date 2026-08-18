@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "46865303CF66131B6664E6DEF2AFE7BF",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.atmcashoutpage.AndroidPhoneAtmCashoutPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

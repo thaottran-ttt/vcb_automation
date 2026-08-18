@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "83F4E918B8922726376153DE762E050D",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.AndroidPhoneShareReceiptPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

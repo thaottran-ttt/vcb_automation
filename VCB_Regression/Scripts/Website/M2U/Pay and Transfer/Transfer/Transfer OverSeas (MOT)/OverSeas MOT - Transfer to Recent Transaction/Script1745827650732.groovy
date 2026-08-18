@@ -26,7 +26,7 @@ Map payToData = MapUtils.parseObjectToMap(payToData)
 WebUI.callTestCase(findTestCase('Mobile/VCB/Common/Login Secure2u Without Check Logout Stay In Secure2u'), [('username') : username, ('password') : password
         , ('idNumber') : idNumber, ('PAN') : PAN], BaseKeyword.defaultFailureHandling)
 
-WebUI.callTestCase(findTestCase('Website/M2U/Common/Login'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
+WebUI.callTestCase(findTestCase('null'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
 
 'Navigate To Transfer'
 webHomePage.navigate(navItem, tabName)

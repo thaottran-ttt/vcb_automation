@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "05AED8A4165408F6BED528D0E5E084A8",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.paybill.AndroidPhoneJomPayPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

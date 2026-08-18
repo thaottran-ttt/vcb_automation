@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2670E6C39657166DDC5DECC5AE2F1389",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.transferpage.EnterDuitnowProxyPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "67E56AC718EEB501FEB07856B14E07FB",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.reloadpage.AndroidPhoneReloadPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

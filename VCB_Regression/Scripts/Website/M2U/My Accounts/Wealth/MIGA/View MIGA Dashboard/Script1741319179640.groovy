@@ -32,7 +32,7 @@ WebCommonPage webCommonPage = WebBasePage.getPage(WebCommonPage)
 WebHomePage webHomePage = WebBasePage.getPage(WebHomePage)
 WebWealthPage webWealthPage = WebBasePage.getPage(WebWealthPage)
 
-WebUI.callTestCase(findTestCase('Website/M2U/Common/Login'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
+WebUI.callTestCase(findTestCase('null'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
 
 'Navigate To Transfer'
 webHomePage.navigate(navItem, tabName)

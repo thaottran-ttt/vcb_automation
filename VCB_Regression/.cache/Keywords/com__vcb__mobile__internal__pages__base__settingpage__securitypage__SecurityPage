@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "71A7327C6FB68E3BCB9C32AF9AA68998",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.settingpage.securitypage.SecurityPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

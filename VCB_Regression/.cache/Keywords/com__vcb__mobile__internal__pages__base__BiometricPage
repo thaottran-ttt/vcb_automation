@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "66EEC4E83E6F502F71050C9953BD572B",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.BiometricPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D9F21A81A850447043091AE881B53820",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.settingpage.SettingPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

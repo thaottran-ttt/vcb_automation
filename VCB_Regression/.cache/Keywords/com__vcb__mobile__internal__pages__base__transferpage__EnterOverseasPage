@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "2B947886C3E822F2F57F45D810EDFCBC",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.transferpage.EnterOverseasPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "EBC308FC9DFBC3493C455C01FB58F18C",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.atmcashoutpage.AtmCashoutPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

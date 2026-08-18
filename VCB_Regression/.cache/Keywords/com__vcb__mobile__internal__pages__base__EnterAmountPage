@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8815306B7712D97CA351BC13CBC43A77",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.EnterAmountPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

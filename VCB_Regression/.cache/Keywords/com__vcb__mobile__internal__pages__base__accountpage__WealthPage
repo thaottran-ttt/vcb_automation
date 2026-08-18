@@ -1,0 +1,14 @@
+{
+  "keywordFileContentHash": "94971C20091E72AE68F66101560367C3",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.accountpage.WealthPage",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.mobile.internal.pages.base.accountpage.WealthPage$AmountCheckType",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

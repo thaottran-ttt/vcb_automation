@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C9F97DB585FE473465C38E2115CECA06",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.FavouritesPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

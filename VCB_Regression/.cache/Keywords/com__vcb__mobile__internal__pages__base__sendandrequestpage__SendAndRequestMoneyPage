@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "A5E1B9482358695F1E4F5329B1E42F35",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.sendandrequestpage.SendAndRequestMoneyPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

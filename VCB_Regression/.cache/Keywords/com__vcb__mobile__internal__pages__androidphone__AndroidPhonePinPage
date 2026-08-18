@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3C06C85DECF16453C8943CEAD870E50C",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.AndroidPhonePinPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

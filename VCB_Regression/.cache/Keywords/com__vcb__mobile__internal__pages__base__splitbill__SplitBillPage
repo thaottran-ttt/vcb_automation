@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "EA9F30CC4DD0C05DAE9CCE2485A596C1",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.splitbill.SplitBillPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

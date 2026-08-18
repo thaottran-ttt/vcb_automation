@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3D8B6FAD1794E0AB5F08E9B8BCBB876C",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.scanpaypage.AndroidPhoneScanPayPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

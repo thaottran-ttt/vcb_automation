@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "91D05687C32BFA7A27BE5677899B1D2C",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.AndroidPhoneEnterAmountPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

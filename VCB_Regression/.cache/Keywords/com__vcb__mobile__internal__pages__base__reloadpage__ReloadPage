@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "C2417B3E2A1342E35F988A3D93B0CEB6",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.reloadpage.ReloadPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

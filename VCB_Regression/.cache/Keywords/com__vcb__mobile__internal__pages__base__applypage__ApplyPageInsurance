@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "52B0E9215F519142A9DB69D9CFB6F232",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.applypage.ApplyPageInsurance",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,18 @@
+{
+  "keywordFileContentHash": "0D61D083C08F373DBE7210171D1BE5A1",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage$S2UStatusEnum",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.mobile.internal.pages.base.Secure2uAuthorisationPage$AuthorisationType",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

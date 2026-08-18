@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "298994BAA81952067D9EE39530D87381",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.tabung.TabungPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

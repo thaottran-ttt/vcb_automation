@@ -15,7 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Website/M2U/Pay and Transfer/Pay/JomPay/Common/Jompay Open'), [('payToData') : payToData
+WebUI.callTestCase(findTestCase('null'), [('payToData') : payToData
         , ('username') : username, ('password') : password, ('idNumber') : idNumber, ('PAN') : PAN
         , ('navItem') :navItem, ('tabName') : tabName, ('billerCode') : billerCode, ('inputPayToData') : inputPayToData
         , ('isRunWebsiteAndMobile') : isRunWebsiteAndMobile, ('status') : status, ('verifyStatusScreenData') : verifyStatusScreenData

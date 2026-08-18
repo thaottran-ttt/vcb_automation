@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D51A51040F88C02A7ECDC00294148CE7",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.accountpage.AndroidPhoneLoanPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

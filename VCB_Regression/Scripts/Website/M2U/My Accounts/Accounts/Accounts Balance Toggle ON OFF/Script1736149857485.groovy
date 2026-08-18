@@ -26,7 +26,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebAccountsPage webAccountsPage = WebBasePage.getPage(WebAccountsPage)
 
-WebUI.callTestCase(findTestCase('Website/M2U/Common/Login'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
+WebUI.callTestCase(findTestCase('null'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
 
 'Click Taggle'
 webAccountsPage.clickToggle()

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "D35423B6809786C2C3DA6F9562D1E8F5",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.PinPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F425F01E1FCF5EB9E1B003C973C29FA7",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.loyaltypage.LoyaltyPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

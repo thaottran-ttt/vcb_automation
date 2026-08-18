@@ -1,0 +1,18 @@
+{
+  "keywordFileContentHash": "46494336192E2282559DCE7E58D7B20E",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.CommonPage",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.mobile.internal.pages.base.CommonPage$DropDownTypeEnum",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.mobile.internal.pages.base.CommonPage$TestObjectTypeEnum",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

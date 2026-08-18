@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "62341A4E7A1FE9FC82307B3A51EE1F39",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.settingpage.SettingPayAndTransferPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

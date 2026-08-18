@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "E6AA3B0BE8AE014F29A0D1F7800D33FA",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.ConfirmationPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

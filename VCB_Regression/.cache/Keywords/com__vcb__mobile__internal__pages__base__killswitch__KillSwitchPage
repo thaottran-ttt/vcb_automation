@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DEF0BEAD3AA91F1DCCB0CA90458538A7",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.killswitch.KillSwitchPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

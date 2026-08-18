@@ -11,64 +11,7 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>5350fed2-aa90-4167-9fe9-22a45a00a7e6</testSuiteGuid>
-   <testCaseLink>
-      <guid>1b869e0f-017a-4330-b444-079b9fdb6e8e</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Mobile/VCB/Common/Login Secure2u Without Check Logout</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>c8860bd8-ea39-48ae-b83c-46c26615f4ba</id>
-         <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
-         </iterationEntity>
-         <testDataId>Data Files/KMS_M2U/ModuleSettings/SettingsAccounts/ASNB Account</testDataId>
-      </testDataLink>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId>c8860bd8-ea39-48ae-b83c-46c26615f4ba</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>username</value>
-         <variableId>556e3364-457c-4c77-b43f-ae786d39f5db</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c8860bd8-ea39-48ae-b83c-46c26615f4ba</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>password</value>
-         <variableId>63b248fe-2d7c-4371-b32d-a74b443c68f3</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c8860bd8-ea39-48ae-b83c-46c26615f4ba</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>idNumber</value>
-         <variableId>879f1207-3d4c-4bb2-a611-39d39055dce8</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId>c8860bd8-ea39-48ae-b83c-46c26615f4ba</testDataLinkId>
-         <type>DATA_COLUMN</type>
-         <value>PAN</value>
-         <variableId>f2a98f32-d857-4be5-b550-5aa6b06bc90d</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>05595db1-2ffd-4148-88af-c5dc299150ef</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>fd3ad23e-7e06-4b76-8bda-ddaeb89bc807</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f7d2d7e7-a211-4a97-9a70-83b814c3e86d</variableId>
-      </variableLink>
-   </testCaseLink>
+   
    <testCaseLink>
       <guid>aba4b10a-2318-4681-a776-a7d487f37191</guid>
       <isReuseDriver>false</isReuseDriver>

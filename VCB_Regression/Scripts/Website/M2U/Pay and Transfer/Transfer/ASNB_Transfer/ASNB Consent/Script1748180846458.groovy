@@ -24,7 +24,7 @@ WebASNBPage webASNBPage = WebBasePage.getPage(WebASNBPage)
 WebSecure2uAuthorisationPage webSecure2uAuthorisationPage = WebBasePage.getPage(WebSecure2uAuthorisationPage)
 webSecure2uAuthorisationPage.setID_NUMBER(idNumber)
 
-WebUI.callTestCase(findTestCase('Website/M2U/Common/Login'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
+WebUI.callTestCase(findTestCase('null'), [('username') : username, ('password') : password], BaseKeyword.defaultFailureHandling)
 
 'Navigate To Wealth'
 webHomePage.navigate(navItem, tabName)

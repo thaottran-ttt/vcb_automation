@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "94C5468A51A093D10DC02B86E4F3CF67",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.applypage.AndroidPhoneApplyCASAPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

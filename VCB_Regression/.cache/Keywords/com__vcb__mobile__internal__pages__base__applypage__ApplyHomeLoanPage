@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "602FC2A947C4071510FAA1885AA8A1F8",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.applypage.ApplyHomeLoanPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

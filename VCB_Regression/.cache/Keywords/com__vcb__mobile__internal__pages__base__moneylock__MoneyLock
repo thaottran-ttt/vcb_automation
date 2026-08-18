@@ -1,0 +1,18 @@
+{
+  "keywordFileContentHash": "4C331289AC9C9EB9187203F6F958CA4B",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.moneylock.MoneyLock",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.mobile.internal.pages.base.moneylock.MoneyLock$S2UStatusEnum",
+      "keywordMethods": []
+    },
+    {
+      "name": "com.vcb.mobile.internal.pages.base.moneylock.MoneyLock$AuthorisationType",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

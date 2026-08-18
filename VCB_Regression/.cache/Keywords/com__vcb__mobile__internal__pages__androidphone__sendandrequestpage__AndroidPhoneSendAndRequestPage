@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "F52C56FA4805BA2DF030BF420D8F0DC7",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.sendandrequestpage.AndroidPhoneSendAndRequestPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

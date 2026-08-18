@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "8E45188FCB8AEB180836E1B0E50396B6",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.base.accountpage.AccountsPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

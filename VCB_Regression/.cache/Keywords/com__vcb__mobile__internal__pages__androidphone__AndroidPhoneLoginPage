@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "99C3449F3B83864983D824B3636AB7B1",
+  "keywordClasses": [
+    {
+      "name": "com.vcb.mobile.internal.pages.androidphone.AndroidPhoneLoginPage",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
