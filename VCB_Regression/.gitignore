@@ -5,3 +5,9 @@ graphify-out/manifest.json
 graphify-out/cost.json
 # semantic + AST extraction cache — rebuild locally, never push
 graphify-out/cache/
+
+# Katalon generated artifacts (local machine state)
+.cache/
+bin/
+Libs/CustomKeywords.groovy
+.project
