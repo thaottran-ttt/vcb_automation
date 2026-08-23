@@ -116,41 +116,21 @@ public class WebSauceDemoPage extends WebBasePage {
 	}
 
 	void addBackpackToCart(FailureHandling flowControl = defaultFailureHandling) {
-		waitForElementVisible(this.btnAddBackpack(), GlobalVariable.G_timeoutMedium, flowControl)
-		waitForElementClickable(this.btnAddBackpack(), GlobalVariable.G_timeoutMedium, flowControl)
-		WebUI.scrollToElement(this.btnAddBackpack(), GlobalVariable.G_timeoutShort)
-		WebUI.enhancedClick(this.btnAddBackpack(), FailureHandling.OPTIONAL)
-
-		boolean isBackpackAdded = WebUI.waitForElementVisible(this.btnRemoveBackpack(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		if (!isBackpackAdded) {
-			WebElement addBackpackElement = WebUiCommonHelper.findWebElement(this.btnAddBackpack(), GlobalVariable.G_timeoutShort)
-			WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(addBackpackElement))
-			isBackpackAdded = WebUI.waitForElementVisible(this.btnRemoveBackpack(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		}
-
-		boolean isBadgeVisible = WebUI.waitForElementVisible(this.lblCartBadge(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		if (!isBackpackAdded && !isBadgeVisible) {
-			handleError('Unable to add Sauce Labs Backpack to cart. Inventory state did not change after enhanced and JavaScript click.', flowControl)
-		}
+		addItemToCartAndVerify(
+			this.btnAddBackpack(),
+			this.btnRemoveBackpack(),
+			'Sauce Labs Backpack',
+			flowControl
+		)
 	}
 
 	void addBikeLightToCart(FailureHandling flowControl = defaultFailureHandling) {
-		waitForElementVisible(this.btnAddBikeLight(), GlobalVariable.G_timeoutMedium, flowControl)
-		waitForElementClickable(this.btnAddBikeLight(), GlobalVariable.G_timeoutMedium, flowControl)
-		WebUI.scrollToElement(this.btnAddBikeLight(), GlobalVariable.G_timeoutShort)
-		WebUI.enhancedClick(this.btnAddBikeLight(), FailureHandling.OPTIONAL)
-
-		boolean isBikeLightAdded = WebUI.waitForElementVisible(this.btnRemoveBikeLight(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		if (!isBikeLightAdded) {
-			WebElement addBikeLightElement = WebUiCommonHelper.findWebElement(this.btnAddBikeLight(), GlobalVariable.G_timeoutShort)
-			WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(addBikeLightElement))
-			isBikeLightAdded = WebUI.waitForElementVisible(this.btnRemoveBikeLight(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		}
-
-		boolean isBadgeVisible = WebUI.waitForElementVisible(this.lblCartBadge(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		if (!isBikeLightAdded && !isBadgeVisible) {
-			handleError('Unable to add Sauce Labs Bike Light to cart. Inventory state did not change after enhanced and JavaScript click.', flowControl)
-		}
+		addItemToCartAndVerify(
+			this.btnAddBikeLight(),
+			this.btnRemoveBikeLight(),
+			'Sauce Labs Bike Light',
+			flowControl
+		)
 	}
 
 	void verifyCartBadge(String expected, FailureHandling flowControl = defaultFailureHandling) {
@@ -187,6 +167,25 @@ public class WebSauceDemoPage extends WebBasePage {
 
 	void verifyBackpackNotInCart(FailureHandling flowControl = defaultFailureHandling) {
 		waitForElementNotPresent(this.lblBackpackInCart(), GlobalVariable.G_timeoutMedium, flowControl)
+	}
+
+	private void addItemToCartAndVerify(TestObject addButton, TestObject removeButton, String itemName, FailureHandling flowControl = defaultFailureHandling) {
+		waitForElementVisible(addButton, GlobalVariable.G_timeoutMedium, flowControl)
+		waitForElementClickable(addButton, GlobalVariable.G_timeoutMedium, flowControl)
+		WebUI.scrollToElement(addButton, GlobalVariable.G_timeoutShort)
+		WebUI.enhancedClick(addButton, FailureHandling.OPTIONAL)
+
+		boolean isItemAdded = WebUI.waitForElementVisible(removeButton, GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
+		if (!isItemAdded) {
+			WebElement addElement = WebUiCommonHelper.findWebElement(addButton, GlobalVariable.G_timeoutShort)
+			WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(addElement))
+			isItemAdded = WebUI.waitForElementVisible(removeButton, GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
+		}
+
+		boolean isBadgeVisible = WebUI.waitForElementVisible(this.lblCartBadge(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
+		if (!isItemAdded && !isBadgeVisible) {
+			handleError("Unable to add ${itemName} to cart. Inventory state did not change after enhanced and JavaScript click.", flowControl)
+		}
 	}
 
 	private void enterTextAndVerify(TestObject field, String value, String fieldName, FailureHandling flowControl = defaultFailureHandling) {

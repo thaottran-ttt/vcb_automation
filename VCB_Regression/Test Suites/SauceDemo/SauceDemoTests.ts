@@ -14,62 +14,6 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>2f82b73f-2593-465a-af58-adb47e281357</testSuiteGuid>
    <testCaseLink>
-      <guid>6b7d4626-0fde-4a5a-83b2-adadf81f8261</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/SauceDemo/TC01 Login Success</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>9e157db4-1de8-4f27-b119-7af2866cbb08</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>ef41f240-db1d-4411-b9d2-40f16ec6f704</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>4e45998a-e99d-4ec3-96d1-9bae6d846f33</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>0bff52f7-9205-424b-bf0c-60ecffac0c14</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>bf1a1396-33a4-4ed2-a8b5-b43e1ed25cbd</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Website/SauceDemo/TC02 Login Locked User</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>7d977546-f69e-4fce-b03c-15b26db5a027</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>569b8482-a96c-4a79-928d-0a3e90d0fbd4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f99fc3e6-f7e1-40f0-a22c-c7ff3064b8fe</variableId>
-      </variableLink>
-   </testCaseLink>
-   <testCaseLink>
       <guid>2c5832a1-0c87-405a-8ced-c2a81f2c3017</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
