@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lblCartBadge</name>
+   <tag></tag>
+   <elementGuidId>0adf4d5d-9ae7-4da0-969f-7ca8f6a46426</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[contains(@class,'shopping_cart_badge')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>.shopping_cart_badge</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+</WebElementEntity>

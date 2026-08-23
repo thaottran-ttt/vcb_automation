@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify standard user can complete checkout and see order confirmation.</description>
+   <name>TC05 Complete Checkout</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>7e43a5aa-a0de-4579-93bd-c6c4dd7ee73e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>23df0612-88cf-4c9c-979f-8373720761c8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0ed33660-0fd3-48ff-91ce-fad686dac3fa</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2026996a-0298-420a-8d4e-3ee7c73cfe45</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'QA'</defaultValue>
+      <description></description>
+      <id>23df0612-88cf-4c9c-979f-8373720761c8</id>
+      <masked>false</masked>
+      <name>firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>'Automation'</defaultValue>
+      <description></description>
+      <id>0ed33660-0fd3-48ff-91ce-fad686dac3fa</id>
+      <masked>false</masked>
+      <name>lastname</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>2026996a-0298-420a-8d4e-3ee7c73cfe45</id>
+      <masked>false</masked>
+      <name>portalCost</name>
+   </variable>
+</TestCaseEntity>

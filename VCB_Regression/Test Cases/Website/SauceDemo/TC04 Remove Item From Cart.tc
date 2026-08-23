@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify user can remove item from cart and cart becomes empty.</description>
+   <name>TC04 Remove Item From Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2f015765-afca-42df-9338-bf2537a0fca3</testCaseGuid>
+</TestCaseEntity>

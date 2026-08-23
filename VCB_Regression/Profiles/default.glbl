@@ -27,7 +27,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>new url</description>
-      <initValue>'https://vcbmobile.uat.vcb.com.vn/cgi-bin/bvAT4UI1/m2u/common/login.do'</initValue>
+      <initValue>'https://www.saucedemo.com/'</initValue>
       <name>G_url</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

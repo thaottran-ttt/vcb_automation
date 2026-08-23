@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btnRemoveBikeLight</name>
+   <tag></tag>
+   <elementGuidId>4dcf0fbc-2a5f-4a35-b0e8-64c0f0a59d8a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='remove-sauce-labs-bike-light']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#remove-sauce-labs-bike-light</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+</WebElementEntity>

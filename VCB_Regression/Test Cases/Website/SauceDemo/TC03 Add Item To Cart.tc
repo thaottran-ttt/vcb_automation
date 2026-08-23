@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify user can add Sauce Labs Backpack to cart and see it in cart page.</description>
+   <name>TC03 Add Item To Cart</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a0f7db3d-ac10-4c38-ad32-a9288ae3f74f</testCaseGuid>
+</TestCaseEntity>

@@ -10,4 +10,6 @@ graphify-out/cache/
 .cache/
 bin/
 Libs/CustomKeywords.groovy
+Libs/S*.groovy
 .project
+/Reports
