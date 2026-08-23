@@ -24,6 +24,12 @@
       <value></value>
       <variableId>2026996a-0298-420a-8d4e-3ee7c73cfe45</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b40af9fb-4471-4aec-ae88-316e5d98f8d5</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'QA'</defaultValue>
       <description></description>
@@ -44,5 +50,12 @@
       <id>2026996a-0298-420a-8d4e-3ee7c73cfe45</id>
       <masked>false</masked>
       <name>portalCost</name>
+   </variable>
+   <variable>
+      <defaultValue>'Thank you for your order!'</defaultValue>
+      <description></description>
+      <id>b40af9fb-4471-4aec-ae88-316e5d98f8d5</id>
+      <masked>false</masked>
+      <name>lblCompleteHeaderTxt</name>
    </variable>
 </TestCaseEntity>

@@ -11,7 +11,7 @@ try {
 	webSauceDemoPage.addBikeLightToCart()
 	webSauceDemoPage.goToCart()
 	webSauceDemoPage.completeCheckout(firstname, lastname, portalCost)
-	WebUI.verifyElementText(WebSauceDemoPage.lblCompleteHeader(), 'Thank you for your order!')
+	WebUI.verifyElementText(WebSauceDemoPage.lblCompleteHeader(), lblCompleteHeaderTxt)
 } catch (Exception ex) {
 	WebUIKeyword.takeScreenshot()
 	throw ex
