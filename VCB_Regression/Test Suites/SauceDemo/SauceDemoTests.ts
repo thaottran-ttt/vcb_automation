@@ -19,6 +19,12 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Website/SauceDemo/TC03 Add Item To Cart</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>13ce0193-8f14-43c6-8a26-452721308ad7</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>61a25f84-3d10-4760-b703-6466f145e141</guid>

@@ -235,4 +235,57 @@ public class WebUIKeyword extends BaseKeyword {
 			handleError("Unable to click ${toStringAndLocatorTestObject(obj)}, ${ex.toString()}", flowControl)
 		}
 	}
+
+	private static boolean clickWithFallback(TestObject button, FailureHandling flowControl = defaultFailureHandling, int timeout = GlobalVariable.G_timeoutMedium) {
+		waitForElementVisible(button, timeout, flowControl)
+		waitForElementClickable(button, timeout, flowControl)
+		WebUI.scrollToElement(button, GlobalVariable.G_timeoutShort)
+		WebUI.enhancedClick(button, FailureHandling.OPTIONAL)
+		return true
+	}
+
+	@Keyword
+	static boolean clickAndVerifyObjectAppears(TestObject button, TestObject expectedObject, String errorMessage,
+			FailureHandling flowControl = defaultFailureHandling) {
+		clickWithFallback(button, flowControl)
+
+		boolean isAppeared = WebUI.waitForElementVisible(expectedObject, GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
+		if (!isAppeared) {
+			WebElement buttonElement = WebUiCommonHelper.findWebElement(button, GlobalVariable.G_timeoutShort)
+			WebUI.executeJavaScript('arguments[0].click();', java.util.Arrays.asList(buttonElement))
+			isAppeared = WebUI.waitForElementVisible(expectedObject, GlobalVariable.G_timeoutMedium, FailureHandling.OPTIONAL)
+		}
+
+		if (!isAppeared) {
+			handleError(errorMessage, flowControl)
+		}
+
+		return isAppeared
+	}
+
+	@Keyword
+	static boolean clickAndVerifyClickedObjectChanged(TestObject clickedObject, TestObject changedObject, String errorMessage,
+			FailureHandling flowControl = defaultFailureHandling) {
+		return clickAndVerifyObjectAppears(clickedObject, changedObject, errorMessage, flowControl)
+	}
+
+	@Keyword
+	static boolean clickAndVerifyUrlChanged(TestObject button, String expectedUrlPart, String errorMessage,
+			FailureHandling flowControl = defaultFailureHandling) {
+		clickWithFallback(button, flowControl)
+
+		boolean isUrlChanged = (WebUI.getUrl(FailureHandling.OPTIONAL) ?: '').contains(expectedUrlPart)
+		if (!isUrlChanged) {
+			WebElement buttonElement = WebUiCommonHelper.findWebElement(button, GlobalVariable.G_timeoutShort)
+			WebUI.executeJavaScript('arguments[0].click();', java.util.Arrays.asList(buttonElement))
+			WebUI.delay(1)
+			isUrlChanged = (WebUI.getUrl(FailureHandling.OPTIONAL) ?: '').contains(expectedUrlPart)
+		}
+
+		if (!isUrlChanged) {
+			handleError(errorMessage, flowControl)
+		}
+
+		return isUrlChanged
+	}
 }

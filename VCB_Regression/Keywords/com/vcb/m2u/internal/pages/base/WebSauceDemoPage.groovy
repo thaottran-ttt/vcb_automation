@@ -139,21 +139,12 @@ public class WebSauceDemoPage extends WebBasePage {
 	}
 
 	void goToCart(FailureHandling flowControl = defaultFailureHandling) {
-		waitForElementVisible(this.btnCart(), GlobalVariable.G_timeoutMedium, flowControl)
-		waitForElementClickable(this.btnCart(), GlobalVariable.G_timeoutMedium, flowControl)
-		WebUI.scrollToElement(this.btnCart(), GlobalVariable.G_timeoutShort)
-		WebUI.enhancedClick(this.btnCart(), FailureHandling.OPTIONAL)
-
-		boolean isInCartPage = WebUI.waitForElementVisible(this.btnCheckout(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		if (!isInCartPage) {
-			WebElement cartElement = WebUiCommonHelper.findWebElement(this.btnCart(), GlobalVariable.G_timeoutShort)
-			WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(cartElement))
-			isInCartPage = WebUI.waitForElementVisible(this.btnCheckout(), GlobalVariable.G_timeoutMedium, FailureHandling.OPTIONAL)
-		}
-
-		if (!isInCartPage) {
-			handleError('Unable to navigate to cart page. Checkout button is not visible after enhanced and JavaScript click on cart icon.', flowControl)
-		}
+		WebUIKeyword.clickAndVerifyObjectAppears(
+			this.btnCart(),
+			this.btnCheckout(),
+			'Unable to navigate to cart page. Checkout button is not visible after enhanced and JavaScript click on cart icon.',
+			flowControl
+		)
 	}
 
 	void verifyBackpackInCart(FailureHandling flowControl = defaultFailureHandling) {
@@ -170,17 +161,12 @@ public class WebSauceDemoPage extends WebBasePage {
 	}
 
 	private void addItemToCartAndVerify(TestObject addButton, TestObject removeButton, String itemName, FailureHandling flowControl = defaultFailureHandling) {
-		waitForElementVisible(addButton, GlobalVariable.G_timeoutMedium, flowControl)
-		waitForElementClickable(addButton, GlobalVariable.G_timeoutMedium, flowControl)
-		WebUI.scrollToElement(addButton, GlobalVariable.G_timeoutShort)
-		WebUI.enhancedClick(addButton, FailureHandling.OPTIONAL)
-
-		boolean isItemAdded = WebUI.waitForElementVisible(removeButton, GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		if (!isItemAdded) {
-			WebElement addElement = WebUiCommonHelper.findWebElement(addButton, GlobalVariable.G_timeoutShort)
-			WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(addElement))
-			isItemAdded = WebUI.waitForElementVisible(removeButton, GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		}
+		boolean isItemAdded = WebUIKeyword.clickAndVerifyClickedObjectChanged(
+			addButton,
+			removeButton,
+			"Unable to add ${itemName} to cart. Remove state did not appear after enhanced and JavaScript click.",
+			FailureHandling.OPTIONAL
+		)
 
 		boolean isBadgeVisible = WebUI.waitForElementVisible(this.lblCartBadge(), GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
 		if (!isItemAdded && !isBadgeVisible) {
@@ -209,26 +195,8 @@ public class WebSauceDemoPage extends WebBasePage {
 		}
 	}
 
-	private void clickAndVerifyNextState(TestObject button, TestObject nextStateObject, String errorMessage, FailureHandling flowControl = defaultFailureHandling) {
-		waitForElementVisible(button, GlobalVariable.G_timeoutMedium, flowControl)
-		waitForElementClickable(button, GlobalVariable.G_timeoutMedium, flowControl)
-		WebUI.scrollToElement(button, GlobalVariable.G_timeoutShort)
-		WebUI.enhancedClick(button, FailureHandling.OPTIONAL)
-
-		boolean stateChanged = WebUI.waitForElementVisible(nextStateObject, GlobalVariable.G_timeoutShort, FailureHandling.OPTIONAL)
-		if (!stateChanged) {
-			WebElement buttonElement = WebUiCommonHelper.findWebElement(button, GlobalVariable.G_timeoutShort)
-			WebUI.executeJavaScript('arguments[0].click();', Arrays.asList(buttonElement))
-			stateChanged = WebUI.waitForElementVisible(nextStateObject, GlobalVariable.G_timeoutMedium, FailureHandling.OPTIONAL)
-		}
-
-		if (!stateChanged) {
-			handleError(errorMessage, flowControl)
-		}
-	}
-
 	void completeCheckout(String firstName, String lastName, String postalCode, FailureHandling flowControl = defaultFailureHandling) {
-		clickAndVerifyNextState(
+		WebUIKeyword.clickAndVerifyObjectAppears(
 			this.btnCheckout(),
 			this.txtFirstName(),
 			'Unable to navigate to checkout information page. First name field is not visible after enhanced and JavaScript click on checkout button.',
@@ -239,14 +207,14 @@ public class WebSauceDemoPage extends WebBasePage {
 		enterTextAndVerify(this.txtLastName(), lastName, 'Last Name', flowControl)
 		enterTextAndVerify(this.txtPostalCode(), postalCode, 'Postal Code', flowControl)
 
-		clickAndVerifyNextState(
+		WebUIKeyword.clickAndVerifyObjectAppears(
 			this.btnContinue(),
 			this.btnFinish(),
 			'Unable to navigate to checkout overview page. Finish button is not visible after enhanced and JavaScript click on continue button.',
 			flowControl
 		)
 
-		clickAndVerifyNextState(
+		WebUIKeyword.clickAndVerifyObjectAppears(
 			this.btnFinish(),
 			this.lblCompleteHeader(),
 			'Unable to complete checkout. Complete header is not visible after enhanced and JavaScript click on finish button.',

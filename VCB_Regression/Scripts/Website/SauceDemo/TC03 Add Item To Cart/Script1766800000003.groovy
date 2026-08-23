@@ -7,7 +7,7 @@ WebSauceDemoPage webSauceDemoPage = WebBasePage.getPage(WebSauceDemoPage)
 try {
 	webSauceDemoPage.loginAsStandardUser()
 	webSauceDemoPage.addBackpackToCart()
-	webSauceDemoPage.verifyCartBadge('1')
+	webSauceDemoPage.verifyCartBadge(number)
 	webSauceDemoPage.goToCart()
 	webSauceDemoPage.verifyBackpackInCart()
 } catch (Exception ex) {
