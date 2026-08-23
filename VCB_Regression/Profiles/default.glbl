@@ -104,14 +104,14 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'jimqeng'</initValue>
+      <initValue>'standard_user'</initValue>
       <name>G_userName</name>
       <protected>false</protected>
       <valueType>STRING</valueType>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'oxhWAdmPKdsI6woWWukVxg=='</initValue>
+      <initValue>'secret_sauce'</initValue>
       <name>G_password</name>
       <protected>false</protected>
       <valueType>STRING</valueType>

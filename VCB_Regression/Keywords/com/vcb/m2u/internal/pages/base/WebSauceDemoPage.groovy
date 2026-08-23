@@ -104,7 +104,7 @@ public class WebSauceDemoPage extends WebBasePage {
 
 	void loginAsStandardUser(FailureHandling flowControl = defaultFailureHandling) {
 		openLoginPage(GlobalVariable.G_url, flowControl)
-		login('standard_user', 'secret_sauce', flowControl)
+		login(GlobalVariable.G_userName, GlobalVariable.G_password, flowControl)
 		waitForElementVisible(this.lblProductsTitle(), GlobalVariable.G_timeoutMedium, flowControl)
 	}
 
