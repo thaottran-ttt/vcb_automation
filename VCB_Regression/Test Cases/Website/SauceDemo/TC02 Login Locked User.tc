@@ -18,6 +18,12 @@
       <value></value>
       <variableId>569b8482-a96c-4a79-928d-0a3e90d0fbd4</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f99fc3e6-f7e1-40f0-a22c-c7ff3064b8fe</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'locked_out_user'</defaultValue>
       <description></description>
@@ -31,5 +37,12 @@
       <id>569b8482-a96c-4a79-928d-0a3e90d0fbd4</id>
       <masked>false</masked>
       <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'.*locked out.'</defaultValue>
+      <description></description>
+      <id>f99fc3e6-f7e1-40f0-a22c-c7ff3064b8fe</id>
+      <masked>false</masked>
+      <name>matchLockText</name>
    </variable>
 </TestCaseEntity>

@@ -7,7 +7,7 @@ WebSauceDemoPage webSauceDemoPage = WebBasePage.getPage(WebSauceDemoPage)
 
 try {
 	String errorText = webSauceDemoPage.loginAndGetErrorMessage(username, password)
-	WebUI.verifyMatch(errorText, '.*locked out.*', true)
+	WebUI.verifyMatch(errorText, matchLockText, true)
 } catch (Exception ex) {
 	WebUIKeyword.takeScreenshot()
 	throw ex
