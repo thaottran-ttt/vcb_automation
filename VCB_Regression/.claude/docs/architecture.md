@@ -84,3 +84,31 @@ Each logical suite exists as a pair: `Test Suites/<Group>/<Name>.ts` (Katalon XM
 (Katalon-generated runner script, produced when the suite is opened/saved in Katalon Studio — don't hand-edit).
 Suites are grouped by initiative (`KMS`, `KMS_M2U`, `Vcb`, `Sanity`, `Hollow out`, `MVP5 S2U V2 to V5`, etc.),
 not strictly by app module.
+
+## Excel test reporting (`com.vcb.report`)
+
+`com.vcb.report.ExcelReporter` is a static facade called from four one-line hooks in
+`Test Listeners/TestListener.groovy` (`startSuite`/`startTestCase`/`endTestCase`/`endSuite`, each the
+*first* statement of its hook — the listener has early returns and driver-teardown lines below them).
+At suite start it copies `custom-report/Template.xlsx` to a timestamped working copy under
+`custom-report/output/<suite>_<timestamp>_<pid>/Report.xlsx` (gitignored) and keeps the `XSSFWorkbook`
+open in memory for the whole suite, appending one row per test-case attempt and saving
+(atomic tmp-file + move) after every test case — "cuốn chiếu": a crash loses at most one result.
+`ExcelReportWriter` owns all Apache POI code (cell/formula/style plumbing, the `$X$200` → `$X$<maxRow>`
+row-budget expansion, atomic save with a Windows-file-lock retry); `ExcelReportConfig` loads
+`custom-report/report.properties` (`-Dvcb.<key>` overrides the file). Every public `ExcelReporter` method
+swallows its own exceptions — a reporting failure can never fail a test case or a suite.
+
+Two things to know when reading column G ("Execution Time (s)") or debugging retries:
+- **Column G includes app/browser startup time** — there is no listener hook earlier than
+  `@BeforeTestCase`, so the measured window starts before `BaseKeyword.startApplication()` /
+  `openBrowserAndBypassSecure` runs. It is wall time from listener entry to listener exit, not pure
+  test-step time.
+- **Retry detection is heuristic**, not a first-class Katalon signal: it uses row adjacency (under
+  `rerunImmediately=true`) or `RunConfiguration.getSuiteRerunIndex()` advancing. A test case that
+  legitimately runs twice in one suite, or a data-bound test case whose earlier iteration failed, can be
+  misread as a retry — see `custom-report/TestListener_Excel_Report_Plan.md` §6 for the known limitation
+  and the `report.retry.detection=off` kill switch.
+
+Full design (data model, save strategy, module/environment derivation, the 200-row template limit and
+why charts stay fixed at 4 categories): `custom-report/TestListener_Excel_Report_Plan.md`.

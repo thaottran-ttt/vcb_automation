@@ -25,6 +25,7 @@ import com.vcb.common.PlatformEnum
 import com.vcb.common.WebUIKeyword
 import com.vcb.mobile.internal.pages.base.BasePage
 import com.vcb.mobile.internal.pages.base.CommonPage
+import com.vcb.report.ExcelReporter
 import com.vcb.utils.ListUtils
 import com.vcb.utils.MobileDriverUtils
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -50,6 +51,7 @@ class TestListener {
 	 */
 	@BeforeTestCase
 	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+		ExcelReporter.startTestCase(testCaseContext)
 		Map map = testCaseContext.getTestCaseVariables()
 		String testCaseId = testCaseContext.getTestCaseId()
 		String flowControl = map.get('flowControl')
@@ -154,6 +156,7 @@ class TestListener {
 	 */
 	@AfterTestCase
 	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+		ExcelReporter.endTestCase(testCaseContext)
 		'Skip Test Case'
 		if(GlobalVariable.G_isStopTestSuite) {
 			return
@@ -234,6 +237,7 @@ class TestListener {
 	 */
 	@BeforeTestSuite
 	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		ExcelReporter.startSuite(testSuiteContext)
 		GlobalVariable.G_isRunTestSuite = true
 		String testSuiteId = testSuiteContext.getTestSuiteId()
 		if(testSuiteId.contains('KMS_M2U')) {
@@ -250,6 +254,7 @@ class TestListener {
 	 */
 	@AfterTestSuite
 	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+		ExcelReporter.endSuite(testSuiteContext)
 		println testSuiteContext.getTestSuiteId()
 	}
 }

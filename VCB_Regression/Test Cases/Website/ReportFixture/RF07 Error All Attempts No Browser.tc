@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - throws an uncaught IllegalStateException on every attempt, no browser (shouldNotStartApp=true), to exercise the Katalon ERROR -> Excel FAILED status mapping (ExcelReporter.mapStatus) that markFailedAndStop never reaches. Expect column I (screenshot) empty on every attempt. Must run inside Test Suites/ReportFixture/ExcelReportFixture.ts, not standalone (KNOWN_ISSUES.md #8). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF07 Error All Attempts No Browser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>91b6a401-a373-4f89-bc8b-1ab97572b5c9</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>76a673ff-d286-450f-9561-e6df1bfb97c4</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>76a673ff-d286-450f-9561-e6df1bfb97c4</id>
+      <masked>false</masked>
+      <name>shouldNotStartApp</name>
+   </variable>
+</TestCaseEntity>

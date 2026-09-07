@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - fails on attempts 1-2 then PASSES on attempt 3 (Test Details rows 3 -> 3.1 -> 3.2 = RETRY, RETRY, PASSED), via ReportFixtureSupport.failUntilAttempt keyed on passOnAttempt. Must run inside Test Suites/ReportFixture/ExcelReportFixture.ts, not standalone (KNOWN_ISSUES.md #8). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF03 Retry Twice Then Pass</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5c5d1a50-f705-42fc-9f96-16ba50258dd1</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b074c65d-7870-45eb-9fd6-292a144d6f99</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>15f292cf-853d-4d7b-b7f2-07ff4a5c6af7</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>536260d2-4577-4475-8fba-efb1436b8c90</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>b074c65d-7870-45eb-9fd6-292a144d6f99</id>
+      <masked>false</masked>
+      <name>shouldNotStartApp</name>
+   </variable>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>15f292cf-853d-4d7b-b7f2-07ff4a5c6af7</id>
+      <masked>false</masked>
+      <name>passOnAttempt</name>
+   </variable>
+   <variable>
+      <defaultValue>'RF03-SIMULATED-FAILURE'</defaultValue>
+      <description></description>
+      <id>536260d2-4577-4475-8fba-efb1436b8c90</id>
+      <masked>false</masked>
+      <name>failureMessage</name>
+   </variable>
+</TestCaseEntity>

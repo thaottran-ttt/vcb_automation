@@ -99,7 +99,7 @@ public class WebUIKeyword extends BaseKeyword {
 				WebUI.clearText(obj)
 			}else {
 				String oldText = this.getAttributeValue(obj)
-				for(int i = 0; i< oldText.length(); i++) {
+				for(int i = 0; i<oldText.length(); i++) {
 					WebUI.sendKeys(obj, Keys.BACK_SPACE.toString())
 				}
 			}

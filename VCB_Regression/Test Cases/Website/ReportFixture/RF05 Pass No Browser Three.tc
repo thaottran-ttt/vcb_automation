@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - third deterministic PASSED, no browser (shouldNotStartApp=true). Must run inside Test Suites/ReportFixture/ExcelReportFixture.ts, not standalone (KNOWN_ISSUES.md #8). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF05 Pass No Browser Three</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c3c27345-d125-4897-8b83-714c869c5a75</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c82eaf2f-93c6-445b-925b-a06d9d6439d5</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>c82eaf2f-93c6-445b-925b-a06d9d6439d5</id>
+      <masked>false</masked>
+      <name>shouldNotStartApp</name>
+   </variable>
+</TestCaseEntity>

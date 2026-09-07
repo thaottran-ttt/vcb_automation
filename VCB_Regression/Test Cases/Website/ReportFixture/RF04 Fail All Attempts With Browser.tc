@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - deterministic FAILED on every attempt, deliberately WITHOUT shouldNotStartApp so TestListener.groovy opens a real Chrome driver against G_url. This is the only fixture case with a live driver at failure time, so ExcelReporter.captureScreenshotIfFailed has something to capture from (screenshot file, column I HYPERLINK, Top Failures image link). Must run inside Test Suites/ReportFixture/ExcelReportFixture.ts, not standalone (KNOWN_ISSUES.md #8). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF04 Fail All Attempts With Browser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>877638d9-5ec2-4485-bc27-c3aad3f6c55d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>efc398b1-8df8-42de-b2de-cdab4ffb3f99</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'RF04-SIMULATED-FAILURE'</defaultValue>
+      <description></description>
+      <id>efc398b1-8df8-42de-b2de-cdab4ffb3f99</id>
+      <masked>false</masked>
+      <name>failureMessage</name>
+   </variable>
+</TestCaseEntity>
