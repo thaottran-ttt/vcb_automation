@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - deterministic PASSED, no browser (shouldNotStartApp=true). Must run inside Test Suites/ReportFixture/ExcelReportFixture.ts, not standalone (KNOWN_ISSUES.md #8: with no suite hooks, the Excel report is silently skipped). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF01 Pass No Browser</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2318589a-1004-4c10-b80d-d27485afea0b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a80bda46-8023-436e-9c9b-1971a399c07b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>a80bda46-8023-436e-9c9b-1971a399c07b</id>
+      <masked>false</masked>
+      <name>shouldNotStartApp</name>
+   </variable>
+</TestCaseEntity>

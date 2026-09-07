@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - deterministic PASSED, no browser (shouldNotStartApp=true), that arms GlobalVariable.G_isStopTestSuite=true as its last statement, simulating the dependency-stop gate at TestListener.groovy:69-71. G_isStopTestSuite is never reset by the listener, so this MUST stay the third-to-last link in Test Suites/ReportFixture/ExcelReportFixture.ts with RF09 and RF10 as the final two links and nothing added after them. Must run inside that suite, not standalone (KNOWN_ISSUES.md #8). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF08 Pass And Arm Dependency Stop</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>fdf2f6b9-b730-4126-b74f-3cf39be406bc</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3f095ecd-ac1d-4034-8312-1b8eaf11f847</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>3f095ecd-ac1d-4034-8312-1b8eaf11f847</id>
+      <masked>false</masked>
+      <name>shouldNotStartApp</name>
+   </variable>
+</TestCaseEntity>

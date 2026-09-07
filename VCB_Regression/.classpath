@@ -332,8 +332,8 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/dung.nguyen/.katalon/packages/KS-11.4.0/plugins/org.testng_7.8.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dung.nguyen/.katalon/packages/KS-11.4.0/plugins/com.beust.jcommander_1.82.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/dung.nguyen/.katalon/packages/KS-11.4.0/configuration/plugin/install/253561/5.1.2/katalon-testcloud-keywords-plugin.jar"/>
 	<classpathentry kind="lib" path="C:/Users/dung.nguyen/.katalon/packages/KS-11.4.0/configuration/plugin/install/253562/2.0.0/ExcelKeywords-all.jar"/>
+	<classpathentry kind="lib" path="C:/Users/dung.nguyen/.katalon/packages/KS-11.4.0/configuration/plugin/install/253561/5.13.0/katalon-testcloud-keywords-plugin-all.jar"/>
 	<classpathentry kind="con" path="GROOVY_SUPPORT"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -13,3 +13,6 @@ Libs/CustomKeywords.groovy
 Libs/S*.groovy
 .project
 /Reports
+
+# Excel test report working copies (Report.xlsx + screenshots per suite execution) - regenerated every run
+custom-report/output/

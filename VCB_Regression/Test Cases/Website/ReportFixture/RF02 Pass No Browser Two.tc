@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - second deterministic PASSED, no browser (shouldNotStartApp=true). Must run inside Test Suites/ReportFixture/ExcelReportFixture.ts, not standalone (KNOWN_ISSUES.md #8). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF02 Pass No Browser Two</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3477323a-9992-4fed-9971-717a3d3b83c5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3c41c50d-f661-49f9-ad6f-a0792eb2d91d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>3c41c50d-f661-49f9-ad6f-a0792eb2d91d</id>
+      <masked>false</masked>
+      <name>shouldNotStartApp</name>
+   </variable>
+</TestCaseEntity>

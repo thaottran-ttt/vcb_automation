@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>ReportFixture fixture case - expected to be BLOCKED: skipped by TestListener.groovy:69-71 skipThisTestCase() because RF08 armed GlobalVariable.G_isStopTestSuite. DO NOT declare a shouldNotStartApp variable on this case - TestListener.groovy:65 returns before the skip gate at :69, so declaring it would defeat the skip and make this case run and report PASSED instead of BLOCKED (plan §2 Q3 / R5). Its script calls markFailedAndStop so a broken skip gate fails loudly instead of passing silently. Must be the last link in Test Suites/ReportFixture/ExcelReportFixture.ts, with nothing added after it. Must run inside that suite, not standalone (KNOWN_ISSUES.md #8). See custom-report/ReportFixture_Suite_Plan.md.</description>
+   <name>RF10 Blocked By Dependency Two</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5d2114fd-7292-4e1c-8e16-ba386245bc0b</testCaseGuid>
+</TestCaseEntity>
