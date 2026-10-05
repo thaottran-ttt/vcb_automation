@@ -8,6 +8,7 @@ import com.kms.katalon.core.webui.contribution.WebUiDriverCleaner
 import com.kms.katalon.core.mobile.contribution.MobileDriverCleaner
 import com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner
 import com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner
+import com.kms.katalon.core.llm.keyword.contribution.LlmDriverCleaner
 import com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner
 
 
@@ -15,10 +16,11 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.mobile.contribution.MobileDriverCleaner())
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.cucumber.keyword.internal.CucumberDriverCleaner())
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.windows.keyword.contribution.WindowsDriverCleaner())
+DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.llm.keyword.contribution.LlmDriverCleaner())
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\DUNG~1.NGU\\AppData\\Local\\Temp\\Katalon\\20260907_134811_767\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\THAOTT~1\\AppData\\Local\\Temp\\Katalon\\20261005_115225_553\\execution.properties')
 
 TestCaseMain.beforeStart()
 TestCaseMain.runWSVerificationScript(new TestCaseBinding('',[:]), '', FailureHandling.STOP_ON_FAILURE, true)
